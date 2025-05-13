@@ -13,9 +13,16 @@ def gerar_base_conhecimento(data):
     conhecimento.append("%% Conhecimento sobre Filmes.")
     conhecimento.append("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n")
 
+    # Função para corrigir apóstrofos no título
+    def corrigir_apostrofos(titulo):
+        return titulo.replace("'", "''")
+
     # Iterar sobre as linhas do DataFrame e gerar o conhecimento para cada filme
     for index, row in data.iterrows():
         titulo = row['title']
+        
+        # Corrigir os apóstrofos no título
+        titulo = corrigir_apostrofos(titulo)
         
         # Verificar se 'genre' não é NaN e se for, fazer split
         if isinstance(row['genre'], str):
@@ -84,7 +91,7 @@ def gerar_base_conhecimento(data):
 conhecimento_prolog = gerar_base_conhecimento(data)
 
 # Salvar em um arquivo .pl
-output_path = 'filmes.pl'
+output_path = 'filmes_corrigido.pl'
 with open(output_path, 'w') as file:
     file.write(conhecimento_prolog)
 
