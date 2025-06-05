@@ -44,7 +44,7 @@ executa(_,2) :-
 executa(_,3) :-
     nl,
     write('Volte Sempre!'), nl,
-    write('Qualquer tecla para sair.'),
+    write('Qualquer tecla para sair.'), nl,
     get0(_),
     halt.
 

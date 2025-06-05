@@ -8,6 +8,16 @@ filme('Strip Nude for Your Killer') :-
     realizador(andrea_bianchi),
     atores([edwige_fenech, nino_castelnuovo, femi_benussi]).
 
+filme('Silvestre') :-
+    genero(drama),
+    pais(portugal),
+    ano(1981),
+    duracao(2.00),
+    classificacao_imdb(7.3),
+    classificacao_mpa(nan),
+    realizador(joao_csar_monteiro),
+    atores([maria_de_medeiros, teresa_madruga, luis_miguel_cintra]).
+
 filme('Carry on Behind') :-
     genero(parody),
     pais(united_kingdom),
@@ -18,7 +28,6 @@ filme('Carry on Behind') :-
     realizador(gerald_thomas),
     atores([elke_sommer, kenneth_williams, bernard_bresslaw]).
 
-
 filme('Mahogany') :-
     genero(drama),
     pais(united_states),
@@ -26,7 +35,7 @@ filme('Mahogany') :-
     duracao(1.82),
     classificacao_imdb(6.1),
     classificacao_mpa(pg),
-    realizador(berry_gordy,tony_richardson,jack_wormser),
+    realizador(berry_gordy),
     atores([diana_ross, billy_dee_williams, anthony_perkins]).
 
 filme('Foreplay') :-
@@ -36,17 +45,17 @@ filme('Foreplay') :-
     duracao(1.25),
     classificacao_imdb(4.0),
     classificacao_mpa(r),
-    realizador(john_g_avildsen,bruce_malmuth,robert_mccarty),
+    realizador(john_g_avildsen),
     atores([irwin_corey, pat_paulsen, deborah_loomis]).
 
 filme('The Man from Hong Kong') :-
     genero(action),
-    pais(australia),
+    pais(hong_kong),
     ano(1975),
     duracao(1.77),
     classificacao_imdb(6.6),
     classificacao_mpa(r),
-    realizador(brian_trenchardsmith,jimmy_wang_yu),
+    realizador(brian_trenchardsmith),
     atores([jimmy_wang_yu, george_lazenby, hugh_keaysbyrne]).
 
 filme('Night of the Seagulls') :-
@@ -68,8 +77,6 @@ filme('The Olsen Gang on the Track') :-
     classificacao_mpa(not_rated),
     realizador(erik_balling),
     atores([ove_sproge, morten_grunwald, poul_bundgaard]).
-
-
 
 filme('Disciples of Shaolin') :-
     genero(martial_arts),
@@ -108,7 +115,7 @@ filme('Race for Your Life, Charlie Brown') :-
     duracao(1.27),
     classificacao_imdb(7.2),
     classificacao_mpa(g),
-    realizador(bill_melendez,phil_roman),
+    realizador(bill_melendez),
     atores([duncan_watson, greg_felton, stuart_brotman]).
 
 filme('Short Eyes') :-
@@ -160,7 +167,6 @@ filme('Beast with a Gun') :-
     classificacao_mpa(unrated),
     realizador(sergio_grieco),
     atores([helmut_berger, marisa_mell, richard_harrison]).
-
 
 filme('Charleston') :-
     genero(comedy),
@@ -242,8 +248,6 @@ filme('The Daydreamer') :-
     realizador(jules_bass),
     atores([tallulah_bankhead, victor_borge, patty_duke]).
 
-
-
 filme('War Between the Planets') :-
     genero(scifi),
     pais(italy),
@@ -253,7 +257,6 @@ filme('War Between the Planets') :-
     classificacao_mpa(g),
     realizador(antonio_margheriti),
     atores([giacomo_rossi_stuart, ombretta_colli, enzo_fiermonte]).
-
 
 filme('As Long as You''ve Got Your Health') :-
     genero(satire),
@@ -275,8 +278,6 @@ filme('An Eye for an Eye') :-
     realizador(michael_d_moore),
     atores([robert_lansing, patrick_wayne, slim_pickens]).
 
-
-
 filme('Jesse James Meets Frankenstein''s Daughter') :-
     genero(horror),
     pais(united_states),
@@ -286,7 +287,6 @@ filme('Jesse James Meets Frankenstein''s Daughter') :-
     classificacao_mpa(approved),
     realizador(william_beaudine),
     atores([john_lupton, narda_onyx, cal_bolder]).
-
 
 filme('Wake Up and Die') :-
     genero(crime),
@@ -298,7 +298,6 @@ filme('Wake Up and Die') :-
     realizador(carlo_lizzani),
     atores([robert_hoffmann, lisa_gastoni, gian_maria_volont]).
 
-
 filme('Movie Madness') :-
     genero(parody),
     pais(united_states),
@@ -306,11 +305,8 @@ filme('Movie Madness') :-
     duracao(1.48),
     classificacao_imdb(3.2),
     classificacao_mpa(r),
-    realizador(bob_giraldi,henry_jaglom),
+    realizador(bob_giraldi),
     atores([peter_riegert, diane_lane, candy_clark]).
-
-
-
 
 filme('Harry Tracy: The Last of the Wild Bunch') :-
     genero(drama),
@@ -321,7 +317,6 @@ filme('Harry Tracy: The Last of the Wild Bunch') :-
     classificacao_mpa(pg),
     realizador(william_a_graham),
     atores([bruce_dern, helen_shaver, michael_c_gwynne]).
-
 
 filme('MLK/FBI') :-
     genero(history_documentary),
@@ -390,9 +385,8 @@ filme('#Alive') :-
     duracao(1.63),
     classificacao_imdb(6.3),
     classificacao_mpa(tv-ma),
-    realizador(il_cho,jo_il_hyung),
+    realizador(il_cho),
     atores([yoo_ahin, park_shinhye, jeon_baesoo]).
-
 
 filme('The Sleepover') :-
     genero(action),
@@ -411,7 +405,7 @@ filme('A Whisker Away') :-
     duracao(1.73),
     classificacao_imdb(6.7),
     classificacao_mpa(tv-pg),
-    realizador(junichi_sat,tomotaka_shibayama),
+    realizador(junichi_sat),
     atores([mirai_shida, natsuki_hanae, minako_kotobuki]).
 
 filme('Original Gangster') :-
@@ -423,7 +417,6 @@ filme('Original Gangster') :-
     classificacao_mpa(tv-ma),
     realizador(savvas_d_michael),
     atores([steve_guttenberg, ian_reddington, vas_blackwood]).
-
 
 filme('Love Sarah') :-
     genero(comedy),
@@ -444,8 +437,6 @@ filme('Sky High') :-
     classificacao_mpa(tv-ma),
     realizador(daniel_calparsoro),
     atores([miguel_herrn, carolina_yuste, asia_ortega]).
-
-
 
 filme('Abraham Lincoln: Vampire Hunter') :-
     genero(dark_fantasy),
@@ -490,7 +481,7 @@ filme('Evangelion: 3.0 You Can (Not) Redo') :-
     duracao(1.60),
     classificacao_imdb(6.9),
     classificacao_mpa(tv-14),
-    realizador(mahiro_maeda,masayuki,kazuya_tsurumaki),
+    realizador(mahiro_maeda),
     atores([megumi_ogata, megumi_hayashibara, yko_miyamura]).
 
 filme('Our Children') :-
@@ -600,7 +591,7 @@ filme('3 Idiots') :-
     duracao(1.77),
     classificacao_imdb(4.4),
     classificacao_mpa(pg-13),
-    realizador(rajkumar_hirani,sham_kaushal,shantanu_moitra),
+    realizador(rajkumar_hirani),
     atores([martha_higareda, alfonso_dosal, christian_vazquez]).
 
 filme('Thelma') :-
@@ -612,8 +603,6 @@ filme('Thelma') :-
     classificacao_mpa(not_rated),
     realizador(joachim_trier),
     atores([eili_harboe, kaya_wilkins, henrik_rafaelsen]).
-
-
 
 filme('The China Hustle') :-
     genero(documentary),
@@ -644,7 +633,6 @@ filme('Captain America: The First Avenger') :-
     classificacao_mpa(pg-13),
     realizador(joe_johnston),
     atores([chris_evans, hugo_weaving, samuel_l_jackson]).
-
 
 filme('The Rum Diary') :-
     genero(comedy),
@@ -703,7 +691,7 @@ filme('Undefeated') :-
     duracao(1.88),
     classificacao_imdb(7.7),
     classificacao_mpa(pg-13),
-    realizador(daniel_lindsay,tj_martin),
+    realizador(daniel_lindsay),
     atores([bill_courtney, oc_brown, montrail_money_brown]).
 
 filme('Creature') :-
@@ -756,8 +744,6 @@ filme('Double Suicide') :-
     realizador(masahiro_shinoda),
     atores([kichiemon_nakamura, shima_iwashita, shizue_kawarazaki]).
 
-
-
 filme('Angel') :-
     genero(action),
     pais(united_states),
@@ -808,8 +794,6 @@ filme('Spring Symphony') :-
     realizador(peter_schamoni),
     atores([nastassja_kinski, herbert_grnemeyer, rolf_hoppe]).
 
-
-
 filme('Cannonball Run II') :-
     genero(car_action),
     pais(hong_kong),
@@ -817,7 +801,7 @@ filme('Cannonball Run II') :-
     duracao(1.80),
     classificacao_imdb(5.1),
     classificacao_mpa(pg),
-    realizador(hal_needham,ralph_bakshi),
+    realizador(hal_needham),
     atores([burt_reynolds, dom_deluise, dean_martin]).
 
 filme('The NeverEnding Story') :-
@@ -860,7 +844,6 @@ filme('Petit Con') :-
     realizador(grard_lauzier),
     atores([guy_marchand, caroline_cellier, bernard_brieux]).
 
-
 filme('The Dog Who Stopped the War') :-
     genero(comedy),
     pais(canada),
@@ -891,7 +874,6 @@ filme('Sword of the Valiant') :-
     realizador(stephen_weeks),
     atores([miles_okeeffe, cyrielle_clair, leigh_lawson]).
 
-
 filme('Rats: Night of Terror') :-
     genero(bhorror),
     pais(italy),
@@ -899,12 +881,8 @@ filme('Rats: Night of Terror') :-
     duracao(1.62),
     classificacao_imdb(4.7),
     classificacao_mpa(unrated),
-    realizador(bruno_mattei,claudio_fragasso),
+    realizador(bruno_mattei),
     atores([ottaviano_dellacqua, geretta_geretta, massimo_vanni]).
-
-
-
-
 
 filme('The Reliant') :-
     genero(action),
@@ -935,7 +913,6 @@ filme('Mister America') :-
     classificacao_mpa(r),
     realizador(eric_notarnicola),
     atores([tim_heidecker, gregg_turkington, terri_parks]).
-
 
 filme('Kill Bill: Vol. 2') :-
     genero(kung_fu),
@@ -997,8 +974,6 @@ filme('Rolling Family') :-
     realizador(pablo_trapero),
     atores([graciana_chironi, adelina_bielopolsky, ludmila_stancer]).
 
-
-
 filme('King''s Game') :-
     genero(political_thriller),
     pais(denmark),
@@ -1008,7 +983,6 @@ filme('King''s Game') :-
     classificacao_mpa(not_rated),
     realizador(nikolaj_arcel),
     atores([anders_w_berthelsen, sren_pilmark, nastja_arcel]).
-
 
 filme('A Cold Wind in August') :-
     genero(drama),
@@ -1020,8 +994,6 @@ filme('A Cold Wind in August') :-
     realizador(alexander_singer),
     atores([lola_albright, scott_marlowe, joe_de_santis]).
 
-
-
 filme('The Canadians') :-
     genero(western),
     pais(united_kingdom),
@@ -1031,10 +1003,6 @@ filme('The Canadians') :-
     classificacao_mpa(approved),
     realizador(burt_kennedy),
     atores([robert_ryan, john_dehner, torin_thatcher]).
-
-
-
-
 
 filme('I Now Pronounce You Chuck & Larry') :-
     genero(comedy),
@@ -1117,7 +1085,7 @@ filme('Fear(s) of the Dark') :-
     duracao(1.38),
     classificacao_imdb(6.6),
     classificacao_mpa(unrated),
-    realizador(blutch,charles_burns,marie_caillou),
+    realizador(blutch),
     atores([aure_atika, guillaume_depardieu, nicole_garcia]).
 
 filme('Mother of Tears') :-
@@ -1170,7 +1138,6 @@ filme('The King and the Mockingbird') :-
     realizador(paul_grimault),
     atores([jean_martin, pascal_mazzotti, raymond_bussires]).
 
-
 filme('Nightkill') :-
     genero(crime),
     pais(united_states),
@@ -1181,7 +1148,6 @@ filme('Nightkill') :-
     realizador(ted_post),
     atores([robert_mitchum, jaclyn_smith, mike_connors]).
 
-
 filme('Confidence') :-
     genero(drama),
     pais(hungary),
@@ -1191,8 +1157,6 @@ filme('Confidence') :-
     classificacao_mpa(not_rated),
     realizador(istvn_szab),
     atores([ildik_bnsgi, pter_andorai, oszkrn_gombik]).
-
-
 
 filme('Challengers') :-
     genero(psychological_drama),
@@ -1224,9 +1188,6 @@ filme('Bird') :-
     realizador(andrea_arnold),
     atores([nykiya_adams, franz_rogowski, barry_keoghan]).
 
-
-
-
 filme('Pastor''s Kid') :-
     genero(biography),
     pais(united_states),
@@ -1236,7 +1197,6 @@ filme('Pastor''s Kid') :-
     classificacao_mpa(r),
     realizador(benjamin_ironside_koppin),
     atores([courtney_bandeko, james_c_burns, krista_morin]).
-
 
 filme('Jackpot!') :-
     genero(buddy_comedy),
@@ -1258,7 +1218,6 @@ filme('Armand') :-
     realizador(halfdan_ullmann_tndel),
     atores([renate_reinsve, ellen_dorrit_petersen, ystein_rger]).
 
-
 filme('Mea Culpa') :-
     genero(erotic_thriller),
     pais(united_states),
@@ -1268,8 +1227,6 @@ filme('Mea Culpa') :-
     classificacao_mpa(r),
     realizador(tyler_perry),
     atores([kelly_rowland, trevante_rhodes, nick_sagar]).
-
-
 
 filme('Colors of Evil: Red') :-
     genero(crime),
@@ -1321,7 +1278,6 @@ filme('Danzón') :-
     realizador(mara_novaro),
     atores([mara_rojo, carmen_salinas, tito_vasconcelos]).
 
-
 filme('Grand Tour: Disaster in Time') :-
     genero(dark_comedy),
     pais(united_states),
@@ -1331,8 +1287,6 @@ filme('Grand Tour: Disaster in Time') :-
     classificacao_mpa(pg-13),
     realizador(david_twohy),
     atores([jeff_daniels, ariana_richards, emilia_crow]).
-
-
 
 filme('Major League') :-
     genero(baseball),
@@ -1381,7 +1335,7 @@ filme('Animal Behavior') :-
     duracao(1.42),
     classificacao_imdb(3.9),
     classificacao_mpa(pg),
-    realizador(jenny_bowen,kjehl_rasmussen),
+    realizador(jenny_bowen),
     atores([karen_allen, armand_assante, josh_mostel]).
 
 filme('Far from Home') :-
@@ -1414,7 +1368,6 @@ filme('Snake Eater') :-
     realizador(george_erschbamer),
     atores([lorenzo_lamas, josie_bell, robert_scott]).
 
-
 filme('Eversmile New Jersey') :-
     genero(comedy),
     pais(argentina),
@@ -1424,8 +1377,6 @@ filme('Eversmile New Jersey') :-
     classificacao_mpa(pg),
     realizador(carlos_sorin),
     atores([daniel_daylewis, mirjana_jokovic, gabriela_acher]).
-
-
 
 filme('Life as We Know It') :-
     genero(romantic_comedy),
@@ -1476,7 +1427,6 @@ filme('Love Crime') :-
     classificacao_mpa(not_rated),
     realizador(alain_corneau),
     atores([ludivine_sagnier, kristin_scott_thomas, patrick_mille]).
-
 
 filme('The Big Picture') :-
     genero(drama),
@@ -1548,7 +1498,6 @@ filme('Analyze That') :-
     realizador(harold_ramis),
     atores([robert_de_niro, billy_crystal, lisa_kudrow]).
 
-
 filme('Respiro') :-
     genero(drama),
     pais(italy),
@@ -1558,7 +1507,6 @@ filme('Respiro') :-
     classificacao_mpa(pg-13),
     realizador(emanuele_crialese),
     atores([valeria_golino, vincenzo_amato, francesco_casisa]).
-
 
 filme('Home Room') :-
     genero(crime),
@@ -1620,7 +1568,6 @@ filme('The Alpha Incident') :-
     realizador(bill_rebane),
     atores([ralph_meeker, stafford_morgan, john_f_goff]).
 
-
 filme('Madanolsavam') :-
     genero(drama),
     pais(india),
@@ -1630,7 +1577,6 @@ filme('Madanolsavam') :-
     classificacao_mpa(not_rated),
     realizador(n_sankaran_nair),
     atores([kamal_haasan, zarina_wahab, thikkurissy_sukumaran_nair]).
-
 
 filme('Yesterday, Today and Tomorrow') :-
     genero(comedy),
@@ -1642,7 +1588,6 @@ filme('Yesterday, Today and Tomorrow') :-
     realizador(vittorio_de_sica),
     atores([sophia_loren, marcello_mastroianni, aldo_giuffr]).
 
-
 filme('Raven''s End') :-
     genero(drama),
     pais(sweden),
@@ -1653,7 +1598,6 @@ filme('Raven''s End') :-
     realizador(bo_widerberg),
     atores([thommy_berggren, keve_hjelm, emy_storm]).
 
-
 filme('30 Years of Fun') :-
     genero(comedy),
     pais(united_states),
@@ -1663,9 +1607,6 @@ filme('30 Years of Fun') :-
     classificacao_mpa(approved),
     realizador(robert_youngson),
     atores([charles_chaplin, buster_keaton, stan_laurel]).
-
-
-
 
 filme('Festival') :-
     genero(documentary),
@@ -1696,9 +1637,6 @@ filme('Smashing Time') :-
     classificacao_mpa(not_rated),
     realizador(desmond_davis),
     atores([rita_tushingham, lynn_redgrave, michael_york]).
-
-
-
 
 filme('The King''s Pirate') :-
     genero(swashbuckler),
@@ -1739,7 +1677,6 @@ filme('The Caller') :-
     classificacao_mpa(r),
     realizador(arthur_allan_seidelman),
     atores([malcolm_mcdowell, madolyn_smith_osborne]).
-
 
 filme('Sweets from a Stranger') :-
     genero(drama),
@@ -1790,7 +1727,6 @@ filme('Othello') :-
     classificacao_mpa(r),
     realizador(oliver_parker),
     atores([laurence_fishburne, kenneth_branagh, irne_jacob]).
-
 
 filme('Feast of July') :-
     genero(crime),
@@ -1872,7 +1808,6 @@ filme('David and Lisa') :-
     realizador(frank_perry),
     atores([keir_dullea, janet_margolin, howard_da_silva]).
 
-
 filme('Family Diary') :-
     genero(drama),
     pais(italy),
@@ -1892,8 +1827,6 @@ filme('Terrified') :-
     classificacao_mpa(approved),
     realizador(lew_landers),
     atores([rod_lauren, steve_drexel, tracy_olsen]).
-
-
 
 filme('Avatar: The Way of Water') :-
     genero(action_epic),
@@ -1945,7 +1878,6 @@ filme('Dreamin'' Wild') :-
     realizador(bill_pohlad),
     atores([zooey_deschanel, walton_goggins, chris_messina]).
 
-
 filme('The Return of Tanya Tucker: Featuring Brandi Carlile') :-
     genero(documentary),
     pais(united_states),
@@ -1965,7 +1897,6 @@ filme('Linoleum') :-
     classificacao_mpa(tv-pg),
     realizador(colin_west),
     atores([jim_gaffigan, rhea_seehorn, katelyn_nacon]).
-
 
 filme('Chip ''n Dale: Rescue Rangers') :-
     genero(buddy_comedy),
@@ -2017,7 +1948,6 @@ filme('DuckTales the Movie: Treasure of the Lost Lamp') :-
     realizador(bob_hathcock),
     atores([alan_young, christopher_lloyd, terence_mcgovern]).
 
-
 filme('Impulse') :-
     genero(crime),
     pais(united_states),
@@ -2037,9 +1967,6 @@ filme('The Invisible Maniac') :-
     classificacao_mpa(r),
     realizador(adam_rifkin),
     atores([noel_peters, savannah, stephanie_blake]).
-
-
-
 
 filme('Korczak') :-
     genero(biography),
@@ -2150,7 +2077,6 @@ filme('The Cheyenne Social Club') :-
     classificacao_mpa(pg),
     realizador(gene_kelly),
     atores([james_stewart, henry_fonda, shirley_jones]).
-
 
 filme('Rabbit, Run') :-
     genero(drama),
@@ -2279,7 +2205,7 @@ filme('Emmanuel''s Gift') :-
     duracao(1.33),
     classificacao_imdb(7.6),
     classificacao_mpa(g),
-    realizador(lisa_lax,nancy_stern_winters),
+    realizador(lisa_lax),
     atores([robin_williams, oprah_winfrey]).
 
 filme('Giuliani Time') :-
@@ -2291,7 +2217,6 @@ filme('Giuliani Time') :-
     classificacao_mpa(not_rated),
     realizador(kevin_keating),
     atores([rudy_giuliani, wayne_barrett, george_bush]).
-
 
 filme('Laura') :-
     genero(drama),
@@ -2332,10 +2257,6 @@ filme('Stone Cold Dead') :-
     classificacao_mpa(r),
     realizador(george_mendeluk),
     atores([richard_crenna, paul_williams, linda_sorensen]).
-
-
-
-
 
 filme('Que Viva Mexico') :-
     genero(documentary),
@@ -2454,7 +2375,7 @@ filme('Flowers') :-
     duracao(1.65),
     classificacao_imdb(6.7),
     classificacao_mpa(not_rated),
-    realizador(jon_garao,jose_mari_goenaga),
+    realizador(jon_garao),
     atores([itziar_ituo, nagore_aranburu, itziar_aizpuru]).
 
 filme('Spring') :-
@@ -2464,7 +2385,7 @@ filme('Spring') :-
     duracao(1.82),
     classificacao_imdb(6.7),
     classificacao_mpa(not_rated),
-    realizador(justin_benson,aaron_moorhead),
+    realizador(justin_benson),
     atores([lou_taylor_pucci, nadia_hilker, francesco_carnelutti]).
 
 filme('The Man with the Golden Gun') :-
@@ -2476,8 +2397,6 @@ filme('The Man with the Golden Gun') :-
     classificacao_mpa(pg),
     realizador(guy_hamilton),
     atores([roger_moore, christopher_lee, britt_ekland]).
-
-
 
 filme('Lacombe, Lucien') :-
     genero(drama),
@@ -2519,7 +2438,6 @@ filme('The Spikes Gang') :-
     realizador(richard_fleischer),
     atores([lee_marvin, gary_grimes, ron_howard]).
 
-
 filme('Tarzan') :-
     genero(handdrawn_animation),
     pais(united_states),
@@ -2527,7 +2445,7 @@ filme('Tarzan') :-
     duracao(1.47),
     classificacao_imdb(7.3),
     classificacao_mpa(g),
-    realizador(chris_buck,kevin_lima),
+    realizador(chris_buck),
     atores([tony_goldwyn, minnie_driver, brian_blessed]).
 
 filme('Being John Malkovich') :-
@@ -2550,7 +2468,6 @@ filme('East Is East') :-
     realizador(damien_odonnell),
     atores([om_puri, linda_bassett, jordan_routledge]).
 
-
 filme('Catfish in Black Bean Sauce') :-
     genero(comedy),
     pais(united_states),
@@ -2568,7 +2485,7 @@ filme('Sugar Town') :-
     duracao(1.53),
     classificacao_imdb(6.1),
     classificacao_mpa(r),
-    realizador(allison_anders,kurt_voss),
+    realizador(allison_anders),
     atores([jade_gordon, john_taylor, michael_des_barres]).
 
 filme('Jin-Roh: The Wolf Brigade') :-
@@ -2578,7 +2495,7 @@ filme('Jin-Roh: The Wolf Brigade') :-
     duracao(1.70),
     classificacao_imdb(7.3),
     classificacao_mpa(r),
-    realizador(kenji_kamiyama,hiroyuki_okiura),
+    realizador(kenji_kamiyama),
     atores([michael_dobson, yoshikazu_fujiki, sumi_mutoh]).
 
 filme('Virtual Sexuality') :-
@@ -2671,7 +2588,6 @@ filme('Little Girl... Big Tease') :-
     realizador(roberto_mitrotti),
     atores([jody_ray, mary_mendum, phil_bendone]).
 
-
 filme('Young, Violent, Dangerous') :-
     genero(crime),
     pais(italy),
@@ -2681,7 +2597,6 @@ filme('Young, Violent, Dangerous') :-
     classificacao_mpa(not_rated),
     realizador(romolo_guerrieri),
     atores([stefano_patrizi, benjamin_lev, max_delys]).
-
 
 filme('The Parent Trap') :-
     genero(feelgood_romance),
@@ -2742,7 +2657,6 @@ filme('Southie') :-
     classificacao_mpa(r),
     realizador(john_shea),
     atores([donnie_wahlberg, rose_mcgowan, anne_meara]).
-
 
 filme('True Friends') :-
     genero(drama),
@@ -2884,7 +2798,6 @@ filme('Red Headed Stranger') :-
     realizador(william_d_wittliff),
     atores([willie_nelson, morgan_fairchild, rg_armstrong]).
 
-
 filme('The Whoopee Boys') :-
     genero(comedy),
     pais(united_states),
@@ -2894,11 +2807,6 @@ filme('The Whoopee Boys') :-
     classificacao_mpa(r),
     realizador(john_byrum),
     atores([michael_okeefe, paul_rodriguez, denholm_elliott]).
-
-
-
-
-
 
 filme('Knights of Badassdom') :-
     genero(action),
@@ -3000,8 +2908,6 @@ filme('¡Que viva México!') :-
     realizador(luis_estrada),
     atores([damin_alczar, alfonso_herrera, joaqun_cosio]).
 
-
-
 filme('Friday the 13th') :-
     genero(slasher_horror),
     pais(united_states),
@@ -3072,9 +2978,6 @@ filme('St. Helens') :-
     realizador(ernest_pintoff),
     atores([art_carney, david_huffman, cassie_yates]).
 
-
-
-
 filme('Heat of Desire') :-
     genero(drama),
     pais(france),
@@ -3084,9 +2987,6 @@ filme('Heat of Desire') :-
     classificacao_mpa(r),
     realizador(luc_braud),
     atores([patrick_dewaere, clio_goldsmith, jeanne_moreau]).
-
-
-
 
 filme('The Wedding Ringer') :-
     genero(comedy),
@@ -3128,7 +3028,6 @@ filme('Jem and the Holograms') :-
     realizador(jon_m_chu),
     atores([aubrey_shea, stefanie_scott, aurora_perrineau]).
 
-
 filme('Janis: Little Girl Blue') :-
     genero(music_documentary),
     pais(united_states),
@@ -3138,7 +3037,6 @@ filme('Janis: Little Girl Blue') :-
     classificacao_mpa(tv-ma),
     realizador(amy_berg),
     atores([cat_power, janis_joplin, karleen_bennett]).
-
 
 filme('Stonewall') :-
     genero(drama),
@@ -3157,7 +3055,7 @@ filme('Zhongkui: Snow Girl and the Dark Crystal') :-
     duracao(1.97),
     classificacao_imdb(5.3),
     classificacao_mpa(not_rated),
-    realizador(peter_pau,tianyu_zhao),
+    realizador(peter_pau),
     atores([kun_chen, bingbing_li, winston_chao]).
 
 filme('Requiem for the American Dream') :-
@@ -3167,7 +3065,7 @@ filme('Requiem for the American Dream') :-
     duracao(1.22),
     classificacao_imdb(8.0),
     classificacao_mpa(not_rated),
-    realizador(peter_d_hutchison,kelly_nyks,jared_p_scott),
+    realizador(peter_d_hutchison),
     atores([spiro_agnew, william_f_buckley, noam_chomsky]).
 
 filme('Tab Hunter Confidential') :-
@@ -3197,7 +3095,7 @@ filme('Phantom Boy') :-
     duracao(1.40),
     classificacao_imdb(6.6),
     classificacao_mpa(pg),
-    realizador(jeanloup_felicioli,alain_gagnol),
+    realizador(jeanloup_felicioli),
     atores([edouard_baer, jeanpierre_marielle, audrey_tautou]).
 
 filme('Monster Hunt') :-
@@ -3279,8 +3177,6 @@ filme('Mothering Sunday') :-
     classificacao_mpa(r),
     realizador(eva_husson),
     atores([odessa_young, josh_oconnor, colin_firth]).
-
-
 
 filme('The Pink Cloud') :-
     genero(drama),
@@ -3382,7 +3278,6 @@ filme('The Savage Seven') :-
     realizador(richard_rush),
     atores([robert_walker_jr, joanna_frank, john_garwood]).
 
-
 filme('Even the Wind Is Afraid') :-
     genero(drama),
     pais(mexico),
@@ -3403,8 +3298,6 @@ filme('The Girl with a Pistol') :-
     realizador(mario_monicelli),
     atores([monica_vitti, stanley_baker, corin_redgrave]).
 
-
-
 filme('The Lustful Turk') :-
     genero(drama),
     pais(united_states),
@@ -3424,7 +3317,6 @@ filme('Killers Three') :-
     classificacao_mpa(approved),
     realizador(bruce_kessler),
     atores([robert_walker_jr, diane_varsi, dick_clark]).
-
 
 filme('Fantastic Beasts and Where to Find Them') :-
     genero(supernatural_fantasy),
@@ -3493,7 +3385,7 @@ filme('Swiss Army Man') :-
     duracao(1.62),
     classificacao_imdb(6.9),
     classificacao_mpa(r),
-    realizador(daniel_kwan,daniel_scheinert),
+    realizador(daniel_kwan),
     atores([paul_dano, daniel_radcliffe, mary_elizabeth_winstead]).
 
 filme('Elle') :-
@@ -3535,7 +3427,6 @@ filme('I Married an Anti-Fan') :-
     classificacao_mpa(pg-13),
     realizador(jeyeong_kim),
     atores([park_chanyeol, shanshan_yuan, seohyun]).
-
 
 filme('My Annoying Brother') :-
     genero(buddy_comedy),
@@ -3707,7 +3598,6 @@ filme('No Such Thing') :-
     realizador(hal_hartley),
     atores([sarah_polley, robert_john_burke, margrt_kadttir]).
 
-
 filme('Blackwoods') :-
     genero(drama),
     pais(canada),
@@ -3778,7 +3668,6 @@ filme('Pray for Death') :-
     realizador(gordon_hessler),
     atores([sh_kosugi, james_booth, donna_kei_benz]).
 
-
 filme('Igor and the Lunatics') :-
     genero(horror),
     pais(united_states),
@@ -3788,9 +3677,6 @@ filme('Igor and the Lunatics') :-
     classificacao_mpa(r),
     realizador(wj_parolini),
     atores([joseph_eero, mary_ann_schacht, joe_niola]).
-
-
-
 
 filme('Scream') :-
     genero(dark_comedy),
@@ -3869,9 +3755,8 @@ filme('The Promise') :-
     duracao(1.50),
     classificacao_imdb(7.7),
     classificacao_mpa(not_rated),
-    realizador(jeanpierre_dardenne,luc_dardenne),
+    realizador(jeanpierre_dardenne),
     atores([jrmie_renier, olivier_gourmet, assita_ouedraogo]).
-
 
 filme('Amarcord') :-
     genero(satire),
@@ -3920,10 +3805,8 @@ filme('Massage Parlor Murders!') :-
     duracao(1.33),
     classificacao_imdb(4.7),
     classificacao_mpa(r),
-    realizador(chester_fox,alex_stevens),
+    realizador(chester_fox),
     atores([george_spencer, sandra_peabody, john_moser]).
-
-
 
 filme('Vengeance of the Zombies') :-
     genero(horror),
@@ -4025,8 +3908,6 @@ filme('The 7th Dawn') :-
     realizador(lewis_gilbert),
     atores([william_holden, susannah_york, capucine]).
 
-
-
 filme('Law of the Lawless') :-
     genero(western),
     pais(united_states),
@@ -4037,7 +3918,6 @@ filme('Law of the Lawless') :-
     realizador(william_f_claxton),
     atores([dale_robertson, yvonne_de_carlo, william_bendix]).
 
-
 filme('The Cincinnati Kid') :-
     genero(drama),
     pais(united_states),
@@ -4045,7 +3925,7 @@ filme('The Cincinnati Kid') :-
     duracao(1.70),
     classificacao_imdb(7.2),
     classificacao_mpa(tv-14),
-    realizador(norman_jewison,sam_peckinpah),
+    realizador(norman_jewison),
     atores([steve_mcqueen, annmargret, edward_g_robinson]).
 
 filme('I Saw What You Did') :-
@@ -4057,9 +3937,6 @@ filme('I Saw What You Did') :-
     classificacao_mpa(approved),
     realizador(william_castle),
     atores([joan_crawford, john_ireland, leif_erickson]).
-
-
-
 
 filme('What''s Up, Doc?') :-
     genero(screwball_comedy),
@@ -4101,9 +3978,6 @@ filme('Pink Floyd: Live at Pompeii') :-
     realizador(adrian_maben),
     atores([david_gilmour, roger_waters, richard_wright]).
 
-
-
-
 filme('One-Armed Boxer') :-
     genero(kung_fu),
     pais(taiwan),
@@ -4133,7 +4007,6 @@ filme('For the Love of Ada') :-
     classificacao_mpa(not_rated),
     realizador(ronnie_baxter),
     atores([irene_handl, wilfred_pickles, barbara_mitchell]).
-
 
 filme('You Don''t Mess with the Zohan') :-
     genero(slapstick),
@@ -4175,7 +4048,6 @@ filme('More Than a Game') :-
     realizador(kristopher_belman),
     atores([lebron_james, dru_joyce, romeo_travis]).
 
-
 filme('The Red Baron') :-
     genero(action),
     pais(germany),
@@ -4203,7 +4075,7 @@ filme('Extreme Movie') :-
     duracao(1.43),
     classificacao_imdb(3.7),
     classificacao_mpa(r),
-    realizador(adam_jay_epstein,andrew_jacobson),
+    realizador(adam_jay_epstein),
     atores([frankie_muniz, michael_cera, ashley_schneider]).
 
 filme('Welcome to the Sticks') :-
@@ -4233,7 +4105,7 @@ filme('Interstella 5555: The 5tory of the 5ecret 5tar 5ystem') :-
     duracao(1.13),
     classificacao_imdb(7.8),
     classificacao_mpa(not_rated),
-    realizador(daisuke_nishio,hirotoshi_rissen,kazuhisa_takenouchi),
+    realizador(daisuke_nishio),
     atores([romanthony, thomas_bangalter]).
 
 filme('Veronica Guerin') :-
@@ -4276,7 +4148,6 @@ filme('Reconstruction') :-
     realizador(christoffer_boe),
     atores([nikolaj_lie_kaas, maria_bonnevie, krister_henriksson]).
 
-
 filme('Cats Don''t Dance') :-
     genero(handdrawn_animation),
     pais(united_states),
@@ -4317,7 +4188,6 @@ filme('Insomnia') :-
     realizador(erik_skjoldbjrg),
     atores([stellan_skarsgrd, sverre_anker_ousdal, maria_mathiesen]).
 
-
 filme('Ill Gotten Gains') :-
     genero(drama),
     pais(united_states),
@@ -4338,9 +4208,6 @@ filme('Mughal-E-Azam') :-
     realizador(k_asif),
     atores([prithviraj_kapoor, madhubala, dilip_kumar]).
 
-
-
-
 filme('The Piano') :-
     genero(period_drama),
     pais(new_zealand),
@@ -4358,7 +4225,7 @@ filme('We''re Back! A Dinosaur''s Story') :-
     duracao(1.20),
     classificacao_imdb(6.0),
     classificacao_mpa(g),
-    realizador(phil_nibbelink,simon_wells,dick_zondag),
+    realizador(phil_nibbelink),
     atores([john_goodman, charles_fleischer, blaze_berdahl]).
 
 filme('Dragon Ball Z: Broly - The Legendary Super Saiyan') :-
@@ -4430,7 +4297,6 @@ filme('Hell Fest') :-
     classificacao_mpa(r),
     realizador(gregory_plotkin),
     atores([cynthea_mercado, stephen_conroy, amy_forsyth]).
-
 
 objectivo(X) :-
     filme(X).
