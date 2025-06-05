@@ -1,6009 +1,5544 @@
-filme('Attack on Titan the Movie: The Last Attack') :-
-    genero('Action'),
-    genero('Animation'),
-    genero('Drama'),
-    pais('Japan'),
-    ano(2024),
-    duracao('2h 25m'),
-    classificacao_imdb(9.3),
-    classificacao_mpa('NaN'),
-    realizador('Yichir Hayashi'),
-    atores(['Natsuki Hanae', 'Yoshimasa Hosoya', 'Marina Inoue']).
-
-filme('Sandesham') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('India'),
-    ano(1991),
-    duracao('2h 18m'),
-    classificacao_imdb(9.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Sathyan Anthikad'),
-    atores(['Sreenivasan', 'Jayaram', 'Thilakan']).
-
-filme('Om') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1995),
-    duracao('2h 30m'),
-    classificacao_imdb(8.9),
-    classificacao_mpa('NaN'),
-    realizador('Upendra'),
-    atores(['Shivarajkumar', 'Prema', 'Sadhu Kokila']).
-
-filme('Fight Club') :-
-    genero('Psychological Drama'),
-    genero('Workplace Drama'),
-    genero('Drama'),
-    pais('Germany, United States'),
-    ano(1999),
-    duracao('2h 19m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('R'),
-    realizador('David Fincher'),
-    atores(['Brad Pitt', 'Edward Norton', 'Meat Loaf']).
-
-filme('Sankarabharanam') :-
-    genero('Drama'),
-    genero('Music'),
-    genero('Romance'),
-    pais('India'),
-    ano(1980),
-    duracao('2h 23m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('Not Rated'),
-    realizador('K Viswanath'),
-    atores(['JV Somayajulu', 'Manju Bhargavi', 'Tulasi']).
-
-filme('12th Fail') :-
-    genero('Docudrama'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('India'),
-    ano(2023),
-    duracao('2h 27m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('NaN'),
-    realizador('Vidhu Vinod Chopra'),
-    atores(['Vikrant Massey', 'Medha Shankr', 'Anant Joshi']).
-
-filme('Babruvahana') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('History'),
-    pais('India'),
-    ano(1977),
-    duracao('2h 40m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Hunsur Krishnamurthy'),
-    atores(['Rajkumar', 'Jaymala Adarsh', 'Saroja Devi B']).
-
-filme('Balkan Spy') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Yugoslavia'),
-    ano(1984),
-    duracao('1h 35m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('NaN'),
-    realizador('Dusan Kovacevic, Bozidar Bota Nikolic'),
-    atores(['Danilo Bata Stojkovic', 'Bora Todorovic', 'Mira Banjac']).
-
-filme('The Human Condition III: A Soldier''s Prayer') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Japan'),
-    ano(1961),
-    duracao('3h 10m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Masaki Kobayashi'),
-    atores(['Tatsuya Nakadai', 'Michiyo Aratama', 'Tamao Nakamura']).
-
-filme('Forrest Gump') :-
-    genero('Epic'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States'),
-    ano(1994),
-    duracao('2h 22m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('PG-13'),
-    realizador('Robert Zemeckis'),
-    atores(['Tom Hanks', 'Robin Wright', 'Gary Sinise']).
-
-filme('Veil of Tears') :-
-    genero('News'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('India, United States'),
-    ano(2014),
-    duracao('1h 30m'),
-    classificacao_imdb(8.8),
-    classificacao_mpa('PG-13'),
-    realizador('Kenny Saylors, Kyle Saylors'),
-    atores(['Natalie Grant', 'KP Yohannan', 'Daniel Johnson']).
-
-filme('Aszparuh') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Bulgaria'),
-    ano(1981),
-    duracao('5h 23m'),
-    classificacao_imdb(8.7),
-    classificacao_mpa('NaN'),
-    realizador('Ludmil Staikov'),
-    atores(['Stoyko Peev', 'Antony Genov', 'Vassil Mihajlov']).
-
-filme('Thevar Magan') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1992),
-    duracao('2h 25m'),
-    classificacao_imdb(8.7),
-    classificacao_mpa('NaN'),
-    realizador('Bharathan'),
-    atores(['Kamal Haasan', 'Shivaji Ganesan', 'Nassar']).
-
-filme('One Flew Over the Cuckoo''s Nest') :-
-    genero('Medical Drama'),
-    genero('Psychological Drama'),
-    genero('Drama'),
-    pais('United States'),
+filme('Strip Nude for Your Killer') :-
+    genero(erotic_thriller),
+    genero(giallo),
+    genero(slasher_horror),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(italy),
     ano(1975),
-    duracao('2h 13m'),
-    classificacao_imdb(8.7),
-    classificacao_mpa('R'),
-    realizador('Milos Forman'),
-    atores(['Jack Nicholson', 'Louise Fletcher', 'Michael Berryman']).
+    duracao(1.63),
+    classificacao_imdb(5.6),
+    classificacao_mpa(not_rated),
+    realizador(andrea_bianchi),
+    atores([edwige_fenech, nino_castelnuovo, femi_benussi]).
 
-filme('Feyzo, the Polite One') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Turkey'),
-    ano(1978),
-    duracao('1h 23m'),
-    classificacao_imdb(8.7),
-    classificacao_mpa('NaN'),
-    realizador('Atif Yilmaz'),
-    atores(['Kemal Sunal', 'Mjde Ar', 'Adile Nasit']).
-
-filme('Devasuram') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1993),
-    duracao('3h 7m'),
-    classificacao_imdb(8.7),
-    classificacao_mpa('Not Rated'),
-    realizador('IV Sasi'),
-    atores(['Mohanlal', 'Napolean', 'Revathi']).
-
-filme('Jai Bhim') :-
-    genero('Legal Drama'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India, United States'),
-    ano(2021),
-    duracao('2h 44m'),
-    classificacao_imdb(8.7),
-    classificacao_mpa('Approved'),
-    realizador('TJ Gnanavel'),
-    atores(['Suriya', 'Lijo Mol Jose', 'Manikandan K']).
-
-filme('Pink Floyd: Live at Pompeii') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('Belgium, West Germany, France, United Kingdom'),
-    ano(1972),
-    duracao('1h 32m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('G'),
-    realizador('Adrian Maben'),
-    atores(['David Gilmour', 'Roger Waters', 'Richard Wright']).
-
-filme('Shhh!') :-
-    genero('Horror'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1993),
-    duracao('2h 15m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Upendra'),
-    atores(['Kumar Govind', 'Kashinath', 'Suresh Heblikar']).
-
-filme('Poove Unakkaga') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1996),
-    duracao('2h 30m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('NaN'),
-    realizador('Vikraman'),
-    atores(['Joseph Vijay', 'Sangeetha', 'Anju Aravind']).
-
-filme('Godfather') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1991),
-    duracao('2h 30m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Lal, Siddique'),
-    atores(['NN Pillai', 'Mukesh', 'Philomina']).
-
-filme('Queen of the Ring') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('United States'),
-    ano(2024),
-    duracao('2h 10m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('PG-13'),
-    realizador('Ash Avildsen'),
-    atores(['Emily Bett Rickards', 'Josh Lucas', 'Tyler Posey']).
-
-filme('Harakiri') :-
-    genero('Period Drama'),
-    genero('Drama'),
-    genero('Mystery'),
-    pais('Japan'),
-    ano(1962),
-    duracao('2h 13m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Masaki Kobayashi'),
-    atores(['Tatsuya Nakadai', 'Akira Ishihama', 'Shima Iwashita']).
-
-filme('The Miscellaneous Brigade on the Watch') :-
-    genero('Action'),
-    genero('Comedy'),
-    genero('Crime'),
-    pais('Romania'),
-    ano(1971),
-    duracao('1h 35m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('NaN'),
-    realizador('Mircea Dragan'),
-    atores(['Toma Caragiu', 'Dem Radulescu', 'Sebastian Papaiani']).
-
-filme('Barking at the Stars') :-
-    genero('Teen Comedy'),
-    genero('Comedy'),
-    genero('Romance'),
-    pais('Federal Republic of Yugoslavia'),
-    ano(1998),
-    duracao('1h 35m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('NaN'),
-    realizador('Zdravko Sotra'),
-    atores(['Dragan Micanovic', 'Natasa Tapuskovic', 'Nikola Simic']).
-
-filme('Miscellaneous Brigade in the Mountains and at the Sea') :-
-    genero('Action'),
-    genero('Comedy'),
-    genero('Crime'),
-    pais('Romania'),
-    ano(1971),
-    duracao('1h 40m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('NaN'),
-    realizador('Mircea Dragan'),
-    atores(['Toma Caragiu', 'Dem Radulescu', 'Ion Fintesteanu']).
-
-filme('Pretty Village, Pretty Flame') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Federal Republic of Yugoslavia'),
-    ano(1996),
-    duracao('1h 55m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('NaN'),
-    realizador('Srdjan Dragojevic'),
-    atores(['Dragan Bjelogrlic', 'Nikola Kojo', 'Dragan Maksimovic']).
-
-filme('Blue Mountains, or Unbelievable Story') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Soviet Union'),
-    ano(1983),
-    duracao('1h 37m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('NaN'),
-    realizador('Eldar Shengelaia'),
-    atores(['Ramaz Giorgobiani', 'Vasil Kakhniashvili', 'Teimuraz Chirgadze']).
-
-filme('The Witness') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Hungary'),
-    ano(1969),
-    duracao('1h 45m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('NaN'),
-    realizador('Pter Bacs'),
-    atores(['Ferenc Kllai', 'Lajos ze', 'Zoltn Fbri']).
-
-filme('Anbe Sivam') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('India'),
-    ano(2003),
-    duracao('2h 40m'),
-    classificacao_imdb(8.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Sundar C'),
-    atores(['Kamal Haasan', 'Madhavan', 'Kiran Rathod']).
-
-filme('National Theatre Live: Frankenstein') :-
-    genero('Drama'),
-    genero('Horror'),
-    genero('SciFi'),
-    pais('United Kingdom'),
-    ano(2011),
-    duracao('2h 10m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('NaN'),
-    realizador('Danny Boyle, Tim Van Someren'),
-    atores(['Jonny Lee Miller', 'Benedict Cumberbatch', 'Andreea Paduraru']).
-
-filme('The Best of Youth') :-
-    genero('Epic'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Italy'),
-    ano(2003),
-    duracao('6h 14m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('R'),
-    realizador('Marco Tullio Giordana'),
-    atores(['Luigi Lo Cascio', 'Alessio Boni', 'Jasmine Trinca']).
-
-filme('Baraka') :-
-    genero('Faith  Spirituality Documentary'),
-    genero('Travel Documentary'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(1992),
-    duracao('1h 36m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('Not Rated'),
-    realizador('Ron Fricke'),
-    atores(['Patrick Disanto']).
-
-filme('Queen Rock Montreal') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom, United States'),
-    ano(2024),
-    duracao('1h 35m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('NaN'),
-    realizador('Saul Swimmer'),
-    atores(['John Deacon', 'Brian May', 'Freddie Mercury']).
-
-filme('Cinema Paradiso') :-
-    genero('ComingofAge'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Italy, France'),
-    ano(1988),
-    duracao('2h 54m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('PG'),
-    realizador('Giuseppe Tornatore'),
-    atores(['Philippe Noiret', 'Enzo Cannavale', 'Antonella Attili']).
-
-filme('Thalapathi') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India, Philippines'),
-    ano(1991),
-    duracao('2h 37m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('Not Rated'),
-    realizador('Mani Ratnam'),
-    atores(['Rajinikanth', 'Mammootty', 'Shobana']).
-
-filme('The Kashmir Files') :-
-    genero('Political Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('India'),
-    ano(2022),
-    duracao('2h 50m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('Not Rated'),
-    realizador('Vivek Agnihotri'),
-    atores(['Mithun Chakraborty', 'Anupam Kher', 'Darshan Kumaar']).
-
-filme('The Girl with the Red Scarf') :-
-    genero('Tragic Romance'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Turkey'),
-    ano(1977),
-    duracao('1h 30m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('NaN'),
-    realizador('Atif Yilmaz'),
-    atores(['Trkan Soray', 'Kadir Inanir', 'Ahmet Mekin']).
-
-filme('Whiplash') :-
-    genero('Psychological Drama'),
-    genero('Drama'),
-    genero('Music'),
-    pais('United States'),
-    ano(2014),
-    duracao('1h 46m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('R'),
-    realizador('Damien Chazelle'),
-    atores(['Miles Teller', 'JK Simmons', 'Melissa Benoist']).
-
-filme('The Hole') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('France, Italy'),
-    ano(1960),
-    duracao('2h 11m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('Not Rated'),
-    realizador('Jacques Becker'),
-    atores(['Andr Bervil', 'Jean Keraudy', 'Michel Constantin']).
-
-filme('Kuruthipunal') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1995),
-    duracao('2h 23m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('Not Rated'),
-    realizador('PC Sreeram'),
-    atores(['Kamal Haasan', 'Arjun Sarja', 'Nassar']).
-
-filme('Dosti') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Musical'),
-    pais('India'),
-    ano(1964),
-    duracao('2h 43m'),
-    classificacao_imdb(8.5),
-    classificacao_mpa('Not Rated'),
-    realizador('Satyen Bose'),
-    atores(['Sudhir Kumar', 'Sushil Kumar', 'Sanjay Khan']).
-
-filme('The Singing Revolution') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('United States, Estonia'),
-    ano(2006),
-    duracao('1h 34m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('Unrated'),
-    realizador('James Tusty, Maureen Castle Tusty'),
-    atores(['Heiki Ahonen', 'Gustav Ernesaks', 'Linda Hunt']).
-
-filme('The Salt of the Earth') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('France, Italy, Brazil'),
-    ano(2014),
-    duracao('1h 50m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('PG-13'),
-    realizador('Juliano Ribeiro Salgado, Wim Wenders'),
-    atores(['Sebastio Salgado', 'Wim Wenders', 'Llia Wanick Salgado']).
-
-filme('Our Family') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Family'),
-    pais('Turkey'),
+filme('Carry on Behind') :-
+    genero(parody),
+    genero(slapstick),
+    genero(comedy),
+    pais(united_kingdom),
     ano(1975),
-    duracao('1h 32m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Ergin Orbey'),
-    atores(['Mnir zkul', 'Tarik Akan', 'Adile Nasit']).
+    duracao(1.50),
+    classificacao_imdb(5.6),
+    classificacao_mpa(not_rated),
+    realizador(gerald_thomas),
+    atores([elke_sommer, kenneth_williams, bernard_bresslaw]).
 
-filme('Burn the Stage: The Movie') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('South Korea'),
-    ano(2018),
-    duracao('1h 24m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Park Junsoo'),
-    atores(['RM', 'Jin', 'jhope']).
 
-filme('Simhasan') :-
-    genero('Political Drama'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(1979),
-    duracao('2h 50m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Jabbar Patel'),
-    atores(['Mohan Agashe', 'Suresh Bansale', 'Ravindra Bapat']).
-
-filme('3 Idiots') :-
-    genero('ComingofAge'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('India'),
-    ano(2009),
-    duracao('2h 50m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('PG-13'),
-    realizador('Rajkumar Hirani'),
-    atores(['Aamir Khan', 'Madhavan', 'Mona Singh']).
-
-filme('Das Boot') :-
-    genero('War Epic'),
-    genero('Drama'),
-    genero('War'),
-    pais('West Germany'),
-    ano(1981),
-    duracao('2h 29m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Wolfgang Petersen'),
-    atores(['Jrgen Prochnow', 'Herbert Grnemeyer', 'Klaus Wennemann']).
-
-filme('Mr. Muhsin') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Music'),
-    pais('Turkey'),
-    ano(1987),
-    duracao('1h 59m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Yavuz Turgul'),
-    atores(['Sener Sen', 'Ugur Ycel', 'Sermin Hrmeri']).
-
-filme('Khachaturian') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2003),
-    duracao('1h 23m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('Not Rated'),
-    realizador('Peter Rosen'),
-    atores(['Eric Bogosian', 'Aram Khachaturyan']).
-
-filme('Luther: Never Too Much') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom, United States'),
-    ano(2024),
-    duracao('1h 41m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Dawn Porter'),
-    atores(['Jamie Foxx', 'Mariah Carey', 'Luther Vandross']).
-
-filme('Saheb') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Musical'),
-    pais('India'),
-    ano(1981),
-    duracao('2h 5m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('Not Rated'),
-    realizador('Bijoy Bose'),
-    atores(['Madhavi Mukherjee', 'Mahua Roy Chowdhury', 'Tapas Pal']).
-
-filme('The Lizard') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Iran'),
-    ano(2004),
-    duracao('1h 55m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Kamal Tabrizi'),
-    atores(['Parviz Parastui', 'Bahram Ebrahimi', 'Reza Saeedi']).
-
-filme('National Class Category Up to 785 Ccm') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('Yugoslavia'),
-    ano(1979),
-    duracao('1h 45m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Goran Markovic'),
-    atores(['Dragan Nikolic', 'Bogdan Diklic', 'Gorica Popovic']).
-
-filme('I''ll Push You: A Real-Life Inspiration') :-
-    genero('Adventure'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('Spain, United States'),
-    ano(2017),
-    duracao('1h 40m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Chris Karcher, Terry Parish'),
-    atores(['Patrick Gray', 'Justin Skeesuck', 'Ted Hardy']).
-
-filme('The Heart of Nuba') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('War'),
-    pais('United States'),
-    ano(2016),
-    duracao('1h 25m'),
-    classificacao_imdb(8.4),
-    classificacao_mpa('NaN'),
-    realizador('Kenneth A Carlson'),
-    atores(['Cornelio Catena', 'Gene Catena', 'Nancy Catena']).
-
-filme('Apoorva Sagodharargal') :-
-    genero('Action'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('India'),
-    ano(1989),
-    duracao('2h 37m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('NaN'),
-    realizador('Singeetam Srinivasa Rao'),
-    atores(['Kamal Haasan', 'Nagesh', 'Srividya']).
-
-filme('Requiem for a Dream') :-
-    genero('Psychological Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('United States'),
-    ano(2000),
-    duracao('1h 42m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('NC-17'),
-    realizador('Darren Aronofsky'),
-    atores(['Ellen Burstyn', 'Jared Leto', 'Jennifer Connelly']).
-
-filme('Guide') :-
-    genero('Tragic Romance'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1965),
-    duracao('3h 3m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('Not Rated'),
-    realizador('Vijay Anand'),
-    atores(['Dev Anand', 'Waheeda Rehman', 'Leela Chitnis']).
-
-filme('To Live') :-
-    genero('Epic'),
-    genero('Drama'),
-    genero('War'),
-    pais('Hong Kong, China'),
-    ano(1994),
-    duracao('2h 13m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('Not Rated'),
-    realizador('Yimou Zhang'),
-    atores(['You Ge', 'Gong Li', 'Ben Niu']).
-
-filme('American Beauty') :-
-    genero('Psychological Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1999),
-    duracao('2h 2m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('R'),
-    realizador('Sam Mendes'),
-    atores(['Kevin Spacey', 'Annette Bening', 'Thora Birch']).
-
-filme('AC/DC: Let There Be Rock') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States, France'),
-    ano(1980),
-    duracao('1h 38m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('PG'),
-    realizador('Eric Dionysius, Eric Mistler'),
-    atores(['ACDC', 'Phil Rudd', 'Bon Scott']).
-
-filme('We Are Not Angels') :-
-    genero('Comedy'),
-    genero('Fantasy'),
-    genero('Romance'),
-    pais('Federal Republic of Yugoslavia'),
-    ano(1992),
-    duracao('1h 38m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('NaN'),
-    realizador('Srdjan Dragojevic'),
-    atores(['Nikola Kojo', 'Milena Pavlovic', 'Branka Katic']).
-
-filme('Judgment at Nuremberg') :-
-    genero('Legal Drama'),
-    genero('Drama'),
-    genero('War'),
-    pais('United States'),
-    ano(1961),
-    duracao('2h 59m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('Approved'),
-    realizador('Stanley Kramer'),
-    atores(['Spencer Tracy', 'Burt Lancaster', 'Richard Widmark']).
-
-filme('Karnan') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('War'),
-    pais('India'),
-    ano(1964),
-    duracao('3h 7m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('NaN'),
-    realizador('B Ramakrishnaiah Panthulu'),
-    atores(['Shivaji Ganesan', 'NT Rama Rao', 'SA Ashokan']).
-
-filme('Chupke Chupke') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
+filme('Mahogany') :-
+    genero(drama),
+    genero(romance),
+    pais(united_states),
     ano(1975),
-    duracao('2h 26m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('Not Rated'),
-    realizador('Hrishikesh Mukherjee'),
-    atores(['Dharmendra', 'Sharmila Tagore', 'Amitabh Bachchan']).
+    duracao(1.82),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg),
+    realizador(berry_gordy,tony_richardson,jack_wormser),
+    atores([diana_ross, billy_dee_williams, anthony_perkins]).
 
-filme('Macario') :-
-    genero('Drama'),
-    genero('Fantasy'),
-    genero('Mystery'),
-    pais('Mexico'),
-    ano(1960),
-    duracao('1h 31m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('NaN'),
-    realizador('Roberto Gavaldn'),
-    atores(['Ignacio Lpez Tarso', 'Pina Pellicer', 'Enrique Lucero']).
+filme('Foreplay') :-
+    genero(parody),
+    genero(satire),
+    genero(sketch_comedy),
+    genero(comedy),
+    pais(united_states),
+    ano(1975),
+    duracao(1.25),
+    classificacao_imdb(4.0),
+    classificacao_mpa(r),
+    realizador(john_g_avildsen,bruce_malmuth,robert_mccarty),
+    atores([irwin_corey, pat_paulsen, deborah_loomis]).
 
-filme('The Look of Silence') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('Denmark, Indonesia, Finland, Norway, United Kingdom, Israel, France, United States, Germany, Netherlands'),
-    ano(2014),
-    duracao('1h 43m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('PG-13'),
-    realizador('Joshua Oppenheimer'),
-    atores(['Adi Rukun', 'MY Basrun', 'Volker Hanisch']).
+filme('The Man from Hong Kong') :-
+    genero(action),
+    genero(adventure),
+    genero(crime),
+    genero(drama),
+    pais(australia,hong_kong),
+    ano(1975),
+    duracao(1.77),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(brian_trenchardsmith,jimmy_wang_yu),
+    atores([jimmy_wang_yu, george_lazenby, hugh_keaysbyrne]).
 
-filme('Chhichhore') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(2019),
-    duracao('2h 23m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('NaN'),
-    realizador('Nitesh Tiwari'),
-    atores(['Sushant Singh Rajput', 'Shraddha Kapoor', 'Varun Sharma']).
+filme('Night of the Seagulls') :-
+    genero(horror),
+    pais(spain),
+    ano(1975),
+    duracao(1.48),
+    classificacao_imdb(5.7),
+    classificacao_mpa(r),
+    realizador(amando_de_ossorio),
+    atores([vctor_petit, mara_kosty, sandra_mozarowsky]).
 
-filme('Won''t You Be My Neighbor?') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(2018),
-    duracao('1h 35m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('PG-13'),
-    realizador('Morgan Neville'),
-    atores(['Fred Rogers', 'Margaret Whitmer', 'Tom Junod']).
+filme('The Olsen Gang on the Track') :-
+    genero(comedy),
+    genero(crime),
+    genero(family),
+    pais(denmark),
+    ano(1975),
+    duracao(1.75),
+    classificacao_imdb(7.2),
+    classificacao_mpa(not_rated),
+    realizador(erik_balling),
+    atores([ove_sproge, morten_grunwald, poul_bundgaard]).
 
-filme('Broadway: The Golden Age, by the Legends Who Were There') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('United States'),
-    ano(2003),
-    duracao('1h 51m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('Unrated'),
-    realizador('Rick McKay'),
-    atores(['Edie Adams', 'Bea Arthur', 'Elizabeth Ashley']).
 
-filme('Permission') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1987),
-    duracao('2h 17m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('NaN'),
-    realizador('Gulzar'),
-    atores(['Rekha', 'Naseeruddin Shah', 'Anuradha Patel']).
 
-filme('Baasha') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(1995),
-    duracao('2h 25m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('Not Rated'),
-    realizador('Suresh Krishna'),
-    atores(['Rajinikanth', 'Nagma', 'Raghuvaran']).
+filme('Disciples of Shaolin') :-
+    genero(martial_arts),
+    genero(action),
+    genero(drama),
+    pais(hong_kong,taiwan),
+    ano(1975),
+    duracao(1.77),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(cheh_chang),
+    atores([sheng_fu, kuanchun_chi, chen_mingli]).
 
-filme('The Hunt') :-
-    genero('Psychological Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('Denmark, Sweden, Belgium, France'),
-    ano(2012),
-    duracao('1h 55m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('R'),
-    realizador('Thomas Vinterberg'),
-    atores(['Mads Mikkelsen', 'Thomas Bo Larsen', 'Annika Wedderkopp']).
-
-filme('War and Peace, Part III: The Year 1812') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Soviet Union'),
-    ano(1967),
-    duracao('1h 21m'),
-    classificacao_imdb(8.3),
-    classificacao_mpa('Not Rated'),
-    realizador('Sergey Bondarchuk'),
-    atores(['Sergey Bondarchuk', 'Vyacheslav Tikhonov', 'Lyudmila Saveleva']).
-
-filme('The Last Lions') :-
-    genero('Nature Documentary'),
-    genero('Documentary'),
-    genero('Family'),
-    pais('United States, Botswana'),
-    ano(2011),
-    duracao('1h 28m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG'),
-    realizador('Dereck Joubert'),
-    atores(['Jeremy Irons']).
-
-filme('Once Again (For the Very First Time)') :-
-    genero('Drama'),
-    genero('Music'),
-    genero('Romance'),
-    pais('United States'),
-    ano(2023),
-    duracao('1h 46m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Boaz Yakin'),
-    atores(['Jeroboam Bozeman', 'Jennifer Merin', 'Mecca Verdell']).
-
-filme('Office Romance') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Soviet Union'),
+filme('Oh, God!') :-
+    genero(comedy),
+    genero(fantasy),
+    pais(united_states),
     ano(1977),
-    duracao('2h 39m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Eldar Ryazanov'),
-    atores(['Alisa Freyndlikh', 'Andrey Myagkov', 'Svetlana Nemolyaeva']).
+    duracao(1.63),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg),
+    realizador(carl_reiner),
+    atores([john_denver, george_burns, teri_garr]).
 
-filme('Shaheed') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('History'),
-    pais('India'),
-    ano(1965),
-    duracao('2h 30m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('S Ram Sharma'),
-    atores(['Kamini Kaushal', 'Nirupa Roy', 'Anand Kumar']).
-
-filme('Searching for Sugar Man') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('Sweden, United Kingdom, Finland'),
-    ano(2012),
-    duracao('1h 26m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG-13'),
-    realizador('Malik Bendjelloul'),
-    atores(['Rodriguez', 'Stephen Sugar Segerman', 'Dennis Coffey']).
-
-filme('Jung Kook: I Am Still') :-
-    genero('Music Documentary'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('South Korea'),
-    ano(2024),
-    duracao('1h 30m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Park Junsoo'),
-    atores(['Jungkook']).
-
-filme('No End in Sight') :-
-    genero('Military Documentary'),
-    genero('Documentary'),
-    genero('War'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 42m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Charles Ferguson'),
-    atores(['Campbell Scott', 'Gerald Burke', 'Ali Fadhil']).
-
-filme('Twelve Chairs') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('Crime'),
-    pais('Soviet Union'),
-    ano(1971),
-    duracao('2h 33m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG-13'),
-    realizador('Leonid Gaidai'),
-    atores(['Archil Gomiashvili', 'Sergey Filippov', 'Mikhail Pugovkin']).
-
-filme('Faith of Angels') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Family'),
-    pais('United States'),
-    ano(2024),
-    duracao('1h 38m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG'),
-    realizador('Garrett Batty'),
-    atores(['John Michael Finley', 'Cameron Arnett', 'Kirby Heyborne']).
-
-filme('Manjummel Boys') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2024),
-    duracao('2h 15m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Chidambaram'),
-    atores(['Soubin Shahir', 'Sreenath Bhasi', 'Balu Varghese']).
-
-filme('Andhadhun') :-
-    genero('Crime'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2018),
-    duracao('2h 19m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Sriram Raghavan'),
-    atores(['Ayushmann Khurrana', 'Tabu', 'Radhika Apte']).
-
-filme('Long Strange Trip') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2017),
-    duracao('3h 58m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('R'),
-    realizador('Amir BarLev'),
-    atores(['John Perry Barlow', 'Tom Constanten', 'Sam Cutler']).
-
-filme('Lava Kusa') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Musical'),
-    pais('India'),
-    ano(1963),
-    duracao('2h 33m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Rao CSR, Chittajalu Pullayya'),
-    atores(['NT Rama Rao', 'Anjali Devi', 'Chittor V Nagaiah']).
-
-filme('Taxi Driver') :-
-    genero('Psychological Drama'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1976),
-    duracao('1h 54m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('R'),
-    realizador('Martin Scorsese'),
-    atores(['Robert De Niro', 'Jodie Foster', 'Cybill Shepherd']).
-
-filme('Hearts and Minds') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('United States'),
-    ano(1974),
-    duracao('1h 52m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('R'),
-    realizador('Peter Davis'),
-    atores(['Tin Chan', 'Chau Diem', 'Ngo Dinh Diem']).
-
-filme('Only Old Men Are Going to Battle') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('Soviet Union'),
-    ano(1974),
-    duracao('1h 32m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Leonid Bykov'),
-    atores(['Leonid Bykov', 'Sergey Podgornyy', 'Sergei Ivanov']).
-
-filme('Paradise Lost: The Child Murders at Robin Hood Hills') :-
-    genero('Crime Documentary'),
-    genero('Crime'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(1996),
-    duracao('2h 30m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Joe Berlinger, Bruce Sinofsky'),
-    atores(['Tony Brooks', 'Diana Davis', 'Terry Wood']).
-
-filme('The Concert for Bangladesh') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom, United States'),
-    ano(1972),
-    duracao('1h 43m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('G'),
-    realizador('Saul Swimmer'),
-    atores(['George Harrison', 'Bob Dylan', 'Ravi Shankar']).
-
-filme('Bhakta Prahlada') :-
-    genero('Drama'),
-    genero('Fantasy'),
-    genero('Musical'),
-    pais('India'),
-    ano(1967),
-    duracao('2h 31m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Chitrapu Narayana Rao'),
-    atores(['Roja Ramani', 'SV Ranga Rao', 'Anjali Devi']).
-
-filme('The Remarkable Life of Ibelin') :-
-    genero('Animation'),
-    genero('Biography'),
-    genero('Documentary'),
-    pais('Norway'),
-    ano(2024),
-    duracao('1h 46m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG-13'),
-    realizador('Benjamin Ree'),
-    atores(['Jessica Carroll', 'Zoe Croft', 'Kelsey Ellison']).
-
-filme('Bhaag Milkha Bhaag') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('India'),
-    ano(2013),
-    duracao('3h 6m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Rakeysh Omprakash Mehra'),
-    atores(['Farhan Akhtar', 'Kousi Orfahli', 'Deepak Singh Rawat']).
-
-filme('Wait for Your Laugh') :-
-    genero('Biography'),
-    genero('Comedy'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2017),
-    duracao('1h 25m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Jason Wise'),
-    atores(['Rose Marie', 'Peter Marshall', 'Carl Reiner']).
-
-filme('A Brighter Summer Day') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Taiwan'),
-    ano(1991),
-    duracao('3h 57m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Edward Yang'),
-    atores(['Chang Chen', 'Lisa Yang', 'KuoChu Chang']).
-
-filme('Swasthik') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1998),
-    duracao('2h 20m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Upendra'),
-    atores(['Vaijanath Biradar', 'Hulivana Gangadharaiah', 'Negro Johnny']).
-
-filme('Waterman') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Sport'),
-    pais('United States'),
-    ano(2021),
-    duracao('1h 28m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Isaac Halasima'),
-    atores(['Duane DeSoto', 'Ralph Edwards', 'Arthur Godfrey']).
-
-filme('Beautiful People') :-
-    genero('Nature Documentary'),
-    genero('Comedy'),
-    genero('Documentary'),
-    pais('South Africa'),
-    ano(1974),
-    duracao('1h 32m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('G'),
-    realizador('Jamie Uys'),
-    atores(['Paddy OByrne']).
-
-filme('Dinastía de la muerte') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('Mexico'),
+filme('Heroes') :-
+    genero(psychological_drama),
+    genero(comedy),
+    genero(drama),
+    pais(united_states),
     ano(1977),
-    duracao('nan'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Ral de Anda Jr, Ramn Obn, Rafael Villaseor Kuri'),
-    atores(['Rodolfo de Anda', 'Mario Almada', 'Jorge Russek']).
+    duracao(1.87),
+    classificacao_imdb(6.0),
+    classificacao_mpa(pg),
+    realizador(jeremy_kagan),
+    atores([henry_winkler, sally_field, harrison_ford]).
 
-filme('Pearl Jam Twenty') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('United States'),
-    ano(2011),
-    duracao('1h 59m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Cameron Crowe'),
-    atores(['Eddie Vedder', 'Stone Gossard', 'Jeff Ament']).
+filme('Race for Your Life, Charlie Brown') :-
+    genero(handdrawn_animation),
+    genero(quest),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(family),
+    pais(united_states),
+    ano(1977),
+    duracao(1.27),
+    classificacao_imdb(7.2),
+    classificacao_mpa(g),
+    realizador(bill_melendez,phil_roman),
+    atores([duncan_watson, greg_felton, stuart_brotman]).
 
-filme('The Father') :-
-    genero('Psychological Drama'),
-    genero('Drama'),
-    genero('Mystery'),
-    pais('United Kingdom, France, United States'),
-    ano(2020),
-    duracao('1h 37m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG-13'),
-    realizador('Florian Zeller'),
-    atores(['Anthony Hopkins', 'Olivia Colman', 'Mark Gatiss']).
+filme('Short Eyes') :-
+    genero(drama),
+    pais(united_states),
+    ano(1977),
+    duracao(1.67),
+    classificacao_imdb(7.0),
+    classificacao_mpa(r),
+    realizador(robert_m_young),
+    atores([bruce_davison, jos_prez, nathan_george]).
 
-filme('Thiruvilayadal') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Musical'),
-    pais('India'),
-    ano(1965),
-    duracao('2h 34m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('AP Nagarajan'),
-    atores(['Shivaji Ganesan', 'Savitri', 'KB Sundarambal']).
+filme('Soldier of Orange') :-
+    genero(drama),
+    genero(romance),
+    genero(thriller),
+    genero(war),
+    pais(netherlands,belgium),
+    ano(1977),
+    duracao(2.75),
+    classificacao_imdb(7.6),
+    classificacao_mpa(r),
+    realizador(paul_verhoeven),
+    atores([rutger_hauer, jeroen_krabb, susan_penhaligon]).
 
-filme('Beyond Barbed Wire') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('United States'),
-    ano(1997),
-    duracao('1h 28m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Steve Rosen'),
-    atores(['Pat Morita']).
+filme('Amar Akbar Anthony') :-
+    genero(action),
+    genero(comedy),
+    genero(drama),
+    genero(music),
+    pais(india),
+    ano(1977),
+    duracao(3.07),
+    classificacao_imdb(7.4),
+    classificacao_mpa(not_rated),
+    realizador(manmohan_desai),
+    atores([vinod_khanna, rishi_kapoor, amitabh_bachchan]).
 
-filme('Ivan Vasilyevich Changes His Profession') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('SciFi'),
-    pais('Soviet Union'),
-    ano(1973),
-    duracao('1h 28m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('TV-G'),
-    realizador('Leonid Gaidai'),
-    atores(['Yuriy Yakovlev', 'Leonid Kuravlyov', 'Aleksandr Demyanenko']).
+filme('Messalina, Messalina') :-
+    genero(parody),
+    genero(adventure),
+    genero(comedy),
+    pais(italy),
+    ano(1977),
+    duracao(1.35),
+    classificacao_imdb(4.0),
+    classificacao_mpa(not_rated),
+    realizador(bruno_corbucci),
+    atores([anneka_di_lorenzo, vittorio_caprioli, giancarlo_prete]).
 
-filme('Children of Heaven') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Sport'),
-    pais('Iran'),
-    ano(1997),
-    duracao('1h 29m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG'),
-    realizador('Majid Majidi'),
-    atores(['Mohammad Amir Naji', 'Amir Farrokh Hashemian', 'Bahare Seddiqi']).
+filme('Beast with a Gun') :-
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(italy),
+    ano(1977),
+    duracao(1.52),
+    classificacao_imdb(5.9),
+    classificacao_mpa(unrated),
+    realizador(sergio_grieco),
+    atores([helmut_berger, marisa_mell, richard_harrison]).
 
-filme('Khosla Ka Ghosla!') :-
-    genero('Comedy'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(2006),
-    duracao('2h 15m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Dibakar Banerjee, Pravin E Birje'),
-    atores(['Anupam Kher', 'Boman Irani', 'Parvin Dabas']).
 
-filme('Kit Kat') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Egypt'),
-    ano(1991),
-    duracao('2h 9m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('NaN'),
-    realizador('Daoud Abdel Sayed'),
-    atores(['Mahmoud Abdel Aziz', 'Sherif Mounir', 'Aida Riyad']).
+filme('Charleston') :-
+    genero(comedy),
+    pais(italy),
+    ano(1977),
+    duracao(1.88),
+    classificacao_imdb(5.5),
+    classificacao_mpa(pg),
+    realizador(marcello_fondato),
+    atores([bud_spencer, herbert_lom, jack_la_cayenne]).
 
-filme('Rocco and His Brothers') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('Italy, France'),
-    ano(1960),
-    duracao('2h 59m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('Not Rated'),
-    realizador('Luchino Visconti'),
-    atores(['Alain Delon', 'Renato Salvatori', 'Annie Girardot']).
+filme('Double Nickels') :-
+    genero(police_procedural),
+    genero(action),
+    genero(comedy),
+    genero(crime),
+    pais(united_states),
+    ano(1977),
+    duracao(1.48),
+    classificacao_imdb(5.0),
+    classificacao_mpa(pg),
+    realizador(jack_vacek),
+    atores([jack_vacek, trice_schubert, edward_abrahms]).
 
-filme('Inside Job') :-
-    genero('Crime Documentary'),
-    genero('Crime'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2010),
-    duracao('1h 49m'),
-    classificacao_imdb(8.2),
-    classificacao_mpa('PG-13'),
-    realizador('Charles Ferguson'),
-    atores(['Matt Damon', 'Gylfi Zoega', 'Andri Snr Magnason']).
+filme('The Professionals') :-
+    genero(action),
+    genero(adventure),
+    genero(drama),
+    genero(western),
+    pais(united_states),
+    ano(1966),
+    duracao(1.95),
+    classificacao_imdb(7.3),
+    classificacao_mpa(pg-13),
+    realizador(richard_brooks),
+    atores([burt_lancaster, lee_marvin, robert_ryan]).
 
-filme('Rembetiko') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Music'),
-    pais('Greece'),
-    ano(1983),
-    duracao('1h 50m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Costas Ferris'),
-    atores(['Sotiria Leonardou', 'Nikos Kalogeropoulos', 'Michalis Maniatis']).
+filme('Duel at Diablo') :-
+    genero(classical_western),
+    genero(drama),
+    genero(thriller),
+    genero(western),
+    pais(united_states),
+    ano(1966),
+    duracao(1.72),
+    classificacao_imdb(6.5),
+    classificacao_mpa(approved),
+    realizador(ralph_nelson),
+    atores([james_garner, sidney_poitier, bibi_andersson]).
 
-filme('Petrijin venac') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('War'),
-    pais('Yugoslavia'),
-    ano(1980),
-    duracao('1h 39m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Srdjan Karanovic'),
-    atores(['Mirjana Karanovic', 'Dragan Maksimovic', 'Pavle Vuisic']).
+filme('Return of the Seven') :-
+    genero(action),
+    genero(drama),
+    genero(western),
+    pais(spain,united_states),
+    ano(1966),
+    duracao(1.58),
+    classificacao_imdb(5.5),
+    classificacao_mpa(unrated),
+    realizador(burt_kennedy),
+    atores([yul_brynner, robert_fuller, julin_mateos]).
 
-filme('Ryuichi Sakamoto: Opus') :-
-    genero('Music Documentary'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('Japan'),
-    ano(2023),
-    duracao('1h 43m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Neo Sora'),
-    atores(['Ryuichi Sakamoto']).
+filme('The Ghost in the Invisible Bikini') :-
+    genero(comedy),
+    genero(horror),
+    genero(musical),
+    pais(united_states),
+    ano(1966),
+    duracao(1.37),
+    classificacao_imdb(4.6),
+    classificacao_mpa(unrated),
+    realizador(don_weis),
+    atores([tommy_kirk, deborah_walley, aron_kincaid]).
 
-filme('Sethu') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1999),
-    duracao('2h 10m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Bala'),
-    atores(['Vikram', 'Abitha', 'Sivakumar']).
+filme('Made in Paris') :-
+    genero(romantic_comedy),
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(1966),
+    duracao(1.72),
+    classificacao_imdb(5.4),
+    classificacao_mpa(approved),
+    realizador(boris_sagal),
+    atores([annmargret, louis_jourdan, richard_crenna]).
 
-filme('Triumph Over Violence') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('Soviet Union'),
-    ano(1965),
-    duracao('1h 22m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('Mikhail Romm'),
-    atores(['Mikhail Romm', 'Martin Bormann', 'Willy Brandt']).
+filme('The Daydreamer') :-
+    genero(fairy_tale),
+    genero(stop_motion_animation),
+    genero(adventure),
+    genero(animation),
+    genero(drama),
+    genero(family),
+    genero(fantasy),
+    genero(musical),
+    pais(united_states,japan,canada),
+    ano(1966),
+    duracao(1.68),
+    classificacao_imdb(6.1),
+    classificacao_mpa(unrated),
+    realizador(jules_bass),
+    atores([tallulah_bankhead, victor_borge, patty_duke]).
 
-filme('Trying to Get Good: The Jazz Odyssey of Jack Sheldon') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2008),
-    duracao('1h 30m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Doug McIntyre, Penny Peyser'),
-    atores(['Jack Sheldon', 'Joe Bagg', 'Chet Baker']).
 
-filme('The Life of Reilly') :-
-    genero('Biography'),
-    genero('Comedy'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2006),
-    duracao('1h 24m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Unrated'),
-    realizador('Frank L Anderson, Barry Poltermann'),
-    atores(['Charles Nelson Reilly']).
 
-filme('The Exorcist') :-
-    genero('Body Horror'),
-    genero('Supernatural Horror'),
-    genero('Horror'),
-    pais('United States'),
-    ano(1973),
-    duracao('2h 2m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('William Friedkin'),
-    atores(['Ellen Burstyn', 'Max von Sydow', 'Linda Blair']).
+filme('War Between the Planets') :-
+    genero(scifi),
+    pais(italy),
+    ano(1966),
+    duracao(1.33),
+    classificacao_imdb(4.1),
+    classificacao_mpa(g),
+    realizador(antonio_margheriti),
+    atores([giacomo_rossi_stuart, ombretta_colli, enzo_fiermonte]).
 
-filme('Variola Vera') :-
-    genero('Drama'),
-    genero('History'),
-    genero('Horror'),
-    pais('Yugoslavia'),
+
+filme('As Long as You''ve Got Your Health') :-
+    genero(satire),
+    genero(comedy),
+    pais(france),
+    ano(1966),
+    duracao(1.28),
+    classificacao_imdb(7.1),
+    classificacao_mpa(not_rated),
+    realizador(pierre_taix),
+    atores([pierre_taix, denise_pronne, simone_fonder]).
+
+filme('An Eye for an Eye') :-
+    genero(western),
+    pais(united_states),
+    ano(1966),
+    duracao(1.77),
+    classificacao_imdb(6.1),
+    classificacao_mpa(approved),
+    realizador(michael_d_moore),
+    atores([robert_lansing, patrick_wayne, slim_pickens]).
+
+
+
+filme('Jesse James Meets Frankenstein''s Daughter') :-
+    genero(horror),
+    genero(scifi),
+    genero(western),
+    pais(united_states),
+    ano(1966),
+    duracao(1.47),
+    classificacao_imdb(3.4),
+    classificacao_mpa(approved),
+    realizador(william_beaudine),
+    atores([john_lupton, narda_onyx, cal_bolder]).
+
+
+filme('Wake Up and Die') :-
+    genero(crime),
+    genero(drama),
+    pais(italy,france),
+    ano(1966),
+    duracao(1.70),
+    classificacao_imdb(6.2),
+    classificacao_mpa(not_rated),
+    realizador(carlo_lizzani),
+    atores([robert_hoffmann, lisa_gastoni, gian_maria_volont]).
+
+
+filme('Movie Madness') :-
+    genero(parody),
+    genero(comedy),
+    pais(united_states),
     ano(1982),
-    duracao('1h 50m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Goran Markovic'),
-    atores(['Rade Serbedzija', 'Erland Josephson', 'Dusica Zegarac']).
+    duracao(1.48),
+    classificacao_imdb(3.2),
+    classificacao_mpa(r),
+    realizador(bob_giraldi,henry_jaglom),
+    atores([peter_riegert, diane_lane, candy_clark]).
 
-filme('Apollo 11') :-
-    genero('History Documentary'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(2019),
-    duracao('1h 33m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('G'),
-    realizador('Todd Douglas Miller'),
-    atores(['Neil Armstrong', 'Mike Collins', 'Buzz Aldrin']).
 
-filme('The Man Who Shot Liberty Valance') :-
-    genero('Classical Western'),
-    genero('Drama'),
-    genero('Western'),
-    pais('United States'),
-    ano(1962),
-    duracao('2h 3m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Approved'),
-    realizador('John Ford'),
-    atores(['James Stewart', 'John Wayne', 'Vera Miles']).
 
-filme('For All Mankind') :-
-    genero('Science  Technology Documentary'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(1989),
-    duracao('1h 20m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Al Reinert'),
-    atores(['Jim Lovell', 'Ken Mattingly', 'Russell Schweickart']).
 
-filme('Lock, Stock and Two Smoking Barrels') :-
-    genero('Farce'),
-    genero('Comedy'),
-    genero('Crime'),
-    pais('United Kingdom, United States'),
-    ano(1998),
-    duracao('1h 47m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('Guy Ritchie'),
-    atores(['Jason Flemyng', 'Dexter Fletcher', 'Nick Moran']).
-
-filme('Amar Prem') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1972),
-    duracao('2h 23m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Shakti Samanta'),
-    atores(['Rajesh Khanna', 'Sharmila Tagore', 'Sujit Kumar']).
-
-filme('The Battle of Chile: Part I') :-
-    genero('History Documentary'),
-    genero('Documentary'),
-    genero('History'),
-    pais('Chile, Cuba'),
-    ano(1975),
-    duracao('1h 37m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Patricio Guzmn'),
-    atores(['Abilio Fernndez', 'Salvador Allende']).
-
-filme('The Miracle Worker') :-
-    genero('Period Drama'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1962),
-    duracao('1h 46m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Approved'),
-    realizador('Arthur Penn'),
-    atores(['Anne Bancroft', 'Patty Duke', 'Victor Jory']).
-
-filme('Munna Bhai M.B.B.S.') :-
-    genero('Medical Drama'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('India'),
-    ano(2003),
-    duracao('2h 36m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Rajkumar Hirani'),
-    atores(['Sanjay Dutt', 'Arshad Warsi', 'Gracy Singh']).
-
-filme('Love, Antosha') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2019),
-    duracao('1h 32m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('Garret Price'),
-    atores(['Anton Yelchin', 'JJ Abrams', 'Sofia Boutella']).
-
-filme('What Is a Woman?') :-
-    genero('Dark Comedy'),
-    genero('Political Documentary'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2022),
-    duracao('1h 35m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Justin Folk'),
-    atores(['Matt Walsh', 'Gert Comfrey', 'Marci Bowers']).
-
-filme('The World According to Allee Willis') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2024),
-    duracao('1h 37m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Alexis Spraic'),
-    atores(['Pamela Adlon', 'Andrae Alexander', 'Stephen Bray']).
-
-filme('Rocky') :-
-    genero('Boxing'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('United States'),
-    ano(1976),
-    duracao('2h'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('PG'),
-    realizador('John G Avildsen'),
-    atores(['Sylvester Stallone', 'Talia Shire', 'Burt Young']).
-
-filme('Trainspotting') :-
-    genero('Dark Comedy'),
-    genero('Psychological Drama'),
-    genero('Drama'),
-    pais('United Kingdom, United States'),
-    ano(1996),
-    duracao('1h 33m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('Danny Boyle'),
-    atores(['Ewan McGregor', 'Ewen Bremner', 'Jonny Lee Miller']).
-
-filme('Chak De! India') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Sport'),
-    pais('India, United States, United Kingdom, Australia'),
-    ano(2007),
-    duracao('2h 33m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Shimit Amin'),
-    atores(['Shah Rukh Khan', 'Vidya Malvade', 'Sagarika Ghatge']).
-
-filme('Fanny and Alexander') :-
-    genero('Period Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('Sweden, France, West Germany'),
+filme('Harry Tracy: The Last of the Wild Bunch') :-
+    genero(drama),
+    genero(western),
+    pais(canada),
     ano(1982),
-    duracao('3h 8m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('Ingmar Bergman'),
-    atores(['Bertil Guve', 'Pernilla Allwin', 'Kristina Adolphson']).
+    duracao(1.78),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg),
+    realizador(william_a_graham),
+    atores([bruce_dern, helen_shaver, michael_c_gwynne]).
 
-filme('Room') :-
-    genero('Psychological Drama'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Ireland, Canada, United Kingdom, United States'),
-    ano(2015),
-    duracao('1h 58m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('Lenny Abrahamson'),
-    atores(['Brie Larson', 'Jacob Tremblay', 'Sean Bridgers']).
 
-filme('The Sorrow and the Pity') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('Switzerland, West Germany'),
-    ano(1969),
-    duracao('4h 11m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('PG'),
-    realizador('Marcel Ophls'),
-    atores(['Helmut Tausend', 'Marcel Verdier', 'Alexis Grave']).
-
-filme('SUGA: Agust D Tour ''D-DAY'' the Movie') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('South Korea'),
-    ano(2024),
-    duracao('1h 24m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Park Junsoo'),
-    atores(['SUGA', 'RM', 'Jimin']).
-
-filme('Rang De Basanti') :-
-    genero('Comedy'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(2006),
-    duracao('2h 47m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Rakeysh Omprakash Mehra'),
-    atores(['Aamir Khan', 'Soha Ali Khan', 'Siddharth']).
-
-filme('The Dawns Here Are Quiet') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Soviet Union'),
-    ano(1972),
-    duracao('3h 8m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('PG-13'),
-    realizador('Stanislav Rostotskiy'),
-    atores(['Andrey Martynov', 'Irina Dolganova', 'Elena Drapeko']).
-
-filme('Manufacturing Consent: Noam Chomsky and the Media') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('War'),
-    pais('Canada, Netherlands, Finland, Norway, Australia'),
-    ano(1992),
-    duracao('2h 47m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Mark Achbar, Peter Wintonick'),
-    atores(['Noam Chomsky', 'Mark Achbar', 'Karin AguilarSan Juan']).
-
-filme('Sabbath Queen') :-
-    genero('Animation'),
-    genero('Biography'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2024),
-    duracao('1h 45m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Sandi Simcha Dubowski'),
-    atores(['']).
-
-filme('Padosan') :-
-    genero('Comedy'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1968),
-    duracao('2h 37m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Jyoti Swaroop'),
-    atores(['Sunil Dutt', 'Saira Banu', 'Mehmood']).
-
-filme('Bill Cosby: Himself') :-
-    genero('StandUp'),
-    genero('Comedy'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(1983),
-    duracao('1h 45m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('PG'),
-    realizador('Bill Cosby'),
-    atores(['Bill Cosby']).
-
-filme('How I Unleashed World War II') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('War'),
-    pais('Poland'),
-    ano(1970),
-    duracao('3h 44m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Tadeusz Chmielewski'),
-    atores(['Marian Kociniak', 'Janina Boronska', 'Adam Cyprian']).
-
-filme('My Octopus Teacher') :-
-    genero('Nature Documentary'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('South Africa'),
+filme('MLK/FBI') :-
+    genero(history_documentary),
+    genero(biography),
+    genero(documentary),
+    genero(history),
+    pais(united_states),
     ano(2020),
-    duracao('1h 25m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('TV-G'),
-    realizador('Pippa Ehrlich, James Reed'),
-    atores(['Craig Foster', 'Tom Foster']).
+    duracao(1.73),
+    classificacao_imdb(7.0),
+    classificacao_mpa(tv-pg),
+    realizador(sam_pollard),
+    atores([shaun_bowman, martin_luther_king, j_edgar_hoover]).
 
-filme('Autumn Sonata') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('Music'),
-    pais('West Germany, United Kingdom'),
-    ano(1978),
-    duracao('1h 39m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('PG'),
-    realizador('Ingmar Bergman'),
-    atores(['Ingrid Bergman', 'Liv Ullmann', 'Lena Nyman']).
-
-filme('Barfi!') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(2012),
-    duracao('2h 31m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Anurag Basu'),
-    atores(['Ranbir Kapoor', 'Priyanka Chopra Jonas', 'Ileana DCruz']).
-
-filme('Network') :-
-    genero('Dark Comedy'),
-    genero('Workplace Drama'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1976),
-    duracao('2h 1m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('R'),
-    realizador('Sidney Lumet'),
-    atores(['Faye Dunaway', 'William Holden', 'Peter Finch']).
-
-filme('Kishkindha Kaandam') :-
-    genero('Drama'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2024),
-    duracao('2h 13m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Dinjith Ayyathan'),
-    atores(['Asif Ali', 'Vijayaraghavan', 'Aparna Balamurali']).
-
-filme('Roja') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1992),
-    duracao('2h 17m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Mani Ratnam'),
-    atores(['Arvind Swamy', 'Madhoo', 'Pankaj Kapur']).
-
-filme('History of Jazz: Oxygen for the Ears') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('United States'),
-    ano(2012),
-    duracao('1h 34m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('Not Rated'),
-    realizador('Stefan Immler'),
-    atores(['Esperanza Spalding', 'Elew', 'Ravi Coltrane']).
-
-filme('Woe to the Young') :-
-    genero('Drama'),
-    genero('Fantasy'),
-    genero('Romance'),
-    pais('Greece'),
-    ano(1961),
-    duracao('1h 27m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('NaN'),
-    realizador('Alekos Sakellarios'),
-    atores(['Dimitris Horn', 'Maro Kodou', 'Smaro Stefanidou']).
-
-filme('Anne Frank Remembered') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('War'),
-    pais('United Kingdom, United States, Netherlands'),
-    ano(1995),
-    duracao('1h 57m'),
-    classificacao_imdb(8.1),
-    classificacao_mpa('PG'),
-    realizador('Jon Blair'),
-    atores(['Kenneth Branagh', 'Glenn Close', 'Isa Baschwitz']).
-
-filme('Requiem for the American Dream') :-
-    genero('News'),
-    genero('Biography'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2015),
-    duracao('1h 13m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Peter D Hutchison, Kelly Nyks, Jared P Scott'),
-    atores(['Spiro Agnew', 'William F Buckley', 'Noam Chomsky']).
-
-filme('The Garage') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Soviet Union'),
-    ano(1980),
-    duracao('1h 36m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Eldar Ryazanov'),
-    atores(['Alla Budnitskaya', 'Eldar Ryazanov', 'Lyudmila Tsvetkova']).
-
-filme('The Exterminating Angel') :-
-    genero('Dark Comedy'),
-    genero('Drama'),
-    genero('Fantasy'),
-    pais('Mexico'),
-    ano(1962),
-    duracao('1h 35m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Luis Buuel'),
-    atores(['Silvia Pinal', 'Jacqueline Andere', 'Enrique Rambal']).
-
-filme('Ivan''s Childhood') :-
-    genero('ComingofAge'),
-    genero('Drama'),
-    genero('War'),
-    pais('Soviet Union'),
-    ano(1962),
-    duracao('1h 35m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Andrei Tarkovsky, Eduard Abalov'),
-    atores(['Nikolay Burlyaev', 'Valentin Zubkov', 'Evgeniy Zharikov']).
-
-filme('Perlasca') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('Germany'),
-    ano(1993),
-    duracao('1h 34m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Nina Gladitz'),
-    atores(['Amelia InglesFernandez', 'Giorgio Perlasca']).
-
-filme('Haider') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2014),
-    duracao('2h 40m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Vishal Bhardwaj'),
-    atores(['Shahid Kapoor', 'Tabu', 'Shraddha Kapoor']).
-
-filme('Quo Vadis, Aida?') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Bosnia and Herzegovina, Austria, Romania, Netherlands, Germany, Poland, France, Turkey, Norway, Croatia, Sweden, Montenegro, Italy'),
+filme('Minyan') :-
+    genero(drama),
+    pais(united_states),
     ano(2020),
-    duracao('1h 41m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('TV-MA'),
-    realizador('Jasmila Zbanic'),
-    atores(['Jasna Djuricic', 'Izudin Bajrovic', 'Boris Ler']).
+    duracao(1.97),
+    classificacao_imdb(6.5),
+    classificacao_mpa(unrated),
+    realizador(eric_steel),
+    atores([samuel_h_levine, ron_rifkin, christopher_mccann]).
 
-filme('Amores Perros') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Mexico'),
-    ano(2000),
-    duracao('2h 34m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('R'),
-    realizador('Alejandro G Irritu'),
-    atores(['Emilio Echevarra', 'Gael Garca Bernal', 'Goya Toledo']).
+filme('The Old Guard') :-
+    genero(globetrotting_adventure),
+    genero(superhero),
+    genero(action),
+    genero(thriller),
+    pais(united_states,france,iceland,united_kingdom,morocco,canada),
+    ano(2020),
+    duracao(2.08),
+    classificacao_imdb(6.7),
+    classificacao_mpa(r),
+    realizador(gina_princebythewood),
+    atores([charlize_theron, kiki_layne, matthias_schoenaerts]).
 
-filme('The Sea Inside') :-
-    genero('Psychological Drama'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('Spain, France, Italy'),
-    ano(2004),
-    duracao('2h 6m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG-13'),
-    realizador('Alejandro Amenbar'),
-    atores(['Javier Bardem', 'Beln Rueda', 'Lola Dueas']).
+filme('Run') :-
+    genero(psychological_thriller),
+    genero(suspense_mystery),
+    genero(drama),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states,canada),
+    ano(2020),
+    duracao(1.50),
+    classificacao_imdb(6.7),
+    classificacao_mpa(pg-13),
+    realizador(aneesh_chaganty),
+    atores([sarah_paulson, kiera_allen, sara_sohn]).
 
-filme('Sin City') :-
-    genero('Serial Killer'),
-    genero('Crime'),
-    genero('Thriller'),
-    pais('United States'),
-    ano(2005),
-    duracao('2h 4m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('R'),
-    realizador('Frank Miller, Quentin Tarantino, Robert Rodriguez'),
-    atores(['Mickey Rourke', 'Clive Owen', 'Bruce Willis']).
+filme('The Very Excellent Mr. Dundee') :-
+    genero(comedy),
+    pais(australia,united_states),
+    ano(2020),
+    duracao(1.47),
+    classificacao_imdb(5.0),
+    classificacao_mpa(pg-13),
+    realizador(dean_murphy),
+    atores([paul_hogan, dorothy_adams, trudy_ager]).
 
-filme('G.O.R.A.') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('SciFi'),
-    pais('Turkey'),
-    ano(2004),
-    duracao('2h 7m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('mer Faruk Sorak'),
-    atores(['Cem Yilmaz', 'zge zberk', 'Ozan Gven']).
+filme('Palm Swings') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2020),
+    duracao(1.58),
+    classificacao_imdb(4.4),
+    classificacao_mpa(unrated),
+    realizador(sean_hoessli),
+    atores([tia_carrere, diane_farr, jason_lewis]).
 
-filme('The Organizer') :-
-    genero('Workplace Drama'),
-    genero('Drama'),
-    genero('History'),
-    pais('Italy, France, Yugoslavia'),
-    ano(1963),
-    duracao('2h 6m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Mario Monicelli'),
-    atores(['Marcello Mastroianni', 'Renato Salvatori', 'Gabriella Giorgelli']).
+filme('#Alive') :-
+    genero(zombie_horror),
+    genero(action),
+    genero(drama),
+    genero(horror),
+    genero(thriller),
+    pais(south_korea),
+    ano(2020),
+    duracao(1.63),
+    classificacao_imdb(6.3),
+    classificacao_mpa(tv-ma),
+    realizador(il_cho,jo_il_hyung),
+    atores([yoo_ahin, park_shinhye, jeon_baesoo]).
 
-filme('Utharam') :-
-    genero('Drama'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1989),
-    duracao('nan'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('VK Pavithran'),
-    atores(['Mammootty', 'Sukumaran', 'Parvathi']).
 
-filme('Fitzcarraldo') :-
-    genero('Jungle Adventure'),
-    genero('Adventure'),
-    genero('Drama'),
-    pais('West Germany, Peru'),
-    ano(1982),
-    duracao('2h 38m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG'),
-    realizador('Werner Herzog'),
-    atores(['Klaus Kinski', 'Claudia Cardinale', 'Jos Lewgoy']).
+filme('The Sleepover') :-
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    genero(family),
+    pais(united_states),
+    ano(2020),
+    duracao(1.67),
+    classificacao_imdb(5.7),
+    classificacao_mpa(tv-pg),
+    realizador(trish_sie),
+    atores([sadie_stanley, maxwell_simkins, cree]).
 
-filme('State buoni se potete') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('History'),
-    pais('Italy'),
-    ano(1983),
-    duracao('1h 55m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Luigi Magni'),
-    atores(['Johnny Dorelli', 'Philippe Leroy', 'Rodolfo Bigotti']).
+filme('A Whisker Away') :-
+    genero(anime),
+    genero(adventure),
+    genero(animation),
+    genero(drama),
+    genero(family),
+    genero(fantasy),
+    genero(romance),
+    pais(japan),
+    ano(2020),
+    duracao(1.73),
+    classificacao_imdb(6.7),
+    classificacao_mpa(tv-pg),
+    realizador(junichi_sat,tomotaka_shibayama),
+    atores([mirai_shida, natsuki_hanae, minako_kotobuki]).
 
-filme('Forest of the Hanged') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('War'),
-    pais('Romania'),
-    ano(1965),
-    duracao('2h 34m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Liviu Ciulei'),
-    atores(['Victor Rebengiuc', 'Liviu Ciulei', 'Stefan Ciubotarasu']).
+filme('Original Gangster') :-
+    genero(crime),
+    pais(united_kingdom),
+    ano(2020),
+    duracao(1.83),
+    classificacao_imdb(5.0),
+    classificacao_mpa(tv-ma),
+    realizador(savvas_d_michael),
+    atores([steve_guttenberg, ian_reddington, vas_blackwood]).
 
-filme('The Diving Bell and the Butterfly') :-
-    genero('Medical Drama'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('France, United States'),
-    ano(2007),
-    duracao('1h 52m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG-13'),
-    realizador('Julian Schnabel'),
-    atores(['Mathieu Amalric', 'Emmanuelle Seigner', 'MarieJose Croze']).
 
-filme('Vizontele') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('History'),
-    pais('Turkey'),
-    ano(2001),
-    duracao('1h 50m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Yilmaz Erdogan, mer Faruk Sorak'),
-    atores(['Yilmaz Erdogan', 'Demet Akbag', 'Altan Erkekli']).
+filme('Love Sarah') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_kingdom),
+    ano(2020),
+    duracao(1.62),
+    classificacao_imdb(6.2),
+    classificacao_mpa(not_rated),
+    realizador(eliza_schroeder),
+    atores([celia_imrie, shannon_tarbet, shelley_conn]).
 
-filme('Depeche Mode: 101') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom, United States'),
-    ano(1989),
-    duracao('2h'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('R'),
-    realizador('David Dawkins, Chris Hegedus, DA Pennebaker'),
-    atores(['Andrew Fletcher', 'Dave Gahan', 'Martin Gore']).
+filme('Sky High') :-
+    genero(thriller),
+    pais(spain),
+    ano(2020),
+    duracao(2.02),
+    classificacao_imdb(5.6),
+    classificacao_mpa(tv-ma),
+    realizador(daniel_calparsoro),
+    atores([miguel_herrn, carolina_yuste, asia_ortega]).
 
-filme('Central Station') :-
-    genero('Road Trip'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('Brazil, France'),
-    ano(1998),
-    duracao('1h 50m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('R'),
-    realizador('Walter Salles'),
-    atores(['Fernanda Montenegro', 'Vincius de Oliveira', 'Marlia Pra']).
 
-filme('Isten hozta örnagy úr') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Hungary'),
-    ano(1969),
-    duracao('1h 35m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Zoltn Fbri'),
-    atores(['Zoltn Latinovits', 'Imre Sinkovits', 'Mrta Fnay']).
 
-filme('Tae Guk Gi: The Brotherhood of War') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('War'),
-    pais('South Korea'),
-    ano(2004),
-    duracao('2h 20m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('R'),
-    realizador('Kang Jekyu'),
-    atores(['Jang Donggun', 'Won Bin', 'Lee Eunju']).
+filme('Abraham Lincoln: Vampire Hunter') :-
+    genero(dark_fantasy),
+    genero(vampire_horror),
+    genero(action),
+    genero(fantasy),
+    genero(horror),
+    pais(united_states,russia),
+    ano(2012),
+    duracao(1.75),
+    classificacao_imdb(5.9),
+    classificacao_mpa(r),
+    realizador(timur_bekmambetov),
+    atores([benjamin_walker, rufus_sewell, dominic_cooper]).
 
-filme('Sign ''o'' the Times') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States, Canada'),
-    ano(1987),
-    duracao('1h 25m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG-13'),
-    realizador('Prince, David Hogan, Albert Magnoli'),
-    atores(['Prince', 'Sheila E', 'Sheena Easton']).
+filme('The Impossible') :-
+    genero(disaster),
+    genero(tragedy),
+    genero(drama),
+    genero(history),
+    genero(thriller),
+    pais(spain,thailand,united_states),
+    ano(2012),
+    duracao(1.90),
+    classificacao_imdb(7.5),
+    classificacao_mpa(pg-13),
+    realizador(ja_bayona),
+    atores([naomi_watts, ewan_mcgregor, tom_holland]).
 
-filme('Stalker') :-
-    genero('Dystopian SciFi'),
-    genero('Drama'),
-    genero('SciFi'),
-    pais('Soviet Union'),
-    ano(1979),
-    duracao('2h 42m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Andrei Tarkovsky'),
-    atores(['Alisa Freyndlikh', 'Aleksandr Kaydanovskiy', 'Anatoliy Solonitsyn']).
+filme('Man on a Ledge') :-
+    genero(dark_comedy),
+    genero(action),
+    genero(crime),
+    genero(thriller),
+    pais(united_states),
+    ano(2012),
+    duracao(1.70),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg-13),
+    realizador(asger_leth),
+    atores([sam_worthington, elizabeth_banks, jamie_bell]).
 
-filme('A Difficult Life') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('Italy'),
-    ano(1961),
-    duracao('1h 58m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Dino Risi'),
-    atores(['Alberto Sordi', 'Lea Massari', 'Franco Fabrizi']).
+filme('Evangelion: 3.0 You Can (Not) Redo') :-
+    genero(adult_animation),
+    genero(anime),
+    genero(mecha),
+    genero(action),
+    genero(animation),
+    genero(drama),
+    genero(scifi),
+    pais(japan),
+    ano(2012),
+    duracao(1.60),
+    classificacao_imdb(6.9),
+    classificacao_mpa(tv-14),
+    realizador(mahiro_maeda,masayuki,kazuya_tsurumaki),
+    atores([megumi_ogata, megumi_hayashibara, yko_miyamura]).
 
-filme('Waiting for the Hearse') :-
-    genero('Dark Comedy'),
-    genero('Satire'),
-    genero('Comedy'),
-    pais('Argentina'),
-    ano(1985),
-    duracao('1h 34m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Alejandro Doria'),
-    atores(['Luis Brandoni', 'China Zorrilla', 'Antonio Gasalla']).
+filme('Our Children') :-
+    genero(crime),
+    genero(drama),
+    pais(belgium,luxembourg,france,switzerland),
+    ano(2012),
+    duracao(1.85),
+    classificacao_imdb(6.8),
+    classificacao_mpa(not_rated),
+    realizador(joachim_lafosse),
+    atores([milie_dequenne, claire_bodson, niels_arestrup]).
 
-filme('Lucky Baskhar') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2024),
-    duracao('2h 50m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Venky Atluri'),
-    atores(['Dulquer Salmaan', 'Meenaakshi Chaudhary', 'Tinnu Anand']).
-
-filme('The New Land') :-
-    genero('Period Drama'),
-    genero('Drama'),
-    genero('Western'),
-    pais('Sweden'),
-    ano(1972),
-    duracao('1h 42m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG'),
-    realizador('Jan Troell'),
-    atores(['Max von Sydow', 'Liv Ullmann', 'Eddie Axberg']).
-
-filme('La Commune (Paris, 1871)') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('France'),
-    ano(2000),
-    duracao('5h 45m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Peter Watkins'),
-    atores(['Eliane Annie Adalto', 'Pierre Barbieux', 'Bernard Bombeau']).
-
-filme('Moscow Does Not Believe in Tears') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1980),
-    duracao('2h 30m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG'),
-    realizador('Vladimir Menshov'),
-    atores(['Vera Alentova', 'Aleksey Batalov', 'Irina Muravyova']).
-
-filme('The King of Kong: A Fistful of Quarters') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Sport'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 19m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG-13'),
-    realizador('Seth Gordon'),
-    atores(['Steve Wiebe', 'Billy Mitchell', 'Mark Alpiger']).
-
-filme('Richard Pryor: Live in Concert') :-
-    genero('StandUp'),
-    genero('Comedy'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(1979),
-    duracao('1h 18m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Jeff Margolis'),
-    atores(['Richard Pryor', 'Patti LaBelle', 'Huey P Newton']).
-
-filme('Black Cat, White Cat') :-
-    genero('Comedy'),
-    genero('Crime'),
-    genero('Romance'),
-    pais('France, Germany, Federal Republic of Yugoslavia, Austria, Greece'),
-    ano(1998),
-    duracao('2h 7m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('R'),
-    realizador('Emir Kusturica'),
-    atores(['Bajram Severdzan', 'Srdjan Zika Todorovic', 'Branka Katic']).
-
-filme('Ang TV Movie: The Adarna Adventure') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('Fantasy'),
-    pais('Philippines'),
-    ano(1996),
-    duracao('1h 40m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('TV-PG'),
-    realizador('Johnny Manahan'),
-    atores(['Nida Blanca', 'Tirso Cruz III', 'Dindo Arroyo']).
-
-filme('Veronica') :-
-    genero('Family'),
-    genero('Fantasy'),
-    genero('Musical'),
-    pais('Romania'),
-    ano(1973),
-    duracao('1h 34m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Elisabeta Bostan'),
-    atores(['Lulu Mihaescu', 'Margareta Pslaru', 'Dem Radulescu']).
-
-filme('Werckmeister Harmonies') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('Mystery'),
-    pais('Hungary, Italy, Germany, France'),
-    ano(2000),
-    duracao('2h 25m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Bla Tarr, gnes Hranitzky'),
-    atores(['Lars Rudolph', 'Peter Fitz', 'Hanna Schygulla']).
-
-filme('The Pursuit of Happyness') :-
-    genero('Workplace Drama'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('United States'),
-    ano(2006),
-    duracao('1h 57m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG-13'),
-    realizador('Gabriele Muccino'),
-    atores(['Will Smith', 'Thandiwe Newton', 'Jaden Smith']).
-
-filme('The Legend of 1900') :-
-    genero('Drama'),
-    genero('Music'),
-    genero('Romance'),
-    pais('Italy'),
-    ano(1998),
-    duracao('2h 49m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('R'),
-    realizador('Giuseppe Tornatore'),
-    atores(['Tim Roth', 'Pruitt Taylor Vince', 'Mlanie Thierry']).
-
-filme('Watch Out for the Automobile') :-
-    genero('Comedy'),
-    genero('Crime'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1966),
-    duracao('1h 34m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Eldar Ryazanov'),
-    atores(['Innokentiy Smoktunovskiy', 'Oleg Efremov', 'Lyubov Dobrzhanskaya']).
-
-filme('The Wonderful, Horrible Life of Leni Riefenstahl') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('Germany, Belgium, United Kingdom, France'),
-    ano(1993),
-    duracao('3h 3m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Ray Mller'),
-    atores(['Leni Riefenstahl', 'Marlene Dietrich', 'Arnold Fanck']).
-
-filme('Videograms of a Revolution') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('Germany, Romania'),
-    ano(1992),
-    duracao('1h 46m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Harun Farocki, Andrei Ujica'),
-    atores(['Ion Caramitru', 'Elena Ceausescu', 'Nicolae Ceausescu']).
-
-filme('M.S. Dhoni: The Untold Story') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('India'),
-    ano(2016),
-    duracao('3h 4m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Mathur Goswami, Neeraj Pandey'),
-    atores(['Sushant Singh Rajput', 'Kiara Advani', 'Disha Patani']).
-
-filme('Sahasra Siracheda Apoorva Chinthamani') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1960),
-    duracao('2h 16m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('SD Lal'),
-    atores(['Kanta Rao', 'Devika', 'Rajanala']).
-
-filme('Hey Ram') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('History'),
-    pais('India'),
-    ano(2000),
-    duracao('3h 6m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Kamal Haasan'),
-    atores(['Kamal Haasan', 'Shah Rukh Khan', 'Rani Mukerji']).
-
-filme('Le Samouraï') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('France, Italy'),
-    ano(1967),
-    duracao('1h 41m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('GP'),
-    realizador('JeanPierre Melville'),
-    atores(['Alain Delon', 'Franois Prier', 'Nathalie Delon']).
-
-filme('The Emigrants') :-
-    genero('Period Drama'),
-    genero('Drama'),
-    genero('History'),
-    pais('Sweden'),
-    ano(1971),
-    duracao('2h 31m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG'),
-    realizador('Jan Troell'),
-    atores(['Max von Sydow', 'Liv Ullmann', 'Eddie Axberg']).
-
-filme('Lion') :-
-    genero('ComingofAge'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('India, United Kingdom, Australia, United States'),
-    ano(2016),
-    duracao('1h 58m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('PG-13'),
-    realizador('Garth Davis'),
-    atores(['Dev Patel', 'Nicole Kidman', 'Rooney Mara']).
-
-filme('Vuk samotnjak') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('Family'),
-    pais('Yugoslavia'),
-    ano(1972),
-    duracao('1h 30m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('NaN'),
-    realizador('Obrad Gluscevic'),
-    atores(['Slavko Stimac', 'Zeljko Mataija', 'Ivan Stimac']).
-
-filme('The Brawler') :-
-    genero('Boxing'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('India'),
+filme('Star Wars: Episode VIII - The Last Jedi') :-
+    genero(action_epic),
+    genero(adventure_epic),
+    genero(fantasy_epic),
+    genero(scifi_epic),
+    genero(space_scifi),
+    genero(action),
+    genero(adventure),
+    genero(fantasy),
+    genero(scifi),
+    pais(united_states),
     ano(2017),
-    duracao('2h 34m'),
-    classificacao_imdb(8.0),
-    classificacao_mpa('Not Rated'),
-    realizador('Anurag Kashyap, Jay Dev Banerjee'),
-    atores(['Vineet Kumar Singh', 'Jimmy Shergill', 'Zoya Hussain']).
+    duracao(2.53),
+    classificacao_imdb(6.9),
+    classificacao_mpa(pg-13),
+    realizador(rian_johnson),
+    atores([daisy_ridley, john_boyega, mark_hamill]).
 
-filme('The Expedition') :-
-    genero('Crime'),
-    genero('Family'),
-    genero('Romance'),
-    pais('India'),
-    ano(1962),
-    duracao('2h 30m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Satyajit Ray'),
-    atores(['Soumitra Chatterjee', 'Waheeda Rehman', 'Ruma Guha Thakurta']).
-
-filme('Bill W.') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States, Canada'),
-    ano(2012),
-    duracao('1h 44m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Unrated'),
-    realizador('Dan Carracino, Kevin Hanlon'),
-    atores(['Bill Wilson', 'Dr Bob', 'Blake J Evans']).
-
-filme('Vaishali') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1989),
-    duracao('2h 13m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Bharathan'),
-    atores(['Sanjay Mitra', 'Suparna Anand', 'Geetha']).
-
-filme('A Fistful of Dollars') :-
-    genero('Spaghetti Western'),
-    genero('Drama'),
-    genero('Western'),
-    pais('Italy, Spain, West Germany'),
-    ano(1964),
-    duracao('1h 39m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('R'),
-    realizador('Sergio Leone'),
-    atores(['Clint Eastwood', 'Gian Maria Volont', 'Marianne Koch']).
-
-filme('The Thin Blue Line') :-
-    genero('Crime Documentary'),
-    genero('Crime'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(1988),
-    duracao('1h 41m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Errol Morris'),
-    atores(['Randall Adams', 'David Harris', 'Gus Rose']).
-
-filme('On Board') :-
-    genero('Dark Comedy'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('Turkey'),
-    ano(1998),
-    duracao('1h 42m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Serdar Akar'),
-    atores(['Erkan Can', 'Haldun Boysan', 'Yildiray Sahinler']).
-
-filme('Jatt Jeona Mour') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(1992),
-    duracao('2h 29m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Ravinder Ravi'),
-    atores(['Guggu Gill', 'Gurkirtan', 'Manjeet Kular']).
-
-filme('Wonder') :-
-    genero('ComingofAge'),
-    genero('Drama'),
-    genero('Family'),
-    pais('United States, Hong Kong, Canada'),
+filme('Kingsman: The Golden Circle') :-
+    genero(drug_crime),
+    genero(satire),
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    genero(crime),
+    genero(thriller),
+    pais(united_kingdom,united_states,italy),
     ano(2017),
-    duracao('1h 53m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG'),
-    realizador('Stephen Chbosky'),
-    atores(['Jacob Tremblay', 'Owen Wilson', 'Izabela Vidovic']).
+    duracao(2.35),
+    classificacao_imdb(6.7),
+    classificacao_mpa(r),
+    realizador(matthew_vaughn),
+    atores([taron_egerton, colin_firth, mark_strong]).
 
-filme('Marley') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom, United States'),
-    ano(2012),
-    duracao('2h 24m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG-13'),
-    realizador('Kevin Macdonald'),
-    atores(['Bob Marley', 'Ziggy Marley', 'Rita Marley']).
+filme('Captain Underpants: The First Epic Movie') :-
+    genero(buddy_comedy),
+    genero(computer_animation),
+    genero(farce),
+    genero(highconcept_comedy),
+    genero(parody),
+    genero(slapstick),
+    genero(superhero),
+    genero(urban_adventure),
+    genero(action),
+    genero(adventure),
+    pais(united_states,canada,france),
+    ano(2017),
+    duracao(1.48),
+    classificacao_imdb(6.2),
+    classificacao_mpa(pg),
+    realizador(david_soren),
+    atores([kevin_hart, thomas_middleditch, ed_helms]).
 
-filme('Cría Cuervos') :-
-    genero('ComingofAge'),
-    genero('Psychological Drama'),
-    genero('Drama'),
-    pais('Spain'),
-    ano(1976),
-    duracao('1h 45m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG'),
-    realizador('Carlos Saura'),
-    atores(['Ana Torrent', 'Conchita Prez', 'Mayte Sanchez']).
+filme('Happy Death Day') :-
+    genero(dark_comedy),
+    genero(slasher_horror),
+    genero(teen_horror),
+    genero(comedy),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(2017),
+    duracao(1.60),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg-13),
+    realizador(christopher_landon),
+    atores([jessica_rothe, israel_broussard, ruby_modine]).
 
-filme('Seduced and Abandoned') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Italy, France'),
-    ano(1964),
-    duracao('1h 55m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Pietro Germi'),
-    atores(['Saro Urz', 'Stefania Sandrelli', 'Aldo Puglisi']).
+filme('The Circle') :-
+    genero(conspiracy_thriller),
+    genero(cyber_thriller),
+    genero(drama),
+    genero(mystery),
+    genero(scifi),
+    genero(thriller),
+    pais(united_arab_emirates,united_states,france),
+    ano(2017),
+    duracao(1.83),
+    classificacao_imdb(5.4),
+    classificacao_mpa(pg-13),
+    realizador(james_ponsoldt),
+    atores([emma_watson, tom_hanks, john_boyega]).
 
-filme('Two Half-Times in Hell') :-
-    genero('Drama'),
-    genero('Sport'),
-    genero('War'),
-    pais('Hungary'),
-    ano(1961),
-    duracao('2h 20m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Zoltn Fbri'),
-    atores(['Imre Sinkovits', 'Dezs Garas', 'Lszl Mrkus']).
+filme('Phoenix Forgotten') :-
+    genero(found_footage_horror),
+    genero(horror),
+    genero(mystery),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states),
+    ano(2017),
+    duracao(1.45),
+    classificacao_imdb(5.4),
+    classificacao_mpa(pg-13),
+    realizador(justin_barber),
+    atores([florence_hartigan, luke_spencer_roberts, chelsea_lopez]).
 
-filme('Wings of Desire') :-
-    genero('Drama'),
-    genero('Fantasy'),
-    genero('Romance'),
-    pais('West Germany, France'),
-    ano(1987),
-    duracao('2h 8m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG-13'),
-    realizador('Wim Wenders'),
-    atores(['Bruno Ganz', 'Solveig Dommartin', 'Otto Sander']).
+filme('The Rider') :-
+    genero(drama),
+    genero(western),
+    pais(united_states),
+    ano(2017),
+    duracao(1.73),
+    classificacao_imdb(7.4),
+    classificacao_mpa(r),
+    realizador(chlo_zhao),
+    atores([brady_jandreau, mooney, tim_jandreau]).
 
-filme('Anjaam Pathiraa') :-
-    genero('Crime'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2020),
-    duracao('2h 24m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Midhun Manuel Thomas'),
-    atores(['Kunchacko Boban', 'Jinu Joseph', 'Unnimaya Prasad']).
-
-filme('Massoud, l''Afghan') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('France'),
-    ano(1998),
-    duracao('1h 29m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Christophe de Ponfilly'),
-    atores(['Christophe de Ponfilly', 'Ahmad Shah Massoud', 'Merabuddine']).
-
-filme('Being There') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1979),
-    duracao('2h 10m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG'),
-    realizador('Hal Ashby'),
-    atores(['Peter Sellers', 'Shirley MacLaine', 'Melvyn Douglas']).
-
-filme('Ballets Russes') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('United States'),
-    ano(2005),
-    duracao('1h 58m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Daniel Geller, Dayna Goldfine'),
-    atores(['Irina Baronova', 'Kenneth Kynt Bryan', 'Yvonne Chouteau']).
-
-filme('My Son, the Hero') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('Western'),
-    pais('Mexico'),
-    ano(1961),
-    duracao('1h 35m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Ismael Rodrguez'),
-    atores(['Antonio Aguilar', 'Julio Alemn', 'Columba Domnguez']).
-
-filme('Gully Boy') :-
-    genero('Drama'),
-    genero('Music'),
-    genero('Romance'),
-    pais('India'),
-    ano(2019),
-    duracao('2h 34m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Zoya Akhtar'),
-    atores(['Ranveer Singh', 'Alia Bhatt', 'Siddhant Chaturvedi']).
-
-filme('BTS Permission to Dance on Stage - Seoul: Live Viewing') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('nan'),
-    ano(2022),
-    duracao('3h 15m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('TV-14'),
-    realizador('Ha Jung Jae'),
-    atores(['BTS']).
-
-filme('My Love, Don''t Cross That River') :-
-    genero('Documentary'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('South Korea'),
-    ano(2014),
-    duracao('1h 26m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Moyoung Jin'),
-    atores(['Byeongman Jo', 'Gyeyeol Kang']).
-
-filme('I Am Not Your Negro') :-
-    genero('History Documentary'),
-    genero('Documentary'),
-    genero('History'),
-    pais('France, United States, Belgium, Switzerland'),
-    ano(2016),
-    duracao('1h 33m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG-13'),
-    realizador('Raoul Peck'),
-    atores(['Samuel L Jackson', 'James Baldwin', 'Martin Luther King']).
-
-filme('4 Months, 3 Weeks and 2 Days') :-
-    genero('Period Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('Romania, Netherlands'),
-    ano(2007),
-    duracao('1h 53m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Cristian Mungiu'),
-    atores(['Anamaria Marinca', 'Laura Vasiliu', 'Vlad Ivanov']).
-
-filme('Love and Doves') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1985),
-    duracao('1h 47m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Vladimir Menshov'),
-    atores(['Aleksandr Mikhaylov', 'Nina Doroshina', 'Lyudmila Gurchenko']).
-
-filme('Tupac: Resurrection') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2003),
-    duracao('1h 52m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('R'),
-    realizador('Lauren Lazin'),
-    atores(['Tupac Shakur', 'Rappin 4Tay', 'Conrad Bain']).
-
-filme('Sathyaa') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(1988),
-    duracao('2h 27m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Suresh Krishna'),
-    atores(['Kamal Haasan', 'Amala Akkineni', 'Bahadur']).
-
-filme('Annie Hall') :-
-    genero('Romantic Comedy'),
-    genero('Comedy'),
-    genero('Romance'),
-    pais('United States'),
-    ano(1977),
-    duracao('1h 33m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG'),
-    realizador('Woody Allen'),
-    atores(['Woody Allen', 'Diane Keaton', 'Tony Roberts']).
-
-filme('Ali Baba Bujang Lapok') :-
-    genero('Comedy'),
-    genero('Fantasy'),
-    genero('Musical'),
-    pais('Singapore'),
-    ano(1961),
-    duracao('2h 2m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('P Ramlee'),
-    atores(['P Ramlee', 'Aziz Sattar', 'S Shamsuddin']).
-
-filme('Chashme Buddoor') :-
-    genero('Comedy'),
-    genero('Family'),
-    genero('Romance'),
-    pais('India'),
-    ano(1981),
-    duracao('2h 25m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Sai Paranjpye'),
-    atores(['Farooq Shaikh', 'Deepti Naval', 'Saeed Jaffrey']).
-
-filme('Teesri Kasam') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1966),
-    duracao('2h 39m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Basu Bhattacharya'),
-    atores(['Raj Kapoor', 'Waheeda Rehman', 'Dulari']).
-
-filme('Waitress: The Musical') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Musical'),
-    pais('United States, United Kingdom'),
-    ano(2023),
-    duracao('2h 24m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Diane Paulus, Brett Sullivan'),
-    atores(['Sara Bareilles', 'Drew Gehling', 'Charity Angl Dawson']).
-
-filme('Bang! The Bert Berns Story') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('Ireland, United Kingdom, United States'),
-    ano(2016),
-    duracao('1h 34m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Brett Berns, Bob Sarles'),
-    atores(['Brooks Arthur', 'Jeff Barry', 'Solomon Burke']).
-
-filme('West of Memphis') :-
-    genero('Crime Documentary'),
-    genero('Crime'),
-    genero('Documentary'),
-    pais('New Zealand, United States'),
-    ano(2012),
-    duracao('2h 27m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('R'),
-    realizador('Amy Berg'),
-    atores(['Jason Baldwin', 'Damien Wayne Echols', 'Jessie Misskelley']).
-
-filme('Hachi-ko') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Family'),
-    pais('Japan'),
-    ano(1987),
-    duracao('1h 47m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Seijir Kyama'),
-    atores(['Tatsuya Nakadai', 'Kaoru Yachigusa', 'Toshir Yanagiba']).
-
-filme('Elvis: That''s the Way It Is') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(1970),
-    duracao('1h 37m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG'),
-    realizador('Denis Sanders'),
-    atores(['Elvis Presley', 'James Burton', 'Glen D Hardin']).
-
-filme('Bob Dylan: Dont Look Back') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(1967),
-    duracao('1h 36m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('DA Pennebaker'),
-    atores(['Bob Dylan', 'Albert Grossman', 'Bob Neuwirth']).
-
-filme('Interrogation') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Poland'),
-    ano(1989),
-    duracao('1h 58m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('TV-MA'),
-    realizador('Ryszard Bugajski'),
-    atores(['Krystyna Janda', 'Adam Ferency', 'Janusz Gajos']).
-
-filme('Bill Cunningham: New York') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(2010),
-    duracao('1h 24m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Richard Press'),
-    atores(['Bill Cunningham', 'Anna Wintour', 'Michael Kors']).
-
-filme('The House I Live In') :-
-    genero('Drug Crime'),
-    genero('Crime'),
-    genero('Documentary'),
-    pais('Netherlands, United Kingdom, Germany, Japan, Australia, United States'),
-    ano(2012),
-    duracao('1h 38m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Eugene Jarecki'),
-    atores(['Eugene Jarecki', 'David Simon', 'Shanequa Benitez']).
-
-filme('The Twilight Zone: A 60th Anniversary Celebration') :-
-    genero('Drama'),
-    genero('Fantasy'),
-    genero('Horror'),
-    pais('United States'),
-    ano(2019),
-    duracao('3h'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('nan'),
-    atores(['']).
-
-filme('Trilogia: To livadi pou dakryzei') :-
-    genero('Drama'),
-    genero('History'),
-    genero('Romance'),
-    pais('Greece, France, Italy, Germany'),
-    ano(2004),
-    duracao('2h 50m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Theodoros Angelopoulos'),
-    atores(['Alexandra Aidini', 'Nikos Poursanidis', 'Giorgos Armenis']).
-
-filme('Boogie Nights') :-
-    genero('Period Drama'),
-    genero('Showbiz Drama'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1997),
-    duracao('2h 35m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('R'),
-    realizador('Paul Thomas Anderson'),
-    atores(['Mark Wahlberg', 'Julianne Moore', 'Burt Reynolds']).
-
-filme('Nine Queens') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Argentina'),
-    ano(2000),
-    duracao('1h 54m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('R'),
-    realizador('Fabin Bielinsky'),
-    atores(['Ricardo Darn', 'Gastn Pauls', 'Graciela Tenenbaum']).
-
-filme('The Alpinist') :-
-    genero('Sports Documentary'),
-    genero('Biography'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2021),
-    duracao('1h 32m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('PG-13'),
-    realizador('Peter Mortimer, Nick Rosen'),
-    atores(['MarcAndr Leclerc', 'Peter Mortimer', 'Alex Honnold']).
-
-filme('The Sword of Doom') :-
-    genero('Samurai'),
-    genero('Action'),
-    genero('Drama'),
-    pais('Japan'),
-    ano(1966),
-    duracao('2h'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Kihachi Okamoto'),
-    atores(['Tatsuya Nakadai', 'Michiyo Aratama', 'Yz Kayama']).
-
-filme('Dev.D') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(2009),
-    duracao('2h 24m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Anurag Kashyap'),
-    atores(['Abhay Deol', 'Mahie Gill', 'Kalki Koechlin']).
-
-filme('Salaam Bombay!') :-
-    genero('Docudrama'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India, United States, France, United Kingdom'),
-    ano(1988),
-    duracao('1h 53m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Mira Nair'),
-    atores(['Shafiq Syed', 'Anjaan', 'Amrit Patel']).
-
-filme('3-Iron') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('South Korea, Japan'),
-    ano(2004),
-    duracao('1h 28m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('R'),
-    realizador('Kim Kiduk'),
-    atores(['Lee Seungyun', 'Jae Hee', 'Hyukho Kwon']).
-
-filme('Vabank') :-
-    genero('Caper'),
-    genero('Comedy'),
-    genero('Crime'),
-    pais('Poland'),
-    ano(1981),
-    duracao('1h 48m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Juliusz Machulski'),
-    atores(['Jan Machulski', 'Leonard Pietraszak', 'Witold Pyrkosz']).
-
-filme('Aayatya Gharat Gharoba') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Musical'),
-    pais('India'),
-    ano(1991),
-    duracao('2h 18m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Sachin Pilgaonkar'),
-    atores(['Sachin Pilgaonkar', 'Jairam Kulkarni', 'Ashok Saraf']).
-
-filme('Deliver Us from Evil') :-
-    genero('Crime Documentary'),
-    genero('Crime'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2006),
-    duracao('1h 41m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Amy Berg'),
-    atores(['Oliver OGrady', 'Thomas Doyle', 'Adam']).
-
-filme('A Fugitive from the Past') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Mystery'),
-    pais('Japan'),
-    ano(1965),
-    duracao('3h 3m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Tomu Uchida'),
-    atores(['Rentar Mikuni', 'Sachiko Hidari', 'Kji Mitsui']).
-
-filme('Le deuxième souffle') :-
-    genero('Caper'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('France'),
-    ano(1966),
-    duracao('2h 30m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('JeanPierre Melville'),
-    atores(['Lino Ventura', 'Paul Meurisse', 'Raymond Pellegrin']).
-
-filme('Once Were Warriors') :-
-    genero('Tragedy'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('New Zealand'),
-    ano(1994),
-    duracao('1h 42m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('R'),
-    realizador('Lee Tamahori'),
-    atores(['Rena Owen', 'Temuera Morrison', 'Mamaengaroa KerrBell']).
-
-filme('The Seventh Horse of the Sun') :-
-    genero('Dark Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1992),
-    duracao('2h 10m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Shyam Benegal'),
-    atores(['Rajit Kapoor', 'Raghubir Yadav', 'Siraj Ahmed']).
-
-filme('About Elly') :-
-    genero('Psychological Drama'),
-    genero('Drama'),
-    genero('Mystery'),
-    pais('Iran, France'),
-    ano(2009),
-    duracao('1h 59m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('TV-PG'),
-    realizador('Asghar Farhadi'),
-    atores(['Taraneh Alidoosti', 'Golshifteh Farahani', 'Shahab Hosseini']).
-
-filme('Het ondergronds orkest') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('Netherlands'),
-    ano(1998),
-    duracao('1h 48m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Heddy Honigmann'),
-    atores(['']).
-
-filme('Server Sundaram') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(1964),
-    duracao('2h 45m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('R Krishnan, S Panju'),
-    atores(['Goundamani', 'SN Lakshmi', 'Aachi Manorama']).
-
-filme('A Lame Joke') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Turkey'),
-    ano(1965),
-    duracao('1h 40m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('NaN'),
-    realizador('Osman F Seden'),
-    atores(['Sadri Alisik', 'Filiz Akin', 'Ajda Pekkan']).
-
-filme('The Face of Another') :-
-    genero('Drama'),
-    genero('SciFi'),
-    genero('Thriller'),
-    pais('Japan'),
-    ano(1966),
-    duracao('2h 4m'),
-    classificacao_imdb(7.9),
-    classificacao_mpa('Not Rated'),
-    realizador('Hiroshi Teshigahara'),
-    atores(['Tatsuya Nakadai', 'Mikijir Hira', 'Kyko Kishida']).
+filme('Pokémon the Movie: I Choose You!') :-
+    genero(anime),
+    genero(action),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(drama),
+    genero(family),
+    genero(fantasy),
+    genero(scifi),
+    pais(japan,united_states),
+    ano(2017),
+    duracao(1.63),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg),
+    realizador(kunihiko_yuyama),
+    atores([unsh_ishizuka, rica_matsumoto, sarah_natochenny]).
 
 filme('Jane') :-
-    genero('Science  Technology Documentary'),
-    genero('Biography'),
-    genero('Documentary'),
-    pais('United States'),
+    genero(science__technology_documentary),
+    genero(biography),
+    genero(documentary),
+    pais(united_states),
     ano(2017),
-    duracao('1h 30m'),
+    duracao(1.50),
     classificacao_imdb(7.8),
-    classificacao_mpa('PG'),
-    realizador('Brett Morgen'),
-    atores(['Jane Goodall', 'Hugo Van Lawick', 'Hugo Eric Louis van Lawick']).
+    classificacao_mpa(pg),
+    realizador(brett_morgen),
+    atores([jane_goodall, hugo_van_lawick, hugo_eric_louis_van_lawick]).
 
-filme('Autumn Marathon') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1979),
-    duracao('1h 30m'),
+filme('3 Idiots') :-
+    genero(comedy),
+    pais(mexico),
+    ano(2017),
+    duracao(1.77),
+    classificacao_imdb(4.4),
+    classificacao_mpa(pg-13),
+    realizador(rajkumar_hirani,sham_kaushal,shantanu_moitra),
+    atores([martha_higareda, alfonso_dosal, christian_vazquez]).
+
+filme('Thelma') :-
+    genero(drama),
+    genero(fantasy),
+    genero(horror),
+    genero(mystery),
+    genero(romance),
+    genero(scifi),
+    genero(thriller),
+    pais(norway,france,denmark,sweden),
+    ano(2017),
+    duracao(1.93),
+    classificacao_imdb(6.9),
+    classificacao_mpa(not_rated),
+    realizador(joachim_trier),
+    atores([eili_harboe, kaya_wilkins, henrik_rafaelsen]).
+
+
+
+filme('The China Hustle') :-
+    genero(documentary),
+    pais(united_states),
+    ano(2017),
+    duracao(1.37),
+    classificacao_imdb(7.1),
+    classificacao_mpa(r),
+    realizador(jed_rothstein),
+    atores([dan_david, matthew_wiechert, herb_greenberg]).
+
+filme('Pirates of the Caribbean: On Stranger Tides') :-
+    genero(fantasy_epic),
+    genero(quest),
+    genero(sea_adventure),
+    genero(swashbuckler),
+    genero(action),
+    genero(adventure),
+    genero(fantasy),
+    pais(united_states,united_kingdom),
+    ano(2011),
+    duracao(2.27),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg-13),
+    realizador(rob_marshall),
+    atores([johnny_depp, penlope_cruz, ian_mcshane]).
+
+filme('Captain America: The First Avenger') :-
+    genero(scifi_epic),
+    genero(superhero),
+    genero(action),
+    genero(adventure),
+    genero(scifi),
+    pais(united_states),
+    ano(2011),
+    duracao(2.07),
+    classificacao_imdb(6.9),
+    classificacao_mpa(pg-13),
+    realizador(joe_johnston),
+    atores([chris_evans, hugo_weaving, samuel_l_jackson]).
+
+
+filme('The Rum Diary') :-
+    genero(comedy),
+    genero(drama),
+    pais(united_kingdom,united_states),
+    ano(2011),
+    duracao(1.98),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(bruce_robinson),
+    atores([johnny_depp, giovanni_ribisi, aaron_eckhart]).
+
+filme('Take Shelter') :-
+    genero(psychological_drama),
+    genero(psychological_thriller),
+    genero(workplace_drama),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(2011),
+    duracao(2.00),
+    classificacao_imdb(7.3),
+    classificacao_mpa(r),
+    realizador(jeff_nichols),
+    atores([michael_shannon, jessica_chastain, shea_whigham]).
+
+filme('Rampart') :-
+    genero(crime),
+    genero(drama),
+    pais(united_states),
+    ano(2011),
+    duracao(1.80),
+    classificacao_imdb(5.8),
+    classificacao_mpa(r),
+    realizador(oren_moverman),
+    atores([woody_harrelson, ben_foster, sigourney_weaver]).
+
+filme('Pariah') :-
+    genero(comingofage),
+    genero(teen_drama),
+    genero(drama),
+    pais(united_states),
+    ano(2011),
+    duracao(1.43),
+    classificacao_imdb(7.2),
+    classificacao_mpa(r),
+    realizador(dee_rees),
+    atores([adepero_oduye, kim_wayans, aasha_davis]).
+
+filme('The Last Lions') :-
+    genero(nature_documentary),
+    genero(documentary),
+    genero(family),
+    pais(united_states,botswana),
+    ano(2011),
+    duracao(1.47),
+    classificacao_imdb(8.2),
+    classificacao_mpa(pg),
+    realizador(dereck_joubert),
+    atores([jeremy_irons]).
+
+filme('Undefeated') :-
+    genero(football),
+    genero(sports_documentary),
+    genero(documentary),
+    genero(sport),
+    pais(united_states),
+    ano(2011),
+    duracao(1.88),
+    classificacao_imdb(7.7),
+    classificacao_mpa(pg-13),
+    realizador(daniel_lindsay,tj_martin),
+    atores([bill_courtney, oc_brown, montrail_money_brown]).
+
+filme('Creature') :-
+    genero(horror),
+    pais(united_states),
+    ano(2011),
+    duracao(1.55),
+    classificacao_imdb(3.6),
+    classificacao_mpa(r),
+    realizador(fred_andrews),
+    atores([mehcad_brooks, serinda_swan, daniel_bernhardt]).
+
+filme('CornerStore') :-
+    genero(comedy),
+    pais(united_states),
+    ano(2011),
+    duracao(1.57),
+    classificacao_imdb(7.2),
+    classificacao_mpa(pg-13),
+    realizador(joseph_doughrity),
+    atores([lawrence_lamont, roger_guenveur_smith, ari_rufino]).
+
+filme('The Swimming Pool') :-
+    genero(psychological_drama),
+    genero(crime),
+    genero(drama),
+    genero(romance),
+    pais(france,italy),
+    ano(1969),
+    duracao(2.03),
+    classificacao_imdb(7.1),
+    classificacao_mpa(16+anos),
+    realizador(jacques_deray),
+    atores([alain_delon, romy_schneider, maurice_ronet]).
+
+filme('Hook, Line and Sinker') :-
+    genero(comedy),
+    pais(united_states),
+    ano(1969),
+    duracao(1.52),
+    classificacao_imdb(5.4),
+    classificacao_mpa(g),
+    realizador(george_marshall),
+    atores([jerry_lewis, peter_lawford, anne_francis]).
+
+filme('Double Suicide') :-
+    genero(drama),
+    genero(romance),
+    pais(japan),
+    ano(1969),
+    duracao(1.75),
+    classificacao_imdb(7.6),
+    classificacao_mpa(not_rated),
+    realizador(masahiro_shinoda),
+    atores([kichiemon_nakamura, shima_iwashita, shizue_kawarazaki]).
+
+
+
+filme('Angel') :-
+    genero(action),
+    genero(crime),
+    genero(thriller),
+    pais(united_states),
+    ano(1983),
+    duracao(1.57),
+    classificacao_imdb(5.8),
+    classificacao_mpa(r),
+    realizador(robert_vincent_oneil),
+    atores([cliff_gorman, susan_tyrrell, dick_shawn]).
+
+filme('Gabriela') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(brazil),
+    ano(1983),
+    duracao(1.65),
+    classificacao_imdb(6.2),
+    classificacao_mpa(r),
+    realizador(bruno_barreto),
+    atores([sonia_braga, marcello_mastroianni, antonio_cantafora]).
+
+filme('El Sur') :-
+    genero(comingofage),
+    genero(tragic_romance),
+    genero(drama),
+    genero(mystery),
+    genero(romance),
+    pais(spain,france),
+    ano(1983),
+    duracao(1.58),
     classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Georgiy Daneliya'),
-    atores(['Oleg Basilashvili', 'Natalya Gundareva', 'Marina Neyolova']).
+    classificacao_mpa(not_rated),
+    realizador(vctor_erice),
+    atores([omero_antonutti, sonsoles_aranguren, icar_bollan]).
+
+filme('Eyes of Fire') :-
+    genero(folk_horror),
+    genero(drama),
+    genero(horror),
+    genero(western),
+    pais(united_states),
+    ano(1983),
+    duracao(1.43),
+    classificacao_imdb(6.2),
+    classificacao_mpa(r),
+    realizador(avery_crounse),
+    atores([dennis_lipscomb, guy_boyd, rebecca_stanley]).
+
+filme('Spring Symphony') :-
+    genero(biography),
+    genero(music),
+    pais(west_germany),
+    ano(1983),
+    duracao(1.72),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg-13),
+    realizador(peter_schamoni),
+    atores([nastassja_kinski, herbert_grnemeyer, rolf_hoppe]).
+
+
+
+filme('Cannonball Run II') :-
+    genero(car_action),
+    genero(road_trip),
+    genero(action),
+    genero(comedy),
+    pais(hong_kong,united_states),
+    ano(1984),
+    duracao(1.80),
+    classificacao_imdb(5.1),
+    classificacao_mpa(pg),
+    realizador(hal_needham,ralph_bakshi),
+    atores([burt_reynolds, dom_deluise, dean_martin]).
+
+filme('The NeverEnding Story') :-
+    genero(adventure_epic),
+    genero(fantasy_epic),
+    genero(quest),
+    genero(sword__sorcery),
+    genero(adventure),
+    genero(drama),
+    genero(family),
+    genero(fantasy),
+    pais(west_germany,united_states),
+    ano(1984),
+    duracao(1.70),
+    classificacao_imdb(7.3),
+    classificacao_mpa(pg),
+    realizador(wolfgang_petersen),
+    atores([noah_hathaway, barret_oliver, tami_stronach]).
+
+filme('Breakin'' 2: Electric Boogaloo') :-
+    genero(pop_musical),
+    genero(comedy),
+    genero(drama),
+    genero(musical),
+    pais(united_states),
+    ano(1984),
+    duracao(1.57),
+    classificacao_imdb(5.2),
+    classificacao_mpa(pg),
+    realizador(sam_firstenberg),
+    atores([lucinda_dickey, adolfo_quinones, michael_chambers]).
+
+filme('Birdy') :-
+    genero(drama),
+    genero(war),
+    pais(united_states),
+    ano(1984),
+    duracao(2.00),
+    classificacao_imdb(7.2),
+    classificacao_mpa(r),
+    realizador(alan_parker),
+    atores([matthew_modine, nicolas_cage, john_harkins]).
+
+filme('Petit Con') :-
+    genero(comedy),
+    pais(france),
+    ano(1984),
+    duracao(1.50),
+    classificacao_imdb(6.0),
+    classificacao_mpa(r),
+    realizador(grard_lauzier),
+    atores([guy_marchand, caroline_cellier, bernard_brieux]).
+
+
+filme('The Dog Who Stopped the War') :-
+    genero(comedy),
+    genero(drama),
+    genero(family),
+    pais(canada),
+    ano(1984),
+    duracao(1.52),
+    classificacao_imdb(7.5),
+    classificacao_mpa(g),
+    realizador(andr_melanon),
+    atores([cdric_jourde, mariepierre_a_damour, julien_elie]).
+
+filme('Double Trouble') :-
+    genero(buddy_comedy),
+    genero(action),
+    genero(comedy),
+    pais(italy,brazil),
+    ano(1984),
+    duracao(1.65),
+    classificacao_imdb(7.1),
+    classificacao_mpa(tv-pg),
+    realizador(enzo_barboni),
+    atores([terence_hill, bud_spencer, april_clough]).
+
+filme('Sword of the Valiant') :-
+    genero(swashbuckler),
+    genero(sword__sorcery),
+    genero(action),
+    genero(adventure),
+    genero(fantasy),
+    genero(romance),
+    pais(united_kingdom),
+    ano(1984),
+    duracao(1.70),
+    classificacao_imdb(4.4),
+    classificacao_mpa(pg),
+    realizador(stephen_weeks),
+    atores([miles_okeeffe, cyrielle_clair, leigh_lawson]).
+
+
+filme('Rats: Night of Terror') :-
+    genero(bhorror),
+    genero(horror),
+    genero(scifi),
+    pais(italy,france),
+    ano(1984),
+    duracao(1.62),
+    classificacao_imdb(4.7),
+    classificacao_mpa(unrated),
+    realizador(bruno_mattei,claudio_fragasso),
+    atores([ottaviano_dellacqua, geretta_geretta, massimo_vanni]).
+
+
+
+
+
+filme('The Reliant') :-
+    genero(action),
+    pais(united_states),
+    ano(2019),
+    duracao(2.33),
+    classificacao_imdb(3.3),
+    classificacao_mpa(pg-13),
+    realizador(paul_munger),
+    atores([kevin_sorbo, julia_denton, mollee_gray]).
+
+filme('The Informer') :-
+    genero(police_procedural),
+    genero(prison_drama),
+    genero(spy),
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_kingdom,canada,united_states),
+    ano(2019),
+    duracao(1.88),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(andrea_di_stefano),
+    atores([joel_kinnaman, rosamund_pike, common]).
+
+filme('Mister America') :-
+    genero(comedy),
+    pais(united_states),
+    ano(2019),
+    duracao(1.48),
+    classificacao_imdb(6.4),
+    classificacao_mpa(r),
+    realizador(eric_notarnicola),
+    atores([tim_heidecker, gregg_turkington, terri_parks]).
+
+
+filme('Kill Bill: Vol. 2') :-
+    genero(kung_fu),
+    genero(martial_arts),
+    genero(oneperson_army_action),
+    genero(action),
+    genero(crime),
+    genero(thriller),
+    pais(united_states),
+    ano(2004),
+    duracao(2.28),
+    classificacao_imdb(8.0),
+    classificacao_mpa(r),
+    realizador(quentin_tarantino),
+    atores([uma_thurman, david_carradine, michael_madsen]).
+
+filme('Kung Fu Hustle') :-
+    genero(kung_fu),
+    genero(martial_arts),
+    genero(parody),
+    genero(slapstick),
+    genero(wuxia),
+    genero(action),
+    genero(comedy),
+    genero(fantasy),
+    pais(hong_kong,china,united_states),
+    ano(2004),
+    duracao(1.65),
+    classificacao_imdb(7.7),
+    classificacao_mpa(r),
+    realizador(stephen_chow),
+    atores([stephen_chow, wah_yuen, qiu_yuen]).
+
+filme('Envy') :-
+    genero(buddy_comedy),
+    genero(dark_comedy),
+    genero(comedy),
+    pais(united_states),
+    ano(2004),
+    duracao(1.65),
+    classificacao_imdb(4.8),
+    classificacao_mpa(pg-13),
+    realizador(barry_levinson),
+    atores([ben_stiller, jack_black, rachel_weisz]).
+
+filme('Touch of Pink') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_kingdom,canada),
+    ano(2004),
+    duracao(1.52),
+    classificacao_imdb(6.4),
+    classificacao_mpa(r),
+    realizador(ian_iqbal_rashid),
+    atores([jimi_mistry, kris_holdenried, suleka_mathew]).
+
+filme('Kings & Queen') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(france),
+    ano(2004),
+    duracao(2.50),
+    classificacao_imdb(7.0),
+    classificacao_mpa(unrated),
+    realizador(arnaud_desplechin),
+    atores([emmanuelle_devos, geoffrey_carey, thierry_bosc]).
+
+filme('Rolling Family') :-
+    genero(comedy),
+    genero(drama),
+    pais(argentina,brazil,france,germany,spain,united_kingdom),
+    ano(2004),
+    duracao(1.72),
+    classificacao_imdb(6.6),
+    classificacao_mpa(not_rated),
+    realizador(pablo_trapero),
+    atores([graciana_chironi, adelina_bielopolsky, ludmila_stancer]).
+
+
+
+filme('King''s Game') :-
+    genero(political_thriller),
+    genero(drama),
+    genero(thriller),
+    pais(denmark,sweden),
+    ano(2004),
+    duracao(1.78),
+    classificacao_imdb(7.3),
+    classificacao_mpa(not_rated),
+    realizador(nikolaj_arcel),
+    atores([anders_w_berthelsen, sren_pilmark, nastja_arcel]).
+
+
+filme('A Cold Wind in August') :-
+    genero(drama),
+    pais(united_states),
+    ano(1961),
+    duracao(1.33),
+    classificacao_imdb(6.6),
+    classificacao_mpa(approved),
+    realizador(alexander_singer),
+    atores([lola_albright, scott_marlowe, joe_de_santis]).
+
+
+
+filme('The Canadians') :-
+    genero(western),
+    pais(united_kingdom,canada),
+    ano(1961),
+    duracao(1.42),
+    classificacao_imdb(5.4),
+    classificacao_mpa(approved),
+    realizador(burt_kennedy),
+    atores([robert_ryan, john_dehner, torin_thatcher]).
+
+
+
+
+
+filme('I Now Pronounce You Chuck & Larry') :-
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(2007),
+    duracao(1.92),
+    classificacao_imdb(5.9),
+    classificacao_mpa(pg-13),
+    realizador(dennis_dugan),
+    atores([adam_sandler, kevin_james, jessica_biel]).
+
+filme('Because I Said So') :-
+    genero(romantic_comedy),
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(2007),
+    duracao(1.70),
+    classificacao_imdb(5.6),
+    classificacao_mpa(pg-13),
+    realizador(michael_lehmann),
+    atores([diane_keaton, mandy_moore, gabriel_macht]).
+
+filme('28 Weeks Later') :-
+    genero(zombie_horror),
+    genero(horror),
+    genero(scifi),
+    pais(united_kingdom,spain,united_states),
+    ano(2007),
+    duracao(1.67),
+    classificacao_imdb(6.9),
+    classificacao_mpa(r),
+    realizador(juan_carlos_fresnadillo),
+    atores([jeremy_renner, rose_byrne, robert_carlyle]).
+
+filme('Daddy Day Camp') :-
+    genero(slapstick),
+    genero(comedy),
+    genero(family),
+    pais(united_states),
+    ano(2007),
+    duracao(1.55),
+    classificacao_imdb(3.2),
+    classificacao_mpa(pg),
+    realizador(fred_savage),
+    atores([cuba_gooding_jr, lochlyn_munro, richard_gant]).
+
+filme('Nobel Son') :-
+    genero(caper),
+    genero(dark_comedy),
+    genero(comedy),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(2007),
+    duracao(1.83),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(randall_miller),
+    atores([alan_rickman, bryan_greenberg, shawn_hatosy]).
+
+filme('My Winnipeg') :-
+    genero(dark_comedy),
+    genero(comedy),
+    genero(documentary),
+    genero(drama),
+    genero(fantasy),
+    genero(history),
+    pais(canada),
+    ano(2007),
+    duracao(1.33),
+    classificacao_imdb(7.5),
+    classificacao_mpa(not_rated),
+    realizador(guy_maddin),
+    atores([darcy_fehr, ann_savage, louis_negin]).
+
+filme('Cover') :-
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(2007),
+    duracao(1.63),
+    classificacao_imdb(5.3),
+    classificacao_mpa(pg-13),
+    realizador(bill_duke),
+    atores([aunjanue_ellistaylor, razaaq_adoti, vivica_a_fox]).
+
+filme('Fear(s) of the Dark') :-
+    genero(adult_animation),
+    genero(supernatural_horror),
+    genero(animation),
+    genero(horror),
+    genero(mystery),
+    pais(france,belgium),
+    ano(2007),
+    duracao(1.38),
+    classificacao_imdb(6.6),
+    classificacao_mpa(unrated),
+    realizador(blutch,charles_burns,marie_caillou),
+    atores([aure_atika, guillaume_depardieu, nicole_garcia]).
+
+filme('Mother of Tears') :-
+    genero(supernatural_horror),
+    genero(witch_horror),
+    genero(drama),
+    genero(horror),
+    genero(thriller),
+    pais(italy),
+    ano(2007),
+    duracao(1.70),
+    classificacao_imdb(5.0),
+    classificacao_mpa(r),
+    realizador(dario_argento),
+    atores([asia_argento, cristian_solimeno, adam_james]).
+
+filme('YPF') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(canada),
+    ano(2007),
+    duracao(1.45),
+    classificacao_imdb(6.2),
+    classificacao_mpa(not_rated),
+    realizador(martin_gero),
+    atores([aaron_abrams, carly_pope, kristin_booth]).
+
+filme('Bronco Billy') :-
+    genero(contemporary_western),
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    genero(western),
+    pais(united_states),
+    ano(1980),
+    duracao(1.93),
+    classificacao_imdb(6.2),
+    classificacao_mpa(pg),
+    realizador(clint_eastwood),
+    atores([clint_eastwood, sondra_locke, geoffrey_lewis]).
+
+filme('The Gong Show Movie') :-
+    genero(dark_comedy),
+    genero(comedy),
+    pais(united_states),
+    ano(1980),
+    duracao(1.48),
+    classificacao_imdb(4.4),
+    classificacao_mpa(r),
+    realizador(chuck_barris),
+    atores([chuck_barris, robin_altman, brian_omullin]).
+
+filme('The King and the Mockingbird') :-
+    genero(animation),
+    genero(family),
+    genero(fantasy),
+    genero(romance),
+    pais(france),
+    ano(1980),
+    duracao(1.38),
+    classificacao_imdb(7.7),
+    classificacao_mpa(not_rated),
+    realizador(paul_grimault),
+    atores([jean_martin, pascal_mazzotti, raymond_bussires]).
+
+
+filme('Nightkill') :-
+    genero(crime),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states,west_germany),
+    ano(1980),
+    duracao(1.62),
+    classificacao_imdb(5.5),
+    classificacao_mpa(r),
+    realizador(ted_post),
+    atores([robert_mitchum, jaclyn_smith, mike_connors]).
+
+
+filme('Confidence') :-
+    genero(drama),
+    pais(hungary),
+    ano(1980),
+    duracao(1.75),
+    classificacao_imdb(7.5),
+    classificacao_mpa(not_rated),
+    realizador(istvn_szab),
+    atores([ildik_bnsgi, pter_andorai, oszkrn_gombik]).
+
+
+
+filme('Challengers') :-
+    genero(psychological_drama),
+    genero(steamy_romance),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    genero(sport),
+    pais(italy,united_states),
+    ano(2024),
+    duracao(2.18),
+    classificacao_imdb(7.1),
+    classificacao_mpa(r),
+    realizador(luca_guadagnino),
+    atores([mike_faist, josh_oconnor, zendaya]).
+
+filme('The Exorcism') :-
+    genero(psychological_horror),
+    genero(supernatural_horror),
+    genero(horror),
+    genero(thriller),
+    pais(united_states),
+    ano(2024),
+    duracao(1.58),
+    classificacao_imdb(4.2),
+    classificacao_mpa(r),
+    realizador(joshua_john_miller),
+    atores([russell_crowe, ryan_simpkins, sam_worthington]).
+
+filme('Bird') :-
+    genero(comingofage),
+    genero(drama),
+    pais(united_kingdom,united_states,france,germany),
+    ano(2024),
+    duracao(1.98),
+    classificacao_imdb(7.1),
+    classificacao_mpa(r),
+    realizador(andrea_arnold),
+    atores([nykiya_adams, franz_rogowski, barry_keoghan]).
+
+
+
+
+filme('Pastor''s Kid') :-
+    genero(biography),
+    genero(drama),
+    pais(united_states),
+    ano(2024),
+    duracao(1.50),
+    classificacao_imdb(6.5),
+    classificacao_mpa(r),
+    realizador(benjamin_ironside_koppin),
+    atores([courtney_bandeko, james_c_burns, krista_morin]).
+
+
+filme('Jackpot!') :-
+    genero(buddy_comedy),
+    genero(dark_comedy),
+    genero(slapstick),
+    genero(action),
+    genero(comedy),
+    pais(united_states),
+    ano(2024),
+    duracao(1.77),
+    classificacao_imdb(5.8),
+    classificacao_mpa(r),
+    realizador(paul_feig),
+    atores([john_cena, awkwafina, simu_liu]).
+
+filme('Armand') :-
+    genero(psychological_drama),
+    genero(drama),
+    pais(norway,netherlands,germany,sweden,united_kingdom),
+    ano(2024),
+    duracao(1.95),
+    classificacao_imdb(6.4),
+    classificacao_mpa(r),
+    realizador(halfdan_ullmann_tndel),
+    atores([renate_reinsve, ellen_dorrit_petersen, ystein_rger]).
+
+
+filme('Mea Culpa') :-
+    genero(erotic_thriller),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(2024),
+    duracao(2.00),
+    classificacao_imdb(4.2),
+    classificacao_mpa(r),
+    realizador(tyler_perry),
+    atores([kelly_rowland, trevante_rhodes, nick_sagar]).
+
+
+
+filme('Colors of Evil: Red') :-
+    genero(crime),
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(poland),
+    ano(2024),
+    duracao(1.85),
+    classificacao_imdb(6.4),
+    classificacao_mpa(tv-ma),
+    realizador(adrian_panek),
+    atores([jakub_gierszal, maja_ostaszewska, zofia_jastrzebska]).
+
+filme('Ricochet') :-
+    genero(cop_drama),
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(1991),
+    duracao(1.70),
+    classificacao_imdb(6.2),
+    classificacao_mpa(r),
+    realizador(russell_mulcahy),
+    atores([denzel_washington, john_lithgow, icet]).
+
+filme('Career Opportunities') :-
+    genero(feelgood_romance),
+    genero(romantic_comedy),
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(1991),
+    duracao(1.38),
+    classificacao_imdb(5.8),
+    classificacao_mpa(pg-13),
+    realizador(bryan_gordon),
+    atores([frank_whaley, jennifer_connelly, dermot_mulroney]).
+
+filme('Dice Rules') :-
+    genero(standup),
+    genero(comedy),
+    genero(documentary),
+    pais(united_states),
+    ano(1991),
+    duracao(1.47),
+    classificacao_imdb(5.3),
+    classificacao_mpa(nc-17),
+    realizador(jay_dubin),
+    atores([andrew_dice_clay, eddie_griffin, sylvia_harman]).
+
+filme('Danzón') :-
+    genero(drama),
+    pais(mexico,spain),
+    ano(1991),
+    duracao(2.00),
+    classificacao_imdb(6.8),
+    classificacao_mpa(pg-13),
+    realizador(mara_novaro),
+    atores([mara_rojo, carmen_salinas, tito_vasconcelos]).
+
+
+filme('Grand Tour: Disaster in Time') :-
+    genero(dark_comedy),
+    genero(mystery),
+    genero(scifi),
+    pais(united_states),
+    ano(1991),
+    duracao(1.65),
+    classificacao_imdb(6.4),
+    classificacao_mpa(pg-13),
+    realizador(david_twohy),
+    atores([jeff_daniels, ariana_richards, emilia_crow]).
+
+
+
+filme('Major League') :-
+    genero(baseball),
+    genero(comedy),
+    genero(sport),
+    pais(united_states),
+    ano(1989),
+    duracao(1.78),
+    classificacao_imdb(7.2),
+    classificacao_mpa(r),
+    realizador(david_s_ward),
+    atores([tom_berenger, charlie_sheen, corbin_bernsen]).
+
+filme('Sex, Lies, and Videotape') :-
+    genero(dark_comedy),
+    genero(drama),
+    pais(united_states),
+    ano(1989),
+    duracao(1.67),
+    classificacao_imdb(7.2),
+    classificacao_mpa(r),
+    realizador(steven_soderbergh),
+    atores([james_spader, andie_macdowell, peter_gallagher]).
+
+filme('Communion') :-
+    genero(biography),
+    genero(drama),
+    genero(horror),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states,united_kingdom),
+    ano(1989),
+    duracao(1.78),
+    classificacao_imdb(5.5),
+    classificacao_mpa(r),
+    realizador(philippe_mora),
+    atores([christopher_walken, lindsay_crouse, frances_sternhagen]).
+
+filme('Night Game') :-
+    genero(crime),
+    genero(drama),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(1989),
+    duracao(1.58),
+    classificacao_imdb(5.0),
+    classificacao_mpa(r),
+    realizador(peter_masterson),
+    atores([roy_scheider, karen_young, lane_smith]).
+
+filme('Animal Behavior') :-
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(1989),
+    duracao(1.42),
+    classificacao_imdb(3.9),
+    classificacao_mpa(pg),
+    realizador(jenny_bowen,kjehl_rasmussen),
+    atores([karen_allen, armand_assante, josh_mostel]).
+
+filme('Far from Home') :-
+    genero(crime),
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(1989),
+    duracao(1.43),
+    classificacao_imdb(5.5),
+    classificacao_mpa(r),
+    realizador(meiert_avis),
+    atores([matt_frewer, drew_barrymore, richard_masur]).
+
+filme('Urotsukidoji: Legend of the Overfiend') :-
+    genero(adult_animation),
+    genero(anime),
+    genero(dark_comedy),
+    genero(animation),
+    genero(fantasy),
+    genero(horror),
+    genero(romance),
+    pais(japan),
+    ano(1989),
+    duracao(1.80),
+    classificacao_imdb(6.3),
+    classificacao_mpa(not_rated),
+    realizador(hideki_takayama),
+    atores([christopher_courage, rebel_joy, sonny_weil]).
+
+filme('Snake Eater') :-
+    genero(action),
+    pais(canada),
+    ano(1989),
+    duracao(1.57),
+    classificacao_imdb(4.5),
+    classificacao_mpa(r),
+    realizador(george_erschbamer),
+    atores([lorenzo_lamas, josie_bell, robert_scott]).
+
+
+filme('Eversmile New Jersey') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(argentina,united_kingdom),
+    ano(1989),
+    duracao(1.52),
+    classificacao_imdb(5.4),
+    classificacao_mpa(pg),
+    realizador(carlos_sorin),
+    atores([daniel_daylewis, mirjana_jokovic, gabriela_acher]).
+
+
+
+filme('Life as We Know It') :-
+    genero(romantic_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2010),
+    duracao(1.90),
+    classificacao_imdb(6.5),
+    classificacao_mpa(pg-13),
+    realizador(greg_berlanti),
+    atores([katherine_heigl, josh_duhamel, josh_lucas]).
+
+filme('The Last Exorcism') :-
+    genero(found_footage_horror),
+    genero(supernatural_horror),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(france,united_states),
+    ano(2010),
+    duracao(1.45),
+    classificacao_imdb(5.7),
+    classificacao_mpa(pg-13),
+    realizador(daniel_stamm),
+    atores([patrick_fabian, ashley_bell, iris_bahr]).
+
+filme('Of Gods and Men') :-
+    genero(drama),
+    genero(history),
+    pais(france),
+    ano(2010),
+    duracao(2.03),
+    classificacao_imdb(7.2),
+    classificacao_mpa(pg-13),
+    realizador(xavier_beauvois),
+    atores([lambert_wilson, michael_lonsdale, olivier_rabourdin]).
+
+filme('Housefull') :-
+    genero(comedy),
+    genero(drama),
+    pais(india),
+    ano(2010),
+    duracao(2.40),
+    classificacao_imdb(5.6),
+    classificacao_mpa(not_rated),
+    realizador(sajid_khan),
+    atores([akshay_kumar, deepika_padukone, riteish_deshmukh]).
+
+filme('Love Crime') :-
+    genero(psychological_thriller),
+    genero(crime),
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(france,united_states),
+    ano(2010),
+    duracao(1.77),
+    classificacao_imdb(6.5),
+    classificacao_mpa(not_rated),
+    realizador(alain_corneau),
+    atores([ludivine_sagnier, kristin_scott_thomas, patrick_mille]).
+
+
+filme('The Big Picture') :-
+    genero(drama),
+    genero(thriller),
+    pais(france),
+    ano(2010),
+    duracao(1.90),
+    classificacao_imdb(6.6),
+    classificacao_mpa(not_rated),
+    realizador(ric_lartigau),
+    atores([romain_duris, marina_fos, niels_arestrup]).
+
+filme('Exporting Raymond') :-
+    genero(comedy),
+    genero(documentary),
+    pais(united_states,russia),
+    ano(2010),
+    duracao(1.43),
+    classificacao_imdb(6.8),
+    classificacao_mpa(pg),
+    realizador(phil_rosenthal),
+    atores([phil_rosenthal, peter_boyle, stanislav_duzhnikov]).
+
+filme('The Human Resources Manager') :-
+    genero(comedy),
+    genero(drama),
+    pais(israel,germany,france,romania),
+    ano(2010),
+    duracao(1.72),
+    classificacao_imdb(6.6),
+    classificacao_mpa(not_rated),
+    realizador(eran_riklis),
+    atores([mark_ivanir, guri_alfi, noah_silver]).
+
+filme('Film socialisme') :-
+    genero(drama),
+    pais(switzerland,france),
+    ano(2010),
+    duracao(1.70),
+    classificacao_imdb(5.7),
+    classificacao_mpa(not_rated),
+    realizador(jeanluc_godard),
+    atores([jeanmarc_stehl, agatha_couture, mathias_domahidy]).
+
+filme('John Q') :-
+    genero(medical_drama),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(2002),
+    duracao(1.93),
+    classificacao_imdb(7.1),
+    classificacao_mpa(pg-13),
+    realizador(nick_cassavetes),
+    atores([denzel_washington, robert_duvall, gabriela_oltean]).
+
+filme('Showtime') :-
+    genero(buddy_cop),
+    genero(action),
+    genero(comedy),
+    genero(crime),
+    pais(united_states,australia),
+    ano(2002),
+    duracao(1.58),
+    classificacao_imdb(5.5),
+    classificacao_mpa(pg-13),
+    realizador(tom_dey),
+    atores([robert_de_niro, eddie_murphy, rene_russo]).
+
+filme('Analyze That') :-
+    genero(buddy_comedy),
+    genero(comedy),
+    genero(crime),
+    pais(united_states),
+    ano(2002),
+    duracao(1.60),
+    classificacao_imdb(5.9),
+    classificacao_mpa(r),
+    realizador(harold_ramis),
+    atores([robert_de_niro, billy_crystal, lisa_kudrow]).
+
+
+filme('Respiro') :-
+    genero(drama),
+    pais(italy,france),
+    ano(2002),
+    duracao(1.50),
+    classificacao_imdb(7.0),
+    classificacao_mpa(pg-13),
+    realizador(emanuele_crialese),
+    atores([valeria_golino, vincenzo_amato, francesco_casisa]).
+
+
+filme('Home Room') :-
+    genero(crime),
+    genero(drama),
+    pais(united_states),
+    ano(2002),
+    duracao(2.22),
+    classificacao_imdb(7.1),
+    classificacao_mpa(r),
+    realizador(paul_f_ryan),
+    atores([busy_philipps, erika_christensen, victor_garber]).
+
+filme('Convoy') :-
+    genero(dark_comedy),
+    genero(action),
+    genero(drama),
+    pais(united_states,united_kingdom),
+    ano(1978),
+    duracao(1.83),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg),
+    realizador(sam_peckinpah),
+    atores([kris_kristofferson, ali_macgraw, ernest_borgnine]).
+
+filme('La Cage aux Folles') :-
+    genero(farce),
+    genero(satire),
+    genero(comedy),
+    pais(france,italy),
+    ano(1978),
+    duracao(1.62),
+    classificacao_imdb(7.2),
+    classificacao_mpa(r),
+    realizador(douard_molinaro),
+    atores([ugo_tognazzi, michel_serrault, claire_maurier]).
+
+filme('The Fury') :-
+    genero(horror),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states),
+    ano(1978),
+    duracao(1.97),
+    classificacao_imdb(6.3),
+    classificacao_mpa(r),
+    realizador(brian_de_palma),
+    atores([kirk_douglas, john_cassavetes, carrie_snodgress]).
+
+filme('An Enemy of the People') :-
+    genero(drama),
+    pais(united_states),
+    ano(1978),
+    duracao(1.72),
+    classificacao_imdb(6.9),
+    classificacao_mpa(g),
+    realizador(george_schaefer),
+    atores([steve_mcqueen, bibi_andersson, charles_durning]).
+
+filme('The Alpha Incident') :-
+    genero(horror),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states),
+    ano(1978),
+    duracao(1.58),
+    classificacao_imdb(3.9),
+    classificacao_mpa(pg),
+    realizador(bill_rebane),
+    atores([ralph_meeker, stafford_morgan, john_f_goff]).
+
+
+filme('Madanolsavam') :-
+    genero(drama),
+    genero(romance),
+    pais(india),
+    ano(1978),
+    duracao(2.48),
+    classificacao_imdb(7.3),
+    classificacao_mpa(not_rated),
+    realizador(n_sankaran_nair),
+    atores([kamal_haasan, zarina_wahab, thikkurissy_sukumaran_nair]).
+
+
+filme('Yesterday, Today and Tomorrow') :-
+    genero(comedy),
+    genero(romance),
+    pais(italy,france),
+    ano(1963),
+    duracao(1.98),
+    classificacao_imdb(7.2),
+    classificacao_mpa(not_rated),
+    realizador(vittorio_de_sica),
+    atores([sophia_loren, marcello_mastroianni, aldo_giuffr]).
+
+
+filme('Raven''s End') :-
+    genero(drama),
+    pais(sweden),
+    ano(1963),
+    duracao(1.68),
+    classificacao_imdb(7.3),
+    classificacao_mpa(not_rated),
+    realizador(bo_widerberg),
+    atores([thommy_berggren, keve_hjelm, emy_storm]).
+
+
+filme('30 Years of Fun') :-
+    genero(comedy),
+    pais(united_states),
+    ano(1963),
+    duracao(1.42),
+    classificacao_imdb(6.5),
+    classificacao_mpa(approved),
+    realizador(robert_youngson),
+    atores([charles_chaplin, buster_keaton, stan_laurel]).
+
+
+
+
+filme('Festival') :-
+    genero(documentary),
+    genero(music),
+    pais(united_states),
+    ano(1967),
+    duracao(1.58),
+    classificacao_imdb(7.5),
+    classificacao_mpa(not_rated),
+    realizador(murray_lerner),
+    atores([joan_baez, horton_barker, fiddler_beers]).
+
+filme('Grand Slam') :-
+    genero(caper),
+    genero(heist),
+    genero(crime),
+    genero(drama),
+    pais(italy,spain,west_germany),
+    ano(1967),
+    duracao(2.02),
+    classificacao_imdb(6.8),
+    classificacao_mpa(not_rated),
+    realizador(giuliano_montaldo),
+    atores([janet_leigh, robert_hoffmann, klaus_kinski]).
+
+filme('Smashing Time') :-
+    genero(satire),
+    genero(comedy),
+    genero(musical),
+    pais(united_kingdom),
+    ano(1967),
+    duracao(1.60),
+    classificacao_imdb(5.9),
+    classificacao_mpa(not_rated),
+    realizador(desmond_davis),
+    atores([rita_tushingham, lynn_redgrave, michael_york]).
+
+
+
+
+filme('The King''s Pirate') :-
+    genero(swashbuckler),
+    genero(adventure),
+    pais(united_states),
+    ano(1967),
+    duracao(1.67),
+    classificacao_imdb(5.5),
+    classificacao_mpa(approved),
+    realizador(don_weis),
+    atores([doug_mcclure, jill_st_john, guy_stockwell]).
+
+filme('No Way Out') :-
+    genero(political_thriller),
+    genero(spy),
+    genero(steamy_romance),
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(mystery),
+    genero(romance),
+    genero(thriller),
+    pais(united_states),
+    ano(1987),
+    duracao(1.90),
+    classificacao_imdb(7.1),
+    classificacao_mpa(r),
+    realizador(roger_donaldson),
+    atores([kevin_costner, gene_hackman, sean_young]).
+
+filme('Penitentiary III') :-
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(sport),
+    pais(united_states),
+    ano(1987),
+    duracao(1.52),
+    classificacao_imdb(4.4),
+    classificacao_mpa(r),
+    realizador(jamaa_fanaka),
+    atores([leon_isaac_kennedy, anthony_geary, steve_antin]).
+
+filme('The Caller') :-
+    genero(suspense_mystery),
+    genero(mystery),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states),
+    ano(1987),
+    duracao(1.62),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(arthur_allan_seidelman),
+    atores([malcolm_mcdowell, madolyn_smith_osborne]).
+
+
+filme('Sweets from a Stranger') :-
+    genero(drama),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(italy),
+    ano(1987),
+    duracao(1.52),
+    classificacao_imdb(5.2),
+    classificacao_mpa(not_rated),
+    realizador(franco_ferrini),
+    atores([barbara_de_rossi, marina_suma, athina_cenci]).
+
+filme('Blindside') :-
+    genero(thriller),
+    pais(canada),
+    ano(1987),
+    duracao(1.63),
+    classificacao_imdb(4.7),
+    classificacao_mpa(r),
+    realizador(paul_lynch),
+    atores([harvey_keitel, lori_hallier, lolita_davidovich]).
+
+filme('Forget Paris') :-
+    genero(romantic_comedy),
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(1995),
+    duracao(1.68),
+    classificacao_imdb(6.5),
+    classificacao_mpa(pg-13),
+    realizador(billy_crystal),
+    atores([billy_crystal, debra_winger, joe_mantegna]).
+
+filme('Home for the Holidays') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(1995),
+    duracao(1.72),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg-13),
+    realizador(jodie_foster),
+    atores([holly_hunter, anne_bancroft, robert_downey_jr]).
+
+filme('Othello') :-
+    genero(tragedy),
+    genero(drama),
+    genero(romance),
+    pais(united_kingdom,united_states),
+    ano(1995),
+    duracao(2.05),
+    classificacao_imdb(6.8),
+    classificacao_mpa(r),
+    realizador(oliver_parker),
+    atores([laurence_fishburne, kenneth_branagh, irne_jacob]).
+
+
+filme('Feast of July') :-
+    genero(crime),
+    genero(drama),
+    genero(mystery),
+    genero(romance),
+    pais(united_kingdom,united_states),
+    ano(1995),
+    duracao(1.93),
+    classificacao_imdb(6.2),
+    classificacao_mpa(r),
+    realizador(christopher_menaul),
+    atores([embeth_davidtz, tom_bell, gemma_jones]).
+
+filme('Flirt') :-
+    genero(drama),
+    genero(romance),
+    pais(united_states,germany,japan),
+    ano(1995),
+    duracao(1.42),
+    classificacao_imdb(6.3),
+    classificacao_mpa(r),
+    realizador(hal_hartley),
+    atores([paul_austin, robert_john_burke, martin_donovan]).
+
+filme('The Stars Fell on Henrietta') :-
+    genero(drama),
+    pais(united_states),
+    ano(1995),
+    duracao(1.82),
+    classificacao_imdb(6.4),
+    classificacao_mpa(pg),
+    realizador(james_keach),
+    atores([robert_duvall, aidan_quinn, frances_fisher]).
+
+filme('For Better or Worse') :-
+    genero(action),
+    genero(comedy),
+    genero(drama),
+    pais(united_states),
+    ano(1995),
+    duracao(1.75),
+    classificacao_imdb(4.8),
+    classificacao_mpa(pg-13),
+    realizador(jason_alexander),
+    atores([jason_alexander, lolita_davidovich, james_woods]).
+
+filme('Best of the Best 3: No Turning Back') :-
+    genero(martial_arts),
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(1995),
+    duracao(1.50),
+    classificacao_imdb(4.9),
+    classificacao_mpa(r),
+    realizador(phillip_rhee),
+    atores([phillip_rhee, christopher_mcdonald, gina_gershon]).
+
+filme('Jules and Jim') :-
+    genero(period_drama),
+    genero(psychological_drama),
+    genero(tragic_romance),
+    genero(drama),
+    genero(romance),
+    pais(france),
+    ano(1962),
+    duracao(1.75),
+    classificacao_imdb(7.7),
+    classificacao_mpa(not_rated),
+    realizador(franois_truffaut),
+    atores([jeanne_moreau, oskar_werner, henri_serre]).
+
+filme('State Fair') :-
+    genero(musical),
+    genero(romance),
+    pais(united_states),
+    ano(1962),
+    duracao(2.00),
+    classificacao_imdb(5.9),
+    classificacao_mpa(approved),
+    realizador(jos_ferrer),
+    atores([pat_boone, bobby_darin, pamela_tiffin]).
+
+filme('David and Lisa') :-
+    genero(drama),
+    pais(united_states),
+    ano(1962),
+    duracao(1.58),
+    classificacao_imdb(7.2),
+    classificacao_mpa(not_rated),
+    realizador(frank_perry),
+    atores([keir_dullea, janet_margolin, howard_da_silva]).
+
+
+filme('Family Diary') :-
+    genero(drama),
+    pais(italy),
+    ano(1962),
+    duracao(1.88),
+    classificacao_imdb(7.2),
+    classificacao_mpa(not_rated),
+    realizador(valerio_zurlini),
+    atores([marcello_mastroianni, jacques_perrin, sylvie]).
+
+filme('Terrified') :-
+    genero(slasher_horror),
+    genero(horror),
+    pais(united_states),
+    ano(1962),
+    duracao(1.35),
+    classificacao_imdb(4.4),
+    classificacao_mpa(approved),
+    realizador(lew_landers),
+    atores([rod_lauren, steve_drexel, tracy_olsen]).
+
+
+
+filme('Avatar: The Way of Water') :-
+    genero(action_epic),
+    genero(adventure_epic),
+    genero(scifi_epic),
+    genero(sea_adventure),
+    genero(action),
+    genero(adventure),
+    genero(fantasy),
+    genero(scifi),
+    pais(united_states),
+    ano(2022),
+    duracao(3.20),
+    classificacao_imdb(7.5),
+    classificacao_mpa(pg-13),
+    realizador(james_cameron),
+    atores([sam_worthington, zoe_saldana, sigourney_weaver]).
+
+filme('The Bad Guys') :-
+    genero(animal_adventure),
+    genero(computer_animation),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(crime),
+    genero(family),
+    pais(united_states,united_kingdom),
+    ano(2022),
+    duracao(1.67),
+    classificacao_imdb(6.8),
+    classificacao_mpa(pg),
+    realizador(pierre_perifel),
+    atores([sam_rockwell, marc_maron, awkwafina]).
+
+filme('EO') :-
+    genero(psychological_drama),
+    genero(drama),
+    pais(poland,italy),
+    ano(2022),
+    duracao(1.47),
+    classificacao_imdb(6.7),
+    classificacao_mpa(not_rated),
+    realizador(jerzy_skolimowski),
+    atores([hola, tako, marietta]).
+
+filme('God''s Country') :-
+    genero(psychological_thriller),
+    genero(thriller),
+    pais(united_states),
+    ano(2022),
+    duracao(1.70),
+    classificacao_imdb(5.6),
+    classificacao_mpa(r),
+    realizador(julian_higgins),
+    atores([thandiwe_newton, joris_jarsky, jefferson_white]).
+
+filme('Dreamin'' Wild') :-
+    genero(biography),
+    genero(drama),
+    genero(music),
+    pais(united_states),
+    ano(2022),
+    duracao(1.85),
+    classificacao_imdb(6.4),
+    classificacao_mpa(pg),
+    realizador(bill_pohlad),
+    atores([zooey_deschanel, walton_goggins, chris_messina]).
+
+
+filme('The Return of Tanya Tucker: Featuring Brandi Carlile') :-
+    genero(documentary),
+    pais(united_states),
+    ano(2022),
+    duracao(1.80),
+    classificacao_imdb(7.3),
+    classificacao_mpa(r),
+    realizador(kathlyn_horan),
+    atores([brandi_carlile, james_garner, jerilyn_sawyer]).
+
+filme('Linoleum') :-
+    genero(space_scifi),
+    genero(drama),
+    genero(scifi),
+    pais(united_states),
+    ano(2022),
+    duracao(1.68),
+    classificacao_imdb(6.5),
+    classificacao_mpa(tv-pg),
+    realizador(colin_west),
+    atores([jim_gaffigan, rhea_seehorn, katelyn_nacon]).
+
+
+filme('Chip ''n Dale: Rescue Rangers') :-
+    genero(buddy_comedy),
+    genero(computer_animation),
+    genero(handdrawn_animation),
+    genero(urban_adventure),
+    genero(action),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(crime),
+    genero(family),
+    pais(united_states,canada,philippines),
+    ano(2022),
+    duracao(1.62),
+    classificacao_imdb(6.9),
+    classificacao_mpa(pg),
+    realizador(akiva_schaffer),
+    atores([andy_samberg, john_mulaney, kiki_layne]).
+
+filme('Causeway') :-
+    genero(psychological_drama),
+    genero(drama),
+    pais(united_states,finland),
+    ano(2022),
+    duracao(1.57),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(lila_neugebauer),
+    atores([jennifer_lawrence, brian_tyree_henry, linda_emond]).
+
+filme('All the Old Knives') :-
+    genero(suspense_mystery),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states,canada),
+    ano(2022),
+    duracao(1.68),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(janus_metz),
+    atores([goksin_erdemli, kasia_madera, chris_pine]).
+
+filme('Kindergarten Cop') :-
+    genero(cop_drama),
+    genero(highconcept_comedy),
+    genero(action),
+    genero(comedy),
+    genero(crime),
+    pais(united_states),
+    ano(1990),
+    duracao(1.85),
+    classificacao_imdb(6.2),
+    classificacao_mpa(pg-13),
+    realizador(ivan_reitman),
+    atores([arnold_schwarzenegger, penelope_ann_miller, pamela_reed]).
+
+filme('DuckTales the Movie: Treasure of the Lost Lamp') :-
+    genero(handdrawn_animation),
+    genero(quest),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(family),
+    genero(fantasy),
+    pais(france,united_states,united_kingdom),
+    ano(1990),
+    duracao(1.23),
+    classificacao_imdb(6.8),
+    classificacao_mpa(g),
+    realizador(bob_hathcock),
+    atores([alan_young, christopher_lloyd, terence_mcgovern]).
+
+
+filme('Impulse') :-
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(1990),
+    duracao(1.82),
+    classificacao_imdb(5.7),
+    classificacao_mpa(r),
+    realizador(sondra_locke),
+    atores([theresa_russell, jeff_fahey, george_dzundza]).
+
+filme('The Invisible Maniac') :-
+    genero(raunchy_comedy),
+    genero(slasher_horror),
+    genero(comedy),
+    genero(horror),
+    genero(scifi),
+    pais(united_states),
+    ano(1990),
+    duracao(1.43),
+    classificacao_imdb(4.3),
+    classificacao_mpa(r),
+    realizador(adam_rifkin),
+    atores([noel_peters, savannah, stephanie_blake]).
+
+
+
+
+filme('Korczak') :-
+    genero(biography),
+    genero(drama),
+    genero(war),
+    pais(poland,germany,united_kingdom),
+    ano(1990),
+    duracao(1.97),
+    classificacao_imdb(7.4),
+    classificacao_mpa(unrated),
+    realizador(andrzej_wajda),
+    atores([wojciech_pszoniak, ewa_dalkowska, teresa_budziszkrzyzanowska]).
+
+
+
+
+filme('Flags of Our Fathers') :-
+    genero(war_epic),
+    genero(action),
+    genero(adventure),
+    genero(drama),
+    genero(history),
+    genero(war),
+    pais(united_states),
+    ano(2006),
+    duracao(2.25),
+    classificacao_imdb(7.1),
+    classificacao_mpa(r),
+    realizador(clint_eastwood),
+    atores([ryan_phillippe, barry_pepper, joseph_cross]).
+
+filme('Miss Potter') :-
+    genero(docudrama),
+    genero(period_drama),
+    genero(biography),
+    genero(drama),
+    genero(romance),
+    pais(united_kingdom,united_states,isle_of_man),
+    ano(2006),
+    duracao(1.47),
+    classificacao_imdb(7.0),
+    classificacao_mpa(pg),
+    realizador(chris_noonan),
+    atores([rene_zellweger, ewan_mcgregor, emily_watson]).
+
+filme('Copying Beethoven') :-
+    genero(period_drama),
+    genero(biography),
+    genero(drama),
+    genero(music),
+    pais(united_kingdom,germany,hungary),
+    ano(2006),
+    duracao(1.73),
+    classificacao_imdb(6.7),
+    classificacao_mpa(pg-13),
+    realizador(agnieszka_holland),
+    atores([ed_harris, diane_kruger, matthew_goode]).
+
+filme('Outsourced') :-
+    genero(workplace_drama),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2006),
+    duracao(1.72),
+    classificacao_imdb(7.0),
+    classificacao_mpa(pg-13),
+    realizador(john_jeffcoat),
+    atores([josh_hamilton, ayesha_dharker, asif_basra]).
+
+filme('Renaissance') :-
+    genero(adult_animation),
+    genero(action),
+    genero(animation),
+    genero(scifi),
+    genero(thriller),
+    pais(france,luxembourg,united_kingdom,belgium,united_states),
+    ano(2006),
+    duracao(1.75),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(christian_volckman),
+    atores([daniel_craig, catherine_mccormack, jonathan_pryce]).
+
+filme('The Situation') :-
+    genero(drama),
+    genero(war),
+    pais(united_states),
+    ano(2006),
+    duracao(1.85),
+    classificacao_imdb(6.3),
+    classificacao_mpa(r),
+    realizador(philip_haas),
+    atores([connie_nielsen, damian_lewis, mido_hamada]).
+
+filme('Been Rich All My Life') :-
+    genero(documentary),
+    pais(united_states),
+    ano(2006),
+    duracao(1.35),
+    classificacao_imdb(8.4),
+    classificacao_mpa(not_rated),
+    realizador(heather_macdonald),
+    atores([marion_coles, elaine_ellis, cleo_hayes]).
+
+filme('Shanghai Red') :-
+    genero(drama),
+    pais(united_states,china),
+    ano(2006),
+    duracao(1.73),
+    classificacao_imdb(5.5),
+    classificacao_mpa(not_rated),
+    realizador(oscar_l_costo),
+    atores([vivian_wu, richard_burgi, honglei_sun]).
+
+filme('Rio Lobo') :-
+    genero(drama),
+    genero(war),
+    genero(western),
+    pais(united_states,mexico),
+    ano(1970),
+    duracao(1.90),
+    classificacao_imdb(6.7),
+    classificacao_mpa(g),
+    realizador(howard_hawks),
+    atores([john_wayne, jorge_rivero, jennifer_oneill]).
+
+filme('The Cheyenne Social Club') :-
+    genero(western),
+    pais(united_states),
+    ano(1970),
+    duracao(1.72),
+    classificacao_imdb(6.8),
+    classificacao_mpa(pg),
+    realizador(gene_kelly),
+    atores([james_stewart, henry_fonda, shirley_jones]).
+
+
+filme('Rabbit, Run') :-
+    genero(drama),
+    pais(united_states),
+    ano(1970),
+    duracao(1.57),
+    classificacao_imdb(5.4),
+    classificacao_mpa(r),
+    realizador(jack_smight),
+    atores([james_caan, anjanette_comer, carrie_snodgress]).
+
+filme('The Baby Maker') :-
+    genero(drama),
+    pais(united_states),
+    ano(1970),
+    duracao(1.82),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(james_bridges),
+    atores([barbara_hershey, collin_wilcox_paxton, sam_groom]).
+
+filme('The Lady in the Car with Glasses and a Gun') :-
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(france,united_states),
+    ano(1970),
+    duracao(1.75),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(anatole_litvak),
+    atores([samantha_eggar, oliver_reed, stphane_audran]).
+
+filme('Fools') :-
+    genero(drama),
+    pais(united_states),
+    ano(1970),
+    duracao(1.55),
+    classificacao_imdb(5.1),
+    classificacao_mpa(gp),
+    realizador(tom_gries),
+    atores([jason_robards, katharine_ross, scott_hylands]).
+
+filme('Coach Carter') :-
+    genero(basketball),
+    genero(docudrama),
+    genero(biography),
+    genero(drama),
+    genero(sport),
+    pais(united_states,germany),
+    ano(2005),
+    duracao(2.27),
+    classificacao_imdb(7.3),
+    classificacao_mpa(pg-13),
+    realizador(thomas_carter),
+    atores([samuel_l_jackson, rick_gonzalez, robert_richard]).
+
+filme('Land of the Dead') :-
+    genero(dark_comedy),
+    genero(zombie_horror),
+    genero(horror),
+    genero(scifi),
+    genero(thriller),
+    pais(france,canada,united_states),
+    ano(2005),
+    duracao(1.55),
+    classificacao_imdb(6.2),
+    classificacao_mpa(r),
+    realizador(george_a_romero),
+    atores([john_leguizamo, asia_argento, simon_baker]).
+
+filme('Boynton Beach Club') :-
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(2005),
+    duracao(1.75),
+    classificacao_imdb(6.5),
+    classificacao_mpa(r),
+    realizador(susan_seidelman),
+    atores([dyan_cannon, joseph_bologna, brenda_vaccaro]).
+
+filme('Happy Endings') :-
+    genero(comedy),
+    genero(drama),
+    genero(music),
+    genero(romance),
+    genero(thriller),
+    pais(united_states),
+    ano(2005),
+    duracao(2.13),
+    classificacao_imdb(6.3),
+    classificacao_mpa(r),
+    realizador(don_roos),
+    atores([lisa_kudrow, steve_coogan, maggie_gyllenhaal]).
+
+filme('Slow Burn') :-
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(2005),
+    duracao(1.55),
+    classificacao_imdb(5.7),
+    classificacao_mpa(r),
+    realizador(wayne_beach),
+    atores([ray_liotta, jolene_blalock, ll_cool_j]).
+
+filme('The Young Lieutenant') :-
+    genero(crime),
+    genero(drama),
+    pais(france),
+    ano(2005),
+    duracao(1.83),
+    classificacao_imdb(6.9),
+    classificacao_mpa(unrated),
+    realizador(xavier_beauvois),
+    atores([nathalie_baye, jalil_lespert, roschdy_zem]).
+
+filme('The Zodiac') :-
+    genero(true_crime),
+    genero(crime),
+    genero(drama),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(2005),
+    duracao(1.53),
+    classificacao_imdb(5.3),
+    classificacao_mpa(r),
+    realizador(alexander_bulkley),
+    atores([justin_chambers, robin_tunney, rory_culkin]).
+
+filme('Mozart and the Whale') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2005),
+    duracao(1.57),
+    classificacao_imdb(6.7),
+    classificacao_mpa(pg-13),
+    realizador(petter_nss),
+    atores([josh_hartnett, radha_mitchell, gary_cole]).
+
+filme('Emmanuel''s Gift') :-
+    genero(documentary),
+    pais(united_states),
+    ano(2005),
+    duracao(1.33),
+    classificacao_imdb(7.6),
+    classificacao_mpa(g),
+    realizador(lisa_lax,nancy_stern_winters),
+    atores([robin_williams, oprah_winfrey]).
+
+filme('Giuliani Time') :-
+    genero(documentary),
+    pais(united_states),
+    ano(2005),
+    duracao(2.17),
+    classificacao_imdb(6.9),
+    classificacao_mpa(not_rated),
+    realizador(kevin_keating),
+    atores([rudy_giuliani, wayne_barrett, george_bush]).
+
+
+filme('Laura') :-
+    genero(drama),
+    genero(romance),
+    pais(france),
+    ano(1979),
+    duracao(1.58),
+    classificacao_imdb(5.6),
+    classificacao_mpa(r),
+    realizador(david_hamilton),
+    atores([maud_adams, dawn_dunlap, james_mitchell]).
+
+filme('The In-Laws') :-
+    genero(buddy_comedy),
+    genero(caper),
+    genero(farce),
+    genero(screwball_comedy),
+    genero(spy),
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    genero(crime),
+    genero(thriller),
+    pais(united_states),
+    ano(1979),
+    duracao(1.72),
+    classificacao_imdb(7.3),
+    classificacao_mpa(pg),
+    realizador(arthur_hiller),
+    atores([peter_falk, alan_arkin, richard_libertini]).
+
+filme('The Double McGuffin') :-
+    genero(family),
+    genero(mystery),
+    pais(united_states),
+    ano(1979),
+    duracao(1.68),
+    classificacao_imdb(6.5),
+    classificacao_mpa(pg),
+    realizador(joe_camp),
+    atores([dion_pride, greg_hodges, jeff_nicholson]).
+
+filme('Stone Cold Dead') :-
+    genero(crime),
+    genero(thriller),
+    pais(canada),
+    ano(1979),
+    duracao(1.80),
+    classificacao_imdb(5.2),
+    classificacao_mpa(r),
+    realizador(george_mendeluk),
+    atores([richard_crenna, paul_williams, linda_sorensen]).
+
+
+
+
+
+filme('Que Viva Mexico') :-
+    genero(documentary),
+    genero(drama),
+    genero(western),
+    pais(soviet_union),
+    ano(1979),
+    duracao(1.50),
+    classificacao_imdb(7.4),
+    classificacao_mpa(not_rated),
+    realizador(sergei_eisenstein),
+    atores([sergey_bondarchuk, grigoriy_aleksandrov]).
+
+filme('Teenage Mutant Ninja Turtles') :-
+    genero(samurai),
+    genero(superhero),
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    genero(crime),
+    genero(fantasy),
+    genero(scifi),
+    pais(united_states),
+    ano(2014),
+    duracao(1.68),
+    classificacao_imdb(5.8),
+    classificacao_mpa(pg-13),
+    realizador(jonathan_liebesman),
+    atores([megan_fox, will_arnett, william_fichtner]).
+
+filme('Fury') :-
+    genero(period_drama),
+    genero(action),
+    genero(drama),
+    genero(war),
+    pais(united_states,china),
+    ano(2014),
+    duracao(2.23),
+    classificacao_imdb(7.6),
+    classificacao_mpa(r),
+    realizador(david_ayer),
+    atores([brad_pitt, shia_labeouf, logan_lerman]).
+
+filme('The Grand Budapest Hotel') :-
+    genero(caper),
+    genero(quirky_comedy),
+    genero(adventure),
+    genero(comedy),
+    genero(crime),
+    pais(united_states,germany),
+    ano(2014),
+    duracao(1.65),
+    classificacao_imdb(8.1),
+    classificacao_mpa(r),
+    realizador(wes_anderson),
+    atores([ralph_fiennes, f_murray_abraham, mathieu_amalric]).
+
+filme('The Water Diviner') :-
+    genero(drama),
+    genero(history),
+    genero(war),
+    pais(australia,united_states,turkey),
+    ano(2014),
+    duracao(1.85),
+    classificacao_imdb(7.0),
+    classificacao_mpa(r),
+    realizador(russell_crowe),
+    atores([russell_crowe, olga_kurylenko, jai_courtney]).
+
+filme('The Song') :-
+    genero(drama),
+    genero(music),
+    genero(romance),
+    pais(united_states),
+    ano(2014),
+    duracao(1.93),
+    classificacao_imdb(5.9),
+    classificacao_mpa(pg-13),
+    realizador(richard_l_ramsey),
+    atores([alan_powell, ali_faulkner, caitlin_nicolthomas]).
+
+filme('23 Blast') :-
+    genero(football),
+    genero(drama),
+    genero(sport),
+    pais(united_states),
+    ano(2014),
+    duracao(1.63),
+    classificacao_imdb(6.4),
+    classificacao_mpa(pg-13),
+    realizador(dylan_baker),
+    atores([mark_hapka, bram_hoover, stephen_lang]).
+
+filme('Glen Campbell: I''ll Be Me') :-
+    genero(biography),
+    genero(documentary),
+    genero(family),
+    genero(music),
+    pais(united_states),
+    ano(2014),
+    duracao(1.73),
+    classificacao_imdb(7.9),
+    classificacao_mpa(pg),
+    realizador(james_keach),
+    atores([glen_campbell, kim_campbell, ronald_petersen]).
+
+filme('Ballet 422') :-
+    genero(documentary),
+    genero(music),
+    genero(sport),
+    pais(united_states),
+    ano(2014),
+    duracao(1.25),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg),
+    realizador(jody_lee_lipes),
+    atores([justin_peck, tiler_peck, sterling_hyltin]).
+
+filme('In the Name of My Daughter') :-
+    genero(true_crime),
+    genero(crime),
+    genero(drama),
+    pais(france),
+    ano(2014),
+    duracao(1.93),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(andr_tchin),
+    atores([guillaume_canet, catherine_deneuve, adle_haenel]).
+
+filme('The Blue Room') :-
+    genero(crime),
+    genero(drama),
+    genero(mystery),
+    genero(romance),
+    genero(thriller),
+    pais(france),
+    ano(2014),
+    duracao(1.27),
+    classificacao_imdb(6.3),
+    classificacao_mpa(r),
+    realizador(mathieu_amalric),
+    atores([mathieu_amalric, la_drucker, stphanie_clau]).
+
+filme('Flowers') :-
+    genero(drama),
+    pais(spain),
+    ano(2014),
+    duracao(1.65),
+    classificacao_imdb(6.7),
+    classificacao_mpa(not_rated),
+    realizador(jon_garao,jose_mari_goenaga),
+    atores([itziar_ituo, nagore_aranburu, itziar_aizpuru]).
+
+filme('Spring') :-
+    genero(dark_romance),
+    genero(monster_horror),
+    genero(drama),
+    genero(horror),
+    genero(romance),
+    genero(scifi),
+    pais(united_states,italy),
+    ano(2014),
+    duracao(1.82),
+    classificacao_imdb(6.7),
+    classificacao_mpa(not_rated),
+    realizador(justin_benson,aaron_moorhead),
+    atores([lou_taylor_pucci, nadia_hilker, francesco_carnelutti]).
+
+filme('The Man with the Golden Gun') :-
+    genero(spy),
+    genero(action),
+    genero(adventure),
+    genero(thriller),
+    pais(united_kingdom),
+    ano(1974),
+    duracao(2.08),
+    classificacao_imdb(6.7),
+    classificacao_mpa(pg),
+    realizador(guy_hamilton),
+    atores([roger_moore, christopher_lee, britt_ekland]).
+
+
+
+filme('Lacombe, Lucien') :-
+    genero(drama),
+    genero(war),
+    pais(france,italy,west_germany),
+    ano(1974),
+    duracao(2.30),
+    classificacao_imdb(7.6),
+    classificacao_mpa(r),
+    realizador(louis_malle),
+    atores([pierre_blaise, aurore_clment, holger_lwenadler]).
+
+filme('Busting') :-
+    genero(comedy),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(1974),
+    duracao(1.53),
+    classificacao_imdb(6.4),
+    classificacao_mpa(r),
+    realizador(peter_hyams),
+    atores([elliott_gould, robert_blake, allen_garfield]).
+
+filme('Those Mad, Mad Moviemakers') :-
+    genero(comedy),
+    pais(united_states),
+    ano(1974),
+    duracao(1.47),
+    classificacao_imdb(4.7),
+    classificacao_mpa(pg),
+    realizador(ray_marsh),
+    atores([frank_calcanini, michael_pataki, mike_kellin]).
+
+filme('The Spikes Gang') :-
+    genero(drama),
+    genero(western),
+    pais(united_states),
+    ano(1974),
+    duracao(1.60),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg),
+    realizador(richard_fleischer),
+    atores([lee_marvin, gary_grimes, ron_howard]).
+
+
+filme('Tarzan') :-
+    genero(handdrawn_animation),
+    genero(jungle_adventure),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(drama),
+    genero(family),
+    genero(music),
+    pais(united_states,japan),
+    ano(1999),
+    duracao(1.47),
+    classificacao_imdb(7.3),
+    classificacao_mpa(g),
+    realizador(chris_buck,kevin_lima),
+    atores([tony_goldwyn, minnie_driver, brian_blessed]).
+
+filme('Being John Malkovich') :-
+    genero(body_swap_comedy),
+    genero(highconcept_comedy),
+    genero(psychological_drama),
+    genero(satire),
+    genero(showbiz_drama),
+    genero(supernatural_fantasy),
+    genero(comedy),
+    genero(drama),
+    genero(fantasy),
+    pais(united_states),
+    ano(1999),
+    duracao(1.88),
+    classificacao_imdb(7.7),
+    classificacao_mpa(r),
+    realizador(spike_jonze),
+    atores([john_cusack, cameron_diaz, catherine_keener]).
+
+filme('East Is East') :-
+    genero(satire),
+    genero(comedy),
+    genero(drama),
+    pais(united_kingdom),
+    ano(1999),
+    duracao(1.60),
+    classificacao_imdb(6.9),
+    classificacao_mpa(r),
+    realizador(damien_odonnell),
+    atores([om_puri, linda_bassett, jordan_routledge]).
+
+
+filme('Catfish in Black Bean Sauce') :-
+    genero(comedy),
+    genero(drama),
+    pais(united_states),
+    ano(1999),
+    duracao(1.98),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg-13),
+    realizador(chi_muoi_lo),
+    atores([chi_muoi_lo, sanaa_lathan, paul_winfield]).
+
+filme('Sugar Town') :-
+    genero(comedy),
+    genero(music),
+    pais(united_kingdom,united_states),
+    ano(1999),
+    duracao(1.53),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(allison_anders,kurt_voss),
+    atores([jade_gordon, john_taylor, michael_des_barres]).
+
+filme('Jin-Roh: The Wolf Brigade') :-
+    genero(adult_animation),
+    genero(anime),
+    genero(animation),
+    genero(drama),
+    genero(scifi),
+    genero(thriller),
+    pais(japan),
+    ano(1999),
+    duracao(1.70),
+    classificacao_imdb(7.3),
+    classificacao_mpa(r),
+    realizador(kenji_kamiyama,hiroyuki_okiura),
+    atores([michael_dobson, yoshikazu_fujiki, sumi_mutoh]).
+
+filme('Virtual Sexuality') :-
+    genero(teen_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    genero(scifi),
+    pais(united_kingdom),
+    ano(1999),
+    duracao(1.53),
+    classificacao_imdb(5.1),
+    classificacao_mpa(r),
+    realizador(nick_hurran),
+    atores([laura_fraser, rupert_penryjones, luke_de_lacey]).
+
+filme('Inferno') :-
+    genero(action),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states,france),
+    ano(1999),
+    duracao(1.58),
+    classificacao_imdb(5.2),
+    classificacao_mpa(r),
+    realizador(john_g_avildsen),
+    atores([jeanclaude_van_damme, pat_morita, danny_trejo]).
+
+filme('Suckers') :-
+    genero(comedy),
+    pais(united_states),
+    ano(1999),
+    duracao(1.45),
+    classificacao_imdb(6.4),
+    classificacao_mpa(r),
+    realizador(roger_nygard),
+    atores([joe_yannetty, jake_johannsen, daniel_benzali]).
+
+filme('Kachche Dhaage') :-
+    genero(action),
+    genero(drama),
+    genero(thriller),
+    pais(india),
+    ano(1999),
+    duracao(2.40),
+    classificacao_imdb(6.0),
+    classificacao_mpa(not_rated),
+    realizador(milan_luthria),
+    atores([ajay_devgn, saif_ali_khan, manisha_koirala]).
+
+filme('Mann - Soul''s Heart') :-
+    genero(drama),
+    genero(romance),
+    pais(india),
+    ano(1999),
+    duracao(2.67),
+    classificacao_imdb(6.2),
+    classificacao_mpa(not_rated),
+    realizador(indra_kumar),
+    atores([aamir_khan, manisha_koirala, sharmila_tagore]).
+
+filme('Futureworld') :-
+    genero(artificial_intelligence),
+    genero(dystopian_scifi),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states),
+    ano(1976),
+    duracao(1.80),
+    classificacao_imdb(5.7),
+    classificacao_mpa(pg),
+    realizador(richard_t_heffron),
+    atores([peter_fonda, blythe_danner, arthur_hill]).
+
+filme('The Bawdy Adventures of Tom Jones') :-
+    genero(comedy),
+    pais(united_kingdom),
+    ano(1976),
+    duracao(1.57),
+    classificacao_imdb(4.4),
+    classificacao_mpa(r),
+    realizador(cliff_owen),
+    atores([nicky_henson, trevor_howard, terrythomas]).
+
+filme('Eat My Dust') :-
+    genero(car_action),
+    genero(slapstick),
+    genero(action),
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(1976),
+    duracao(1.48),
+    classificacao_imdb(5.4),
+    classificacao_mpa(pg),
+    realizador(charles_b_griffith),
+    atores([ron_howard, christopher_norris, brad_david]).
+
+filme('Little Girl... Big Tease') :-
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(1976),
+    duracao(1.43),
+    classificacao_imdb(5.1),
+    classificacao_mpa(r),
+    realizador(roberto_mitrotti),
+    atores([jody_ray, mary_mendum, phil_bendone]).
+
+
+filme('Young, Violent, Dangerous') :-
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(italy),
+    ano(1976),
+    duracao(1.67),
+    classificacao_imdb(6.5),
+    classificacao_mpa(not_rated),
+    realizador(romolo_guerrieri),
+    atores([stefano_patrizi, benjamin_lev, max_delys]).
+
+
+filme('The Parent Trap') :-
+    genero(feelgood_romance),
+    genero(adventure),
+    genero(comedy),
+    genero(drama),
+    genero(family),
+    genero(romance),
+    pais(united_states,united_kingdom),
+    ano(1998),
+    duracao(2.13),
+    classificacao_imdb(6.7),
+    classificacao_mpa(pg),
+    realizador(nancy_meyers),
+    atores([lindsay_lohan, dennis_quaid, natasha_richardson]).
+
+filme('Dead Man on Campus') :-
+    genero(comedy),
+    pais(united_states),
+    ano(1998),
+    duracao(1.60),
+    classificacao_imdb(6.0),
+    classificacao_mpa(r),
+    realizador(alan_cohn),
+    atores([tom_everett_scott, markpaul_gosselaar, poppy_montgomery]).
+
+filme('Slam') :-
+    genero(drama),
+    pais(united_states),
+    ano(1998),
+    duracao(1.67),
+    classificacao_imdb(7.0),
+    classificacao_mpa(r),
+    realizador(marc_levin),
+    atores([saul_williams, sonja_sohn, bonz_malone]).
+
+filme('The Other Conquest') :-
+    genero(drama),
+    genero(history),
+    pais(mexico),
+    ano(1998),
+    duracao(1.75),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(salvador_carrasco),
+    atores([damin_delgado, jos_carlos_rodrguez, elpidia_carrillo]).
+
+filme('SLC Punk!') :-
+    genero(dark_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(music),
+    genero(romance),
+    pais(united_states),
+    ano(1998),
+    duracao(1.62),
+    classificacao_imdb(7.4),
+    classificacao_mpa(r),
+    realizador(james_merendino),
+    atores([matthew_lillard, michael_a_goorjian, annabeth_gish]).
+
+filme('Southie') :-
+    genero(drama),
+    pais(united_states),
+    ano(1998),
+    duracao(1.58),
+    classificacao_imdb(5.4),
+    classificacao_mpa(r),
+    realizador(john_shea),
+    atores([donnie_wahlberg, rose_mcgowan, anne_meara]).
+
+
+filme('True Friends') :-
+    genero(drama),
+    pais(united_states),
+    ano(1998),
+    duracao(1.72),
+    classificacao_imdb(5.4),
+    classificacao_mpa(r),
+    realizador(james_quattrochi),
+    atores([james_quattrochi, loreto_mauro, rodrigo_botero]).
+
+filme('Dushman') :-
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(romance),
+    genero(thriller),
+    pais(india),
+    ano(1998),
+    duracao(2.42),
+    classificacao_imdb(6.8),
+    classificacao_mpa(not_rated),
+    realizador(tanuja_chandra),
+    atores([kajol, sanjay_dutt, ashutosh_rana]).
+
+filme('Hamilton') :-
+    genero(action),
+    genero(adventure),
+    genero(crime),
+    genero(thriller),
+    pais(sweden,norway),
+    ano(1998),
+    duracao(2.12),
+    classificacao_imdb(5.8),
+    classificacao_mpa(not_rated),
+    realizador(harald_zwart),
+    atores([peter_stormare, lena_olin, mark_hamill]).
+
+filme('Progeny') :-
+    genero(horror),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states),
+    ano(1998),
+    duracao(1.63),
+    classificacao_imdb(4.9),
+    classificacao_mpa(r),
+    realizador(brian_yuzna),
+    atores([arnold_vosloo, jillian_mcwhirter, brad_dourif]).
+
+filme('Milo') :-
+    genero(slasher_horror),
+    genero(horror),
+    pais(united_states),
+    ano(1998),
+    duracao(1.52),
+    classificacao_imdb(4.1),
+    classificacao_mpa(r),
+    realizador(pascal_franchot),
+    atores([jennifer_jostyn, antonio_fargas, paula_cale]).
+
+filme('Legal Eagles') :-
+    genero(comedy),
+    genero(crime),
+    genero(romance),
+    pais(united_states),
+    ano(1986),
+    duracao(1.93),
+    classificacao_imdb(6.0),
+    classificacao_mpa(pg),
+    realizador(ivan_reitman),
+    atores([robert_redford, debra_winger, daryl_hannah]).
+
+filme('An American Tail') :-
+    genero(animal_adventure),
+    genero(handdrawn_animation),
+    genero(urban_adventure),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(drama),
+    genero(family),
+    genero(musical),
+    pais(united_states),
+    ano(1986),
+    duracao(1.33),
+    classificacao_imdb(6.9),
+    classificacao_mpa(g),
+    realizador(don_bluth),
+    atores([dom_deluise, christopher_plummer, erica_yohn]).
+
+filme('F/X') :-
+    genero(action),
+    genero(thriller),
+    pais(united_states),
+    ano(1986),
+    duracao(1.82),
+    classificacao_imdb(6.7),
+    classificacao_mpa(r),
+    realizador(robert_mandel),
+    atores([bryan_brown, brian_dennehy, diane_venora]).
+
+filme('Allan Quatermain and the Lost City of Gold') :-
+    genero(farce),
+    genero(jungle_adventure),
+    genero(quest),
+    genero(superhero),
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    pais(united_states,israel),
+    ano(1986),
+    duracao(1.65),
+    classificacao_imdb(4.6),
+    classificacao_mpa(pg),
+    realizador(gary_nelson),
+    atores([richard_chamberlain, sharon_stone, james_earl_jones]).
+
+filme('Salvador') :-
+    genero(drama),
+    genero(history),
+    genero(thriller),
+    genero(war),
+    pais(united_states,mexico,united_kingdom),
+    ano(1986),
+    duracao(2.03),
+    classificacao_imdb(7.4),
+    classificacao_mpa(r),
+    realizador(oliver_stone),
+    atores([james_woods, jim_belushi, michael_murphy]).
+
+filme('Half Moon Street') :-
+    genero(political_thriller),
+    genero(drama),
+    genero(thriller),
+    pais(united_kingdom,united_states),
+    ano(1986),
+    duracao(1.50),
+    classificacao_imdb(5.4),
+    classificacao_mpa(r),
+    realizador(bob_swaim),
+    atores([sigourney_weaver, michael_caine, patrick_kavanagh]).
+
+filme('The Sacrifice') :-
+    genero(drama),
+    pais(sweden,france,united_kingdom),
+    ano(1986),
+    duracao(2.48),
+    classificacao_imdb(7.9),
+    classificacao_mpa(pg),
+    realizador(andrei_tarkovsky),
+    atores([erland_josephson, susan_fleetwood, allan_edwall]).
+
+filme('Body Count') :-
+    genero(slasher_horror),
+    genero(horror),
+    genero(mystery),
+    pais(italy),
+    ano(1986),
+    duracao(1.50),
+    classificacao_imdb(4.8),
+    classificacao_mpa(r),
+    realizador(ruggero_deodato),
+    atores([bruce_penhall, mimsy_farmer, david_hess]).
+
+filme('Red Headed Stranger') :-
+    genero(western),
+    pais(united_states),
+    ano(1986),
+    duracao(1.75),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(william_d_wittliff),
+    atores([willie_nelson, morgan_fairchild, rg_armstrong]).
+
+
+filme('The Whoopee Boys') :-
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(1986),
+    duracao(1.47),
+    classificacao_imdb(5.7),
+    classificacao_mpa(r),
+    realizador(john_byrum),
+    atores([michael_okeefe, paul_rodriguez, denholm_elliott]).
+
+
+
+
+
+
+filme('Knights of Badassdom') :-
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    genero(fantasy),
+    genero(horror),
+    pais(united_states),
+    ano(2013),
+    duracao(1.43),
+    classificacao_imdb(5.6),
+    classificacao_mpa(r),
+    realizador(joe_lynch),
+    atores([ryan_kwanten, steve_zahn, peter_dinklage]).
+
+filme('Anohana the Movie: The Flower We Saw That Day (Ano hi mita hana no namae wo bokutachi wa mada shiran') :-
+    genero(anime),
+    genero(adventure),
+    genero(animation),
+    genero(drama),
+    genero(family),
+    genero(fantasy),
+    genero(mystery),
+    genero(romance),
+    pais(japan),
+    ano(2013),
+    duracao(1.65),
+    classificacao_imdb(7.3),
+    classificacao_mpa(m),
+    realizador(tatsuyuki_nagai),
+    atores([kenji_akabane, megumi_han, ikumi_hayama]).
+
+filme('Going Attractions: The Definitive Story of the American Drive-in Movie') :-
+    genero(news),
+    genero(documentary),
+    genero(family),
+    genero(history),
+    genero(romance),
+    pais(united_states),
+    ano(2013),
+    duracao(1.42),
+    classificacao_imdb(6.9),
+    classificacao_mpa(not_rated),
+    realizador(april_wright),
+    atores([charles_bruss, riley_cooke, roger_corman]).
+
+filme('American Meat') :-
+    genero(documentary),
+    pais(united_states),
+    ano(2013),
+    duracao(1.40),
+    classificacao_imdb(8.0),
+    classificacao_mpa(not_rated),
+    realizador(graham_meriwether),
+    atores([fred_kirschenmann, daniel_salatin, joel_salatin]).
+
+filme('Magic Mike''s Last Dance') :-
+    genero(showbiz_drama),
+    genero(comedy),
+    genero(drama),
+    pais(united_states),
+    ano(2023),
+    duracao(1.87),
+    classificacao_imdb(5.2),
+    classificacao_mpa(r),
+    realizador(steven_soderbergh),
+    atores([channing_tatum, salma_hayek, ayub_khandin]).
+
+filme('Priscilla') :-
+    genero(comingofage),
+    genero(dark_romance),
+    genero(docudrama),
+    genero(period_drama),
+    genero(showbiz_drama),
+    genero(teen_romance),
+    genero(biography),
+    genero(drama),
+    genero(music),
+    genero(romance),
+    pais(italy,united_states),
+    ano(2023),
+    duracao(1.88),
+    classificacao_imdb(6.5),
+    classificacao_mpa(r),
+    realizador(sofia_coppola),
+    atores([cailee_spaeny, jacob_elordi, ari_cohen]).
+
+filme('Anatomy of a Fall') :-
+    genero(legal_drama),
+    genero(legal_thriller),
+    genero(psychological_drama),
+    genero(psychological_thriller),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(france),
+    ano(2023),
+    duracao(2.52),
+    classificacao_imdb(7.7),
+    classificacao_mpa(r),
+    realizador(justine_triet),
+    atores([sandra_hller, swann_arlaud, milo_machadograner]).
+
+filme('Inside') :-
+    genero(psychological_drama),
+    genero(drama),
+    genero(thriller),
+    pais(greece,germany,belgium),
+    ano(2023),
+    duracao(1.75),
+    classificacao_imdb(5.5),
+    classificacao_mpa(r),
+    realizador(vasilis_katsoupis),
+    atores([willem_dafoe, gene_bervoets, eliza_stuyck]).
+
+filme('The Essential Church') :-
+    genero(documentary),
+    genero(drama),
+    genero(history),
+    pais(united_states),
+    ano(2023),
+    duracao(2.10),
+    classificacao_imdb(5.7),
+    classificacao_mpa(pg-13),
+    realizador(shannon_halliday),
+    atores([scott_atlas, voddie_baucham_jr, jay_bhattacharya]).
+
+filme('¡Que viva México!') :-
+    genero(quirky_comedy),
+    genero(comedy),
+    pais(mexico),
+    ano(2023),
+    duracao(3.18),
+    classificacao_imdb(5.6),
+    classificacao_mpa(r),
+    realizador(luis_estrada),
+    atores([damin_alczar, alfonso_herrera, joaqun_cosio]).
+
+
+
+filme('Friday the 13th') :-
+    genero(slasher_horror),
+    genero(suspense_mystery),
+    genero(teen_horror),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(2009),
+    duracao(1.62),
+    classificacao_imdb(5.5),
+    classificacao_mpa(r),
+    realizador(marcus_nispel),
+    atores([jared_padalecki, amanda_righetti, derek_mears]).
+
+filme('Adventureland') :-
+    genero(comingofage),
+    genero(teen_comedy),
+    genero(teen_romance),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2009),
+    duracao(1.78),
+    classificacao_imdb(6.8),
+    classificacao_mpa(r),
+    realizador(greg_mottola),
+    atores([jesse_eisenberg, kristen_stewart, ryan_reynolds]).
+
+filme('Mother and Child') :-
+    genero(drama),
+    genero(romance),
+    pais(united_states,spain),
+    ano(2009),
+    duracao(2.08),
+    classificacao_imdb(7.2),
+    classificacao_mpa(r),
+    realizador(rodrigo_garca),
+    atores([naomi_watts, annette_bening, kerry_washington]).
+
+filme('Me and Mrs. Khanna') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(india),
+    ano(2009),
+    duracao(1.82),
+    classificacao_imdb(3.4),
+    classificacao_mpa(not_rated),
+    realizador(prem_soni),
+    atores([salman_khan, kareena_kapoor, sohail_khan]).
+
+filme('Peter and Vandy') :-
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2009),
+    duracao(1.58),
+    classificacao_imdb(6.3),
+    classificacao_mpa(not_rated),
+    realizador(jay_dipietro),
+    atores([jason_ritter, jess_weixler, jesse_l_martin]).
+
+filme('My Year Without Sex') :-
+    genero(comedy),
+    genero(drama),
+    pais(australia),
+    ano(2009),
+    duracao(1.60),
+    classificacao_imdb(5.8),
+    classificacao_mpa(not_rated),
+    realizador(sarah_watt),
+    atores([portia_bradley, jonathan_segat, sacha_horler]).
+
+filme('St. Helens') :-
+    genero(adventure),
+    genero(drama),
+    pais(united_states),
+    ano(1981),
+    duracao(1.50),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg),
+    realizador(ernest_pintoff),
+    atores([art_carney, david_huffman, cassie_yates]).
+
+
+
+
+filme('Heat of Desire') :-
+    genero(drama),
+    genero(romance),
+    pais(france,spain),
+    ano(1981),
+    duracao(1.43),
+    classificacao_imdb(5.7),
+    classificacao_mpa(r),
+    realizador(luc_braud),
+    atores([patrick_dewaere, clio_goldsmith, jeanne_moreau]).
+
+
+
+
+filme('The Wedding Ringer') :-
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(2015),
+    duracao(1.68),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(jeremy_garelick),
+    atores([kevin_hart, josh_gad, kaley_cuoco]).
+
+filme('The Perfect Guy') :-
+    genero(drama),
+    genero(romance),
+    genero(thriller),
+    pais(united_states),
+    ano(2015),
+    duracao(1.67),
+    classificacao_imdb(5.6),
+    classificacao_mpa(pg-13),
+    realizador(david_m_rosenthal),
+    atores([sanaa_lathan, michael_ealy, morris_chestnut]).
+
+filme('The Gift') :-
+    genero(psychological_thriller),
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states,australia,china),
+    ano(2015),
+    duracao(1.80),
+    classificacao_imdb(7.0),
+    classificacao_mpa(r),
+    realizador(joel_edgerton),
+    atores([jason_bateman, rebecca_hall, joel_edgerton]).
+
+filme('Jem and the Holograms') :-
+    genero(teen_adventure),
+    genero(adventure),
+    genero(drama),
+    genero(family),
+    genero(fantasy),
+    genero(music),
+    genero(romance),
+    genero(scifi),
+    pais(united_states),
+    ano(2015),
+    duracao(1.97),
+    classificacao_imdb(4.2),
+    classificacao_mpa(pg),
+    realizador(jon_m_chu),
+    atores([aubrey_shea, stefanie_scott, aurora_perrineau]).
+
+
+filme('Janis: Little Girl Blue') :-
+    genero(music_documentary),
+    genero(biography),
+    genero(documentary),
+    genero(music),
+    pais(united_states),
+    ano(2015),
+    duracao(1.72),
+    classificacao_imdb(7.4),
+    classificacao_mpa(tv-ma),
+    realizador(amy_berg),
+    atores([cat_power, janis_joplin, karleen_bennett]).
+
+
+filme('Stonewall') :-
+    genero(drama),
+    genero(history),
+    pais(united_states),
+    ano(2015),
+    duracao(2.15),
+    classificacao_imdb(5.4),
+    classificacao_mpa(r),
+    realizador(roland_emmerich),
+    atores([jeremy_irvine, jonny_beauchamp, joey_king]).
+
+filme('Zhongkui: Snow Girl and the Dark Crystal') :-
+    genero(action),
+    genero(fantasy),
+    genero(romance),
+    pais(china,hong_kong,united_states),
+    ano(2015),
+    duracao(1.97),
+    classificacao_imdb(5.3),
+    classificacao_mpa(not_rated),
+    realizador(peter_pau,tianyu_zhao),
+    atores([kun_chen, bingbing_li, winston_chao]).
+
+filme('Requiem for the American Dream') :-
+    genero(news),
+    genero(biography),
+    genero(documentary),
+    pais(united_states),
+    ano(2015),
+    duracao(1.22),
+    classificacao_imdb(8.0),
+    classificacao_mpa(not_rated),
+    realizador(peter_d_hutchison,kelly_nyks,jared_p_scott),
+    atores([spiro_agnew, william_f_buckley, noam_chomsky]).
+
+filme('Tab Hunter Confidential') :-
+    genero(biography),
+    genero(documentary),
+    pais(united_states),
+    ano(2015),
+    duracao(1.50),
+    classificacao_imdb(7.5),
+    classificacao_mpa(not_rated),
+    realizador(jeffrey_schwarz),
+    atores([tab_hunter, clint_eastwood, paul_newman]).
+
+filme('The Club') :-
+    genero(dark_comedy),
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(chile),
+    ano(2015),
+    duracao(1.63),
+    classificacao_imdb(7.2),
+    classificacao_mpa(not_rated),
+    realizador(pablo_larran),
+    atores([alfredo_castro, roberto_faras, antonia_zegers]).
+
+filme('Phantom Boy') :-
+    genero(superhero),
+    genero(action),
+    genero(adventure),
+    genero(animation),
+    genero(family),
+    genero(fantasy),
+    genero(scifi),
+    pais(france,belgium),
+    ano(2015),
+    duracao(1.40),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg),
+    realizador(jeanloup_felicioli,alain_gagnol),
+    atores([edouard_baer, jeanpierre_marielle, audrey_tautou]).
+
+filme('Monster Hunt') :-
+    genero(martial_arts),
+    genero(quirky_comedy),
+    genero(supernatural_fantasy),
+    genero(adventure),
+    genero(comedy),
+    genero(fantasy),
+    pais(china,hong_kong),
+    ano(2015),
+    duracao(1.95),
+    classificacao_imdb(6.1),
+    classificacao_mpa(tv-y7),
+    realizador(raman_hui),
+    atores([baihe_bai, boran_jing, wu_jiang]).
+
+filme('Anesthesia') :-
+    genero(crime),
+    genero(drama),
+    pais(united_states),
+    ano(2015),
+    duracao(1.50),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(tim_blake_nelson),
+    atores([sam_waterston, kristen_stewart, corey_stoll]).
+
+filme('Chevalier') :-
+    genero(comedy),
+    genero(drama),
+    pais(greece,germany),
+    ano(2015),
+    duracao(1.75),
+    classificacao_imdb(6.2),
+    classificacao_mpa(unrated),
+    realizador(athina_rachel_tsangari),
+    atores([vangelis_mourikis, nikos_orfanos, yorgos_pirpassopoulos]).
+
+filme('Old') :-
+    genero(body_horror),
+    genero(conspiracy_thriller),
+    genero(psychological_horror),
+    genero(psychological_thriller),
+    genero(suspense_mystery),
+    genero(drama),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states,japan,china),
+    ano(2021),
+    duracao(1.80),
+    classificacao_imdb(5.8),
+    classificacao_mpa(pg-13),
+    realizador(m_night_shyamalan),
+    atores([gael_garca_bernal, vicky_krieps, rufus_sewell]).
+
+filme('Dear Evan Hansen') :-
+    genero(pop_musical),
+    genero(teen_drama),
+    genero(drama),
+    genero(musical),
+    pais(united_states,japan,china),
+    ano(2021),
+    duracao(2.28),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg-13),
+    realizador(stephen_chbosky),
+    atores([ben_platt, julianne_moore, kaitlyn_dever]).
+
+filme('Sooryavanshi') :-
+    genero(cop_drama),
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(india),
+    ano(2021),
+    duracao(2.42),
+    classificacao_imdb(5.9),
+    classificacao_mpa(tv-14),
+    realizador(rohit_shetty),
+    atores([akshay_kumar, katrina_kaif, ajay_devgn]).
+
+filme('Eiffel') :-
+    genero(period_drama),
+    genero(biography),
+    genero(drama),
+    genero(history),
+    genero(romance),
+    pais(france,belgium,germany),
+    ano(2021),
+    duracao(1.80),
+    classificacao_imdb(6.2),
+    classificacao_mpa(r),
+    realizador(martin_bourboulon),
+    atores([romain_duris, emma_mackey, pierre_deladonchamps]).
+
+filme('Mothering Sunday') :-
+    genero(drama),
+    genero(romance),
+    pais(united_kingdom,germany),
+    ano(2021),
+    duracao(1.73),
+    classificacao_imdb(6.0),
+    classificacao_mpa(r),
+    realizador(eva_husson),
+    atores([odessa_young, josh_oconnor, colin_firth]).
+
+
+
+filme('The Pink Cloud') :-
+    genero(drama),
+    genero(scifi),
+    pais(brazil),
+    ano(2021),
+    duracao(1.75),
+    classificacao_imdb(6.0),
+    classificacao_mpa(r),
+    realizador(iuli_gerbase),
+    atores([renata_de_llis, eduardo_mendona, girley_paes]).
+
+filme('The Burning Sea') :-
+    genero(disaster),
+    genero(action),
+    genero(drama),
+    genero(thriller),
+    pais(norway,sweden,denmark),
+    ano(2021),
+    duracao(1.73),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg-13),
+    realizador(john_andreas_andersen),
+    atores([kristine_kujath_thorp, henrik_bjelland, rolf_kristian_larsen]).
+
+filme('Descarrilados') :-
+    genero(comedy),
+    pais(spain),
+    ano(2021),
+    duracao(1.63),
+    classificacao_imdb(4.6),
+    classificacao_mpa(r),
+    realizador(fer_garcaruiz),
+    atores([julin_lpez, ernesto_sevilla, arturo_valls]).
+
+filme('Red Notice') :-
+    genero(action),
+    genero(comedy),
+    genero(thriller),
+    pais(united_states,united_kingdom,singapore,italy,thailand,canada),
+    ano(2021),
+    duracao(1.97),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg-13),
+    realizador(rawson_marshall_thurber),
+    atores([dwayne_johnson, ryan_reynolds, gal_gadot]).
+
+filme('The Guilty') :-
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(2021),
+    duracao(1.50),
+    classificacao_imdb(6.3),
+    classificacao_mpa(r),
+    realizador(antoine_fuqua),
+    atores([jake_gyllenhaal, riley_keough, peter_sarsgaard]).
+
+filme('A Quiet Place in the Country') :-
+    genero(drama),
+    genero(fantasy),
+    genero(horror),
+    pais(italy,france),
+    ano(1968),
+    duracao(1.77),
+    classificacao_imdb(6.5),
+    classificacao_mpa(r),
+    realizador(elio_petri),
+    atores([franco_nero, vanessa_redgrave, georges_gret]).
+
+filme('A Midsummer Night''s Dream') :-
+    genero(comedy),
+    genero(fantasy),
+    genero(romance),
+    pais(united_kingdom,united_states),
+    ano(1968),
+    duracao(2.07),
+    classificacao_imdb(6.5),
+    classificacao_mpa(not_rated),
+    realizador(peter_hall),
+    atores([derek_godfrey, barbara_jefford, nicholas_selby]).
+
+filme('Isadora') :-
+    genero(period_drama),
+    genero(biography),
+    genero(drama),
+    genero(music),
+    genero(romance),
+    pais(united_kingdom,france),
+    ano(1968),
+    duracao(2.18),
+    classificacao_imdb(6.8),
+    classificacao_mpa(m/pg),
+    realizador(karel_reisz),
+    atores([vanessa_redgrave, james_fox, jason_robards]).
+
+filme('The Stalking Moon') :-
+    genero(oneperson_army_action),
+    genero(drama),
+    genero(western),
+    pais(united_states),
+    ano(1968),
+    duracao(1.82),
+    classificacao_imdb(6.6),
+    classificacao_mpa(g),
+    realizador(robert_mulligan),
+    atores([gregory_peck, eva_marie_saint, robert_forster]).
+
+filme('The Savage Seven') :-
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(1968),
+    duracao(1.57),
+    classificacao_imdb(5.4),
+    classificacao_mpa(approved),
+    realizador(richard_rush),
+    atores([robert_walker_jr, joanna_frank, john_garwood]).
+
+
+filme('Even the Wind Is Afraid') :-
+    genero(drama),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(mexico),
+    ano(1968),
+    duracao(1.47),
+    classificacao_imdb(7.2),
+    classificacao_mpa(tv-14),
+    realizador(carlos_enrique_taboada),
+    atores([marga_lpez, maricruz_olivier, alicia_bonet]).
+
+filme('The Girl with a Pistol') :-
+    genero(dark_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    genero(thriller),
+    pais(italy),
+    ano(1968),
+    duracao(1.72),
+    classificacao_imdb(6.6),
+    classificacao_mpa(m),
+    realizador(mario_monicelli),
+    atores([monica_vitti, stanley_baker, corin_redgrave]).
+
+
+
+filme('The Lustful Turk') :-
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(1968),
+    duracao(1.18),
+    classificacao_imdb(4.3),
+    classificacao_mpa(x),
+    realizador(byron_mabe),
+    atores([abbe_rentz, linda_stiles, gee_gentell]).
+
+filme('Killers Three') :-
+    genero(crime),
+    genero(drama),
+    pais(united_states),
+    ano(1968),
+    duracao(1.47),
+    classificacao_imdb(4.7),
+    classificacao_mpa(approved),
+    realizador(bruce_kessler),
+    atores([robert_walker_jr, diane_varsi, dick_clark]).
+
+
+filme('Fantastic Beasts and Where to Find Them') :-
+    genero(supernatural_fantasy),
+    genero(sword__sorcery),
+    genero(adventure),
+    genero(family),
+    genero(fantasy),
+    pais(united_kingdom,united_states,canada),
+    ano(2016),
+    duracao(2.20),
+    classificacao_imdb(7.2),
+    classificacao_mpa(pg-13),
+    realizador(david_yates),
+    atores([eddie_redmayne, katherine_waterston, alison_sudol]).
+
+filme('Now You See Me 2') :-
+    genero(caper),
+    genero(action),
+    genero(adventure),
+    genero(comedy),
+    genero(crime),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states,hong_kong),
+    ano(2016),
+    duracao(2.15),
+    classificacao_imdb(6.4),
+    classificacao_mpa(pg-13),
+    realizador(jon_m_chu),
+    atores([jesse_eisenberg, mark_ruffalo, woody_harrelson]).
+
+filme('The BFG') :-
+    genero(adventure),
+    genero(family),
+    genero(fantasy),
+    pais(united_kingdom,india,united_states),
+    ano(2016),
+    duracao(1.95),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg),
+    realizador(steven_spielberg),
+    atores([mark_rylance, ruby_barnhill, penelope_wilton]).
+
+filme('Dirty Grandpa') :-
+    genero(buddy_comedy),
+    genero(raunchy_comedy),
+    genero(road_trip),
+    genero(comedy),
+    pais(united_states,united_kingdom),
+    ano(2016),
+    duracao(1.70),
+    classificacao_imdb(5.9),
+    classificacao_mpa(r),
+    realizador(dan_mazer),
+    atores([robert_de_niro, zac_efron, zoey_deutch]).
+
+filme('The 5th Wave') :-
+    genero(alien_invasion),
+    genero(comingofage),
+    genero(dystopian_scifi),
+    genero(survival),
+    genero(action),
+    genero(adventure),
+    genero(scifi),
+    genero(thriller),
+    pais(united_states,united_kingdom),
+    ano(2016),
+    duracao(1.87),
+    classificacao_imdb(5.2),
+    classificacao_mpa(pg-13),
+    realizador(j_blakeson),
+    atores([chlo_grace_moretz, matthew_zuk, gabriela_lopez]).
+
+filme('The Young Messiah') :-
+    genero(drama),
+    genero(fantasy),
+    pais(united_states,south_korea),
+    ano(2016),
+    duracao(1.85),
+    classificacao_imdb(5.7),
+    classificacao_mpa(pg-13),
+    realizador(cyrus_nowrasteh),
+    atores([adam_greavesneal, vincent_walsh, sara_lazzaro]).
+
+filme('Swiss Army Man') :-
+    genero(buddy_comedy),
+    genero(dark_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(fantasy),
+    genero(romance),
+    pais(united_states),
+    ano(2016),
+    duracao(1.62),
+    classificacao_imdb(6.9),
+    classificacao_mpa(r),
+    realizador(daniel_kwan,daniel_scheinert),
+    atores([paul_dano, daniel_radcliffe, mary_elizabeth_winstead]).
+
+filme('Elle') :-
+    genero(tragedy),
+    genero(workplace_drama),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(france,germany,belgium),
+    ano(2016),
+    duracao(2.17),
+    classificacao_imdb(7.1),
+    classificacao_mpa(r),
+    realizador(paul_verhoeven),
+    atores([isabelle_huppert, laurent_lafitte, anne_consigny]).
+
+filme('Three') :-
+    genero(action),
+    genero(crime),
+    genero(thriller),
+    pais(hong_kong,china),
+    ano(2016),
+    duracao(1.47),
+    classificacao_imdb(5.9),
+    classificacao_mpa(not_rated),
+    realizador(johnnie_to),
+    atores([wei_zhao, louis_koo, wallace_chung]).
+
+filme('Never Gone') :-
+    genero(drama),
+    genero(romance),
+    pais(china),
+    ano(2016),
+    duracao(1.67),
+    classificacao_imdb(5.2),
+    classificacao_mpa(pg-13),
+    realizador(zhou_tuo_ru),
+    atores([kris_wu, yifei_liu, shijia_jin]).
+
+filme('I Married an Anti-Fan') :-
+    genero(comedy),
+    genero(romance),
+    pais(china),
+    ano(2016),
+    duracao(2.00),
+    classificacao_imdb(5.8),
+    classificacao_mpa(pg-13),
+    realizador(jeyeong_kim),
+    atores([park_chanyeol, shanshan_yuan, seohyun]).
+
+
+filme('My Annoying Brother') :-
+    genero(buddy_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(sport),
+    pais(south_korea),
+    ano(2016),
+    duracao(1.83),
+    classificacao_imdb(7.3),
+    classificacao_mpa(pg),
+    realizador(kwon_sukyung),
+    atores([jo_jungsuk, do_kyungsoo, park_shinhye]).
+
+filme('From the Land of the Moon') :-
+    genero(period_drama),
+    genero(steamy_romance),
+    genero(tragic_romance),
+    genero(drama),
+    genero(romance),
+    pais(france,belgium,canada,spain),
+    ano(2016),
+    duracao(2.00),
+    classificacao_imdb(6.6),
+    classificacao_mpa(r),
+    realizador(nicole_garcia),
+    atores([marion_cotillard, louis_garrel, alex_brendemhl]).
+
+filme('Is That a Gun in Your Pocket?') :-
+    genero(satire),
+    genero(comedy),
+    pais(united_states),
+    ano(2016),
+    duracao(1.58),
+    classificacao_imdb(5.0),
+    classificacao_mpa(r),
+    realizador(matt_cooper),
+    atores([andrea_anders, matt_passmore, cloris_leachman]).
+
+filme('Off the Rails') :-
+    genero(documentary),
+    pais(canada,united_states),
+    ano(2016),
+    duracao(1.43),
+    classificacao_imdb(7.1),
+    classificacao_mpa(tv-14),
+    realizador(adam_irving),
+    atores([charles_bilal, courtney_brown, sally_butler]).
+
+filme('Blow') :-
+    genero(docudrama),
+    genero(drug_crime),
+    genero(tragedy),
+    genero(true_crime),
+    genero(biography),
+    genero(crime),
+    genero(drama),
+    pais(united_states),
+    ano(2001),
+    duracao(2.07),
+    classificacao_imdb(7.5),
+    classificacao_mpa(r),
+    realizador(ted_demme),
+    atores([johnny_depp, penlope_cruz, franka_potente]).
+
+filme('Gosford Park') :-
+    genero(dark_comedy),
+    genero(whodunnit),
+    genero(comedy),
+    genero(drama),
+    genero(mystery),
+    pais(united_kingdom,italy,united_states),
+    ano(2001),
+    duracao(2.28),
+    classificacao_imdb(7.2),
+    classificacao_mpa(r),
+    realizador(robert_altman),
+    atores([maggie_smith, ryan_phillippe, michael_gambon]).
+
+filme('Evolution') :-
+    genero(alien_invasion),
+    genero(comedy),
+    genero(scifi),
+    pais(united_states),
+    ano(2001),
+    duracao(1.68),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg-13),
+    realizador(ivan_reitman),
+    atores([david_duchovny, orlando_jones, julianne_moore]).
+
+filme('Valentine') :-
+    genero(dark_comedy),
+    genero(slasher_horror),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(canada,united_states,australia),
+    ano(2001),
+    duracao(1.60),
+    classificacao_imdb(4.9),
+    classificacao_mpa(r),
+    realizador(jamie_blanks),
+    atores([denise_richards, david_boreanaz, marley_shelton]).
+
+filme('O') :-
+    genero(drama),
+    genero(romance),
+    genero(thriller),
+    pais(united_states),
+    ano(2001),
+    duracao(1.58),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(tim_blake_nelson),
+    atores([mekhi_phifer, julia_stiles, martin_sheen]).
+
+filme('The Shipping News') :-
+    genero(tragedy),
+    genero(drama),
+    pais(canada,united_states,sweden),
+    ano(2001),
+    duracao(1.85),
+    classificacao_imdb(6.7),
+    classificacao_mpa(r),
+    realizador(lasse_hallstrm),
+    atores([kevin_spacey, julianne_moore, judi_dench]).
+
+filme('Texas Rangers') :-
+    genero(action),
+    genero(adventure),
+    genero(drama),
+    genero(thriller),
+    genero(western),
+    pais(united_states),
+    ano(2001),
+    duracao(1.50),
+    classificacao_imdb(5.2),
+    classificacao_mpa(pg-13),
+    realizador(steve_miner),
+    atores([james_van_der_beek, rachael_leigh_cook, ashton_kutcher]).
+
+filme('The Legend of Suriyothai') :-
+    genero(action),
+    genero(adventure),
+    genero(biography),
+    genero(drama),
+    genero(history),
+    genero(war),
+    pais(thailand),
+    ano(2001),
+    duracao(2.37),
+    classificacao_imdb(6.4),
+    classificacao_mpa(r),
+    realizador(chatrichalerm_yukol),
+    atores([ml_piyapas_bhirombhakdi, sarunyu_wongkrachang, chatchai_plengpanich]).
+
+filme('Porn Star: The Legend of Ron Jeremy') :-
+    genero(biography),
+    genero(documentary),
+    pais(united_states),
+    ano(2001),
+    duracao(1.28),
+    classificacao_imdb(6.4),
+    classificacao_mpa(r),
+    realizador(scott_j_gill),
+    atores([ron_jeremy, william_margold, al_goldstein]).
+
+filme('Little Secrets') :-
+    genero(comedy),
+    genero(drama),
+    genero(family),
+    genero(music),
+    pais(united_states),
+    ano(2001),
+    duracao(1.60),
+    classificacao_imdb(6.4),
+    classificacao_mpa(pg),
+    realizador(blair_treu),
+    atores([evan_rachel_wood, michael_angarano, david_gallagher]).
+
+filme('Green Dragon') :-
+    genero(drama),
+    genero(war),
+    pais(united_states),
+    ano(2001),
+    duracao(1.92),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg-13),
+    realizador(timothy_linh_bui),
+    atores([patrick_swayze, forest_whitaker, duong_don]).
+
+filme('Amy''s Orgasm') :-
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(2001),
+    duracao(1.45),
+    classificacao_imdb(5.3),
+    classificacao_mpa(r),
+    realizador(julie_davis),
+    atores([julie_davis, nick_chinlund, caroline_aaron]).
+
+filme('No Such Thing') :-
+    genero(dark_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(fantasy),
+    pais(iceland,united_states),
+    ano(2001),
+    duracao(1.70),
+    classificacao_imdb(6.0),
+    classificacao_mpa(r),
+    realizador(hal_hartley),
+    atores([sarah_polley, robert_john_burke, margrt_kadttir]).
+
+
+filme('Blackwoods') :-
+    genero(drama),
+    genero(mystery),
+    genero(thriller),
+    pais(canada,germany),
+    ano(2001),
+    duracao(1.53),
+    classificacao_imdb(3.2),
+    classificacao_mpa(r),
+    realizador(uwe_boll),
+    atores([patrick_muldoon, michael_par, keegan_connor_tracy]).
+
+filme('Suicide Club') :-
+    genero(dark_comedy),
+    genero(crime),
+    genero(drama),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(japan,finland),
+    ano(2001),
+    duracao(1.65),
+    classificacao_imdb(6.5),
+    classificacao_mpa(r),
+    realizador(sion_sono),
+    atores([ryo_ishibashi, masatoshi_nagase, mai_hsh]).
+
+filme('Rocky IV') :-
+    genero(boxing),
+    genero(political_drama),
+    genero(drama),
+    genero(sport),
+    pais(united_states),
+    ano(1985),
+    duracao(1.52),
+    classificacao_imdb(6.9),
+    classificacao_mpa(pg),
+    realizador(sylvester_stallone),
+    atores([sylvester_stallone, talia_shire, burt_young]).
+
+filme('A Nightmare on Elm Street 2: Freddy''s Revenge') :-
+    genero(body_horror),
+    genero(slasher_horror),
+    genero(supernatural_horror),
+    genero(teen_horror),
+    genero(horror),
+    pais(united_states),
+    ano(1985),
+    duracao(1.45),
+    classificacao_imdb(5.5),
+    classificacao_mpa(r),
+    realizador(jack_sholder),
+    atores([robert_englund, mark_patton, kim_myers]).
+
+filme('Cat''s Eye') :-
+    genero(monster_horror),
+    genero(comedy),
+    genero(drama),
+    genero(horror),
+    genero(thriller),
+    pais(united_states,netherlands),
+    ano(1985),
+    duracao(1.57),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg-13),
+    realizador(lewis_teague),
+    atores([drew_barrymore, james_woods, alan_king]).
+
+filme('Fast Forward') :-
+    genero(pop_musical),
+    genero(drama),
+    genero(musical),
+    pais(united_states),
+    ano(1985),
+    duracao(1.83),
+    classificacao_imdb(5.6),
+    classificacao_mpa(pg),
+    realizador(sidney_poitier),
+    atores([john_scott_clough, don_franklin, tamara_mark]).
+
+filme('Pray for Death') :-
+    genero(dark_comedy),
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_states),
+    ano(1985),
+    duracao(1.63),
+    classificacao_imdb(5.7),
+    classificacao_mpa(r),
+    realizador(gordon_hessler),
+    atores([sh_kosugi, james_booth, donna_kei_benz]).
+
+
+filme('Igor and the Lunatics') :-
+    genero(horror),
+    pais(united_states),
+    ano(1985),
+    duracao(1.37),
+    classificacao_imdb(3.1),
+    classificacao_mpa(r),
+    realizador(wj_parolini),
+    atores([joseph_eero, mary_ann_schacht, joe_niola]).
+
+
+
+
+filme('Scream') :-
+    genero(dark_comedy),
+    genero(slasher_horror),
+    genero(suspense_mystery),
+    genero(teen_horror),
+    genero(whodunnit),
+    genero(horror),
+    genero(mystery),
+    pais(united_states),
+    ano(1996),
+    duracao(1.85),
+    classificacao_imdb(7.4),
+    classificacao_mpa(r),
+    realizador(wes_craven),
+    atores([neve_campbell, courteney_cox, david_arquette]).
+
+filme('The Long Kiss Goodnight') :-
+    genero(dark_comedy),
+    genero(oneperson_army_action),
+    genero(action),
+    genero(crime),
+    genero(drama),
+    genero(holiday),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(1996),
+    duracao(2.02),
+    classificacao_imdb(6.8),
+    classificacao_mpa(r),
+    realizador(renny_harlin),
+    atores([geena_davis, samuel_l_jackson, yvonne_zima]).
+
+filme('Emma') :-
+    genero(costume_drama),
+    genero(period_drama),
+    genero(romantic_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_kingdom,united_states),
+    ano(1996),
+    duracao(2.00),
+    classificacao_imdb(6.6),
+    classificacao_mpa(pg),
+    realizador(douglas_mcgrath),
+    atores([gwyneth_paltrow, james_cosmo, greta_scacchi]).
+
+filme('The Crow: City of Angels') :-
+    genero(dark_comedy),
+    genero(superhero),
+    genero(action),
+    genero(crime),
+    genero(fantasy),
+    genero(horror),
+    genero(thriller),
+    pais(united_states),
+    ano(1996),
+    duracao(1.40),
+    classificacao_imdb(4.6),
+    classificacao_mpa(r),
+    realizador(tim_pope),
+    atores([vincent_perez, mia_kirshner, richard_brooks]).
+
+filme('Bio-Dome') :-
+    genero(slapstick),
+    genero(comedy),
+    pais(united_states),
+    ano(1996),
+    duracao(1.47),
+    classificacao_imdb(4.4),
+    classificacao_mpa(pg-13),
+    realizador(jason_bloom),
+    atores([pauly_shore, stephen_baldwin, william_atherton]).
+
+filme('Girl 6') :-
+    genero(comedy),
+    genero(drama),
+    pais(united_states),
+    ano(1996),
+    duracao(1.80),
+    classificacao_imdb(5.3),
+    classificacao_mpa(r),
+    realizador(spike_lee),
+    atores([theresa_randle, isaiah_washington, spike_lee]).
+
+filme('Joe''s Apartment') :-
+    genero(comedy),
+    genero(fantasy),
+    genero(musical),
+    genero(scifi),
+    pais(united_states),
+    ano(1996),
+    duracao(1.33),
+    classificacao_imdb(5.5),
+    classificacao_mpa(pg-13),
+    realizador(john_payson),
+    atores([jerry_oconnell, megan_ward, billy_west]).
+
+filme('The Promise') :-
+    genero(comingofage),
+    genero(drama),
+    pais(belgium,france,luxembourg,tunisia),
+    ano(1996),
+    duracao(1.50),
+    classificacao_imdb(7.7),
+    classificacao_mpa(not_rated),
+    realizador(jeanpierre_dardenne,luc_dardenne),
+    atores([jrmie_renier, olivier_gourmet, assita_ouedraogo]).
+
 
 filme('Amarcord') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Italy, France'),
+    genero(satire),
+    genero(comedy),
+    genero(drama),
+    pais(italy,france),
     ano(1973),
-    duracao('2h 3m'),
+    duracao(2.05),
     classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Federico Fellini'),
-    atores(['Magali Nol', 'Bruno Zanin', 'Pupella Maggio']).
+    classificacao_mpa(r),
+    realizador(federico_fellini),
+    atores([magali_nol, bruno_zanin, pupella_maggio]).
 
-filme('Awakenings') :-
-    genero('Medical Drama'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1990),
-    duracao('2h 1m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Penny Marshall'),
-    atores(['Robert De Niro', 'Robin Williams', 'Julie Kavner']).
-
-filme('Afonya') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1975),
-    duracao('1h 32m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG'),
-    realizador('Georgiy Daneliya'),
-    atores(['Leonid Kuravlyov', 'Evgeniya Simonova', 'Evgeniy Leonov']).
-
-filme('Requiem for a Heavyweight') :-
-    genero('Boxing'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('United States'),
-    ano(1962),
-    duracao('1h 35m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Approved'),
-    realizador('Ralph Nelson'),
-    atores(['Anthony Quinn', 'Jackie Gleason', 'Mickey Rooney']).
-
-filme('Rozpustený a vypustený') :-
-    genero('Parody'),
-    genero('Comedy'),
-    genero('Crime'),
-    pais('Czechoslovakia'),
-    ano(1985),
-    duracao('1h 25m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Ladislav Smoljak'),
-    atores(['Jir Zahajsk', 'Marek Brodsk', 'Rudolf Hrusnsk']).
-
-filme('Dögkeselyü') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('Hungary'),
-    ano(1982),
-    duracao('1h 55m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Ferenc Andrs'),
-    atores(['Gyrgy Cserhalmi', 'Hdi Temessy', 'Zita Perczel']).
-
-filme('The Phantom of Liberty') :-
-    genero('Dark Comedy'),
-    genero('Satire'),
-    genero('Comedy'),
-    pais('France, Italy'),
-    ano(1974),
-    duracao('1h 44m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Luis Buuel'),
-    atores(['JeanClaude Brialy', 'Adolfo Celi', 'Michel Piccoli']).
-
-filme('The Velvet Queen') :-
-    genero('Nature Documentary'),
-    genero('Adventure'),
-    genero('Documentary'),
-    pais('France'),
-    ano(2021),
-    duracao('1h 32m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Marie Amiguet, Vincent Munier'),
-    atores(['Vincent Munier', 'Sylvain Tesson']).
-
-filme('Food, Inc.') :-
-    genero('Food Documentary'),
-    genero('News'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2008),
-    duracao('1h 34m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG'),
-    realizador('Robert Kenner'),
-    atores(['Michael Pollan', 'Eric Schlosser', 'Richard Lobb']).
-
-filme('Santa Claus Is Coming to Town!') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Romance'),
-    pais('Philippines'),
-    ano(1982),
-    duracao('1h 30m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Elwood Perez'),
-    atores(['Robert Arevalo', 'Liza Lorena', 'Marissa Delgado']).
-
-filme('For the Bible Tells Me So') :-
-    genero('Faith  Spirituality Documentary'),
-    genero('Documentary'),
-    genero('Romance'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 35m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Unrated'),
-    realizador('Daniel G Karslake'),
-    atores(['Imogene Robinson', 'Victor Robinson', 'Gene Robinson']).
-
-filme('Billie Eilish Live at the O2') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2023),
-    duracao('1h 45m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Sam Wrench'),
-    atores(['Billie Eilish', 'Andrew Marshall', 'Finneas OConnell']).
-
-filme('Chitralekha') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('History'),
-    pais('India'),
-    ano(1964),
-    duracao('2h 15m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Kidar Nath Sharma'),
-    atores(['Ashok Kumar', 'Meena Kumari', 'Pradeep Kumar']).
-
-filme('Waco: The Rules of Engagement') :-
-    genero('History Documentary'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(1997),
-    duracao('2h 45m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('William Gazecki'),
-    atores(['Dan Gifford', 'Jim Cavanaugh', 'Dick DeGuerin']).
-
-filme('Narito ang puso ko') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Philippines'),
-    ano(1992),
-    duracao('1h 58m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Chito S Roo'),
-    atores(['Lorna Tolentino', 'Gabby Concepcion', 'Amy Austria']).
-
-filme('Ciao America') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States, Italy'),
-    ano(2002),
-    duracao('1h 40m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Frank Ciota'),
-    atores(['Eddie Malavarca', 'Maurizio Nichetti', 'Violante Placido']).
-
-filme('The Train') :-
-    genero('Spy'),
-    genero('Thriller'),
-    genero('War'),
-    pais('France, Italy, United States'),
-    ano(1964),
-    duracao('2h 13m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Approved'),
-    realizador('John Frankenheimer'),
-    atores(['Burt Lancaster', 'Paul Scofield', 'Jeanne Moreau']).
-
-filme('The Peach Thief') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('War'),
-    pais('Bulgaria'),
-    ano(1964),
-    duracao('1h 24m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Vulo Radev'),
-    atores(['Nevena Kokanova', 'Rade Markovic', 'Mikhail Mikhaylov']).
-
-filme('The Last Dispatch') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2005),
-    duracao('1h 21m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Helmut Schleppi'),
-    atores(['Brad Corrigan', 'Pete Francis', 'Chad Urmston']).
-
-filme('The Tree of Wooden Clogs') :-
-    genero('Period Drama'),
-    genero('Drama'),
-    genero('History'),
-    pais('Italy'),
-    ano(1978),
-    duracao('3h 6m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Ermanno Olmi'),
-    atores(['Luigi Ornaghi', 'Francesca Moriggi', 'Omar Brignoli']).
-
-filme('Hud') :-
-    genero('Contemporary Western'),
-    genero('Drama'),
-    genero('Western'),
-    pais('United States'),
-    ano(1963),
-    duracao('1h 52m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Approved'),
-    realizador('Martin Ritt'),
-    atores(['Paul Newman', 'Melvyn Douglas', 'Patricia Neal']).
-
-filme('Before the Rain') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('War'),
-    pais('United Kingdom, France, North Macedonia'),
-    ano(1994),
-    duracao('1h 53m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Milcho Manchevski'),
-    atores(['Katrin Cartlidge', 'Rade Serbedzija', 'Grgoire Colin']).
-
-filme('Imagine: John Lennon') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom'),
-    ano(1988),
-    duracao('1h 40m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Andrew Solt'),
-    atores(['John Lennon', 'Yoko Ono', 'Paul McCartney']).
-
-filme('Going Upriver') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(2004),
-    duracao('1h 27m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('George Butler'),
-    atores(['John Kerry', 'David Alston', 'Dan Barbiero']).
-
-filme('The Death of Mr. Lazarescu') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Romania'),
-    ano(2005),
-    duracao('2h 33m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Cristi Puiu'),
-    atores(['Doru Ana', 'Monica Barladeanu', 'Alina Berzunteanu']).
-
-filme('Torch Song Trilogy') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States'),
-    ano(1988),
-    duracao('2h'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Paul Bogart'),
-    atores(['Anne Bancroft', 'Matthew Broderick', 'Harvey Fierstein']).
-
-filme('Los amantes frios') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Mexico'),
-    ano(1978),
-    duracao('1h 54m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Julio Bracho, Miguel Morayta, Julin Soler'),
-    atores(['Ignacio Lpez Tarso', 'Aurora Clavel', 'Ada Carrasco']).
-
-filme('The Remains of the Day') :-
-    genero('Period Drama'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States'),
-    ano(1993),
-    duracao('2h 14m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG'),
-    realizador('James Ivory'),
-    atores(['Anthony Hopkins', 'Emma Thompson', 'John Haycraft']).
-
-filme('Next Stop Paradise') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('France, Romania, Italy'),
-    ano(1998),
-    duracao('1h 39m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Lucian Pintilie'),
-    atores(['Costel Cascaval', 'Dorina Chiriac', 'Gheorghe Visu']).
-
-filme('A Prophet') :-
-    genero('Prison Drama'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('France, Italy'),
-    ano(2009),
-    duracao('2h 35m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Jacques Audiard'),
-    atores(['Tahar Rahim', 'Niels Arestrup', 'Adel Bencherif']).
-
-filme('Haqeeqat') :-
-    genero('Action'),
-    genero('Musical'),
-    genero('War'),
-    pais('India'),
-    ano(1964),
-    duracao('3h 4m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Chetan Anand'),
-    atores(['Balraj Sahni', 'Dharmendra', 'Vijay Anand']).
-
-filme('Black Rain') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('Japan'),
-    ano(1989),
-    duracao('2h 3m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Shhei Imamura'),
-    atores(['Yoshiko Tanaka', 'Kazuo Kitamura', 'Etsuko Ichihara']).
-
-filme('Manchester by the Sea') :-
-    genero('Psychological Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('United States'),
-    ano(2016),
-    duracao('2h 17m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Kenneth Lonergan'),
-    atores(['Casey Affleck', 'Michelle Williams', 'Kyle Chandler']).
-
-filme('Veronica se întoarce') :-
-    genero('Family'),
-    genero('Fantasy'),
-    genero('Musical'),
-    pais('Romania, Soviet Union'),
+filme('The Day of the Jackal') :-
+    genero(political_thriller),
+    genero(spy),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(united_kingdom,france),
     ano(1973),
-    duracao('1h 24m'),
+    duracao(2.38),
     classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Elisabeta Bostan'),
-    atores(['Lulu Mihaescu', 'Margareta Pslaru', 'Dem Radulescu']).
+    classificacao_mpa(pg),
+    realizador(fred_zinnemann),
+    atores([edward_fox, terence_alexander, michel_auclair]).
 
-filme('Nobody Wanted to Die') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('History'),
-    pais('Soviet Union'),
+filme('The Demons') :-
+    genero(horror),
+    pais(france,portugal,spain),
+    ano(1973),
+    duracao(1.32),
+    classificacao_imdb(5.2),
+    classificacao_mpa(r),
+    realizador(jess_franco),
+    atores([anne_libert, carmen_yazalde, doris_thomas]).
+
+filme('Bawdy Tales') :-
+    genero(comedy),
+    genero(crime),
+    genero(drama),
+    genero(history),
+    genero(horror),
+    pais(italy,france),
+    ano(1973),
+    duracao(1.55),
+    classificacao_imdb(5.7),
+    classificacao_mpa(not_rated),
+    realizador(sergio_citti),
+    atores([ninetto_davoli, franco_citti, nicoletta_machiavelli]).
+
+filme('Massage Parlor Murders!') :-
+    genero(crime),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(1973),
+    duracao(1.33),
+    classificacao_imdb(4.7),
+    classificacao_mpa(r),
+    realizador(chester_fox,alex_stevens),
+    atores([george_spencer, sandra_peabody, john_moser]).
+
+
+
+filme('Vengeance of the Zombies') :-
+    genero(horror),
+    pais(spain),
+    ano(1973),
+    duracao(1.48),
+    classificacao_imdb(4.8),
+    classificacao_mpa(not_rated),
+    realizador(len_klimovsky),
+    atores([paul_naschy, romy, mirta_miller]).
+
+filme('The Serpent') :-
+    genero(drama),
+    genero(thriller),
+    pais(france,italy,west_germany),
+    ano(1973),
+    duracao(1.88),
+    classificacao_imdb(6.2),
+    classificacao_mpa(pg),
+    realizador(henri_verneuil),
+    atores([yul_brynner, henry_fonda, dirk_bogarde]).
+
+filme('Psyched by the 4D Witch') :-
+    genero(supernatural_horror),
+    genero(horror),
+    pais(united_states),
+    ano(1973),
+    duracao(1.35),
+    classificacao_imdb(3.2),
+    classificacao_mpa(r),
+    realizador(victor_luminera),
+    atores([margo, esoterica, tom_yerian]).
+
+filme('The House That Vanished') :-
+    genero(crime),
+    genero(horror),
+    pais(united_kingdom,spain),
+    ano(1973),
+    duracao(1.60),
+    classificacao_imdb(5.0),
+    classificacao_mpa(r),
+    realizador(jos_ramn_larraz),
+    atores([andrea_allan, karl_lanchbury, maggie_walker]).
+
+filme('Mean Frank and Crazy Tony') :-
+    genero(comedy),
+    genero(crime),
+    pais(italy,france),
+    ano(1973),
+    duracao(1.42),
+    classificacao_imdb(5.9),
+    classificacao_mpa(r),
+    realizador(michele_lupo),
+    atores([lee_van_cleef, tony_lo_bianco, edwige_fenech]).
+
+filme('Swingers'' Paradise') :-
+    genero(music),
+    genero(musical),
+    genero(romance),
+    pais(united_kingdom),
+    ano(1964),
+    duracao(1.88),
+    classificacao_imdb(5.3),
+    classificacao_mpa(not_rated),
+    realizador(sidney_j_furie),
+    atores([cliff_richard, walter_slezak, susan_hampshire]).
+
+filme('The Americanization of Emily') :-
+    genero(dark_comedy),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    genero(war),
+    pais(united_states),
+    ano(1964),
+    duracao(1.92),
+    classificacao_imdb(7.3),
+    classificacao_mpa(approved),
+    realizador(arthur_hiller),
+    atores([james_garner, julie_andrews, melvyn_douglas]).
+
+filme('Muscle Beach Party') :-
+    genero(comedy),
+    genero(musical),
+    pais(united_states),
+    ano(1964),
+    duracao(1.58),
+    classificacao_imdb(5.2),
+    classificacao_mpa(approved),
+    realizador(william_asher),
+    atores([frankie_avalon, annette_funicello, luciana_paluzzi]).
+
+filme('Apache Rifles') :-
+    genero(western),
+    pais(united_states),
+    ano(1964),
+    duracao(1.53),
+    classificacao_imdb(6.4),
+    classificacao_mpa(approved),
+    realizador(william_witney),
+    atores([audie_murphy, michael_dante, linda_lawson]).
+
+filme('The 7th Dawn') :-
+    genero(adventure),
+    genero(drama),
+    genero(war),
+    pais(united_kingdom,united_states),
+    ano(1964),
+    duracao(2.05),
+    classificacao_imdb(6.4),
+    classificacao_mpa(not_rated),
+    realizador(lewis_gilbert),
+    atores([william_holden, susannah_york, capucine]).
+
+
+
+filme('Law of the Lawless') :-
+    genero(western),
+    pais(united_states),
+    ano(1964),
+    duracao(1.45),
+    classificacao_imdb(6.0),
+    classificacao_mpa(approved),
+    realizador(william_f_claxton),
+    atores([dale_robertson, yvonne_de_carlo, william_bendix]).
+
+
+filme('The Cincinnati Kid') :-
+    genero(drama),
+    pais(united_states),
     ano(1965),
-    duracao('1h 40m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Vytautas Zalakevicius'),
-    atores(['Kazimieras Vitkus', 'Regimantas Adomaitis', 'Bruno OYa']).
+    duracao(1.70),
+    classificacao_imdb(7.2),
+    classificacao_mpa(tv-14),
+    realizador(norman_jewison,sam_peckinpah),
+    atores([steve_mcqueen, annmargret, edward_g_robinson]).
 
-filme('Earth: One Amazing Day') :-
-    genero('Nature Documentary'),
-    genero('Documentary'),
-    genero('Family'),
-    pais('United Kingdom, China'),
-    ano(2017),
-    duracao('1h 35m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('G'),
-    realizador('Richard Dale, Lixin Fan, Peter Webber'),
-    atores(['Robert Redford', 'Jackie Chan']).
-
-filme('A Railway Station for Two') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1983),
-    duracao('2h 21m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Eldar Ryazanov'),
-    atores(['Lyudmila Gurchenko', 'Oleg Basilashvili', 'Nikita Mikhalkov']).
-
-filme('The Umbrellas of Cherbourg') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('France, West Germany'),
-    ano(1964),
-    duracao('1h 31m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Jacques Demy'),
-    atores(['Catherine Deneuve', 'Nino Castelnuovo', 'Anne Vernon']).
-
-filme('That''s Entertainment!') :-
-    genero('Documentary'),
-    genero('Family'),
-    genero('Musical'),
-    pais('United States'),
-    ano(1974),
-    duracao('2h 15m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('G'),
-    realizador('Jack Haley Jr'),
-    atores(['Fred Astaire', 'Gene Kelly', 'Bing Crosby']).
-
-filme('Heartworn Highways') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(1976),
-    duracao('1h 32m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('James Szalapski'),
-    atores(['Peggy Brooks', 'Guy Clark', 'David Allan Coe']).
-
-filme('Eat Drink Man Woman') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Taiwan, United States'),
-    ano(1994),
-    duracao('2h 4m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Ang Lee'),
-    atores(['Sihung Lung', 'KueiMei Yang', 'Wang Yuwen']).
-
-filme('Crimes and Misdemeanors') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1989),
-    duracao('1h 44m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Woody Allen'),
-    atores(['Martin Landau', 'Woody Allen', 'Bill Bernstein']).
-
-filme('Vivre sa vie') :-
-    genero('Psychological Drama'),
-    genero('Tragedy'),
-    genero('Drama'),
-    pais('France'),
-    ano(1962),
-    duracao('1h 25m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('JeanLuc Godard'),
-    atores(['Anna Karina', 'Sady Rebbot', 'Andr S Labarthe']).
-
-filme('The Republic of ShKID') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Family'),
-    pais('Soviet Union'),
-    ano(1966),
-    duracao('1h 40m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('G'),
-    realizador('Gennadi Poloka'),
-    atores(['Sergey Yurskiy', 'Yuliya Burygina', 'Pavel Luspekayev']).
-
-filme('English Vinglish') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Family'),
-    pais('India'),
-    ano(2012),
-    duracao('2h 14m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Gauri Shinde'),
-    atores(['Sridevi', 'Adil Hussain', 'Mehdi Nebbou']).
-
-filme('Architects of Denial') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('United States'),
-    ano(2017),
-    duracao('1h 42m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('David Lee George'),
-    atores(['Taner Akam', 'Tjagharyan Movses Amaya', 'Movses Aneshyan']).
-
-filme('The Fall') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('Fantasy'),
-    pais('United States, South Africa, India'),
-    ano(2006),
-    duracao('1h 57m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Tarsem Singh'),
-    atores(['Lee Pace', 'Catinca Untaru', 'Justine Waddell']).
-
-filme('Bramayugam') :-
-    genero('Drama'),
-    genero('Horror'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2024),
-    duracao('2h 19m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Rahul Sadasivan'),
-    atores(['Mammootty', 'Arjun Ashokan', 'Sidharth Bharathan']).
-
-filme('Oasis: Supersonic') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom'),
-    ano(2016),
-    duracao('2h 2m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Mat Whitecross'),
-    atores(['Paul Arthurs', 'Christine Biller', 'Mark Coyle']).
-
-filme('Gentleman') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1993),
-    duracao('2h 40m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('S Shankar'),
-    atores(['Arjun Sarja', 'Madhoo', 'Subhasri']).
-
-filme('Billy Budd') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('War'),
-    pais('United Kingdom'),
-    ano(1962),
-    duracao('2h 3m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Approved'),
-    realizador('Peter Ustinov'),
-    atores(['Robert Ryan', 'Peter Ustinov', 'Melvyn Douglas']).
-
-filme('The Last Relic') :-
-    genero('Adventure'),
-    genero('History'),
-    genero('Romance'),
-    pais('Soviet Union, Estonia'),
-    ano(1969),
-    duracao('1h 26m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Grigori Kromanov'),
-    atores(['Aleksandr Goloborodko', 'Igrida Andrina', 'Elza Radzina']).
-
-filme('The Notebook') :-
-    genero('Romantic Epic'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States'),
-    ano(2004),
-    duracao('2h 3m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Nick Cassavetes'),
-    atores(['Gena Rowlands', 'James Garner', 'Rachel McAdams']).
-
-filme('One, Two, Three') :-
-    genero('Satire'),
-    genero('Screwball Comedy'),
-    genero('Comedy'),
-    pais('United States'),
-    ano(1961),
-    duracao('1h 44m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Approved'),
-    realizador('Billy Wilder'),
-    atores(['James Cagney', 'Horst Buchholz', 'Pamela Tiffin']).
-
-filme('War Dance') :-
-    genero('Documentary'),
-    genero('Music'),
-    genero('War'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 45m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Sean Fine, Andrea Nix'),
-    atores(['Dominic', 'Nancy', 'Rose']).
-
-filme('Burma VJ: Reporting from a Closed Country') :-
-    genero('News'),
-    genero('Documentary'),
-    genero('History'),
-    pais('Denmark, Sweden, Norway, United Kingdom, United States, Germany, Netherlands, Israel, Spain, Belgium, Canada'),
-    ano(2008),
-    duracao('1h 24m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Unrated'),
-    realizador('Anders stergaard'),
-    atores(['George W Bush', 'Joshua Min Htut', 'Ko Muang']).
-
-filme('The Yellow Mercedes') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Turkey, France, Germany, Switzerland'),
-    ano(1992),
-    duracao('1h 30m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Bay Okan'),
-    atores(['Ilyas Salman', 'Valrie Lemoine', 'Micky Sbastian']).
-
-filme('Turn It Around: The Story of East Bay Punk') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('United States'),
-    ano(2017),
-    duracao('2h 35m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Corbett Redford'),
-    atores(['Iggy Pop', 'Miranda July', 'Billie Joe Armstrong']).
-
-filme('My Night at Maud''s') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('France'),
-    ano(1969),
-    duracao('1h 45m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('GP'),
-    realizador('ric Rohmer'),
-    atores(['JeanLouis Trintignant', 'Franoise Fabian', 'MarieChristine Barrault']).
-
-filme('Jinnah') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('War'),
-    pais('United Kingdom, Pakistan, India'),
-    ano(1998),
-    duracao('1h 50m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Jamil Dehlavi'),
-    atores(['Christopher Lee', 'Shireen Shah', 'James Curran']).
-
-filme('Little England') :-
-    genero('Period Drama'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Greece'),
-    ano(2013),
-    duracao('2h 12m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Pantelis Voulgaris'),
-    atores(['Penelope Tsilika', 'Sofia Kokkali', 'Aneza Papadopoulou']).
-
-filme('I Am: Celine Dion') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('Canada, United States'),
-    ano(2024),
-    duracao('1h 43m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG'),
-    realizador('Irene Taylor'),
-    atores(['Cline Dion', 'Nelson Anglil', 'Eddy Anglil']).
-
-filme('I Saw the Devil') :-
-    genero('Psychological Thriller'),
-    genero('Action'),
-    genero('Thriller'),
-    pais('South Korea'),
-    ano(2010),
-    duracao('2h 24m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Kim Jeewoon'),
-    atores(['Lee Byunghun', 'Choi Minsik', 'Jeon Gookhwan']).
-
-filme('Courier') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1986),
-    duracao('1h 28m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Karen Shakhnazarov'),
-    atores(['Fyodor Dunayevsky', 'Anastasiya Nemolyaeva', 'Oleg Basilashvili']).
-
-filme('Throw Down Your Heart') :-
-    genero('Documentary'),
-    genero('Family'),
-    genero('Music'),
-    pais('United States'),
-    ano(2008),
-    duracao('1h 37m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Sascha Paladino'),
-    atores(['Bela Fleck', 'The Jatta Family', 'Basskou Kouyat']).
-
-filme('Innocent Voices') :-
-    genero('Drama'),
-    genero('Thriller'),
-    genero('War'),
-    pais('Mexico, United States, Puerto Rico'),
-    ano(2004),
-    duracao('2h'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Luis Mandoki'),
-    atores(['Carlos Padilla', 'Leonor Varela', 'Xuna Primus']).
-
-filme('Kaos') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Italy'),
-    ano(1984),
-    duracao('3h 7m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Paolo Taviani, Vittorio Taviani'),
-    atores(['Margarita Lozano', 'Orazio Torrisi', 'Carlo Cartier']).
-
-filme('Rock''n Roll Wolf') :-
-    genero('Family'),
-    genero('Fantasy'),
-    genero('Musical'),
-    pais('Romania, France, Soviet Union'),
-    ano(1976),
-    duracao('1h 23m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Elisabeta Bostan'),
-    atores(['Lyudmila Gurchenko', 'Mikhail Boyarskiy', 'Oleg Popov']).
-
-filme('Past Lives') :-
-    genero('Korean Drama'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States, South Korea'),
-    ano(2023),
-    duracao('1h 45m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Celine Song'),
-    atores(['Greta Lee', 'Teo Yoo', 'John Magaro']).
-
-filme('To Catch a Dollar: Muhammad Yunus Banks on America') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('United States'),
-    ano(2010),
-    duracao('1h 14m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Gayle Ferraro'),
-    atores(['Muhammad Yunus']).
-
-filme('Sikandar E Azam') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('History'),
-    pais('India'),
+filme('I Saw What You Did') :-
+    genero(slasher_horror),
+    genero(crime),
+    genero(horror),
+    genero(thriller),
+    pais(united_states),
     ano(1965),
-    duracao('2h 38m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Kedar Kapoor'),
-    atores(['Prithviraj Kapoor', 'Dara Singh Randhawa', 'Mumtaz Askari']).
+    duracao(1.37),
+    classificacao_imdb(6.2),
+    classificacao_mpa(approved),
+    realizador(william_castle),
+    atores([joan_crawford, john_ireland, leif_erickson]).
 
-filme('Brother') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Russia'),
+
+
+
+filme('What''s Up, Doc?') :-
+    genero(screwball_comedy),
+    genero(slapstick),
+    genero(comedy),
+    genero(romance),
+    pais(united_states),
+    ano(1972),
+    duracao(1.57),
+    classificacao_imdb(7.7),
+    classificacao_mpa(g),
+    realizador(peter_bogdanovich),
+    atores([barbra_streisand, ryan_oneal, madeline_kahn]).
+
+filme('Sixteen') :-
+    genero(drama),
+    pais(united_states),
+    ano(1972),
+    duracao(1.60),
+    classificacao_imdb(5.0),
+    classificacao_mpa(r),
+    realizador(lawrence_dobkin),
+    atores([mercedes_mccambridge, ford_rainey, simone_griffeth]).
+
+filme('Journey Back to Oz') :-
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(fantasy),
+    genero(musical),
+    pais(united_states),
+    ano(1972),
+    duracao(1.47),
+    classificacao_imdb(5.7),
+    classificacao_mpa(g),
+    realizador(hal_sutherland),
+    atores([liza_minnelli, milton_berle, margaret_hamilton]).
+
+filme('Pink Floyd: Live at Pompeii') :-
+    genero(concert),
+    genero(documentary),
+    genero(music),
+    pais(belgium,west_germany,france,united_kingdom),
+    ano(1972),
+    duracao(1.53),
+    classificacao_imdb(8.6),
+    classificacao_mpa(g),
+    realizador(adrian_maben),
+    atores([david_gilmour, roger_waters, richard_wright]).
+
+
+
+
+filme('One-Armed Boxer') :-
+    genero(kung_fu),
+    genero(action),
+    genero(drama),
+    genero(fantasy),
+    pais(taiwan,hong_kong),
+    ano(1972),
+    duracao(1.55),
+    classificacao_imdb(6.8),
+    classificacao_mpa(r),
+    realizador(jimmy_wang_yu),
+    atores([jimmy_wang_yu, tien_yeh, hsin_tang]).
+
+filme('The War Between Men and Women') :-
+    genero(comedy),
+    genero(drama),
+    pais(united_states),
+    ano(1972),
+    duracao(1.83),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg),
+    realizador(melville_shavelson),
+    atores([jack_lemmon, barbara_harris, jason_robards]).
+
+filme('For the Love of Ada') :-
+    genero(comedy),
+    genero(romance),
+    pais(united_kingdom),
+    ano(1972),
+    duracao(1.47),
+    classificacao_imdb(5.8),
+    classificacao_mpa(not_rated),
+    realizador(ronnie_baxter),
+    atores([irene_handl, wilfred_pickles, barbara_mitchell]).
+
+
+filme('You Don''t Mess with the Zohan') :-
+    genero(slapstick),
+    genero(action),
+    genero(comedy),
+    pais(united_states),
+    ano(2008),
+    duracao(1.88),
+    classificacao_imdb(5.6),
+    classificacao_mpa(pg-13),
+    realizador(dennis_dugan),
+    atores([adam_sandler, john_turturro, emmanuelle_chriqui]).
+
+filme('Smart People') :-
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2008),
+    duracao(1.58),
+    classificacao_imdb(6.1),
+    classificacao_mpa(r),
+    realizador(noam_murro),
+    atores([dennis_quaid, thomas_haden_church, sarah_jessica_parker]).
+
+filme('Departures') :-
+    genero(drama),
+    pais(japan),
+    ano(2008),
+    duracao(2.17),
+    classificacao_imdb(8.0),
+    classificacao_mpa(pg-13),
+    realizador(yjir_takita),
+    atores([masahiro_motoki, ryko_hirosue, tsutomu_yamazaki]).
+
+filme('More Than a Game') :-
+    genero(basketball),
+    genero(sports_documentary),
+    genero(biography),
+    genero(documentary),
+    genero(sport),
+    pais(united_states),
+    ano(2008),
+    duracao(1.75),
+    classificacao_imdb(7.6),
+    classificacao_mpa(pg),
+    realizador(kristopher_belman),
+    atores([lebron_james, dru_joyce, romeo_travis]).
+
+
+filme('The Red Baron') :-
+    genero(action),
+    genero(adventure),
+    genero(biography),
+    genero(drama),
+    genero(romance),
+    genero(war),
+    pais(germany,united_kingdom),
+    ano(2008),
+    duracao(1.77),
+    classificacao_imdb(6.3),
+    classificacao_mpa(pg-13),
+    realizador(nikolai_mllerschn),
+    atores([matthias_schweighfer, lena_headey, til_schweiger]).
+
+filme('August') :-
+    genero(drama),
+    genero(financial_drama),
+    pais(united_states),
+    ano(2008),
+    duracao(1.47),
+    classificacao_imdb(5.3),
+    classificacao_mpa(r),
+    realizador(austin_chick),
+    atores([josh_hartnett, naomie_harris, adam_scott]).
+
+filme('Extreme Movie') :-
+    genero(satire),
+    genero(comedy),
+    pais(united_states),
+    ano(2008),
+    duracao(1.43),
+    classificacao_imdb(3.7),
+    classificacao_mpa(r),
+    realizador(adam_jay_epstein,andrew_jacobson),
+    atores([frankie_muniz, michael_cera, ashley_schneider]).
+
+filme('Welcome to the Sticks') :-
+    genero(parody),
+    genero(comedy),
+    genero(romance),
+    pais(france),
+    ano(2008),
+    duracao(1.77),
+    classificacao_imdb(7.1),
+    classificacao_mpa(not_rated),
+    realizador(dany_boon),
+    atores([kad_merad, dany_boon, zo_flix]).
+
+filme('The Cooler') :-
+    genero(drama),
+    genero(romance),
+    pais(united_states),
+    ano(2003),
+    duracao(1.68),
+    classificacao_imdb(6.9),
+    classificacao_mpa(r),
+    realizador(wayne_kramer),
+    atores([william_h_macy, maria_bello, alec_baldwin]).
+
+filme('Interstella 5555: The 5tory of the 5ecret 5tar 5ystem') :-
+    genero(anime),
+    genero(adventure),
+    genero(animation),
+    genero(music),
+    genero(scifi),
+    pais(japan,france,philippines),
+    ano(2003),
+    duracao(1.13),
+    classificacao_imdb(7.8),
+    classificacao_mpa(not_rated),
+    realizador(daisuke_nishio,hirotoshi_rissen,kazuhisa_takenouchi),
+    atores([romanthony, thomas_bangalter]).
+
+filme('Veronica Guerin') :-
+    genero(tragedy),
+    genero(true_crime),
+    genero(biography),
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(ireland,united_kingdom,united_states),
+    ano(2003),
+    duracao(1.63),
+    classificacao_imdb(6.8),
+    classificacao_mpa(r),
+    realizador(joel_schumacher),
+    atores([cate_blanchett, colin_farrell, brenda_fricker]).
+
+filme('Love Me If You Dare') :-
+    genero(dark_comedy),
+    genero(tragedy),
+    genero(comedy),
+    genero(drama),
+    genero(romance),
+    pais(france,belgium),
+    ano(2003),
+    duracao(1.55),
+    classificacao_imdb(7.5),
+    classificacao_mpa(r),
+    realizador(yann_samuell),
+    atores([guillaume_canet, marion_cotillard, thibault_verhaeghe]).
+
+filme('Travelers and Magicians') :-
+    genero(adventure),
+    genero(drama),
+    pais(bhutan),
+    ano(2003),
+    duracao(1.80),
+    classificacao_imdb(7.4),
+    classificacao_mpa(not_rated),
+    realizador(khyentse_norbu),
+    atores([tshewang_dendup, gup_kado_duba, dasho_kado]).
+
+filme('Reconstruction') :-
+    genero(drama),
+    genero(romance),
+    pais(denmark),
+    ano(2003),
+    duracao(1.50),
+    classificacao_imdb(7.3),
+    classificacao_mpa(pg-13),
+    realizador(christoffer_boe),
+    atores([nikolaj_lie_kaas, maria_bonnevie, krister_henriksson]).
+
+
+filme('Cats Don''t Dance') :-
+    genero(handdrawn_animation),
+    genero(parody),
+    genero(animation),
+    genero(comedy),
+    genero(family),
+    genero(fantasy),
+    genero(musical),
+    pais(united_states),
     ano(1997),
-    duracao('1h 39m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Aleksey Balabanov'),
-    atores(['Sergey Bodrov', 'Viktor Sukhorukov', 'Svetlana Pismichenko']).
-
-filme('The Children''s Hour') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States'),
-    ano(1961),
-    duracao('1h 48m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Approved'),
-    realizador('William Wyler'),
-    atores(['Audrey Hepburn', 'Shirley MacLaine', 'James Garner']).
-
-filme('Chris & Don: A Love Story') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Romance'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 30m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Tina Mascara, Guido Santi'),
-    atores(['WH Auden', 'Don Bachardy', 'Ted Bachardy']).
-
-filme('Monster') :-
-    genero('ComingofAge'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Japan'),
-    ano(2023),
-    duracao('2h 7m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Hirokazu Koreeda'),
-    atores(['Sakura And', 'Eita Nagayama', 'Soya Kurokawa']).
-
-filme('La camioneta gris') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Thriller'),
-    pais('Mexico'),
-    ano(1990),
-    duracao('1h 30m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Jos Luis Urquieta'),
-    atores(['Mario Almada', 'Fernando Almada', 'Jorge Hernndez']).
-
-filme('Scratch') :-
-    genero('Music Documentary'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2001),
-    duracao('1h 32m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Doug Pray'),
-    atores(['The Allies', 'ATrak', 'Craze']).
-
-filme('The Gospel of John') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('History'),
-    pais('Canada, United Kingdom'),
-    ano(2003),
-    duracao('3h'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Philip Saville'),
-    atores(['Henry Ian Cusick', 'Daniel Kash', 'Christopher Plummer']).
-
-filme('Captain America: Civil War') :-
-    genero('Superhero'),
-    genero('Action'),
-    genero('SciFi'),
-    pais('United States, Germany, Puerto Rico'),
-    ano(2016),
-    duracao('2h 27m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Anthony Russo, Joe Russo'),
-    atores(['Chris Evans', 'Robert Downey Jr', 'Scarlett Johansson']).
-
-filme('The Life of Chuck') :-
-    genero('Drama'),
-    genero('Fantasy'),
-    genero('SciFi'),
-    pais('United States'),
-    ano(2024),
-    duracao('1h 50m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Mike Flanagan'),
-    atores(['Karen Gillan', 'Tom Hiddleston', 'Chiwetel Ejiofor']).
-
-filme('Letter Never Sent') :-
-    genero('Survival'),
-    genero('Adventure'),
-    genero('Drama'),
-    pais('Soviet Union'),
-    ano(1960),
-    duracao('1h 36m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Mikhail Kalatozov'),
-    atores(['Innokentiy Smoktunovskiy', 'Tatyana Samoylova', 'Vasiliy Livanov']).
-
-filme('The Red Angel') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('War'),
-    pais('Japan'),
-    ano(1966),
-    duracao('1h 35m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('Not Rated'),
-    realizador('Yasuz Masumura'),
-    atores(['Ayako Wakao', 'Shinsuke Ashida', 'Ysuke Kawazu']).
-
-filme('Homework') :-
-    genero('Crime'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('Iran'),
-    ano(1989),
-    duracao('1h 26m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('NaN'),
-    realizador('Abbas Kiarostami'),
-    atores(['Babak Ahmadpoor', 'Farhang Akhavan', 'Mohammad Reza Nematzadeh']).
-
-filme('Lilya 4-Ever') :-
-    genero('True Crime'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('Sweden, Denmark'),
-    ano(2002),
-    duracao('1h 49m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('R'),
-    realizador('Lukas Moodysson'),
-    atores(['Oksana Akinshina', 'Artyom Bogucharskiy', 'Pavel Ponomaryov']).
-
-filme('The Dissident') :-
-    genero('Crime'),
-    genero('Documentary'),
-    genero('Thriller'),
-    pais('United States'),
-    ano(2020),
-    duracao('1h 59m'),
-    classificacao_imdb(7.8),
-    classificacao_mpa('PG-13'),
-    realizador('Bryan Fogel'),
-    atores(['Jamal Khashoggi', 'Omar Abdulaziz', 'Irfan Fidan']).
-
-filme('The Bad Seed') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Turkey'),
-    ano(1963),
-    duracao('1h 45m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Nevzat Pesen'),
-    atores(['Alev Oraloglu', 'Lale Oraloglu', 'ztrk Serengil']).
-
-filme('Cu mâinile curate') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Thriller'),
-    pais('Romania, West Germany'),
-    ano(1972),
-    duracao('1h 35m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Sergiu Nicolaescu'),
-    atores(['Ilarion Ciobanu', 'Alexandru Dobrescu', 'Sergiu Nicolaescu']).
-
-filme('Pelle the Conqueror') :-
-    genero('ComingofAge'),
-    genero('Period Drama'),
-    genero('Drama'),
-    pais('Denmark, Sweden'),
-    ano(1987),
-    duracao('2h 37m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Bille August'),
-    atores(['Pelle Hvenegaard', 'Max von Sydow', 'Erik Paaske']).
-
-filme('Oro, Plata, Mata') :-
-    genero('War Epic'),
-    genero('Drama'),
-    genero('War'),
-    pais('Philippines'),
-    ano(1982),
-    duracao('3h 14m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('TV-MA'),
-    realizador('Peque Gallaga'),
-    atores(['Cherie Gil', 'Sandy Andolong', 'Liza Lorena']).
-
-filme('The Hidden Blade') :-
-    genero('Drama'),
-    genero('History'),
-    genero('Romance'),
-    pais('Japan'),
-    ano(2004),
-    duracao('2h 12m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Yji Yamada'),
-    atores(['Masatoshi Nagase', 'Takako Matsu', 'Hidetaka Yoshioka']).
-
-filme('Machuca') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('History'),
-    pais('Chile, Spain, United Kingdom, France'),
-    ano(2004),
-    duracao('2h 1m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Andrs Wood'),
-    atores(['Matas Quer', 'Ariel Mateluna', 'Manuela Martelli']).
-
-filme('Empire of the Sun') :-
-    genero('ComingofAge'),
-    genero('Drama'),
-    genero('War'),
-    pais('United States'),
-    ano(1987),
-    duracao('2h 33m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('Steven Spielberg'),
-    atores(['Christian Bale', 'John Malkovich', 'Miranda Richardson']).
-
-filme('Bandini') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1963),
-    duracao('2h 37m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Bimal Roy'),
-    atores(['Ashok Kumar', 'Nutan', 'Dharmendra']).
-
-filme('A Man Called Ove') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Sweden, Denmark, Norway'),
-    ano(2015),
-    duracao('1h 56m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Hannes Holm'),
-    atores(['Rolf Lassgrd', 'Bahar Pars', 'Filip Berg']).
-
-filme('Tell the Truth and Run: George Seldes and the American Press') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(1996),
-    duracao('1h 30m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Rick Goldsmith'),
-    atores(['Susan Sarandon', 'Edward Asner', 'Ben Bagdikian']).
-
-filme('The Vanishing') :-
-    genero('Psychological Thriller'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('Netherlands, France'),
-    ano(1988),
-    duracao('1h 47m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('George Sluizer'),
-    atores(['BernardPierre Donnadieu', 'Gene Bervoets', 'Johanna ter Steege']).
-
-filme('X-Men: First Class') :-
-    genero('Superhero'),
-    genero('Action'),
-    genero('SciFi'),
-    pais('United States, United Kingdom'),
-    ano(2011),
-    duracao('2h 11m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Matthew Vaughn'),
-    atores(['James McAvoy', 'Michael Fassbender', 'Jennifer Lawrence']).
-
-filme('Me and Earl and the Dying Girl') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('United States'),
-    ano(2015),
-    duracao('1h 45m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Alfonso GomezRejon'),
-    atores(['Thomas Mann', 'RJ Cyler', 'Olivia Cooke']).
-
-filme('Y tu mamá también') :-
-    genero('ComingofAge'),
-    genero('Road Trip'),
-    genero('Drama'),
-    pais('Mexico'),
-    ano(2001),
-    duracao('1h 46m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Alfonso Cuarn'),
-    atores(['Maribel Verd', 'Gael Garca Bernal', 'Daniel Gimnez Cacho']).
-
-filme('The Color Purple') :-
-    genero('Epic'),
-    genero('Period Drama'),
-    genero('Drama'),
-    pais('United States'),
-    ano(1985),
-    duracao('2h 34m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Steven Spielberg'),
-    atores(['Danny Glover', 'Whoopi Goldberg', 'Oprah Winfrey']).
-
-filme('Seniman Bujang Lapok') :-
-    genero('Comedy'),
-    genero('Family'),
-    genero('Romance'),
-    pais('Singapore, Malaysia'),
-    ano(1961),
-    duracao('2h'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('P Ramlee'),
-    atores(['P Ramlee', 'Aziz Sattar', 'S Shamsuddin']).
-
-filme('Be Natural: The Untold Story of Alice Guy-Blaché') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(2018),
-    duracao('1h 43m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Pamela B Green'),
-    atores(['Jodie Foster', 'Alice Guy', 'Pamela B Green']).
-
-filme('Nanking') :-
-    genero('Biography'),
-    genero('History'),
-    genero('War'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 28m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Bill Guttentag, Dan Sturman'),
-    atores(['Hugo Armstrong', 'Rosalind Chao', 'Stephen Dorff']).
-
-filme('Annamalai') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Musical'),
-    pais('India'),
-    ano(1992),
-    duracao('2h 44m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Suresh Krishna'),
-    atores(['Rajinikanth', 'Sarath Babu', 'Khushbu Sundar']).
-
-filme('Finding Vivian Maier') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Mystery'),
-    pais('United States'),
-    ano(2013),
-    duracao('1h 23m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('John Maloof, Charlie Siskel'),
-    atores(['Vivian Maier', 'John Maloof', 'Daniel Arnaud']).
-
-filme('Splendor in the Grass') :-
-    genero('Teen Romance'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United States'),
-    ano(1961),
-    duracao('2h 4m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Approved'),
-    realizador('Elia Kazan'),
-    atores(['Natalie Wood', 'Warren Beatty', 'Pat Hingle']).
-
-filme('Japan''s Longest Day') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Japan'),
-    ano(1967),
-    duracao('2h 37m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Kihachi Okamoto'),
-    atores(['Seiji Miyaguchi', 'Rokk Toura', 'Chish Ry']).
-
-filme('Murderball') :-
-    genero('Sports Documentary'),
-    genero('Documentary'),
-    genero('Sport'),
-    pais('United States'),
-    ano(2005),
-    duracao('1h 28m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Henry Alex Rubin, Dana Adam Shapiro'),
-    atores(['Joe Soares', 'Keith Cavill', 'Mark Zupan']).
-
-filme('3 Women') :-
-    genero('Drama'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('United States'),
-    ano(1977),
-    duracao('2h 4m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('Robert Altman'),
-    atores(['Shelley Duvall', 'Sissy Spacek', 'Janice Rule']).
-
-filme('Horn from the Heart: The Paul Butterfield Story') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2017),
-    duracao('1h 35m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('John Anderson'),
-    atores(['Paul Butterfield', 'Elvin Bishop', 'Mike Bloomfield']).
-
-filme('Neil Young: Heart of Gold') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2006),
-    duracao('1h 43m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('Jonathan Demme'),
-    atores(['Neil Young', 'Emmylou Harris', 'Pegi Young']).
-
-filme('Enemies of the People') :-
-    genero('Crime'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United Kingdom, Cambodia'),
-    ano(2009),
-    duracao('1h 33m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Rob Lemkin, Thet Sambath'),
-    atores(['Thet Sambath', 'Nuon Chea', 'Pol Pot']).
-
-filme('Lost in Translation') :-
-    genero('ComingofAge'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('United States, Japan'),
-    ano(2003),
-    duracao('1h 42m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Sofia Coppola'),
-    atores(['Bill Murray', 'Scarlett Johansson', 'Giovanni Ribisi']).
-
-filme('The Man Who Would Be King') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('War'),
-    pais('United Kingdom, United States'),
-    ano(1975),
-    duracao('2h 9m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('John Huston'),
-    atores(['Sean Connery', 'Michael Caine', 'Christopher Plummer']).
-
-filme('Waking Life') :-
-    genero('Animation'),
-    genero('Drama'),
-    genero('Fantasy'),
-    pais('United States'),
-    ano(2001),
-    duracao('1h 39m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Richard Linklater'),
-    atores(['Ethan Hawke', 'Trevor Jack Brooks', 'Lorelei Linklater']).
-
-filme('Chasing Ice') :-
-    genero('Science  Technology Documentary'),
-    genero('Biography'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2012),
-    duracao('1h 15m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Jeff OrlowskiYang'),
-    atores(['James Balog', 'Svavar Jnatansson', 'Louie Psihoyos']).
-
-filme('The Broken Circle Breakdown') :-
-    genero('Drama'),
-    genero('Music'),
-    genero('Romance'),
-    pais('Belgium, Netherlands'),
-    ano(2012),
-    duracao('1h 51m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Felix van Groeningen'),
-    atores(['Veerle Baetens', 'Johan Heldenbergh', 'Nell Cattrysse']).
-
-filme('Cape Fear') :-
-    genero('Psychological Thriller'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('United States'),
-    ano(1962),
-    duracao('1h 46m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Approved'),
-    realizador('J Lee Thompson'),
-    atores(['Gregory Peck', 'Robert Mitchum', 'Polly Bergen']).
-
-filme('Ugly, Dirty and Bad') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Italy'),
-    ano(1976),
-    duracao('1h 55m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Ettore Scola'),
-    atores(['Francesco Anniballi', 'Maria Bosco', 'Giselda Castrini']).
-
-filme('The Attorney') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('History'),
-    pais('South Korea'),
-    ano(2013),
-    duracao('2h 7m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Wooseok Yang'),
-    atores(['Song Kangho', 'Kwak Dowon', 'SiWan Yim']).
-
-filme('Undertow') :-
-    genero('Drama'),
-    genero('Fantasy'),
-    genero('Romance'),
-    pais('Peru, Colombia, France, Germany'),
-    ano(2009),
-    duracao('1h 37m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Javier FuentesLen'),
-    atores(['Cristian Mercado', 'Tatiana Astengo', 'Manolo Cardona']).
-
-filme('Raaja Paarvai') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1981),
-    duracao('2h 24m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Singeetam Srinivasa Rao'),
-    atores(['Kamal Haasan', 'Madhavi', 'YG Mahendran']).
-
-filme('The Great Silence') :-
-    genero('Spaghetti Western'),
-    genero('Drama'),
-    genero('Western'),
-    pais('Italy, France'),
-    ano(1968),
-    duracao('1h 45m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Sergio Corbucci'),
-    atores(['JeanLouis Trintignant', 'Klaus Kinski', 'Frank Wolff']).
-
-filme('Seisaku''s Wife') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('War'),
-    pais('Japan'),
-    ano(1965),
-    duracao('1h 33m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Yasuz Masumura'),
-    atores(['Ayako Wakao', 'Takahiro Tamura', 'Nobuo Chiba']).
-
-filme('Lone Wolf and Cub: Sword of Vengeance') :-
-    genero('Samurai'),
-    genero('Action'),
-    genero('Adventure'),
-    pais('Japan'),
-    ano(1972),
-    duracao('1h 24m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Kenji Misumi'),
-    atores(['Tomisabur Wakayama', 'Fumio Watanabe', 'G Kat']).
-
-filme('Jimi Hendrix') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(1973),
-    duracao('1h 38m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Joe Boyd, John Head, Gary Weis'),
-    atores(['Arthur Allen', 'Albert Allen', 'Stella Benabon']).
-
-filme('Los albañiles') :-
-    genero('Drama'),
-    genero('Mystery'),
-    genero('Thriller'),
-    pais('Mexico'),
-    ano(1976),
-    duracao('2h 2m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Jorge Fons'),
-    atores(['Ignacio Lpez Tarso', 'Jaime Fernndez', 'Jos Alonso']).
-
-filme('The Cuckoo') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('Russia'),
-    ano(2002),
-    duracao('1h 39m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Aleksandr Rogozhkin'),
-    atores(['AnniKristiina Juuso', 'Ville Haapasalo', 'Viktor Bychkov']).
-
-filme('Gore Vidal: The United States of Amnesia') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States, Italy'),
-    ano(2013),
-    duracao('1h 23m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Nicholas D Wrathall'),
-    atores(['Gore Vidal', 'Howard Auster', 'James Best']).
-
-filme('The Tunnel') :-
-    genero('Drama'),
-    genero('History'),
-    genero('Thriller'),
-    pais('Germany'),
-    ano(2001),
-    duracao('2h 30m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Roland Suso Richter'),
-    atores(['Heino Ferch', 'Nicolette Krebitz', 'Sebastian Koch']).
-
-filme('Ziemassvetku jampadracis') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Family'),
-    pais('Latvia, Germany'),
-    ano(1993),
-    duracao('1h 12m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Varis Brasla'),
-    atores(['Kaspars Adamsons', 'Roberts Bekeris', 'Nora Bidere']).
-
-filme('The Wrecking Crew!') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('United States'),
-    ano(2008),
-    duracao('1h 41m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('Denny Tedesco'),
-    atores(['Brian Wilson', 'Dick Clark', 'Cher']).
-
-filme('Purple Noon') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('France, Italy'),
-    ano(1960),
-    duracao('1h 58m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Ren Clment'),
-    atores(['Alain Delon', 'Maurice Ronet', 'Marie Lafort']).
-
-filme('Na samote u lesa') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Family'),
-    pais('Czechoslovakia'),
-    ano(1976),
-    duracao('1h 32m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Jir Menzel'),
-    atores(['Josef Kemr', 'Zdenek Sverk', 'Daniela Kolrov']).
-
-filme('Stone Years') :-
-    genero('Drama'),
-    genero('History'),
-    genero('Romance'),
-    pais('Greece'),
-    ano(1985),
-    duracao('2h 22m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Pantelis Voulgaris'),
-    atores(['Themis Bazaka', 'Dimitris Katalifos', 'Maria Martika']).
-
-filme('Don') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Thriller'),
-    pais('India'),
-    ano(1978),
-    duracao('2h 46m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Chandra Barot'),
-    atores(['Amitabh Bachchan', 'Zeenat Aman', 'Pran Sikand']).
-
-filme('Another Round') :-
-    genero('Dark Comedy'),
-    genero('Psychological Drama'),
-    genero('Drama'),
-    pais('Denmark, Sweden, Netherlands, Belgium, France'),
-    ano(2020),
-    duracao('1h 57m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Thomas Vinterberg'),
-    atores(['Mads Mikkelsen', 'Thomas Bo Larsen', 'Magnus Millang']).
-
-filme('Breathless') :-
-    genero('Caper'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('France'),
-    ano(1960),
-    duracao('1h 30m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('JeanLuc Godard'),
-    atores(['JeanPaul Belmondo', 'Jean Seberg', 'Van Doude']).
-
-filme('Jacquot of Nantes') :-
-    genero('Biography'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('France'),
-    ano(1991),
-    duracao('1h 58m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('Agns Varda'),
-    atores(['Philippe Maron', 'Edouard Joubeaud', 'Laurent Monnier']).
-
-filme('Umrao Jaan') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1981),
-    duracao('2h 25m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Muzaffar Ali'),
-    atores(['Rekha', 'Farooq Shaikh', 'Naseeruddin Shah']).
-
-filme('Love & Anarchy') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Italy, France'),
-    ano(1973),
-    duracao('2h'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Lina Wertmller'),
-    atores(['Giancarlo Giannini', 'Mariangela Melato', 'Lina Polito']).
-
-filme('Punishment Park') :-
-    genero('Political Thriller'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('United States'),
-    ano(1971),
-    duracao('1h 31m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Peter Watkins'),
-    atores(['Patrick Boland', 'Kent Foreman', 'Carmen Argenziano']).
-
-filme('Seven Beauties') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('Italy'),
-    ano(1975),
-    duracao('1h 56m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Lina Wertmller'),
-    atores(['Giancarlo Giannini', 'Fernando Rey', 'Shirley Stoler']).
-
-filme('Visions of Light') :-
-    genero('Science  Technology Documentary'),
-    genero('Documentary'),
-    genero('History'),
-    pais('Japan, United States'),
-    ano(1992),
-    duracao('1h 32m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Arnold Glassman, Todd McCarthy, Stuart Samuels'),
-    atores(['Conrad L Hall', 'John Bailey', 'Vilmos Zsigmond']).
-
-filme('Let''s Get Lost') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(1988),
-    duracao('2h'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Bruce Weber'),
-    atores(['Chet Baker', 'Carol Baker', 'Vera Baker']).
-
-filme('Lucky Number Slevin') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('United Kingdom, Germany, Canada, United States'),
-    ano(2006),
-    duracao('1h 50m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Paul McGuigan'),
-    atores(['Josh Hartnett', 'Ben Kingsley', 'Morgan Freeman']).
-
-filme('Kolya') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Music'),
-    pais('Czech Republic, United Kingdom, France'),
-    ano(1996),
-    duracao('1h 51m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Jan Sverk'),
-    atores(['Zdenek Sverk', 'Andrey Khalimon', 'Libuse Safrnkov']).
-
-filme('Taiwan Canasta') :-
-    genero('Satire'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Yugoslavia'),
-    ano(1985),
-    duracao('1h 41m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Goran Markovic'),
-    atores(['Boris Komnenic', 'Neda Arneric', 'Radko Polic']).
-
-filme('Fantastic Planet') :-
-    genero('Adult Animation'),
-    genero('Animation'),
-    genero('SciFi'),
-    pais('France, Czechoslovakia'),
-    ano(1973),
-    duracao('1h 12m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('Ren Laloux'),
-    atores(['Barry Bostwick', 'Jennifer Drake', 'Eric Baugin']).
-
-filme('Naked') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('United Kingdom'),
-    ano(1993),
-    duracao('2h 11m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Mike Leigh'),
-    atores(['David Thewlis', 'Lesley Sharp', 'Katrin Cartlidge']).
-
-filme('L''armata Brancaleone') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('History'),
-    pais('Italy, France, Spain'),
-    ano(1966),
-    duracao('2h'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Mario Monicelli'),
-    atores(['Vittorio Gassman', 'Catherine Spaak', 'Folco Lulli']).
-
-filme('Abduction: The Megumi Yokota Story') :-
-    genero('Crime'),
-    genero('Documentary'),
-    genero('Mystery'),
-    pais('United Kingdom, United States'),
-    ano(2006),
-    duracao('1h 25m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Patty Kim, Chris Sheridan'),
-    atores(['Teruaki Masumoto', 'Megumi Yokota', 'Sakie Yokota']).
-
-filme('L''Avventura') :-
-    genero('Drama'),
-    genero('Mystery'),
-    genero('Romance'),
-    pais('Italy, France'),
-    ano(1960),
-    duracao('2h 24m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Michelangelo Antonioni'),
-    atores(['Gabriele Ferzetti', 'Monica Vitti', 'Lea Massari']).
-
-filme('Piano Piano Kid') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Family'),
-    pais('Turkey'),
-    ano(1991),
-    duracao('1h 21m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Tun Basaran'),
-    atores(['Rutkay Aziz', 'Emin Sivas', 'Serap Aksoy']).
-
-filme('The Holy Mountain') :-
-    genero('Adventure'),
-    genero('Drama'),
-    genero('Fantasy'),
-    pais('Mexico'),
-    ano(1973),
-    duracao('1h 54m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Alejandro Jodorowsky'),
-    atores(['Alejandro Jodorowsky', 'Horacio Salinas', 'Zamira Saunders']).
-
-filme('Snow White') :-
-    genero('Animation'),
-    genero('Comedy'),
-    genero('Fantasy'),
-    pais('Hungary'),
-    ano(1984),
-    duracao('1h 30m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Jzsef Nepp'),
-    atores(['Ferenc Kllai', 'Jnos Krmendi', 'Ilona Bres']).
-
-filme('The Dirty Dozen') :-
-    genero('Action'),
-    genero('Adventure'),
-    genero('War'),
-    pais('United Kingdom, United States'),
-    ano(1967),
-    duracao('2h 30m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Approved'),
-    realizador('Robert Aldrich'),
-    atores(['Lee Marvin', 'Ernest Borgnine', 'Charles Bronson']).
-
-filme('The Girl and the Echo') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Romance'),
-    pais('Soviet Union'),
-    ano(1964),
-    duracao('59m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Arunas Zebriunas'),
-    atores(['Lina Braknyte', 'Valeriy Zubarev', 'Bronius Babkauskas']).
-
-filme('Crock of Gold: A Few Rounds with Shane MacGowan') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom, Ireland, United States'),
-    ano(2020),
-    duracao('2h 4m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Julien Temple'),
-    atores(['Shane MacGowan', 'The Pogues', 'Siobhan MacGowan']).
-
-filme('Finding Neverland') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Family'),
-    pais('United States, United Kingdom'),
-    ano(2004),
-    duracao('1h 46m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG'),
-    realizador('Marc Forster'),
-    atores(['Johnny Depp', 'Kate Winslet', 'Julie Christie']).
-
-filme('Pirosmani') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('History'),
-    pais('Soviet Union'),
-    ano(1969),
-    duracao('1h 25m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Giorgi Shengelaia'),
-    atores(['Avtandil Varazi', 'Dodo Abashidze', 'Zurab Kapianidze']).
-
-filme('The Olsen Gang Sees Red') :-
-    genero('Comedy'),
-    genero('Crime'),
-    genero('Family'),
-    pais('Denmark'),
-    ano(1976),
-    duracao('1h 40m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('Not Rated'),
-    realizador('Erik Balling'),
-    atores(['Ove Sproge', 'Morten Grunwald', 'Poul Bundgaard']).
-
-filme('Yacht Rock: A Dockumentary') :-
-    genero('Music Documentary'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2024),
-    duracao('1h 35m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('TV-MA'),
-    realizador('Garret Price'),
-    atores(['Garret Price', 'Fred Armisen', 'Mac DeMarco']).
-
-filme('Love and Honor') :-
-    genero('Drama'),
-    genero('History'),
-    genero('Romance'),
-    pais('Japan'),
-    ano(2006),
-    duracao('2h 2m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('PG-13'),
-    realizador('Yji Yamada'),
-    atores(['Takuya Kimura', 'Rei Dan', 'Mitsugor Band']).
-
-filme('Encounters at the End of the World') :-
-    genero('Nature Documentary'),
-    genero('Travel Documentary'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 39m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('G'),
-    realizador('Werner Herzog'),
-    atores(['Werner Herzog', 'Scott Rowland', 'Stefan Pashov']).
-
-filme('Everybody Go Home!') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('Italy, France'),
-    ano(1960),
-    duracao('2h 2m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('NaN'),
-    realizador('Luigi Comencini'),
-    atores(['Alberto Sordi', 'Serge Reggiani', 'Carla Gravina']).
-
-filme('City of Life and Death') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('China, Hong Kong'),
-    ano(2009),
-    duracao('2h 13m'),
-    classificacao_imdb(7.7),
-    classificacao_mpa('R'),
-    realizador('Chuan Lu'),
-    atores(['Ye Liu', 'Wei Fan', 'Hideo Nakaizumi']).
-
-filme('Shiva') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(1990),
-    duracao('2h 42m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Ram Gopal Varma'),
-    atores(['Nagarjuna Akkineni', 'Amala Akkineni', 'Raj Zutshi']).
-
-filme('My Way') :-
-    genero('Action'),
-    genero('Drama'),
-    genero('War'),
-    pais('South Korea'),
-    ano(2011),
-    duracao('2h 17m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Kang Jekyu'),
-    atores(['Jang Donggun', 'Joe Odagiri', 'Bingbing Fan']).
-
-filme('A Little Princess') :-
-    genero('Drama'),
-    genero('Family'),
-    genero('Fantasy'),
-    pais('United States'),
-    ano(1995),
-    duracao('1h 37m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('G'),
-    realizador('Alfonso Cuarn'),
-    atores(['Liesel Matthews', 'Eleanor Bron', 'Liam Cunningham']).
-
-filme('Lord of War') :-
-    genero('True Crime'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('Germany, United States, France'),
-    ano(2005),
-    duracao('2h 2m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Andrew Niccol'),
-    atores(['Nicolas Cage', 'Ethan Hawke', 'Jared Leto']).
-
-filme('Better Than Something: Jay Reatard') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('United States'),
-    ano(2011),
-    duracao('1h 29m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Alex Hammond, Ian Markiewicz'),
-    atores(['Jay Reatard', 'King Louie Bankston', 'Shawn Foree']).
-
-filme('Thunder Soul') :-
-    genero('Music Documentary'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2010),
-    duracao('1h 23m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Mark Landsman'),
-    atores(['Craig Baldwin', 'Craig Green', 'Conrad O Johnson Sr']).
-
-filme('This Last Lonely Place') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('United States'),
-    ano(2014),
-    duracao('1h 25m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Steve Anderson'),
-    atores(['Rhys Coiro', 'Xander Berkeley', 'Carly Pope']).
-
-filme('Wake in Fright') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('Australia'),
-    ano(1971),
-    duracao('1h 49m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Ted Kotcheff'),
-    atores(['Donald Pleasence', 'Gary Bond', 'Chips Rafferty']).
-
-filme('How to Survive a Plague') :-
-    genero('News'),
-    genero('Documentary'),
-    genero('History'),
-    pais('United States'),
-    ano(2012),
-    duracao('1h 50m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('David France'),
-    atores(['Peter Staley', 'Larry Kramer', 'Iris Long']).
-
-filme('The Commitments') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Music'),
-    pais('Ireland, United Kingdom, United States'),
-    ano(1991),
-    duracao('1h 58m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Alan Parker'),
-    atores(['Robert Arkins', 'Michael Aherne', 'Angeline Ball']).
-
-filme('It Might Get Loud') :-
-    genero('Music Documentary'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2008),
-    duracao('1h 38m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Davis Guggenheim'),
-    atores(['Jimmy Page', 'The Edge', 'Jack White']).
-
-filme('Eyes Without a Face') :-
-    genero('Body Horror'),
-    genero('Drama'),
-    genero('Horror'),
-    pais('France, Italy'),
-    ano(1960),
-    duracao('1h 30m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Approved'),
-    realizador('Georges Franju'),
-    atores(['Pierre Brasseur', 'Alida Valli', 'Juliette Mayniel']).
-
-filme('Maudie') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Canada, Ireland'),
-    ano(2016),
-    duracao('1h 55m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG-13'),
-    realizador('Aisling Walsh'),
-    atores(['Sally Hawkins', 'Ethan Hawke', 'Zachary Bennett']).
-
-filme('In July') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('Romance'),
-    pais('Germany, Turkey, Hungary'),
-    ano(2000),
-    duracao('1h 39m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Fatih Akin'),
-    atores(['Moritz Bleibtreu', 'Christiane Paul', 'Mehmet Kurtulus']).
-
-filme('Kapag Puno Na Ang Salop...') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Thriller'),
-    pais('Philippines'),
-    ano(1987),
-    duracao('1h 57m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Arturo San Agustin'),
-    atores(['Fernando Poe Jr', 'Eddie Garcia', 'Paquito Diaz']).
-
-filme('RBG') :-
-    genero('Political Documentary'),
-    genero('Biography'),
-    genero('Documentary'),
-    pais('United States'),
-    ano(2018),
-    duracao('1h 38m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Julie Cohen, Betsy West'),
-    atores(['Ruth Bader Ginsburg', 'Ann Kittner', 'Harryette Helsel']).
-
-filme('Divided We Fall') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('Czech Republic'),
-    ano(2000),
-    duracao('1h 57m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG-13'),
-    realizador('Jan Hrebejk'),
-    atores(['Bolek Polvka', 'Csongor Kassai', 'Jaroslav Dusek']).
-
-filme('Twist') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('Music'),
-    pais('Canada'),
-    ano(1992),
-    duracao('1h 14m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Ron Mann'),
-    atores(['Cholly Atkins', 'Hank Ballard', 'Betty Begg']).
-
-filme('God''s Own Country') :-
-    genero('Steamy Romance'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United Kingdom'),
-    ano(2017),
-    duracao('1h 44m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Francis Lee'),
-    atores(['Josh OConnor', 'Alec Secareanu', 'Gemma Jones']).
-
-filme('Mein Kampf') :-
-    genero('Documentary'),
-    genero('Drama'),
-    genero('War'),
-    pais('Sweden, West Germany'),
-    ano(1960),
-    duracao('1h 51m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Erwin Leiser'),
-    atores(['Paul Klinger', 'Claude Stephenson', 'Louis Arbessier']).
-
-filme('My Cousin Vinny') :-
-    genero('Legal Drama'),
-    genero('Comedy'),
-    genero('Crime'),
-    pais('United States'),
-    ano(1992),
-    duracao('2h'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Jonathan Lynn'),
-    atores(['Joe Pesci', 'Marisa Tomei', 'Ralph Macchio']).
-
-filme('Mafioso') :-
-    genero('Comedy'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('Italy'),
-    ano(1962),
-    duracao('1h 45m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Alberto Lattuada'),
-    atores(['Alberto Sordi', 'Norma Bengell', 'Gabriella Conti']).
-
-filme('The Hour of the Furnaces') :-
-    genero('Documentary'),
-    genero('History'),
-    genero('War'),
-    pais('Argentina'),
-    ano(1968),
-    duracao('4h 20m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Unrated'),
-    realizador('Octavio Getino, Fernando E Solanas'),
-    atores(['Mara de la Paz', 'Fernando E Solanas', 'Edgardo Surez']).
-
-filme('Tere Ghar Ke Samne') :-
-    genero('Comedy'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1963),
-    duracao('2h 29m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Vijay Anand'),
-    atores(['Dev Anand', 'Nutan', 'Rajendranath Malhotra']).
-
-filme('The Incident') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('United States'),
-    ano(1967),
-    duracao('1h 47m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Approved'),
-    realizador('Larry Peerce'),
-    atores(['Tony Musante', 'Martin Sheen', 'Beau Bridges']).
-
-filme('Ay Chabela...!') :-
-    genero('Comedy'),
-    genero('Romance'),
-    genero('Western'),
-    pais('Mexico'),
-    ano(1961),
-    duracao('1h 20m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Juan Jos Ortega'),
-    atores(['Joaqun Cordero', 'Lorena Velzquez', 'Rosa de Castilla']).
-
-filme('My American Uncle') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('France'),
-    ano(1980),
-    duracao('2h 5m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Alain Resnais'),
-    atores(['Grard Depardieu', 'Nicole Garcia', 'Roger Pierre']).
-
-filme('Damnation') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Hungary'),
-    ano(1988),
-    duracao('2h'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Bla Tarr'),
-    atores(['Mikls Szkely B', 'Vali Kerekes', 'Gyula Pauer']).
-
-filme('Ruletero a toda marcha') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Mexico'),
-    ano(1962),
-    duracao('1h 33m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Rafael Baledn'),
-    atores(['Eulalio Gonzlez', 'Mara Duval', 'Norma Anglica']).
-
-filme('Neerja') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('Thriller'),
-    pais('India'),
-    ano(2016),
-    duracao('2h 2m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Ram Madhvani'),
-    atores(['Sonam Kapoor', 'Shabana Azmi', 'Yogendra Tikku']).
-
-filme('Aftersun') :-
-    genero('ComingofAge'),
-    genero('Teen Drama'),
-    genero('Drama'),
-    pais('United Kingdom, United States, Turkey, Philippines, Netherlands'),
-    ano(2022),
-    duracao('1h 42m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Charlotte Wells'),
-    atores(['Paul Mescal', 'Frankie Corio', 'Celia RowlsonHall']).
-
-filme('Kelly''s Heroes') :-
-    genero('Adventure'),
-    genero('Comedy'),
-    genero('War'),
-    pais('Yugoslavia, United States'),
-    ano(1970),
-    duracao('2h 24m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('GP'),
-    realizador('Brian G Hutton'),
-    atores(['Clint Eastwood', 'Telly Savalas', 'Don Rickles']).
-
-filme('Philomena') :-
-    genero('Biography'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('United Kingdom, France, United States'),
-    ano(2013),
-    duracao('1h 38m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG-13'),
-    realizador('Stephen Frears'),
-    atores(['Judi Dench', 'Steve Coogan', 'Sophie Kennedy Clark']).
-
-filme('Bombai Ka Babu') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1960),
-    duracao('2h 34m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Raj Khosla'),
-    atores(['Dev Anand', 'Suchitra Sen', 'Jeevan Dhar']).
-
-filme('U2: Rattle and Hum') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(1988),
-    duracao('1h 39m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG-13'),
-    realizador('Phil Joanou'),
-    atores(['Bono', 'The Edge', 'Adam Clayton']).
-
-filme('Life in a Day') :-
-    genero('Travel Documentary'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('United Kingdom, United States'),
-    ano(2011),
-    duracao('1h 35m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG-13'),
-    realizador('Tegan Bukowski, Loressa Clisby, Kevin Macdonald'),
-    atores(['Hiroaki Aikawa', 'Cindy Baer', 'Teagan Bentley']).
-
-filme('Shelter') :-
-    genero('Drama'),
-    genero('Romance'),
-    genero('Sport'),
-    pais('United States'),
-    ano(2007),
-    duracao('1h 37m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Jonah Markowitz'),
-    atores(['Trevor Wright', 'Brad Rowe', 'Tina Holmes']).
-
-filme('Love in the Big City') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('South Korea'),
-    ano(2024),
-    duracao('1h 58m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Eoni'),
-    atores(['Kim Goeun', 'Steve Sanghyun Noh', 'Salim Benoit']).
-
-filme('Carandiru') :-
-    genero('Prison Drama'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('Brazil, Argentina, Italy'),
-    ano(2003),
-    duracao('2h 25m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Hector Babenco'),
-    atores(['Enrique Diaz', 'Wagner Moura', 'Caio Blat']).
-
-filme('Float Like a Butterfly, Sting Like a Bee') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Sport'),
-    pais('France'),
-    ano(1969),
-    duracao('1h 34m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('William Klein'),
-    atores(['Muhammad Ali', 'Sonny Liston', 'Angelo Dundee']).
-
-filme('Lovers of the Arctic Circle') :-
-    genero('Drama'),
-    genero('Mystery'),
-    genero('Romance'),
-    pais('Spain, France'),
-    ano(1998),
-    duracao('1h 52m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Julio Medem'),
-    atores(['Najwa Nimri', 'Fele Martnez', 'Nancho Novo']).
-
-filme('The Rolling Stones Rock and Roll Circus') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom'),
-    ano(1996),
-    duracao('1h 5m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Michael LindsayHogg'),
-    atores(['Ian Anderson', 'Glenn Cornick', 'Clive Bunker']).
-
-filme('Sanju') :-
-    genero('Biography'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('India'),
-    ano(2018),
-    duracao('2h 35m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('TV-MA'),
-    realizador('Rajkumar Hirani'),
-    atores(['Ranbir Kapoor', 'Paresh Rawal', 'Manisha Koirala']).
-
-filme('Cholera Street') :-
-    genero('Crime'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Turkey, Hungary, France'),
+    duracao(1.25),
+    classificacao_imdb(6.9),
+    classificacao_mpa(g),
+    realizador(mark_dindal),
+    atores([scott_bakula, jasmine_guy, natalie_cole]).
+
+filme('Two Girls and a Guy') :-
+    genero(dark_comedy),
+    genero(drama),
+    pais(united_states),
     ano(1997),
-    duracao('2h'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Mustafa Altioklar'),
-    atores(['Okan Baylgen', 'Mjde Ar', 'Savas Dinel']).
+    duracao(1.40),
+    classificacao_imdb(5.5),
+    classificacao_mpa(nc-17),
+    realizador(james_toback),
+    atores([robert_downey_jr, heather_graham, natasha_gregson_wagner]).
 
-filme('Close Encounters of the Third Kind') :-
-    genero('SciFi Epic'),
-    genero('Drama'),
-    genero('SciFi'),
-    pais('United States, United Kingdom'),
-    ano(1977),
-    duracao('2h 18m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Steven Spielberg'),
-    atores(['Richard Dreyfuss', 'Franois Truffaut', 'Teri Garr']).
+filme('Kiss or Kill') :-
+    genero(crime),
+    genero(drama),
+    genero(thriller),
+    pais(australia),
+    ano(1997),
+    duracao(1.60),
+    classificacao_imdb(6.3),
+    classificacao_mpa(r),
+    realizador(bill_bennett),
+    atores([matt_day, frances_oconnor, tiffany_peters]).
 
-filme('Asli-Naqli') :-
-    genero('Drama'),
-    genero('Musical'),
-    genero('Romance'),
-    pais('India'),
-    ano(1962),
-    duracao('2h 25m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Hrishikesh Mukherjee'),
-    atores(['Dev Anand', 'Sadhana Shivdasani', 'Nasir Hussain']).
+filme('Insomnia') :-
+    genero(crime),
+    genero(mystery),
+    genero(thriller),
+    pais(norway),
+    ano(1997),
+    duracao(1.60),
+    classificacao_imdb(7.2),
+    classificacao_mpa(not_rated),
+    realizador(erik_skjoldbjrg),
+    atores([stellan_skarsgrd, sverre_anker_ousdal, maria_mathiesen]).
 
-filme('Tanu Weds Manu Returns') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('India'),
-    ano(2015),
-    duracao('2h 8m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Aanand L Rai'),
-    atores(['Kangana Ranaut', 'Madhavan', 'Gunnit Kaur']).
 
-filme('The Scopone Game') :-
-    genero('Dark Comedy'),
-    genero('Comedy'),
-    genero('Drama'),
-    pais('Italy'),
-    ano(1972),
-    duracao('1h 53m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Luigi Comencini'),
-    atores(['Alberto Sordi', 'Silvana Mangano', 'Joseph Cotten']).
+filme('Ill Gotten Gains') :-
+    genero(drama),
+    genero(history),
+    pais(united_states),
+    ano(1997),
+    duracao(1.68),
+    classificacao_imdb(5.2),
+    classificacao_mpa(r),
+    realizador(joel_b_marsden),
+    atores([djimon_hounsou, akosua_busia, deaundre_bonds]).
 
-filme('Ante Sundharaniki') :-
-    genero('FeelGood Romance'),
-    genero('Comedy'),
-    genero('Romance'),
-    pais('India'),
-    ano(2022),
-    duracao('2h 53m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Vivek Athreya'),
-    atores(['Nani', 'Nazriya Nazim', 'VK Naresh']).
-
-filme('The Song Remains the Same') :-
-    genero('Concert'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United Kingdom, United States'),
-    ano(1976),
-    duracao('2h 17m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Peter Clifton, Joe Massot'),
-    atores(['Robert Plant', 'Jimmy Page', 'John Paul Jones']).
-
-filme('Train of Life') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('War'),
-    pais('France, Netherlands, Israel, Belgium, Romania'),
-    ano(1998),
-    duracao('1h 43m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Radu Mihaileanu'),
-    atores(['Lionel Abelanski', 'Rufus', 'Clment Harari']).
-
-filme('Three Outlaw Samurai') :-
-    genero('Samurai'),
-    genero('Action'),
-    genero('Drama'),
-    pais('Japan'),
-    ano(1964),
-    duracao('1h 34m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Hideo Gosha'),
-    atores(['Tetsur Tanba', 'Isamu Nagato', 'Mikijir Hira']).
-
-filme('In a Better World') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('Denmark, Sweden, Belgium, Germany'),
-    ano(2010),
-    duracao('1h 58m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Susanne Bier'),
-    atores(['Mikael Persbrandt', 'Trine Dyrholm', 'Markus Rygaard']).
-
-filme('The Gospel According to St. Matthew') :-
-    genero('Biography'),
-    genero('Drama'),
-    genero('History'),
-    pais('Italy, France'),
-    ano(1964),
-    duracao('2h 17m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Pier Paolo Pasolini'),
-    atores(['Enrique Irazoqui', 'Margherita Caruso', 'Susanna Pasolini']).
-
-filme('My Father''s Glory') :-
-    genero('Adventure'),
-    genero('Biography'),
-    genero('Drama'),
-    pais('France'),
-    ano(1990),
-    duracao('1h 45m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('G'),
-    realizador('Yves Robert'),
-    atores(['Philippe Caubre', 'Nathalie Roussel', 'Didier Pain']).
-
-filme('The Great Ecstasy of Woodcarver Steiner') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Sport'),
-    pais('West Germany'),
-    ano(1974),
-    duracao('45m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Werner Herzog'),
-    atores(['Walter Steiner', 'Werner Herzog']).
-
-filme('The Social Dilemma') :-
-    genero('Science  Technology Documentary'),
-    genero('Documentary'),
-    genero('Drama'),
-    pais('United States'),
-    ano(2020),
-    duracao('1h 34m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG-13'),
-    realizador('Jeff OrlowskiYang'),
-    atores(['Tristan Harris', 'Jeff Seibert', 'Bailey Richardson']).
-
-filme('Belle de Jour') :-
-    genero('Steamy Romance'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('France, Italy'),
-    ano(1967),
-    duracao('1h 40m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Approved'),
-    realizador('Luis Buuel'),
-    atores(['Catherine Deneuve', 'Jean Sorel', 'Michel Piccoli']).
-
-filme('Shakti') :-
-    genero('Action'),
-    genero('Crime'),
-    genero('Drama'),
-    pais('India'),
-    ano(1982),
-    duracao('2h 46m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Ramesh Sippy'),
-    atores(['Dilip Kumar', 'Amitabh Bachchan', 'Rakhee Gulzar']).
-
-filme('True Grit') :-
-    genero('Period Drama'),
-    genero('Drama'),
-    genero('Western'),
-    pais('United States'),
-    ano(2010),
-    duracao('1h 50m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG-13'),
-    realizador('Ethan Coen, Joel Coen'),
-    atores(['Jeff Bridges', 'Matt Damon', 'Hailee Steinfeld']).
-
-filme('Bokseri idu u raj') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Fantasy'),
-    pais('Yugoslavia'),
-    ano(1967),
-    duracao('1h 28m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Branko Celovic'),
-    atores(['Mija Aleksic', 'Ljubisa Samardzic', 'Ruzica Sokic']).
-
-filme('Irudhi Suttru') :-
-    genero('Boxing'),
-    genero('Drama'),
-    genero('Sport'),
-    pais('India'),
-    ano(2016),
-    duracao('1h 49m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('Not Rated'),
-    realizador('Sudha Kongara'),
-    atores(['Madhavan', 'Nassar', 'Radha Ravi']).
-
-filme('Gonzo') :-
-    genero('Biography'),
-    genero('Documentary'),
-    genero('Music'),
-    pais('United States'),
-    ano(2008),
-    duracao('2h'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('R'),
-    realizador('Alex Gibney'),
-    atores(['Hunter S Thompson', 'Johnny Depp', 'Joe Cairo']).
-
-filme('Melody') :-
-    genero('Comedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United Kingdom, United States'),
-    ano(1971),
-    duracao('1h 43m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('G'),
-    realizador('Waris Hussein'),
-    atores(['Mark Lester', 'Tracy Hyde', 'Jack Wild']).
-
-filme('The Winter War') :-
-    genero('Drama'),
-    genero('History'),
-    genero('War'),
-    pais('Finland'),
-    ano(1989),
-    duracao('3h 19m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('NaN'),
-    realizador('Pekka Parikka'),
-    atores(['Taneli Mkel', 'Vesa Vierikko', 'Timo Torikka']).
-
-filme('Romeo and Juliet') :-
-    genero('Tragedy'),
-    genero('Drama'),
-    genero('Romance'),
-    pais('United Kingdom, Italy'),
-    ano(1968),
-    duracao('2h 18m'),
-    classificacao_imdb(7.6),
-    classificacao_mpa('PG'),
-    realizador('Franco Zeffirelli'),
-    atores(['Leonard Whiting', 'Olivia Hussey', 'John McEnery']).
+filme('Mughal-E-Azam') :-
+    genero(period_drama),
+    genero(tragic_romance),
+    genero(drama),
+    genero(romance),
+    genero(war),
+    pais(india),
+    ano(1960),
+    duracao(3.28),
+    classificacao_imdb(8.1),
+    classificacao_mpa(not_rated),
+    realizador(k_asif),
+    atores([prithviraj_kapoor, madhubala, dilip_kumar]).
 
 
 
-genero(X) :- questiona(genero, X, [Biography, Documentary, Comedy, Action]).
-diretor(X) :- questiona(diretor, X).
-pais(X) :- questiona(pais, X).
-ano(X) :- questiona(ano, X).
-atorPrincipal(X) :- questiona(atorPrincipal, X).
 
-objectivo(X) :- filme(X).
+filme('The Piano') :-
+    genero(period_drama),
+    genero(steamy_romance),
+    genero(drama),
+    genero(music),
+    genero(romance),
+    pais(new_zealand,australia,france),
+    ano(1993),
+    duracao(2.02),
+    classificacao_imdb(7.5),
+    classificacao_mpa(r),
+    realizador(jane_campion),
+    atores([holly_hunter, harvey_keitel, sam_neill]).
+
+filme('We''re Back! A Dinosaur''s Story') :-
+    genero(dinosaur_adventure),
+    genero(time_travel),
+    genero(urban_adventure),
+    genero(adventure),
+    genero(animation),
+    genero(comedy),
+    genero(family),
+    genero(fantasy),
+    genero(scifi),
+    pais(united_states),
+    ano(1993),
+    duracao(1.20),
+    classificacao_imdb(6.0),
+    classificacao_mpa(g),
+    realizador(phil_nibbelink,simon_wells,dick_zondag),
+    atores([john_goodman, charles_fleischer, blaze_berdahl]).
+
+filme('Dragon Ball Z: Broly - The Legendary Super Saiyan') :-
+    genero(adult_animation),
+    genero(anime),
+    genero(superhero),
+    genero(action),
+    genero(animation),
+    genero(fantasy),
+    genero(scifi),
+    pais(japan),
+    ano(1993),
+    duracao(1.20),
+    classificacao_imdb(7.4),
+    classificacao_mpa(tv-pg),
+    realizador(shigeyasu_yamauchi),
+    atores([masako_nozawa, toshio_furukawa, mayumi_tanaka]).
+
+filme('House of Cards') :-
+    genero(drama),
+    pais(italy,united_states),
+    ano(1993),
+    duracao(1.82),
+    classificacao_imdb(6.1),
+    classificacao_mpa(pg-13),
+    realizador(michael_lessac),
+    atores([kathleen_turner, tommy_lee_jones, asha_menina]).
+
+filme('The Gospel According to Matthew') :-
+    genero(adventure),
+    genero(biography),
+    genero(drama),
+    genero(history),
+    pais(south_africa),
+    ano(1993),
+    duracao(4.30),
+    classificacao_imdb(8.0),
+    classificacao_mpa(tv-g),
+    realizador(regardt_van_den_bergh),
+    atores([richard_kiley, bruce_marchiano, gerrit_schoonhoven]).
+
+filme('Shhh!') :-
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(india),
+    ano(1993),
+    duracao(2.25),
+    classificacao_imdb(8.6),
+    classificacao_mpa(not_rated),
+    realizador(upendra),
+    atores([kumar_govind, kashinath, suresh_heblikar]).
+
+filme('Hammers Over the Anvil') :-
+    genero(period_drama),
+    genero(biography),
+    genero(drama),
+    genero(romance),
+    pais(australia),
+    ano(1993),
+    duracao(1.62),
+    classificacao_imdb(5.6),
+    classificacao_mpa(not_rated),
+    realizador(ann_turner),
+    atores([charlotte_rampling, russell_crowe, alexander_outhred]).
+
+filme('Goosebumps 2: Haunted Halloween') :-
+    genero(adventure),
+    genero(comedy),
+    genero(fantasy),
+    genero(horror),
+    pais(united_states),
+    ano(2018),
+    duracao(1.50),
+    classificacao_imdb(5.6),
+    classificacao_mpa(pg),
+    realizador(ari_sandel),
+    atores([wendi_mclendoncovey, madison_iseman, jeremy_ray_taylor]).
+
+filme('Hell Fest') :-
+    genero(slasher_horror),
+    genero(teen_horror),
+    genero(horror),
+    genero(mystery),
+    genero(thriller),
+    pais(united_states),
+    ano(2018),
+    duracao(1.48),
+    classificacao_imdb(5.5),
+    classificacao_mpa(r),
+    realizador(gregory_plotkin),
+    atores([cynthea_mercado, stephen_conroy, amy_forsyth]).
+
+
+objectivo(X) :-
+    filme(X).
+
+genero(X) :-
+    questiona(genero, X, [
+        action, adventure, animation, biography, comedy, crime, dark_comedy, documentary,
+        drama, family, fantasy, horror, mystery, romance, scifi, thriller, war,
+        western, musical, history, sport, slapstick, satire, parody, martial_arts,
+        superhero, teen_comedy, teen_drama, teen_romance, comingofage, buddy_comedy,
+        police_procedural, political_thriller, psychological_drama, psychological_thriller,
+        legal_drama, legal_thriller, erotic_thriller, body_horror, monster_horror,
+        slasher_horror, zombie_horror, supernatural_horror, found_footage_horror, vampire_horror,
+        folk_horror, docudrama, period_drama, tragedy, tragic_romance, feelgood_romance,
+        holiday_romance, holiday, music_documentary, news, nature_documentary, sports_documentary,
+        history_documentary, science__technology_documentary, pop_musical, handdrawn_animation,
+        computer_animation, stop_motion_animation, anime, mecha, wuxia, kung_fu, samurai,
+        sword__sorcery, quest, sea_adventure, jungle_adventure, animal_adventure, urban_adventure,
+        globetrotting_adventure, adventure_epic, fantasy_epic, scifi_epic, action_epic, space_scifi,
+        dystopian_scifi, artificial_intelligence, cyber_thriller, conspiracy_thriller, suspense_mystery,
+        heist, caper, car_action, road_trip, extreme_sport, baseball, basketball, football,
+        boxing, medical_drama, workplace_drama, showbiz_drama, steamy_romance, raunchy_comedy,
+        quirky_comedy, farce, screwball_comedy, buddy_cop, cop_drama, monster_horror
+    ]).
+
+pais(X) :-
+    questiona(pais,X).
+ano(X) :-
+    questiona(ano,X).
+duracao(X) :-
+    questiona(duracao,X).
+classificacao_imdb(X) :-
+    questiona(classificacao_imdb,X).
+classificacao_mpa(X) :-
+    questiona(classificacao_mpa,X).
+realizador(X) :-
+    questiona(realizador,X).
+atores(X) :-
+    questiona(atores,X).
