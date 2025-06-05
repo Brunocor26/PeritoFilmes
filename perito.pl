@@ -1,75 +1,118 @@
-% Sistema Pericial - Identificação de Filmes
-perito :-
-    write('Sistema Pericial - Identificação de Filmes'), nl,
-    write('Escolha uma opção: '), nl,
-    esperaOrdens.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% perito.pl
+%%
+%% Expert System Shell:
+%% Permite carregar a base de conhecimento desejada.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-esperaOrdens :-
-    write('Escolha uma opção: '), nl,
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Predicado principal: perito/0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+perito :-
+    write('Concha simples de Sistema Pericial'), nl,
+    write('Versao de 2024'), nl, nl,
+    esperaOrdens(123).
+
+esperaOrdens(MC) :-
+    mostraComandos(MC),
+    write('> '),
+    read(Comando),
+    executa(MC,Comando).
+
+mostraComandos(123) :-
+    write('Comandos disponiveis (introduza o numero 1, 2 ou 3):'), nl,
     write('1 - Consultar uma Base de Conhecimento (BC)'), nl,
     write('2 - Solucionar'), nl,
-    write('3 - Sair'), nl,
-    read(Comando),
-    executa(Comando).
+    write('3 - Sair'), nl.
 
-executa(1) :-
+mostraComandos(23) :-
+    write('Comandos disponiveis (introduza o numero 2 ou 3):'), nl,
+    write('2 - Solucionar'), nl,
+    write('3 - Sair'), nl.
+
+executa(_,1) :-
     write('Nome da BC: '),
     read(F),
     consult(F),
-    write('BC consultada com sucesso.'), nl,
-    esperaOrdens.
+    write('BC consultada com sucesso.'), nl, nl,
+    continua.
 
-executa(2) :-
+executa(_,2) :-
     soluciona,
-    esperaOrdens.
+    esperaOrdens(23).
 
-executa(3) :-
-    write('A sair...'), nl, halt.
+executa(_,3) :-
+    nl,
+    write('Volte Sempre!'), nl,
+    write('Qualquer tecla para sair.'),
+    get0(_),
+    halt.
 
-% Identificação do filme
+executa(MC,X) :-
+    write(X),
+    write(' nao e um comando valido!'), nl,
+    esperaOrdens(MC).
+
+continua :-
+    esperaOrdens(23).
+
+%%%%%%%%%%%%%%%
+% soluciona/0
+%%%%%%%%%%%%%%%
 soluciona :-
-    abolish(conhece, 3),
-    asserta(conhece(def, def, def)),
-    questiona_genero(Genero),
-    questiona_pais(Pais),
-    questiona_ano(Ano),
-    resolve_filme(Genero, Pais, Ano, Filme),
-    write('Resposta encontrada: '), write(Filme), nl.
-
+    abolish(conhece,3),
+    asserta(conhece(def,def,def)), % apenas para o predicado
+    objectivo(X), % conhece/3 estar definido...
+    nl, nl, write('Resposta encontrada: '),
+    write(X),
+    nl, nl.
 soluciona :-
-    nl, nl, write('Não foi encontrada resposta :-( '), nl.
+    nl, nl, write('Nao foi encontrada resposta :-('), nl.
 
-% Perguntas para o utilizador
-questiona_genero(Genero) :-
-    write('Qual o genero do filme? '),
-    read(Genero),
-    asserta(conhece(sim, genero, Genero)).
+%%%%%%%%%%%%%%%
+% questiona/2
+%%%%%%%%%%%%%%%
+questiona(Atributo,Valor) :-
+    conhece(sim,Atributo,Valor).
+questiona(Atributo,Valor) :-
+    conhece(_,Atributo,Valor), !, fail.
+questiona(Atributo,Valor) :-
+    write(Atributo:Valor),
+    write('? (sim/nao) '),
+    read(R),
+    processa(R,Atributo,Valor).
 
-questiona_pais(Pais) :-
-    write('Qual o país de origem do filme? '),
-    read(Pais),
-    asserta(conhece(sim, pais, Pais)).
+processa(sim,Atributo,Valor) :-
+    asserta(conhece(sim,Atributo,Valor)).
+processa(R,Atributo,Valor) :-
+    asserta(conhece(R,Atributo,Valor)),!,
+    fail.
 
-questiona_ano(Ano) :-
-    write('Qual o ano de lançamento do filme? '),
-    read(Ano),
-    asserta(conhece(sim, ano, Ano)).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% questiona/3
+%
+% Recurso a Menus:
+% sao apresentados ao utilizador os valores
+% que cada atributo pode assumir.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+questiona(Atr,Val,_) :-
+    conhece(sim,Atr,Val).
+questiona(Atr,_,_) :-
+    conhece(sim,Atr,_), !, fail.
+questiona(Atr,Val,ListaOpcoes) :-
+    write('Qual o valor para '),
+    write(Atr),
+    write('? '), nl,
+    write(ListaOpcoes), nl,
+    read(X),
+    processa(X,Atr,Val,ListaOpcoes).
 
-% Resolução do filme baseado nas respostas
-resolve_filme(Genero, Pais, Ano, Filme) :-
-    filme(Filme),
-    verifica_genero(Genero),
-    verifica_pais(Pais),
-    verifica_ano(Ano).
-
-verifica_genero(Genero) :-
-    genero(Genero),
-    !.
-
-verifica_pais(Pais) :-
-    pais(Pais),
-    !.
-
-verifica_ano(Ano) :-
-    ano(Ano),
-    !.
+processa(Val,Atr,Val,_) :-
+    asserta(conhece(sim,Atr,Val)).
+processa(X,Atr,_,ListaOpcoes) :-
+    member(X,ListaOpcoes),
+    asserta(conhece(sim,Atr,X)), !, fail.
+processa(X,Atr,Val,ListaOpcoes) :-
+    write(X),
+    write(' nao e valor aceite!'), nl,
+    questiona(Atr,Val,ListaOpcoes).
