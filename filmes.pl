@@ -1,10 +1,5 @@
 filme('Strip Nude for Your Killer') :-
     genero(erotic_thriller),
-    genero(giallo),
-    genero(slasher_horror),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(italy),
     ano(1975),
     duracao(1.63),
@@ -15,8 +10,6 @@ filme('Strip Nude for Your Killer') :-
 
 filme('Carry on Behind') :-
     genero(parody),
-    genero(slapstick),
-    genero(comedy),
     pais(united_kingdom),
     ano(1975),
     duracao(1.50),
@@ -28,7 +21,6 @@ filme('Carry on Behind') :-
 
 filme('Mahogany') :-
     genero(drama),
-    genero(romance),
     pais(united_states),
     ano(1975),
     duracao(1.82),
@@ -39,9 +31,6 @@ filme('Mahogany') :-
 
 filme('Foreplay') :-
     genero(parody),
-    genero(satire),
-    genero(sketch_comedy),
-    genero(comedy),
     pais(united_states),
     ano(1975),
     duracao(1.25),
@@ -52,10 +41,7 @@ filme('Foreplay') :-
 
 filme('The Man from Hong Kong') :-
     genero(action),
-    genero(adventure),
-    genero(crime),
-    genero(drama),
-    pais(australia,hong_kong),
+    pais(australia),
     ano(1975),
     duracao(1.77),
     classificacao_imdb(6.6),
@@ -75,8 +61,6 @@ filme('Night of the Seagulls') :-
 
 filme('The Olsen Gang on the Track') :-
     genero(comedy),
-    genero(crime),
-    genero(family),
     pais(denmark),
     ano(1975),
     duracao(1.75),
@@ -89,9 +73,7 @@ filme('The Olsen Gang on the Track') :-
 
 filme('Disciples of Shaolin') :-
     genero(martial_arts),
-    genero(action),
-    genero(drama),
-    pais(hong_kong,taiwan),
+    pais(hong_kong),
     ano(1975),
     duracao(1.77),
     classificacao_imdb(6.6),
@@ -101,7 +83,6 @@ filme('Disciples of Shaolin') :-
 
 filme('Oh, God!') :-
     genero(comedy),
-    genero(fantasy),
     pais(united_states),
     ano(1977),
     duracao(1.63),
@@ -112,8 +93,6 @@ filme('Oh, God!') :-
 
 filme('Heroes') :-
     genero(psychological_drama),
-    genero(comedy),
-    genero(drama),
     pais(united_states),
     ano(1977),
     duracao(1.87),
@@ -124,11 +103,6 @@ filme('Heroes') :-
 
 filme('Race for Your Life, Charlie Brown') :-
     genero(handdrawn_animation),
-    genero(quest),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(family),
     pais(united_states),
     ano(1977),
     duracao(1.27),
@@ -149,10 +123,7 @@ filme('Short Eyes') :-
 
 filme('Soldier of Orange') :-
     genero(drama),
-    genero(romance),
-    genero(thriller),
-    genero(war),
-    pais(netherlands,belgium),
+    pais(netherlands),
     ano(1977),
     duracao(2.75),
     classificacao_imdb(7.6),
@@ -162,9 +133,6 @@ filme('Soldier of Orange') :-
 
 filme('Amar Akbar Anthony') :-
     genero(action),
-    genero(comedy),
-    genero(drama),
-    genero(music),
     pais(india),
     ano(1977),
     duracao(3.07),
@@ -175,8 +143,6 @@ filme('Amar Akbar Anthony') :-
 
 filme('Messalina, Messalina') :-
     genero(parody),
-    genero(adventure),
-    genero(comedy),
     pais(italy),
     ano(1977),
     duracao(1.35),
@@ -187,9 +153,6 @@ filme('Messalina, Messalina') :-
 
 filme('Beast with a Gun') :-
     genero(action),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(italy),
     ano(1977),
     duracao(1.52),
@@ -211,9 +174,6 @@ filme('Charleston') :-
 
 filme('Double Nickels') :-
     genero(police_procedural),
-    genero(action),
-    genero(comedy),
-    genero(crime),
     pais(united_states),
     ano(1977),
     duracao(1.48),
@@ -224,9 +184,6 @@ filme('Double Nickels') :-
 
 filme('The Professionals') :-
     genero(action),
-    genero(adventure),
-    genero(drama),
-    genero(western),
     pais(united_states),
     ano(1966),
     duracao(1.95),
@@ -237,9 +194,6 @@ filme('The Professionals') :-
 
 filme('Duel at Diablo') :-
     genero(classical_western),
-    genero(drama),
-    genero(thriller),
-    genero(western),
     pais(united_states),
     ano(1966),
     duracao(1.72),
@@ -250,9 +204,7 @@ filme('Duel at Diablo') :-
 
 filme('Return of the Seven') :-
     genero(action),
-    genero(drama),
-    genero(western),
-    pais(spain,united_states),
+    pais(spain),
     ano(1966),
     duracao(1.58),
     classificacao_imdb(5.5),
@@ -262,8 +214,6 @@ filme('Return of the Seven') :-
 
 filme('The Ghost in the Invisible Bikini') :-
     genero(comedy),
-    genero(horror),
-    genero(musical),
     pais(united_states),
     ano(1966),
     duracao(1.37),
@@ -274,8 +224,6 @@ filme('The Ghost in the Invisible Bikini') :-
 
 filme('Made in Paris') :-
     genero(romantic_comedy),
-    genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(1966),
     duracao(1.72),
@@ -286,14 +234,7 @@ filme('Made in Paris') :-
 
 filme('The Daydreamer') :-
     genero(fairy_tale),
-    genero(stop_motion_animation),
-    genero(adventure),
-    genero(animation),
-    genero(drama),
-    genero(family),
-    genero(fantasy),
-    genero(musical),
-    pais(united_states,japan,canada),
+    pais(united_states),
     ano(1966),
     duracao(1.68),
     classificacao_imdb(6.1),
@@ -316,7 +257,6 @@ filme('War Between the Planets') :-
 
 filme('As Long as You''ve Got Your Health') :-
     genero(satire),
-    genero(comedy),
     pais(france),
     ano(1966),
     duracao(1.28),
@@ -339,8 +279,6 @@ filme('An Eye for an Eye') :-
 
 filme('Jesse James Meets Frankenstein''s Daughter') :-
     genero(horror),
-    genero(scifi),
-    genero(western),
     pais(united_states),
     ano(1966),
     duracao(1.47),
@@ -352,8 +290,7 @@ filme('Jesse James Meets Frankenstein''s Daughter') :-
 
 filme('Wake Up and Die') :-
     genero(crime),
-    genero(drama),
-    pais(italy,france),
+    pais(italy),
     ano(1966),
     duracao(1.70),
     classificacao_imdb(6.2),
@@ -364,7 +301,6 @@ filme('Wake Up and Die') :-
 
 filme('Movie Madness') :-
     genero(parody),
-    genero(comedy),
     pais(united_states),
     ano(1982),
     duracao(1.48),
@@ -378,7 +314,6 @@ filme('Movie Madness') :-
 
 filme('Harry Tracy: The Last of the Wild Bunch') :-
     genero(drama),
-    genero(western),
     pais(canada),
     ano(1982),
     duracao(1.78),
@@ -390,9 +325,6 @@ filme('Harry Tracy: The Last of the Wild Bunch') :-
 
 filme('MLK/FBI') :-
     genero(history_documentary),
-    genero(biography),
-    genero(documentary),
-    genero(history),
     pais(united_states),
     ano(2020),
     duracao(1.73),
@@ -413,10 +345,7 @@ filme('Minyan') :-
 
 filme('The Old Guard') :-
     genero(globetrotting_adventure),
-    genero(superhero),
-    genero(action),
-    genero(thriller),
-    pais(united_states,france,iceland,united_kingdom,morocco,canada),
+    pais(united_states),
     ano(2020),
     duracao(2.08),
     classificacao_imdb(6.7),
@@ -426,12 +355,7 @@ filme('The Old Guard') :-
 
 filme('Run') :-
     genero(psychological_thriller),
-    genero(suspense_mystery),
-    genero(drama),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
-    pais(united_states,canada),
+    pais(united_states),
     ano(2020),
     duracao(1.50),
     classificacao_imdb(6.7),
@@ -441,7 +365,7 @@ filme('Run') :-
 
 filme('The Very Excellent Mr. Dundee') :-
     genero(comedy),
-    pais(australia,united_states),
+    pais(australia),
     ano(2020),
     duracao(1.47),
     classificacao_imdb(5.0),
@@ -451,8 +375,6 @@ filme('The Very Excellent Mr. Dundee') :-
 
 filme('Palm Swings') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2020),
     duracao(1.58),
@@ -463,10 +385,6 @@ filme('Palm Swings') :-
 
 filme('#Alive') :-
     genero(zombie_horror),
-    genero(action),
-    genero(drama),
-    genero(horror),
-    genero(thriller),
     pais(south_korea),
     ano(2020),
     duracao(1.63),
@@ -478,9 +396,6 @@ filme('#Alive') :-
 
 filme('The Sleepover') :-
     genero(action),
-    genero(adventure),
-    genero(comedy),
-    genero(family),
     pais(united_states),
     ano(2020),
     duracao(1.67),
@@ -491,12 +406,6 @@ filme('The Sleepover') :-
 
 filme('A Whisker Away') :-
     genero(anime),
-    genero(adventure),
-    genero(animation),
-    genero(drama),
-    genero(family),
-    genero(fantasy),
-    genero(romance),
     pais(japan),
     ano(2020),
     duracao(1.73),
@@ -518,8 +427,6 @@ filme('Original Gangster') :-
 
 filme('Love Sarah') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_kingdom),
     ano(2020),
     duracao(1.62),
@@ -542,11 +449,7 @@ filme('Sky High') :-
 
 filme('Abraham Lincoln: Vampire Hunter') :-
     genero(dark_fantasy),
-    genero(vampire_horror),
-    genero(action),
-    genero(fantasy),
-    genero(horror),
-    pais(united_states,russia),
+    pais(united_states),
     ano(2012),
     duracao(1.75),
     classificacao_imdb(5.9),
@@ -556,11 +459,7 @@ filme('Abraham Lincoln: Vampire Hunter') :-
 
 filme('The Impossible') :-
     genero(disaster),
-    genero(tragedy),
-    genero(drama),
-    genero(history),
-    genero(thriller),
-    pais(spain,thailand,united_states),
+    pais(spain),
     ano(2012),
     duracao(1.90),
     classificacao_imdb(7.5),
@@ -570,9 +469,6 @@ filme('The Impossible') :-
 
 filme('Man on a Ledge') :-
     genero(dark_comedy),
-    genero(action),
-    genero(crime),
-    genero(thriller),
     pais(united_states),
     ano(2012),
     duracao(1.70),
@@ -599,8 +495,7 @@ filme('Evangelion: 3.0 You Can (Not) Redo') :-
 
 filme('Our Children') :-
     genero(crime),
-    genero(drama),
-    pais(belgium,luxembourg,france,switzerland),
+    pais(belgium),
     ano(2012),
     duracao(1.85),
     classificacao_imdb(6.8),
@@ -610,14 +505,6 @@ filme('Our Children') :-
 
 filme('Star Wars: Episode VIII - The Last Jedi') :-
     genero(action_epic),
-    genero(adventure_epic),
-    genero(fantasy_epic),
-    genero(scifi_epic),
-    genero(space_scifi),
-    genero(action),
-    genero(adventure),
-    genero(fantasy),
-    genero(scifi),
     pais(united_states),
     ano(2017),
     duracao(2.53),
@@ -628,13 +515,7 @@ filme('Star Wars: Episode VIII - The Last Jedi') :-
 
 filme('Kingsman: The Golden Circle') :-
     genero(drug_crime),
-    genero(satire),
-    genero(action),
-    genero(adventure),
-    genero(comedy),
-    genero(crime),
-    genero(thriller),
-    pais(united_kingdom,united_states,italy),
+    pais(united_kingdom),
     ano(2017),
     duracao(2.35),
     classificacao_imdb(6.7),
@@ -644,16 +525,7 @@ filme('Kingsman: The Golden Circle') :-
 
 filme('Captain Underpants: The First Epic Movie') :-
     genero(buddy_comedy),
-    genero(computer_animation),
-    genero(farce),
-    genero(highconcept_comedy),
-    genero(parody),
-    genero(slapstick),
-    genero(superhero),
-    genero(urban_adventure),
-    genero(action),
-    genero(adventure),
-    pais(united_states,canada,france),
+    pais(united_states),
     ano(2017),
     duracao(1.48),
     classificacao_imdb(6.2),
@@ -663,12 +535,6 @@ filme('Captain Underpants: The First Epic Movie') :-
 
 filme('Happy Death Day') :-
     genero(dark_comedy),
-    genero(slasher_horror),
-    genero(teen_horror),
-    genero(comedy),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(2017),
     duracao(1.60),
@@ -679,12 +545,7 @@ filme('Happy Death Day') :-
 
 filme('The Circle') :-
     genero(conspiracy_thriller),
-    genero(cyber_thriller),
-    genero(drama),
-    genero(mystery),
-    genero(scifi),
-    genero(thriller),
-    pais(united_arab_emirates,united_states,france),
+    pais(united_arab_emirates),
     ano(2017),
     duracao(1.83),
     classificacao_imdb(5.4),
@@ -694,10 +555,6 @@ filme('The Circle') :-
 
 filme('Phoenix Forgotten') :-
     genero(found_footage_horror),
-    genero(horror),
-    genero(mystery),
-    genero(scifi),
-    genero(thriller),
     pais(united_states),
     ano(2017),
     duracao(1.45),
@@ -708,7 +565,6 @@ filme('Phoenix Forgotten') :-
 
 filme('The Rider') :-
     genero(drama),
-    genero(western),
     pais(united_states),
     ano(2017),
     duracao(1.73),
@@ -719,15 +575,7 @@ filme('The Rider') :-
 
 filme('Pokémon the Movie: I Choose You!') :-
     genero(anime),
-    genero(action),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(drama),
-    genero(family),
-    genero(fantasy),
-    genero(scifi),
-    pais(japan,united_states),
+    pais(japan),
     ano(2017),
     duracao(1.63),
     classificacao_imdb(6.3),
@@ -737,8 +585,6 @@ filme('Pokémon the Movie: I Choose You!') :-
 
 filme('Jane') :-
     genero(science__technology_documentary),
-    genero(biography),
-    genero(documentary),
     pais(united_states),
     ano(2017),
     duracao(1.50),
@@ -759,13 +605,7 @@ filme('3 Idiots') :-
 
 filme('Thelma') :-
     genero(drama),
-    genero(fantasy),
-    genero(horror),
-    genero(mystery),
-    genero(romance),
-    genero(scifi),
-    genero(thriller),
-    pais(norway,france,denmark,sweden),
+    pais(norway),
     ano(2017),
     duracao(1.93),
     classificacao_imdb(6.9),
@@ -787,13 +627,7 @@ filme('The China Hustle') :-
 
 filme('Pirates of the Caribbean: On Stranger Tides') :-
     genero(fantasy_epic),
-    genero(quest),
-    genero(sea_adventure),
-    genero(swashbuckler),
-    genero(action),
-    genero(adventure),
-    genero(fantasy),
-    pais(united_states,united_kingdom),
+    pais(united_states),
     ano(2011),
     duracao(2.27),
     classificacao_imdb(6.6),
@@ -803,10 +637,6 @@ filme('Pirates of the Caribbean: On Stranger Tides') :-
 
 filme('Captain America: The First Avenger') :-
     genero(scifi_epic),
-    genero(superhero),
-    genero(action),
-    genero(adventure),
-    genero(scifi),
     pais(united_states),
     ano(2011),
     duracao(2.07),
@@ -818,8 +648,7 @@ filme('Captain America: The First Avenger') :-
 
 filme('The Rum Diary') :-
     genero(comedy),
-    genero(drama),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(2011),
     duracao(1.98),
     classificacao_imdb(6.1),
@@ -829,10 +658,6 @@ filme('The Rum Diary') :-
 
 filme('Take Shelter') :-
     genero(psychological_drama),
-    genero(psychological_thriller),
-    genero(workplace_drama),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(2011),
     duracao(2.00),
@@ -843,7 +668,6 @@ filme('Take Shelter') :-
 
 filme('Rampart') :-
     genero(crime),
-    genero(drama),
     pais(united_states),
     ano(2011),
     duracao(1.80),
@@ -854,8 +678,6 @@ filme('Rampart') :-
 
 filme('Pariah') :-
     genero(comingofage),
-    genero(teen_drama),
-    genero(drama),
     pais(united_states),
     ano(2011),
     duracao(1.43),
@@ -866,9 +688,7 @@ filme('Pariah') :-
 
 filme('The Last Lions') :-
     genero(nature_documentary),
-    genero(documentary),
-    genero(family),
-    pais(united_states,botswana),
+    pais(united_states),
     ano(2011),
     duracao(1.47),
     classificacao_imdb(8.2),
@@ -878,9 +698,6 @@ filme('The Last Lions') :-
 
 filme('Undefeated') :-
     genero(football),
-    genero(sports_documentary),
-    genero(documentary),
-    genero(sport),
     pais(united_states),
     ano(2011),
     duracao(1.88),
@@ -911,10 +728,7 @@ filme('CornerStore') :-
 
 filme('The Swimming Pool') :-
     genero(psychological_drama),
-    genero(crime),
-    genero(drama),
-    genero(romance),
-    pais(france,italy),
+    pais(france),
     ano(1969),
     duracao(2.03),
     classificacao_imdb(7.1),
@@ -934,7 +748,6 @@ filme('Hook, Line and Sinker') :-
 
 filme('Double Suicide') :-
     genero(drama),
-    genero(romance),
     pais(japan),
     ano(1969),
     duracao(1.75),
@@ -947,8 +760,6 @@ filme('Double Suicide') :-
 
 filme('Angel') :-
     genero(action),
-    genero(crime),
-    genero(thriller),
     pais(united_states),
     ano(1983),
     duracao(1.57),
@@ -959,8 +770,6 @@ filme('Angel') :-
 
 filme('Gabriela') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(brazil),
     ano(1983),
     duracao(1.65),
@@ -971,11 +780,7 @@ filme('Gabriela') :-
 
 filme('El Sur') :-
     genero(comingofage),
-    genero(tragic_romance),
-    genero(drama),
-    genero(mystery),
-    genero(romance),
-    pais(spain,france),
+    pais(spain),
     ano(1983),
     duracao(1.58),
     classificacao_imdb(7.8),
@@ -985,9 +790,6 @@ filme('El Sur') :-
 
 filme('Eyes of Fire') :-
     genero(folk_horror),
-    genero(drama),
-    genero(horror),
-    genero(western),
     pais(united_states),
     ano(1983),
     duracao(1.43),
@@ -998,7 +800,6 @@ filme('Eyes of Fire') :-
 
 filme('Spring Symphony') :-
     genero(biography),
-    genero(music),
     pais(west_germany),
     ano(1983),
     duracao(1.72),
@@ -1011,10 +812,7 @@ filme('Spring Symphony') :-
 
 filme('Cannonball Run II') :-
     genero(car_action),
-    genero(road_trip),
-    genero(action),
-    genero(comedy),
-    pais(hong_kong,united_states),
+    pais(hong_kong),
     ano(1984),
     duracao(1.80),
     classificacao_imdb(5.1),
@@ -1024,14 +822,7 @@ filme('Cannonball Run II') :-
 
 filme('The NeverEnding Story') :-
     genero(adventure_epic),
-    genero(fantasy_epic),
-    genero(quest),
-    genero(sword__sorcery),
-    genero(adventure),
-    genero(drama),
-    genero(family),
-    genero(fantasy),
-    pais(west_germany,united_states),
+    pais(west_germany),
     ano(1984),
     duracao(1.70),
     classificacao_imdb(7.3),
@@ -1041,9 +832,6 @@ filme('The NeverEnding Story') :-
 
 filme('Breakin'' 2: Electric Boogaloo') :-
     genero(pop_musical),
-    genero(comedy),
-    genero(drama),
-    genero(musical),
     pais(united_states),
     ano(1984),
     duracao(1.57),
@@ -1054,7 +842,6 @@ filme('Breakin'' 2: Electric Boogaloo') :-
 
 filme('Birdy') :-
     genero(drama),
-    genero(war),
     pais(united_states),
     ano(1984),
     duracao(2.00),
@@ -1076,8 +863,6 @@ filme('Petit Con') :-
 
 filme('The Dog Who Stopped the War') :-
     genero(comedy),
-    genero(drama),
-    genero(family),
     pais(canada),
     ano(1984),
     duracao(1.52),
@@ -1088,9 +873,7 @@ filme('The Dog Who Stopped the War') :-
 
 filme('Double Trouble') :-
     genero(buddy_comedy),
-    genero(action),
-    genero(comedy),
-    pais(italy,brazil),
+    pais(italy),
     ano(1984),
     duracao(1.65),
     classificacao_imdb(7.1),
@@ -1100,11 +883,6 @@ filme('Double Trouble') :-
 
 filme('Sword of the Valiant') :-
     genero(swashbuckler),
-    genero(sword__sorcery),
-    genero(action),
-    genero(adventure),
-    genero(fantasy),
-    genero(romance),
     pais(united_kingdom),
     ano(1984),
     duracao(1.70),
@@ -1116,9 +894,7 @@ filme('Sword of the Valiant') :-
 
 filme('Rats: Night of Terror') :-
     genero(bhorror),
-    genero(horror),
-    genero(scifi),
-    pais(italy,france),
+    pais(italy),
     ano(1984),
     duracao(1.62),
     classificacao_imdb(4.7),
@@ -1142,13 +918,7 @@ filme('The Reliant') :-
 
 filme('The Informer') :-
     genero(police_procedural),
-    genero(prison_drama),
-    genero(spy),
-    genero(action),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
-    pais(united_kingdom,canada,united_states),
+    pais(united_kingdom),
     ano(2019),
     duracao(1.88),
     classificacao_imdb(6.6),
@@ -1169,11 +939,6 @@ filme('Mister America') :-
 
 filme('Kill Bill: Vol. 2') :-
     genero(kung_fu),
-    genero(martial_arts),
-    genero(oneperson_army_action),
-    genero(action),
-    genero(crime),
-    genero(thriller),
     pais(united_states),
     ano(2004),
     duracao(2.28),
@@ -1184,14 +949,7 @@ filme('Kill Bill: Vol. 2') :-
 
 filme('Kung Fu Hustle') :-
     genero(kung_fu),
-    genero(martial_arts),
-    genero(parody),
-    genero(slapstick),
-    genero(wuxia),
-    genero(action),
-    genero(comedy),
-    genero(fantasy),
-    pais(hong_kong,china,united_states),
+    pais(hong_kong),
     ano(2004),
     duracao(1.65),
     classificacao_imdb(7.7),
@@ -1201,8 +959,6 @@ filme('Kung Fu Hustle') :-
 
 filme('Envy') :-
     genero(buddy_comedy),
-    genero(dark_comedy),
-    genero(comedy),
     pais(united_states),
     ano(2004),
     duracao(1.65),
@@ -1213,9 +969,7 @@ filme('Envy') :-
 
 filme('Touch of Pink') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
-    pais(united_kingdom,canada),
+    pais(united_kingdom),
     ano(2004),
     duracao(1.52),
     classificacao_imdb(6.4),
@@ -1225,8 +979,6 @@ filme('Touch of Pink') :-
 
 filme('Kings & Queen') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(france),
     ano(2004),
     duracao(2.50),
@@ -1237,8 +989,7 @@ filme('Kings & Queen') :-
 
 filme('Rolling Family') :-
     genero(comedy),
-    genero(drama),
-    pais(argentina,brazil,france,germany,spain,united_kingdom),
+    pais(argentina),
     ano(2004),
     duracao(1.72),
     classificacao_imdb(6.6),
@@ -1250,9 +1001,7 @@ filme('Rolling Family') :-
 
 filme('King''s Game') :-
     genero(political_thriller),
-    genero(drama),
-    genero(thriller),
-    pais(denmark,sweden),
+    pais(denmark),
     ano(2004),
     duracao(1.78),
     classificacao_imdb(7.3),
@@ -1275,7 +1024,7 @@ filme('A Cold Wind in August') :-
 
 filme('The Canadians') :-
     genero(western),
-    pais(united_kingdom,canada),
+    pais(united_kingdom),
     ano(1961),
     duracao(1.42),
     classificacao_imdb(5.4),
@@ -1289,7 +1038,6 @@ filme('The Canadians') :-
 
 filme('I Now Pronounce You Chuck & Larry') :-
     genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(2007),
     duracao(1.92),
@@ -1300,8 +1048,6 @@ filme('I Now Pronounce You Chuck & Larry') :-
 
 filme('Because I Said So') :-
     genero(romantic_comedy),
-    genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(2007),
     duracao(1.70),
@@ -1312,9 +1058,7 @@ filme('Because I Said So') :-
 
 filme('28 Weeks Later') :-
     genero(zombie_horror),
-    genero(horror),
-    genero(scifi),
-    pais(united_kingdom,spain,united_states),
+    pais(united_kingdom),
     ano(2007),
     duracao(1.67),
     classificacao_imdb(6.9),
@@ -1324,8 +1068,6 @@ filme('28 Weeks Later') :-
 
 filme('Daddy Day Camp') :-
     genero(slapstick),
-    genero(comedy),
-    genero(family),
     pais(united_states),
     ano(2007),
     duracao(1.55),
@@ -1336,11 +1078,6 @@ filme('Daddy Day Camp') :-
 
 filme('Nobel Son') :-
     genero(caper),
-    genero(dark_comedy),
-    genero(comedy),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(2007),
     duracao(1.83),
@@ -1351,11 +1088,6 @@ filme('Nobel Son') :-
 
 filme('My Winnipeg') :-
     genero(dark_comedy),
-    genero(comedy),
-    genero(documentary),
-    genero(drama),
-    genero(fantasy),
-    genero(history),
     pais(canada),
     ano(2007),
     duracao(1.33),
@@ -1366,8 +1098,6 @@ filme('My Winnipeg') :-
 
 filme('Cover') :-
     genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(2007),
     duracao(1.63),
@@ -1382,7 +1112,7 @@ filme('Fear(s) of the Dark') :-
     genero(animation),
     genero(horror),
     genero(mystery),
-    pais(france,belgium),
+    pais(france),
     ano(2007),
     duracao(1.38),
     classificacao_imdb(6.6),
@@ -1392,10 +1122,6 @@ filme('Fear(s) of the Dark') :-
 
 filme('Mother of Tears') :-
     genero(supernatural_horror),
-    genero(witch_horror),
-    genero(drama),
-    genero(horror),
-    genero(thriller),
     pais(italy),
     ano(2007),
     duracao(1.70),
@@ -1406,8 +1132,6 @@ filme('Mother of Tears') :-
 
 filme('YPF') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(canada),
     ano(2007),
     duracao(1.45),
@@ -1418,12 +1142,6 @@ filme('YPF') :-
 
 filme('Bronco Billy') :-
     genero(contemporary_western),
-    genero(action),
-    genero(adventure),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    genero(western),
     pais(united_states),
     ano(1980),
     duracao(1.93),
@@ -1434,7 +1152,6 @@ filme('Bronco Billy') :-
 
 filme('The Gong Show Movie') :-
     genero(dark_comedy),
-    genero(comedy),
     pais(united_states),
     ano(1980),
     duracao(1.48),
@@ -1445,9 +1162,6 @@ filme('The Gong Show Movie') :-
 
 filme('The King and the Mockingbird') :-
     genero(animation),
-    genero(family),
-    genero(fantasy),
-    genero(romance),
     pais(france),
     ano(1980),
     duracao(1.38),
@@ -1459,10 +1173,7 @@ filme('The King and the Mockingbird') :-
 
 filme('Nightkill') :-
     genero(crime),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
-    pais(united_states,west_germany),
+    pais(united_states),
     ano(1980),
     duracao(1.62),
     classificacao_imdb(5.5),
@@ -1485,12 +1196,7 @@ filme('Confidence') :-
 
 filme('Challengers') :-
     genero(psychological_drama),
-    genero(steamy_romance),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    genero(sport),
-    pais(italy,united_states),
+    pais(italy),
     ano(2024),
     duracao(2.18),
     classificacao_imdb(7.1),
@@ -1500,9 +1206,6 @@ filme('Challengers') :-
 
 filme('The Exorcism') :-
     genero(psychological_horror),
-    genero(supernatural_horror),
-    genero(horror),
-    genero(thriller),
     pais(united_states),
     ano(2024),
     duracao(1.58),
@@ -1513,8 +1216,7 @@ filme('The Exorcism') :-
 
 filme('Bird') :-
     genero(comingofage),
-    genero(drama),
-    pais(united_kingdom,united_states,france,germany),
+    pais(united_kingdom),
     ano(2024),
     duracao(1.98),
     classificacao_imdb(7.1),
@@ -1527,7 +1229,6 @@ filme('Bird') :-
 
 filme('Pastor''s Kid') :-
     genero(biography),
-    genero(drama),
     pais(united_states),
     ano(2024),
     duracao(1.50),
@@ -1539,10 +1240,6 @@ filme('Pastor''s Kid') :-
 
 filme('Jackpot!') :-
     genero(buddy_comedy),
-    genero(dark_comedy),
-    genero(slapstick),
-    genero(action),
-    genero(comedy),
     pais(united_states),
     ano(2024),
     duracao(1.77),
@@ -1553,8 +1250,7 @@ filme('Jackpot!') :-
 
 filme('Armand') :-
     genero(psychological_drama),
-    genero(drama),
-    pais(norway,netherlands,germany,sweden,united_kingdom),
+    pais(norway),
     ano(2024),
     duracao(1.95),
     classificacao_imdb(6.4),
@@ -1565,9 +1261,6 @@ filme('Armand') :-
 
 filme('Mea Culpa') :-
     genero(erotic_thriller),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(2024),
     duracao(2.00),
@@ -1580,9 +1273,6 @@ filme('Mea Culpa') :-
 
 filme('Colors of Evil: Red') :-
     genero(crime),
-    genero(drama),
-    genero(mystery),
-    genero(thriller),
     pais(poland),
     ano(2024),
     duracao(1.85),
@@ -1593,10 +1283,6 @@ filme('Colors of Evil: Red') :-
 
 filme('Ricochet') :-
     genero(cop_drama),
-    genero(action),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(1991),
     duracao(1.70),
@@ -1607,9 +1293,6 @@ filme('Ricochet') :-
 
 filme('Career Opportunities') :-
     genero(feelgood_romance),
-    genero(romantic_comedy),
-    genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(1991),
     duracao(1.38),
@@ -1620,8 +1303,6 @@ filme('Career Opportunities') :-
 
 filme('Dice Rules') :-
     genero(standup),
-    genero(comedy),
-    genero(documentary),
     pais(united_states),
     ano(1991),
     duracao(1.47),
@@ -1632,7 +1313,7 @@ filme('Dice Rules') :-
 
 filme('Danzón') :-
     genero(drama),
-    pais(mexico,spain),
+    pais(mexico),
     ano(1991),
     duracao(2.00),
     classificacao_imdb(6.8),
@@ -1643,8 +1324,6 @@ filme('Danzón') :-
 
 filme('Grand Tour: Disaster in Time') :-
     genero(dark_comedy),
-    genero(mystery),
-    genero(scifi),
     pais(united_states),
     ano(1991),
     duracao(1.65),
@@ -1657,8 +1336,6 @@ filme('Grand Tour: Disaster in Time') :-
 
 filme('Major League') :-
     genero(baseball),
-    genero(comedy),
-    genero(sport),
     pais(united_states),
     ano(1989),
     duracao(1.78),
@@ -1669,7 +1346,6 @@ filme('Major League') :-
 
 filme('Sex, Lies, and Videotape') :-
     genero(dark_comedy),
-    genero(drama),
     pais(united_states),
     ano(1989),
     duracao(1.67),
@@ -1680,11 +1356,7 @@ filme('Sex, Lies, and Videotape') :-
 
 filme('Communion') :-
     genero(biography),
-    genero(drama),
-    genero(horror),
-    genero(scifi),
-    genero(thriller),
-    pais(united_states,united_kingdom),
+    pais(united_states),
     ano(1989),
     duracao(1.78),
     classificacao_imdb(5.5),
@@ -1694,10 +1366,6 @@ filme('Communion') :-
 
 filme('Night Game') :-
     genero(crime),
-    genero(drama),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(1989),
     duracao(1.58),
@@ -1708,7 +1376,6 @@ filme('Night Game') :-
 
 filme('Animal Behavior') :-
     genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(1989),
     duracao(1.42),
@@ -1719,9 +1386,6 @@ filme('Animal Behavior') :-
 
 filme('Far from Home') :-
     genero(crime),
-    genero(drama),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(1989),
     duracao(1.43),
@@ -1732,12 +1396,6 @@ filme('Far from Home') :-
 
 filme('Urotsukidoji: Legend of the Overfiend') :-
     genero(adult_animation),
-    genero(anime),
-    genero(dark_comedy),
-    genero(animation),
-    genero(fantasy),
-    genero(horror),
-    genero(romance),
     pais(japan),
     ano(1989),
     duracao(1.80),
@@ -1759,9 +1417,7 @@ filme('Snake Eater') :-
 
 filme('Eversmile New Jersey') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
-    pais(argentina,united_kingdom),
+    pais(argentina),
     ano(1989),
     duracao(1.52),
     classificacao_imdb(5.4),
@@ -1773,9 +1429,6 @@ filme('Eversmile New Jersey') :-
 
 filme('Life as We Know It') :-
     genero(romantic_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2010),
     duracao(1.90),
@@ -1786,11 +1439,7 @@ filme('Life as We Know It') :-
 
 filme('The Last Exorcism') :-
     genero(found_footage_horror),
-    genero(supernatural_horror),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
-    pais(france,united_states),
+    pais(france),
     ano(2010),
     duracao(1.45),
     classificacao_imdb(5.7),
@@ -1800,7 +1449,6 @@ filme('The Last Exorcism') :-
 
 filme('Of Gods and Men') :-
     genero(drama),
-    genero(history),
     pais(france),
     ano(2010),
     duracao(2.03),
@@ -1811,7 +1459,6 @@ filme('Of Gods and Men') :-
 
 filme('Housefull') :-
     genero(comedy),
-    genero(drama),
     pais(india),
     ano(2010),
     duracao(2.40),
@@ -1822,11 +1469,7 @@ filme('Housefull') :-
 
 filme('Love Crime') :-
     genero(psychological_thriller),
-    genero(crime),
-    genero(drama),
-    genero(mystery),
-    genero(thriller),
-    pais(france,united_states),
+    pais(france),
     ano(2010),
     duracao(1.77),
     classificacao_imdb(6.5),
@@ -1837,7 +1480,6 @@ filme('Love Crime') :-
 
 filme('The Big Picture') :-
     genero(drama),
-    genero(thriller),
     pais(france),
     ano(2010),
     duracao(1.90),
@@ -1848,8 +1490,7 @@ filme('The Big Picture') :-
 
 filme('Exporting Raymond') :-
     genero(comedy),
-    genero(documentary),
-    pais(united_states,russia),
+    pais(united_states),
     ano(2010),
     duracao(1.43),
     classificacao_imdb(6.8),
@@ -1859,8 +1500,7 @@ filme('Exporting Raymond') :-
 
 filme('The Human Resources Manager') :-
     genero(comedy),
-    genero(drama),
-    pais(israel,germany,france,romania),
+    pais(israel),
     ano(2010),
     duracao(1.72),
     classificacao_imdb(6.6),
@@ -1870,7 +1510,7 @@ filme('The Human Resources Manager') :-
 
 filme('Film socialisme') :-
     genero(drama),
-    pais(switzerland,france),
+    pais(switzerland),
     ano(2010),
     duracao(1.70),
     classificacao_imdb(5.7),
@@ -1880,9 +1520,6 @@ filme('Film socialisme') :-
 
 filme('John Q') :-
     genero(medical_drama),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(2002),
     duracao(1.93),
@@ -1893,10 +1530,7 @@ filme('John Q') :-
 
 filme('Showtime') :-
     genero(buddy_cop),
-    genero(action),
-    genero(comedy),
-    genero(crime),
-    pais(united_states,australia),
+    pais(united_states),
     ano(2002),
     duracao(1.58),
     classificacao_imdb(5.5),
@@ -1906,8 +1540,6 @@ filme('Showtime') :-
 
 filme('Analyze That') :-
     genero(buddy_comedy),
-    genero(comedy),
-    genero(crime),
     pais(united_states),
     ano(2002),
     duracao(1.60),
@@ -1919,7 +1551,7 @@ filme('Analyze That') :-
 
 filme('Respiro') :-
     genero(drama),
-    pais(italy,france),
+    pais(italy),
     ano(2002),
     duracao(1.50),
     classificacao_imdb(7.0),
@@ -1930,7 +1562,6 @@ filme('Respiro') :-
 
 filme('Home Room') :-
     genero(crime),
-    genero(drama),
     pais(united_states),
     ano(2002),
     duracao(2.22),
@@ -1941,9 +1572,7 @@ filme('Home Room') :-
 
 filme('Convoy') :-
     genero(dark_comedy),
-    genero(action),
-    genero(drama),
-    pais(united_states,united_kingdom),
+    pais(united_states),
     ano(1978),
     duracao(1.83),
     classificacao_imdb(6.3),
@@ -1953,9 +1582,7 @@ filme('Convoy') :-
 
 filme('La Cage aux Folles') :-
     genero(farce),
-    genero(satire),
-    genero(comedy),
-    pais(france,italy),
+    pais(france),
     ano(1978),
     duracao(1.62),
     classificacao_imdb(7.2),
@@ -1965,8 +1592,6 @@ filme('La Cage aux Folles') :-
 
 filme('The Fury') :-
     genero(horror),
-    genero(scifi),
-    genero(thriller),
     pais(united_states),
     ano(1978),
     duracao(1.97),
@@ -1987,8 +1612,6 @@ filme('An Enemy of the People') :-
 
 filme('The Alpha Incident') :-
     genero(horror),
-    genero(scifi),
-    genero(thriller),
     pais(united_states),
     ano(1978),
     duracao(1.58),
@@ -2000,7 +1623,6 @@ filme('The Alpha Incident') :-
 
 filme('Madanolsavam') :-
     genero(drama),
-    genero(romance),
     pais(india),
     ano(1978),
     duracao(2.48),
@@ -2012,8 +1634,7 @@ filme('Madanolsavam') :-
 
 filme('Yesterday, Today and Tomorrow') :-
     genero(comedy),
-    genero(romance),
-    pais(italy,france),
+    pais(italy),
     ano(1963),
     duracao(1.98),
     classificacao_imdb(7.2),
@@ -2048,7 +1669,6 @@ filme('30 Years of Fun') :-
 
 filme('Festival') :-
     genero(documentary),
-    genero(music),
     pais(united_states),
     ano(1967),
     duracao(1.58),
@@ -2059,10 +1679,7 @@ filme('Festival') :-
 
 filme('Grand Slam') :-
     genero(caper),
-    genero(heist),
-    genero(crime),
-    genero(drama),
-    pais(italy,spain,west_germany),
+    pais(italy),
     ano(1967),
     duracao(2.02),
     classificacao_imdb(6.8),
@@ -2072,8 +1689,6 @@ filme('Grand Slam') :-
 
 filme('Smashing Time') :-
     genero(satire),
-    genero(comedy),
-    genero(musical),
     pais(united_kingdom),
     ano(1967),
     duracao(1.60),
@@ -2087,7 +1702,6 @@ filme('Smashing Time') :-
 
 filme('The King''s Pirate') :-
     genero(swashbuckler),
-    genero(adventure),
     pais(united_states),
     ano(1967),
     duracao(1.67),
@@ -2098,14 +1712,6 @@ filme('The King''s Pirate') :-
 
 filme('No Way Out') :-
     genero(political_thriller),
-    genero(spy),
-    genero(steamy_romance),
-    genero(action),
-    genero(crime),
-    genero(drama),
-    genero(mystery),
-    genero(romance),
-    genero(thriller),
     pais(united_states),
     ano(1987),
     duracao(1.90),
@@ -2116,9 +1722,6 @@ filme('No Way Out') :-
 
 filme('Penitentiary III') :-
     genero(action),
-    genero(crime),
-    genero(drama),
-    genero(sport),
     pais(united_states),
     ano(1987),
     duracao(1.52),
@@ -2129,9 +1732,6 @@ filme('Penitentiary III') :-
 
 filme('The Caller') :-
     genero(suspense_mystery),
-    genero(mystery),
-    genero(scifi),
-    genero(thriller),
     pais(united_states),
     ano(1987),
     duracao(1.62),
@@ -2143,9 +1743,6 @@ filme('The Caller') :-
 
 filme('Sweets from a Stranger') :-
     genero(drama),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(italy),
     ano(1987),
     duracao(1.52),
@@ -2166,8 +1763,6 @@ filme('Blindside') :-
 
 filme('Forget Paris') :-
     genero(romantic_comedy),
-    genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(1995),
     duracao(1.68),
@@ -2178,8 +1773,6 @@ filme('Forget Paris') :-
 
 filme('Home for the Holidays') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_states),
     ano(1995),
     duracao(1.72),
@@ -2190,9 +1783,7 @@ filme('Home for the Holidays') :-
 
 filme('Othello') :-
     genero(tragedy),
-    genero(drama),
-    genero(romance),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(1995),
     duracao(2.05),
     classificacao_imdb(6.8),
@@ -2203,10 +1794,7 @@ filme('Othello') :-
 
 filme('Feast of July') :-
     genero(crime),
-    genero(drama),
-    genero(mystery),
-    genero(romance),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(1995),
     duracao(1.93),
     classificacao_imdb(6.2),
@@ -2216,8 +1804,7 @@ filme('Feast of July') :-
 
 filme('Flirt') :-
     genero(drama),
-    genero(romance),
-    pais(united_states,germany,japan),
+    pais(united_states),
     ano(1995),
     duracao(1.42),
     classificacao_imdb(6.3),
@@ -2237,8 +1824,6 @@ filme('The Stars Fell on Henrietta') :-
 
 filme('For Better or Worse') :-
     genero(action),
-    genero(comedy),
-    genero(drama),
     pais(united_states),
     ano(1995),
     duracao(1.75),
@@ -2249,10 +1834,6 @@ filme('For Better or Worse') :-
 
 filme('Best of the Best 3: No Turning Back') :-
     genero(martial_arts),
-    genero(action),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(1995),
     duracao(1.50),
@@ -2263,10 +1844,6 @@ filme('Best of the Best 3: No Turning Back') :-
 
 filme('Jules and Jim') :-
     genero(period_drama),
-    genero(psychological_drama),
-    genero(tragic_romance),
-    genero(drama),
-    genero(romance),
     pais(france),
     ano(1962),
     duracao(1.75),
@@ -2277,7 +1854,6 @@ filme('Jules and Jim') :-
 
 filme('State Fair') :-
     genero(musical),
-    genero(romance),
     pais(united_states),
     ano(1962),
     duracao(2.00),
@@ -2309,7 +1885,6 @@ filme('Family Diary') :-
 
 filme('Terrified') :-
     genero(slasher_horror),
-    genero(horror),
     pais(united_states),
     ano(1962),
     duracao(1.35),
@@ -2322,13 +1897,6 @@ filme('Terrified') :-
 
 filme('Avatar: The Way of Water') :-
     genero(action_epic),
-    genero(adventure_epic),
-    genero(scifi_epic),
-    genero(sea_adventure),
-    genero(action),
-    genero(adventure),
-    genero(fantasy),
-    genero(scifi),
     pais(united_states),
     ano(2022),
     duracao(3.20),
@@ -2339,13 +1907,7 @@ filme('Avatar: The Way of Water') :-
 
 filme('The Bad Guys') :-
     genero(animal_adventure),
-    genero(computer_animation),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(crime),
-    genero(family),
-    pais(united_states,united_kingdom),
+    pais(united_states),
     ano(2022),
     duracao(1.67),
     classificacao_imdb(6.8),
@@ -2355,8 +1917,7 @@ filme('The Bad Guys') :-
 
 filme('EO') :-
     genero(psychological_drama),
-    genero(drama),
-    pais(poland,italy),
+    pais(poland),
     ano(2022),
     duracao(1.47),
     classificacao_imdb(6.7),
@@ -2366,7 +1927,6 @@ filme('EO') :-
 
 filme('God''s Country') :-
     genero(psychological_thriller),
-    genero(thriller),
     pais(united_states),
     ano(2022),
     duracao(1.70),
@@ -2377,8 +1937,6 @@ filme('God''s Country') :-
 
 filme('Dreamin'' Wild') :-
     genero(biography),
-    genero(drama),
-    genero(music),
     pais(united_states),
     ano(2022),
     duracao(1.85),
@@ -2400,8 +1958,6 @@ filme('The Return of Tanya Tucker: Featuring Brandi Carlile') :-
 
 filme('Linoleum') :-
     genero(space_scifi),
-    genero(drama),
-    genero(scifi),
     pais(united_states),
     ano(2022),
     duracao(1.68),
@@ -2413,16 +1969,7 @@ filme('Linoleum') :-
 
 filme('Chip ''n Dale: Rescue Rangers') :-
     genero(buddy_comedy),
-    genero(computer_animation),
-    genero(handdrawn_animation),
-    genero(urban_adventure),
-    genero(action),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(crime),
-    genero(family),
-    pais(united_states,canada,philippines),
+    pais(united_states),
     ano(2022),
     duracao(1.62),
     classificacao_imdb(6.9),
@@ -2432,8 +1979,7 @@ filme('Chip ''n Dale: Rescue Rangers') :-
 
 filme('Causeway') :-
     genero(psychological_drama),
-    genero(drama),
-    pais(united_states,finland),
+    pais(united_states),
     ano(2022),
     duracao(1.57),
     classificacao_imdb(6.6),
@@ -2443,9 +1989,7 @@ filme('Causeway') :-
 
 filme('All the Old Knives') :-
     genero(suspense_mystery),
-    genero(mystery),
-    genero(thriller),
-    pais(united_states,canada),
+    pais(united_states),
     ano(2022),
     duracao(1.68),
     classificacao_imdb(6.1),
@@ -2455,10 +1999,6 @@ filme('All the Old Knives') :-
 
 filme('Kindergarten Cop') :-
     genero(cop_drama),
-    genero(highconcept_comedy),
-    genero(action),
-    genero(comedy),
-    genero(crime),
     pais(united_states),
     ano(1990),
     duracao(1.85),
@@ -2469,13 +2009,7 @@ filme('Kindergarten Cop') :-
 
 filme('DuckTales the Movie: Treasure of the Lost Lamp') :-
     genero(handdrawn_animation),
-    genero(quest),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(family),
-    genero(fantasy),
-    pais(france,united_states,united_kingdom),
+    pais(france),
     ano(1990),
     duracao(1.23),
     classificacao_imdb(6.8),
@@ -2486,8 +2020,6 @@ filme('DuckTales the Movie: Treasure of the Lost Lamp') :-
 
 filme('Impulse') :-
     genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(1990),
     duracao(1.82),
@@ -2498,10 +2030,6 @@ filme('Impulse') :-
 
 filme('The Invisible Maniac') :-
     genero(raunchy_comedy),
-    genero(slasher_horror),
-    genero(comedy),
-    genero(horror),
-    genero(scifi),
     pais(united_states),
     ano(1990),
     duracao(1.43),
@@ -2515,9 +2043,7 @@ filme('The Invisible Maniac') :-
 
 filme('Korczak') :-
     genero(biography),
-    genero(drama),
-    genero(war),
-    pais(poland,germany,united_kingdom),
+    pais(poland),
     ano(1990),
     duracao(1.97),
     classificacao_imdb(7.4),
@@ -2525,16 +2051,8 @@ filme('Korczak') :-
     realizador(andrzej_wajda),
     atores([wojciech_pszoniak, ewa_dalkowska, teresa_budziszkrzyzanowska]).
 
-
-
-
 filme('Flags of Our Fathers') :-
     genero(war_epic),
-    genero(action),
-    genero(adventure),
-    genero(drama),
-    genero(history),
-    genero(war),
     pais(united_states),
     ano(2006),
     duracao(2.25),
@@ -2545,11 +2063,7 @@ filme('Flags of Our Fathers') :-
 
 filme('Miss Potter') :-
     genero(docudrama),
-    genero(period_drama),
-    genero(biography),
-    genero(drama),
-    genero(romance),
-    pais(united_kingdom,united_states,isle_of_man),
+    pais(united_kingdom),
     ano(2006),
     duracao(1.47),
     classificacao_imdb(7.0),
@@ -2559,10 +2073,7 @@ filme('Miss Potter') :-
 
 filme('Copying Beethoven') :-
     genero(period_drama),
-    genero(biography),
-    genero(drama),
-    genero(music),
-    pais(united_kingdom,germany,hungary),
+    pais(united_kingdom),
     ano(2006),
     duracao(1.73),
     classificacao_imdb(6.7),
@@ -2572,9 +2083,6 @@ filme('Copying Beethoven') :-
 
 filme('Outsourced') :-
     genero(workplace_drama),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2006),
     duracao(1.72),
@@ -2585,11 +2093,7 @@ filme('Outsourced') :-
 
 filme('Renaissance') :-
     genero(adult_animation),
-    genero(action),
-    genero(animation),
-    genero(scifi),
-    genero(thriller),
-    pais(france,luxembourg,united_kingdom,belgium,united_states),
+    pais(france),
     ano(2006),
     duracao(1.75),
     classificacao_imdb(6.6),
@@ -2599,7 +2103,6 @@ filme('Renaissance') :-
 
 filme('The Situation') :-
     genero(drama),
-    genero(war),
     pais(united_states),
     ano(2006),
     duracao(1.85),
@@ -2620,7 +2123,7 @@ filme('Been Rich All My Life') :-
 
 filme('Shanghai Red') :-
     genero(drama),
-    pais(united_states,china),
+    pais(united_states),
     ano(2006),
     duracao(1.73),
     classificacao_imdb(5.5),
@@ -2630,9 +2133,7 @@ filme('Shanghai Red') :-
 
 filme('Rio Lobo') :-
     genero(drama),
-    genero(war),
-    genero(western),
-    pais(united_states,mexico),
+    pais(united_states),
     ano(1970),
     duracao(1.90),
     classificacao_imdb(6.7),
@@ -2673,9 +2174,7 @@ filme('The Baby Maker') :-
 
 filme('The Lady in the Car with Glasses and a Gun') :-
     genero(drama),
-    genero(mystery),
-    genero(thriller),
-    pais(france,united_states),
+    pais(france),
     ano(1970),
     duracao(1.75),
     classificacao_imdb(6.1),
@@ -2695,11 +2194,7 @@ filme('Fools') :-
 
 filme('Coach Carter') :-
     genero(basketball),
-    genero(docudrama),
-    genero(biography),
-    genero(drama),
-    genero(sport),
-    pais(united_states,germany),
+    pais(united_states),
     ano(2005),
     duracao(2.27),
     classificacao_imdb(7.3),
@@ -2709,11 +2204,7 @@ filme('Coach Carter') :-
 
 filme('Land of the Dead') :-
     genero(dark_comedy),
-    genero(zombie_horror),
-    genero(horror),
-    genero(scifi),
-    genero(thriller),
-    pais(france,canada,united_states),
+    pais(france),
     ano(2005),
     duracao(1.55),
     classificacao_imdb(6.2),
@@ -2723,7 +2214,6 @@ filme('Land of the Dead') :-
 
 filme('Boynton Beach Club') :-
     genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(2005),
     duracao(1.75),
@@ -2734,10 +2224,6 @@ filme('Boynton Beach Club') :-
 
 filme('Happy Endings') :-
     genero(comedy),
-    genero(drama),
-    genero(music),
-    genero(romance),
-    genero(thriller),
     pais(united_states),
     ano(2005),
     duracao(2.13),
@@ -2748,8 +2234,6 @@ filme('Happy Endings') :-
 
 filme('Slow Burn') :-
     genero(drama),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(2005),
     duracao(1.55),
@@ -2760,7 +2244,6 @@ filme('Slow Burn') :-
 
 filme('The Young Lieutenant') :-
     genero(crime),
-    genero(drama),
     pais(france),
     ano(2005),
     duracao(1.83),
@@ -2771,11 +2254,6 @@ filme('The Young Lieutenant') :-
 
 filme('The Zodiac') :-
     genero(true_crime),
-    genero(crime),
-    genero(drama),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(2005),
     duracao(1.53),
@@ -2786,8 +2264,6 @@ filme('The Zodiac') :-
 
 filme('Mozart and the Whale') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2005),
     duracao(1.57),
@@ -2819,7 +2295,6 @@ filme('Giuliani Time') :-
 
 filme('Laura') :-
     genero(drama),
-    genero(romance),
     pais(france),
     ano(1979),
     duracao(1.58),
@@ -2830,15 +2305,6 @@ filme('Laura') :-
 
 filme('The In-Laws') :-
     genero(buddy_comedy),
-    genero(caper),
-    genero(farce),
-    genero(screwball_comedy),
-    genero(spy),
-    genero(action),
-    genero(adventure),
-    genero(comedy),
-    genero(crime),
-    genero(thriller),
     pais(united_states),
     ano(1979),
     duracao(1.72),
@@ -2849,7 +2315,6 @@ filme('The In-Laws') :-
 
 filme('The Double McGuffin') :-
     genero(family),
-    genero(mystery),
     pais(united_states),
     ano(1979),
     duracao(1.68),
@@ -2860,7 +2325,6 @@ filme('The Double McGuffin') :-
 
 filme('Stone Cold Dead') :-
     genero(crime),
-    genero(thriller),
     pais(canada),
     ano(1979),
     duracao(1.80),
@@ -2875,8 +2339,6 @@ filme('Stone Cold Dead') :-
 
 filme('Que Viva Mexico') :-
     genero(documentary),
-    genero(drama),
-    genero(western),
     pais(soviet_union),
     ano(1979),
     duracao(1.50),
@@ -2887,13 +2349,6 @@ filme('Que Viva Mexico') :-
 
 filme('Teenage Mutant Ninja Turtles') :-
     genero(samurai),
-    genero(superhero),
-    genero(action),
-    genero(adventure),
-    genero(comedy),
-    genero(crime),
-    genero(fantasy),
-    genero(scifi),
     pais(united_states),
     ano(2014),
     duracao(1.68),
@@ -2904,10 +2359,7 @@ filme('Teenage Mutant Ninja Turtles') :-
 
 filme('Fury') :-
     genero(period_drama),
-    genero(action),
-    genero(drama),
-    genero(war),
-    pais(united_states,china),
+    pais(united_states),
     ano(2014),
     duracao(2.23),
     classificacao_imdb(7.6),
@@ -2917,11 +2369,7 @@ filme('Fury') :-
 
 filme('The Grand Budapest Hotel') :-
     genero(caper),
-    genero(quirky_comedy),
-    genero(adventure),
-    genero(comedy),
-    genero(crime),
-    pais(united_states,germany),
+    pais(united_states),
     ano(2014),
     duracao(1.65),
     classificacao_imdb(8.1),
@@ -2931,9 +2379,7 @@ filme('The Grand Budapest Hotel') :-
 
 filme('The Water Diviner') :-
     genero(drama),
-    genero(history),
-    genero(war),
-    pais(australia,united_states,turkey),
+    pais(australia),
     ano(2014),
     duracao(1.85),
     classificacao_imdb(7.0),
@@ -2943,8 +2389,6 @@ filme('The Water Diviner') :-
 
 filme('The Song') :-
     genero(drama),
-    genero(music),
-    genero(romance),
     pais(united_states),
     ano(2014),
     duracao(1.93),
@@ -2955,8 +2399,6 @@ filme('The Song') :-
 
 filme('23 Blast') :-
     genero(football),
-    genero(drama),
-    genero(sport),
     pais(united_states),
     ano(2014),
     duracao(1.63),
@@ -2967,9 +2409,6 @@ filme('23 Blast') :-
 
 filme('Glen Campbell: I''ll Be Me') :-
     genero(biography),
-    genero(documentary),
-    genero(family),
-    genero(music),
     pais(united_states),
     ano(2014),
     duracao(1.73),
@@ -2980,8 +2419,6 @@ filme('Glen Campbell: I''ll Be Me') :-
 
 filme('Ballet 422') :-
     genero(documentary),
-    genero(music),
-    genero(sport),
     pais(united_states),
     ano(2014),
     duracao(1.25),
@@ -2992,8 +2429,6 @@ filme('Ballet 422') :-
 
 filme('In the Name of My Daughter') :-
     genero(true_crime),
-    genero(crime),
-    genero(drama),
     pais(france),
     ano(2014),
     duracao(1.93),
@@ -3004,10 +2439,6 @@ filme('In the Name of My Daughter') :-
 
 filme('The Blue Room') :-
     genero(crime),
-    genero(drama),
-    genero(mystery),
-    genero(romance),
-    genero(thriller),
     pais(france),
     ano(2014),
     duracao(1.27),
@@ -3028,12 +2459,7 @@ filme('Flowers') :-
 
 filme('Spring') :-
     genero(dark_romance),
-    genero(monster_horror),
-    genero(drama),
-    genero(horror),
-    genero(romance),
-    genero(scifi),
-    pais(united_states,italy),
+    pais(united_states),
     ano(2014),
     duracao(1.82),
     classificacao_imdb(6.7),
@@ -3043,9 +2469,6 @@ filme('Spring') :-
 
 filme('The Man with the Golden Gun') :-
     genero(spy),
-    genero(action),
-    genero(adventure),
-    genero(thriller),
     pais(united_kingdom),
     ano(1974),
     duracao(2.08),
@@ -3058,8 +2481,7 @@ filme('The Man with the Golden Gun') :-
 
 filme('Lacombe, Lucien') :-
     genero(drama),
-    genero(war),
-    pais(france,italy,west_germany),
+    pais(france),
     ano(1974),
     duracao(2.30),
     classificacao_imdb(7.6),
@@ -3069,9 +2491,6 @@ filme('Lacombe, Lucien') :-
 
 filme('Busting') :-
     genero(comedy),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(1974),
     duracao(1.53),
@@ -3092,7 +2511,6 @@ filme('Those Mad, Mad Moviemakers') :-
 
 filme('The Spikes Gang') :-
     genero(drama),
-    genero(western),
     pais(united_states),
     ano(1974),
     duracao(1.60),
@@ -3104,14 +2522,7 @@ filme('The Spikes Gang') :-
 
 filme('Tarzan') :-
     genero(handdrawn_animation),
-    genero(jungle_adventure),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(drama),
-    genero(family),
-    genero(music),
-    pais(united_states,japan),
+    pais(united_states),
     ano(1999),
     duracao(1.47),
     classificacao_imdb(7.3),
@@ -3121,14 +2532,6 @@ filme('Tarzan') :-
 
 filme('Being John Malkovich') :-
     genero(body_swap_comedy),
-    genero(highconcept_comedy),
-    genero(psychological_drama),
-    genero(satire),
-    genero(showbiz_drama),
-    genero(supernatural_fantasy),
-    genero(comedy),
-    genero(drama),
-    genero(fantasy),
     pais(united_states),
     ano(1999),
     duracao(1.88),
@@ -3139,8 +2542,6 @@ filme('Being John Malkovich') :-
 
 filme('East Is East') :-
     genero(satire),
-    genero(comedy),
-    genero(drama),
     pais(united_kingdom),
     ano(1999),
     duracao(1.60),
@@ -3152,7 +2553,6 @@ filme('East Is East') :-
 
 filme('Catfish in Black Bean Sauce') :-
     genero(comedy),
-    genero(drama),
     pais(united_states),
     ano(1999),
     duracao(1.98),
@@ -3163,8 +2563,7 @@ filme('Catfish in Black Bean Sauce') :-
 
 filme('Sugar Town') :-
     genero(comedy),
-    genero(music),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(1999),
     duracao(1.53),
     classificacao_imdb(6.1),
@@ -3174,11 +2573,6 @@ filme('Sugar Town') :-
 
 filme('Jin-Roh: The Wolf Brigade') :-
     genero(adult_animation),
-    genero(anime),
-    genero(animation),
-    genero(drama),
-    genero(scifi),
-    genero(thriller),
     pais(japan),
     ano(1999),
     duracao(1.70),
@@ -3189,10 +2583,6 @@ filme('Jin-Roh: The Wolf Brigade') :-
 
 filme('Virtual Sexuality') :-
     genero(teen_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    genero(scifi),
     pais(united_kingdom),
     ano(1999),
     duracao(1.53),
@@ -3203,10 +2593,7 @@ filme('Virtual Sexuality') :-
 
 filme('Inferno') :-
     genero(action),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    pais(united_states,france),
+    pais(united_states),
     ano(1999),
     duracao(1.58),
     classificacao_imdb(5.2),
@@ -3226,8 +2613,6 @@ filme('Suckers') :-
 
 filme('Kachche Dhaage') :-
     genero(action),
-    genero(drama),
-    genero(thriller),
     pais(india),
     ano(1999),
     duracao(2.40),
@@ -3238,7 +2623,6 @@ filme('Kachche Dhaage') :-
 
 filme('Mann - Soul''s Heart') :-
     genero(drama),
-    genero(romance),
     pais(india),
     ano(1999),
     duracao(2.67),
@@ -3249,9 +2633,6 @@ filme('Mann - Soul''s Heart') :-
 
 filme('Futureworld') :-
     genero(artificial_intelligence),
-    genero(dystopian_scifi),
-    genero(scifi),
-    genero(thriller),
     pais(united_states),
     ano(1976),
     duracao(1.80),
@@ -3272,10 +2653,6 @@ filme('The Bawdy Adventures of Tom Jones') :-
 
 filme('Eat My Dust') :-
     genero(car_action),
-    genero(slapstick),
-    genero(action),
-    genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(1976),
     duracao(1.48),
@@ -3286,7 +2663,6 @@ filme('Eat My Dust') :-
 
 filme('Little Girl... Big Tease') :-
     genero(drama),
-    genero(romance),
     pais(united_states),
     ano(1976),
     duracao(1.43),
@@ -3298,8 +2674,6 @@ filme('Little Girl... Big Tease') :-
 
 filme('Young, Violent, Dangerous') :-
     genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(italy),
     ano(1976),
     duracao(1.67),
@@ -3311,12 +2685,7 @@ filme('Young, Violent, Dangerous') :-
 
 filme('The Parent Trap') :-
     genero(feelgood_romance),
-    genero(adventure),
-    genero(comedy),
-    genero(drama),
-    genero(family),
-    genero(romance),
-    pais(united_states,united_kingdom),
+    pais(united_states),
     ano(1998),
     duracao(2.13),
     classificacao_imdb(6.7),
@@ -3346,7 +2715,6 @@ filme('Slam') :-
 
 filme('The Other Conquest') :-
     genero(drama),
-    genero(history),
     pais(mexico),
     ano(1998),
     duracao(1.75),
@@ -3357,10 +2725,6 @@ filme('The Other Conquest') :-
 
 filme('SLC Punk!') :-
     genero(dark_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(music),
-    genero(romance),
     pais(united_states),
     ano(1998),
     duracao(1.62),
@@ -3392,10 +2756,6 @@ filme('True Friends') :-
 
 filme('Dushman') :-
     genero(action),
-    genero(crime),
-    genero(drama),
-    genero(romance),
-    genero(thriller),
     pais(india),
     ano(1998),
     duracao(2.42),
@@ -3406,10 +2766,7 @@ filme('Dushman') :-
 
 filme('Hamilton') :-
     genero(action),
-    genero(adventure),
-    genero(crime),
-    genero(thriller),
-    pais(sweden,norway),
+    pais(sweden),
     ano(1998),
     duracao(2.12),
     classificacao_imdb(5.8),
@@ -3419,8 +2776,6 @@ filme('Hamilton') :-
 
 filme('Progeny') :-
     genero(horror),
-    genero(scifi),
-    genero(thriller),
     pais(united_states),
     ano(1998),
     duracao(1.63),
@@ -3431,7 +2786,6 @@ filme('Progeny') :-
 
 filme('Milo') :-
     genero(slasher_horror),
-    genero(horror),
     pais(united_states),
     ano(1998),
     duracao(1.52),
@@ -3442,8 +2796,6 @@ filme('Milo') :-
 
 filme('Legal Eagles') :-
     genero(comedy),
-    genero(crime),
-    genero(romance),
     pais(united_states),
     ano(1986),
     duracao(1.93),
@@ -3454,14 +2806,6 @@ filme('Legal Eagles') :-
 
 filme('An American Tail') :-
     genero(animal_adventure),
-    genero(handdrawn_animation),
-    genero(urban_adventure),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(drama),
-    genero(family),
-    genero(musical),
     pais(united_states),
     ano(1986),
     duracao(1.33),
@@ -3472,7 +2816,6 @@ filme('An American Tail') :-
 
 filme('F/X') :-
     genero(action),
-    genero(thriller),
     pais(united_states),
     ano(1986),
     duracao(1.82),
@@ -3483,13 +2826,7 @@ filme('F/X') :-
 
 filme('Allan Quatermain and the Lost City of Gold') :-
     genero(farce),
-    genero(jungle_adventure),
-    genero(quest),
-    genero(superhero),
-    genero(action),
-    genero(adventure),
-    genero(comedy),
-    pais(united_states,israel),
+    pais(united_states),
     ano(1986),
     duracao(1.65),
     classificacao_imdb(4.6),
@@ -3499,10 +2836,7 @@ filme('Allan Quatermain and the Lost City of Gold') :-
 
 filme('Salvador') :-
     genero(drama),
-    genero(history),
-    genero(thriller),
-    genero(war),
-    pais(united_states,mexico,united_kingdom),
+    pais(united_states),
     ano(1986),
     duracao(2.03),
     classificacao_imdb(7.4),
@@ -3512,9 +2846,7 @@ filme('Salvador') :-
 
 filme('Half Moon Street') :-
     genero(political_thriller),
-    genero(drama),
-    genero(thriller),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(1986),
     duracao(1.50),
     classificacao_imdb(5.4),
@@ -3524,7 +2856,7 @@ filme('Half Moon Street') :-
 
 filme('The Sacrifice') :-
     genero(drama),
-    pais(sweden,france,united_kingdom),
+    pais(sweden),
     ano(1986),
     duracao(2.48),
     classificacao_imdb(7.9),
@@ -3534,8 +2866,6 @@ filme('The Sacrifice') :-
 
 filme('Body Count') :-
     genero(slasher_horror),
-    genero(horror),
-    genero(mystery),
     pais(italy),
     ano(1986),
     duracao(1.50),
@@ -3557,7 +2887,6 @@ filme('Red Headed Stranger') :-
 
 filme('The Whoopee Boys') :-
     genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(1986),
     duracao(1.47),
@@ -3573,10 +2902,6 @@ filme('The Whoopee Boys') :-
 
 filme('Knights of Badassdom') :-
     genero(action),
-    genero(adventure),
-    genero(comedy),
-    genero(fantasy),
-    genero(horror),
     pais(united_states),
     ano(2013),
     duracao(1.43),
@@ -3587,13 +2912,6 @@ filme('Knights of Badassdom') :-
 
 filme('Anohana the Movie: The Flower We Saw That Day (Ano hi mita hana no namae wo bokutachi wa mada shiran') :-
     genero(anime),
-    genero(adventure),
-    genero(animation),
-    genero(drama),
-    genero(family),
-    genero(fantasy),
-    genero(mystery),
-    genero(romance),
     pais(japan),
     ano(2013),
     duracao(1.65),
@@ -3604,10 +2922,6 @@ filme('Anohana the Movie: The Flower We Saw That Day (Ano hi mita hana no namae 
 
 filme('Going Attractions: The Definitive Story of the American Drive-in Movie') :-
     genero(news),
-    genero(documentary),
-    genero(family),
-    genero(history),
-    genero(romance),
     pais(united_states),
     ano(2013),
     duracao(1.42),
@@ -3628,8 +2942,6 @@ filme('American Meat') :-
 
 filme('Magic Mike''s Last Dance') :-
     genero(showbiz_drama),
-    genero(comedy),
-    genero(drama),
     pais(united_states),
     ano(2023),
     duracao(1.87),
@@ -3640,16 +2952,7 @@ filme('Magic Mike''s Last Dance') :-
 
 filme('Priscilla') :-
     genero(comingofage),
-    genero(dark_romance),
-    genero(docudrama),
-    genero(period_drama),
-    genero(showbiz_drama),
-    genero(teen_romance),
-    genero(biography),
-    genero(drama),
-    genero(music),
-    genero(romance),
-    pais(italy,united_states),
+    pais(italy),
     ano(2023),
     duracao(1.88),
     classificacao_imdb(6.5),
@@ -3659,12 +2962,6 @@ filme('Priscilla') :-
 
 filme('Anatomy of a Fall') :-
     genero(legal_drama),
-    genero(legal_thriller),
-    genero(psychological_drama),
-    genero(psychological_thriller),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(france),
     ano(2023),
     duracao(2.52),
@@ -3675,9 +2972,7 @@ filme('Anatomy of a Fall') :-
 
 filme('Inside') :-
     genero(psychological_drama),
-    genero(drama),
-    genero(thriller),
-    pais(greece,germany,belgium),
+    pais(greece),
     ano(2023),
     duracao(1.75),
     classificacao_imdb(5.5),
@@ -3687,8 +2982,6 @@ filme('Inside') :-
 
 filme('The Essential Church') :-
     genero(documentary),
-    genero(drama),
-    genero(history),
     pais(united_states),
     ano(2023),
     duracao(2.10),
@@ -3699,7 +2992,6 @@ filme('The Essential Church') :-
 
 filme('¡Que viva México!') :-
     genero(quirky_comedy),
-    genero(comedy),
     pais(mexico),
     ano(2023),
     duracao(3.18),
@@ -3712,11 +3004,6 @@ filme('¡Que viva México!') :-
 
 filme('Friday the 13th') :-
     genero(slasher_horror),
-    genero(suspense_mystery),
-    genero(teen_horror),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(2009),
     duracao(1.62),
@@ -3727,11 +3014,6 @@ filme('Friday the 13th') :-
 
 filme('Adventureland') :-
     genero(comingofage),
-    genero(teen_comedy),
-    genero(teen_romance),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2009),
     duracao(1.78),
@@ -3742,8 +3024,7 @@ filme('Adventureland') :-
 
 filme('Mother and Child') :-
     genero(drama),
-    genero(romance),
-    pais(united_states,spain),
+    pais(united_states),
     ano(2009),
     duracao(2.08),
     classificacao_imdb(7.2),
@@ -3753,8 +3034,6 @@ filme('Mother and Child') :-
 
 filme('Me and Mrs. Khanna') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(india),
     ano(2009),
     duracao(1.82),
@@ -3765,7 +3044,6 @@ filme('Me and Mrs. Khanna') :-
 
 filme('Peter and Vandy') :-
     genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2009),
     duracao(1.58),
@@ -3776,7 +3054,6 @@ filme('Peter and Vandy') :-
 
 filme('My Year Without Sex') :-
     genero(comedy),
-    genero(drama),
     pais(australia),
     ano(2009),
     duracao(1.60),
@@ -3787,7 +3064,6 @@ filme('My Year Without Sex') :-
 
 filme('St. Helens') :-
     genero(adventure),
-    genero(drama),
     pais(united_states),
     ano(1981),
     duracao(1.50),
@@ -3801,8 +3077,7 @@ filme('St. Helens') :-
 
 filme('Heat of Desire') :-
     genero(drama),
-    genero(romance),
-    pais(france,spain),
+    pais(france),
     ano(1981),
     duracao(1.43),
     classificacao_imdb(5.7),
@@ -3815,7 +3090,6 @@ filme('Heat of Desire') :-
 
 filme('The Wedding Ringer') :-
     genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(2015),
     duracao(1.68),
@@ -3826,8 +3100,6 @@ filme('The Wedding Ringer') :-
 
 filme('The Perfect Guy') :-
     genero(drama),
-    genero(romance),
-    genero(thriller),
     pais(united_states),
     ano(2015),
     duracao(1.67),
@@ -3838,10 +3110,7 @@ filme('The Perfect Guy') :-
 
 filme('The Gift') :-
     genero(psychological_thriller),
-    genero(drama),
-    genero(mystery),
-    genero(thriller),
-    pais(united_states,australia,china),
+    pais(united_states),
     ano(2015),
     duracao(1.80),
     classificacao_imdb(7.0),
@@ -3851,13 +3120,6 @@ filme('The Gift') :-
 
 filme('Jem and the Holograms') :-
     genero(teen_adventure),
-    genero(adventure),
-    genero(drama),
-    genero(family),
-    genero(fantasy),
-    genero(music),
-    genero(romance),
-    genero(scifi),
     pais(united_states),
     ano(2015),
     duracao(1.97),
@@ -3869,9 +3131,6 @@ filme('Jem and the Holograms') :-
 
 filme('Janis: Little Girl Blue') :-
     genero(music_documentary),
-    genero(biography),
-    genero(documentary),
-    genero(music),
     pais(united_states),
     ano(2015),
     duracao(1.72),
@@ -3883,7 +3142,6 @@ filme('Janis: Little Girl Blue') :-
 
 filme('Stonewall') :-
     genero(drama),
-    genero(history),
     pais(united_states),
     ano(2015),
     duracao(2.15),
@@ -3894,9 +3152,7 @@ filme('Stonewall') :-
 
 filme('Zhongkui: Snow Girl and the Dark Crystal') :-
     genero(action),
-    genero(fantasy),
-    genero(romance),
-    pais(china,hong_kong,united_states),
+    pais(china),
     ano(2015),
     duracao(1.97),
     classificacao_imdb(5.3),
@@ -3906,8 +3162,6 @@ filme('Zhongkui: Snow Girl and the Dark Crystal') :-
 
 filme('Requiem for the American Dream') :-
     genero(news),
-    genero(biography),
-    genero(documentary),
     pais(united_states),
     ano(2015),
     duracao(1.22),
@@ -3918,7 +3172,6 @@ filme('Requiem for the American Dream') :-
 
 filme('Tab Hunter Confidential') :-
     genero(biography),
-    genero(documentary),
     pais(united_states),
     ano(2015),
     duracao(1.50),
@@ -3929,9 +3182,6 @@ filme('Tab Hunter Confidential') :-
 
 filme('The Club') :-
     genero(dark_comedy),
-    genero(drama),
-    genero(mystery),
-    genero(thriller),
     pais(chile),
     ano(2015),
     duracao(1.63),
@@ -3942,13 +3192,7 @@ filme('The Club') :-
 
 filme('Phantom Boy') :-
     genero(superhero),
-    genero(action),
-    genero(adventure),
-    genero(animation),
-    genero(family),
-    genero(fantasy),
-    genero(scifi),
-    pais(france,belgium),
+    pais(france),
     ano(2015),
     duracao(1.40),
     classificacao_imdb(6.6),
@@ -3958,12 +3202,7 @@ filme('Phantom Boy') :-
 
 filme('Monster Hunt') :-
     genero(martial_arts),
-    genero(quirky_comedy),
-    genero(supernatural_fantasy),
-    genero(adventure),
-    genero(comedy),
-    genero(fantasy),
-    pais(china,hong_kong),
+    pais(china),
     ano(2015),
     duracao(1.95),
     classificacao_imdb(6.1),
@@ -3973,7 +3212,6 @@ filme('Monster Hunt') :-
 
 filme('Anesthesia') :-
     genero(crime),
-    genero(drama),
     pais(united_states),
     ano(2015),
     duracao(1.50),
@@ -3984,8 +3222,7 @@ filme('Anesthesia') :-
 
 filme('Chevalier') :-
     genero(comedy),
-    genero(drama),
-    pais(greece,germany),
+    pais(greece),
     ano(2015),
     duracao(1.75),
     classificacao_imdb(6.2),
@@ -3995,15 +3232,7 @@ filme('Chevalier') :-
 
 filme('Old') :-
     genero(body_horror),
-    genero(conspiracy_thriller),
-    genero(psychological_horror),
-    genero(psychological_thriller),
-    genero(suspense_mystery),
-    genero(drama),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
-    pais(united_states,japan,china),
+    pais(united_states),
     ano(2021),
     duracao(1.80),
     classificacao_imdb(5.8),
@@ -4013,10 +3242,7 @@ filme('Old') :-
 
 filme('Dear Evan Hansen') :-
     genero(pop_musical),
-    genero(teen_drama),
-    genero(drama),
-    genero(musical),
-    pais(united_states,japan,china),
+    pais(united_states),
     ano(2021),
     duracao(2.28),
     classificacao_imdb(6.1),
@@ -4026,10 +3252,6 @@ filme('Dear Evan Hansen') :-
 
 filme('Sooryavanshi') :-
     genero(cop_drama),
-    genero(action),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(india),
     ano(2021),
     duracao(2.42),
@@ -4040,11 +3262,7 @@ filme('Sooryavanshi') :-
 
 filme('Eiffel') :-
     genero(period_drama),
-    genero(biography),
-    genero(drama),
-    genero(history),
-    genero(romance),
-    pais(france,belgium,germany),
+    pais(france),
     ano(2021),
     duracao(1.80),
     classificacao_imdb(6.2),
@@ -4054,8 +3272,7 @@ filme('Eiffel') :-
 
 filme('Mothering Sunday') :-
     genero(drama),
-    genero(romance),
-    pais(united_kingdom,germany),
+    pais(united_kingdom),
     ano(2021),
     duracao(1.73),
     classificacao_imdb(6.0),
@@ -4067,7 +3284,6 @@ filme('Mothering Sunday') :-
 
 filme('The Pink Cloud') :-
     genero(drama),
-    genero(scifi),
     pais(brazil),
     ano(2021),
     duracao(1.75),
@@ -4078,10 +3294,7 @@ filme('The Pink Cloud') :-
 
 filme('The Burning Sea') :-
     genero(disaster),
-    genero(action),
-    genero(drama),
-    genero(thriller),
-    pais(norway,sweden,denmark),
+    pais(norway),
     ano(2021),
     duracao(1.73),
     classificacao_imdb(6.3),
@@ -4101,9 +3314,7 @@ filme('Descarrilados') :-
 
 filme('Red Notice') :-
     genero(action),
-    genero(comedy),
-    genero(thriller),
-    pais(united_states,united_kingdom,singapore,italy,thailand,canada),
+    pais(united_states),
     ano(2021),
     duracao(1.97),
     classificacao_imdb(6.3),
@@ -4113,8 +3324,6 @@ filme('Red Notice') :-
 
 filme('The Guilty') :-
     genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(2021),
     duracao(1.50),
@@ -4125,9 +3334,7 @@ filme('The Guilty') :-
 
 filme('A Quiet Place in the Country') :-
     genero(drama),
-    genero(fantasy),
-    genero(horror),
-    pais(italy,france),
+    pais(italy),
     ano(1968),
     duracao(1.77),
     classificacao_imdb(6.5),
@@ -4137,9 +3344,7 @@ filme('A Quiet Place in the Country') :-
 
 filme('A Midsummer Night''s Dream') :-
     genero(comedy),
-    genero(fantasy),
-    genero(romance),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(1968),
     duracao(2.07),
     classificacao_imdb(6.5),
@@ -4149,11 +3354,7 @@ filme('A Midsummer Night''s Dream') :-
 
 filme('Isadora') :-
     genero(period_drama),
-    genero(biography),
-    genero(drama),
-    genero(music),
-    genero(romance),
-    pais(united_kingdom,france),
+    pais(united_kingdom),
     ano(1968),
     duracao(2.18),
     classificacao_imdb(6.8),
@@ -4163,8 +3364,6 @@ filme('Isadora') :-
 
 filme('The Stalking Moon') :-
     genero(oneperson_army_action),
-    genero(drama),
-    genero(western),
     pais(united_states),
     ano(1968),
     duracao(1.82),
@@ -4175,9 +3374,6 @@ filme('The Stalking Moon') :-
 
 filme('The Savage Seven') :-
     genero(action),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(1968),
     duracao(1.57),
@@ -4189,9 +3385,6 @@ filme('The Savage Seven') :-
 
 filme('Even the Wind Is Afraid') :-
     genero(drama),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(mexico),
     ano(1968),
     duracao(1.47),
@@ -4202,10 +3395,6 @@ filme('Even the Wind Is Afraid') :-
 
 filme('The Girl with a Pistol') :-
     genero(dark_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    genero(thriller),
     pais(italy),
     ano(1968),
     duracao(1.72),
@@ -4218,7 +3407,6 @@ filme('The Girl with a Pistol') :-
 
 filme('The Lustful Turk') :-
     genero(drama),
-    genero(romance),
     pais(united_states),
     ano(1968),
     duracao(1.18),
@@ -4229,7 +3417,6 @@ filme('The Lustful Turk') :-
 
 filme('Killers Three') :-
     genero(crime),
-    genero(drama),
     pais(united_states),
     ano(1968),
     duracao(1.47),
@@ -4241,11 +3428,7 @@ filme('Killers Three') :-
 
 filme('Fantastic Beasts and Where to Find Them') :-
     genero(supernatural_fantasy),
-    genero(sword__sorcery),
-    genero(adventure),
-    genero(family),
-    genero(fantasy),
-    pais(united_kingdom,united_states,canada),
+    pais(united_kingdom),
     ano(2016),
     duracao(2.20),
     classificacao_imdb(7.2),
@@ -4255,13 +3438,7 @@ filme('Fantastic Beasts and Where to Find Them') :-
 
 filme('Now You See Me 2') :-
     genero(caper),
-    genero(action),
-    genero(adventure),
-    genero(comedy),
-    genero(crime),
-    genero(mystery),
-    genero(thriller),
-    pais(united_states,hong_kong),
+    pais(united_states),
     ano(2016),
     duracao(2.15),
     classificacao_imdb(6.4),
@@ -4271,9 +3448,7 @@ filme('Now You See Me 2') :-
 
 filme('The BFG') :-
     genero(adventure),
-    genero(family),
-    genero(fantasy),
-    pais(united_kingdom,india,united_states),
+    pais(united_kingdom),
     ano(2016),
     duracao(1.95),
     classificacao_imdb(6.3),
@@ -4283,10 +3458,7 @@ filme('The BFG') :-
 
 filme('Dirty Grandpa') :-
     genero(buddy_comedy),
-    genero(raunchy_comedy),
-    genero(road_trip),
-    genero(comedy),
-    pais(united_states,united_kingdom),
+    pais(united_states),
     ano(2016),
     duracao(1.70),
     classificacao_imdb(5.9),
@@ -4296,14 +3468,7 @@ filme('Dirty Grandpa') :-
 
 filme('The 5th Wave') :-
     genero(alien_invasion),
-    genero(comingofage),
-    genero(dystopian_scifi),
-    genero(survival),
-    genero(action),
-    genero(adventure),
-    genero(scifi),
-    genero(thriller),
-    pais(united_states,united_kingdom),
+    pais(united_states),
     ano(2016),
     duracao(1.87),
     classificacao_imdb(5.2),
@@ -4313,8 +3478,7 @@ filme('The 5th Wave') :-
 
 filme('The Young Messiah') :-
     genero(drama),
-    genero(fantasy),
-    pais(united_states,south_korea),
+    pais(united_states),
     ano(2016),
     duracao(1.85),
     classificacao_imdb(5.7),
@@ -4324,11 +3488,6 @@ filme('The Young Messiah') :-
 
 filme('Swiss Army Man') :-
     genero(buddy_comedy),
-    genero(dark_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(fantasy),
-    genero(romance),
     pais(united_states),
     ano(2016),
     duracao(1.62),
@@ -4339,11 +3498,7 @@ filme('Swiss Army Man') :-
 
 filme('Elle') :-
     genero(tragedy),
-    genero(workplace_drama),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
-    pais(france,germany,belgium),
+    pais(france),
     ano(2016),
     duracao(2.17),
     classificacao_imdb(7.1),
@@ -4353,9 +3508,7 @@ filme('Elle') :-
 
 filme('Three') :-
     genero(action),
-    genero(crime),
-    genero(thriller),
-    pais(hong_kong,china),
+    pais(hong_kong),
     ano(2016),
     duracao(1.47),
     classificacao_imdb(5.9),
@@ -4365,7 +3518,6 @@ filme('Three') :-
 
 filme('Never Gone') :-
     genero(drama),
-    genero(romance),
     pais(china),
     ano(2016),
     duracao(1.67),
@@ -4376,7 +3528,6 @@ filme('Never Gone') :-
 
 filme('I Married an Anti-Fan') :-
     genero(comedy),
-    genero(romance),
     pais(china),
     ano(2016),
     duracao(2.00),
@@ -4388,9 +3539,6 @@ filme('I Married an Anti-Fan') :-
 
 filme('My Annoying Brother') :-
     genero(buddy_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(sport),
     pais(south_korea),
     ano(2016),
     duracao(1.83),
@@ -4401,11 +3549,7 @@ filme('My Annoying Brother') :-
 
 filme('From the Land of the Moon') :-
     genero(period_drama),
-    genero(steamy_romance),
-    genero(tragic_romance),
-    genero(drama),
-    genero(romance),
-    pais(france,belgium,canada,spain),
+    pais(france),
     ano(2016),
     duracao(2.00),
     classificacao_imdb(6.6),
@@ -4415,7 +3559,6 @@ filme('From the Land of the Moon') :-
 
 filme('Is That a Gun in Your Pocket?') :-
     genero(satire),
-    genero(comedy),
     pais(united_states),
     ano(2016),
     duracao(1.58),
@@ -4426,7 +3569,7 @@ filme('Is That a Gun in Your Pocket?') :-
 
 filme('Off the Rails') :-
     genero(documentary),
-    pais(canada,united_states),
+    pais(canada),
     ano(2016),
     duracao(1.43),
     classificacao_imdb(7.1),
@@ -4436,12 +3579,6 @@ filme('Off the Rails') :-
 
 filme('Blow') :-
     genero(docudrama),
-    genero(drug_crime),
-    genero(tragedy),
-    genero(true_crime),
-    genero(biography),
-    genero(crime),
-    genero(drama),
     pais(united_states),
     ano(2001),
     duracao(2.07),
@@ -4452,11 +3589,7 @@ filme('Blow') :-
 
 filme('Gosford Park') :-
     genero(dark_comedy),
-    genero(whodunnit),
-    genero(comedy),
-    genero(drama),
-    genero(mystery),
-    pais(united_kingdom,italy,united_states),
+    pais(united_kingdom),
     ano(2001),
     duracao(2.28),
     classificacao_imdb(7.2),
@@ -4466,8 +3599,6 @@ filme('Gosford Park') :-
 
 filme('Evolution') :-
     genero(alien_invasion),
-    genero(comedy),
-    genero(scifi),
     pais(united_states),
     ano(2001),
     duracao(1.68),
@@ -4478,11 +3609,7 @@ filme('Evolution') :-
 
 filme('Valentine') :-
     genero(dark_comedy),
-    genero(slasher_horror),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
-    pais(canada,united_states,australia),
+    pais(canada),
     ano(2001),
     duracao(1.60),
     classificacao_imdb(4.9),
@@ -4492,8 +3619,6 @@ filme('Valentine') :-
 
 filme('O') :-
     genero(drama),
-    genero(romance),
-    genero(thriller),
     pais(united_states),
     ano(2001),
     duracao(1.58),
@@ -4504,8 +3629,7 @@ filme('O') :-
 
 filme('The Shipping News') :-
     genero(tragedy),
-    genero(drama),
-    pais(canada,united_states,sweden),
+    pais(canada),
     ano(2001),
     duracao(1.85),
     classificacao_imdb(6.7),
@@ -4515,10 +3639,6 @@ filme('The Shipping News') :-
 
 filme('Texas Rangers') :-
     genero(action),
-    genero(adventure),
-    genero(drama),
-    genero(thriller),
-    genero(western),
     pais(united_states),
     ano(2001),
     duracao(1.50),
@@ -4529,11 +3649,6 @@ filme('Texas Rangers') :-
 
 filme('The Legend of Suriyothai') :-
     genero(action),
-    genero(adventure),
-    genero(biography),
-    genero(drama),
-    genero(history),
-    genero(war),
     pais(thailand),
     ano(2001),
     duracao(2.37),
@@ -4544,7 +3659,6 @@ filme('The Legend of Suriyothai') :-
 
 filme('Porn Star: The Legend of Ron Jeremy') :-
     genero(biography),
-    genero(documentary),
     pais(united_states),
     ano(2001),
     duracao(1.28),
@@ -4555,9 +3669,6 @@ filme('Porn Star: The Legend of Ron Jeremy') :-
 
 filme('Little Secrets') :-
     genero(comedy),
-    genero(drama),
-    genero(family),
-    genero(music),
     pais(united_states),
     ano(2001),
     duracao(1.60),
@@ -4568,7 +3679,6 @@ filme('Little Secrets') :-
 
 filme('Green Dragon') :-
     genero(drama),
-    genero(war),
     pais(united_states),
     ano(2001),
     duracao(1.92),
@@ -4579,7 +3689,6 @@ filme('Green Dragon') :-
 
 filme('Amy''s Orgasm') :-
     genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(2001),
     duracao(1.45),
@@ -4590,10 +3699,7 @@ filme('Amy''s Orgasm') :-
 
 filme('No Such Thing') :-
     genero(dark_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(fantasy),
-    pais(iceland,united_states),
+    pais(iceland),
     ano(2001),
     duracao(1.70),
     classificacao_imdb(6.0),
@@ -4604,9 +3710,7 @@ filme('No Such Thing') :-
 
 filme('Blackwoods') :-
     genero(drama),
-    genero(mystery),
-    genero(thriller),
-    pais(canada,germany),
+    pais(canada),
     ano(2001),
     duracao(1.53),
     classificacao_imdb(3.2),
@@ -4616,12 +3720,7 @@ filme('Blackwoods') :-
 
 filme('Suicide Club') :-
     genero(dark_comedy),
-    genero(crime),
-    genero(drama),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
-    pais(japan,finland),
+    pais(japan),
     ano(2001),
     duracao(1.65),
     classificacao_imdb(6.5),
@@ -4631,9 +3730,6 @@ filme('Suicide Club') :-
 
 filme('Rocky IV') :-
     genero(boxing),
-    genero(political_drama),
-    genero(drama),
-    genero(sport),
     pais(united_states),
     ano(1985),
     duracao(1.52),
@@ -4644,10 +3740,6 @@ filme('Rocky IV') :-
 
 filme('A Nightmare on Elm Street 2: Freddy''s Revenge') :-
     genero(body_horror),
-    genero(slasher_horror),
-    genero(supernatural_horror),
-    genero(teen_horror),
-    genero(horror),
     pais(united_states),
     ano(1985),
     duracao(1.45),
@@ -4658,11 +3750,7 @@ filme('A Nightmare on Elm Street 2: Freddy''s Revenge') :-
 
 filme('Cat''s Eye') :-
     genero(monster_horror),
-    genero(comedy),
-    genero(drama),
-    genero(horror),
-    genero(thriller),
-    pais(united_states,netherlands),
+    pais(united_states),
     ano(1985),
     duracao(1.57),
     classificacao_imdb(6.3),
@@ -4672,8 +3760,6 @@ filme('Cat''s Eye') :-
 
 filme('Fast Forward') :-
     genero(pop_musical),
-    genero(drama),
-    genero(musical),
     pais(united_states),
     ano(1985),
     duracao(1.83),
@@ -4684,10 +3770,6 @@ filme('Fast Forward') :-
 
 filme('Pray for Death') :-
     genero(dark_comedy),
-    genero(action),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(united_states),
     ano(1985),
     duracao(1.63),
@@ -4712,12 +3794,6 @@ filme('Igor and the Lunatics') :-
 
 filme('Scream') :-
     genero(dark_comedy),
-    genero(slasher_horror),
-    genero(suspense_mystery),
-    genero(teen_horror),
-    genero(whodunnit),
-    genero(horror),
-    genero(mystery),
     pais(united_states),
     ano(1996),
     duracao(1.85),
@@ -4728,13 +3804,6 @@ filme('Scream') :-
 
 filme('The Long Kiss Goodnight') :-
     genero(dark_comedy),
-    genero(oneperson_army_action),
-    genero(action),
-    genero(crime),
-    genero(drama),
-    genero(holiday),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(1996),
     duracao(2.02),
@@ -4745,12 +3814,7 @@ filme('The Long Kiss Goodnight') :-
 
 filme('Emma') :-
     genero(costume_drama),
-    genero(period_drama),
-    genero(romantic_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(1996),
     duracao(2.00),
     classificacao_imdb(6.6),
@@ -4760,12 +3824,6 @@ filme('Emma') :-
 
 filme('The Crow: City of Angels') :-
     genero(dark_comedy),
-    genero(superhero),
-    genero(action),
-    genero(crime),
-    genero(fantasy),
-    genero(horror),
-    genero(thriller),
     pais(united_states),
     ano(1996),
     duracao(1.40),
@@ -4776,7 +3834,6 @@ filme('The Crow: City of Angels') :-
 
 filme('Bio-Dome') :-
     genero(slapstick),
-    genero(comedy),
     pais(united_states),
     ano(1996),
     duracao(1.47),
@@ -4787,7 +3844,6 @@ filme('Bio-Dome') :-
 
 filme('Girl 6') :-
     genero(comedy),
-    genero(drama),
     pais(united_states),
     ano(1996),
     duracao(1.80),
@@ -4798,9 +3854,6 @@ filme('Girl 6') :-
 
 filme('Joe''s Apartment') :-
     genero(comedy),
-    genero(fantasy),
-    genero(musical),
-    genero(scifi),
     pais(united_states),
     ano(1996),
     duracao(1.33),
@@ -4811,8 +3864,7 @@ filme('Joe''s Apartment') :-
 
 filme('The Promise') :-
     genero(comingofage),
-    genero(drama),
-    pais(belgium,france,luxembourg,tunisia),
+    pais(belgium),
     ano(1996),
     duracao(1.50),
     classificacao_imdb(7.7),
@@ -4823,9 +3875,7 @@ filme('The Promise') :-
 
 filme('Amarcord') :-
     genero(satire),
-    genero(comedy),
-    genero(drama),
-    pais(italy,france),
+    pais(italy),
     ano(1973),
     duracao(2.05),
     classificacao_imdb(7.8),
@@ -4835,11 +3885,7 @@ filme('Amarcord') :-
 
 filme('The Day of the Jackal') :-
     genero(political_thriller),
-    genero(spy),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
-    pais(united_kingdom,france),
+    pais(united_kingdom),
     ano(1973),
     duracao(2.38),
     classificacao_imdb(7.8),
@@ -4849,7 +3895,7 @@ filme('The Day of the Jackal') :-
 
 filme('The Demons') :-
     genero(horror),
-    pais(france,portugal,spain),
+    pais(france),
     ano(1973),
     duracao(1.32),
     classificacao_imdb(5.2),
@@ -4859,11 +3905,7 @@ filme('The Demons') :-
 
 filme('Bawdy Tales') :-
     genero(comedy),
-    genero(crime),
-    genero(drama),
-    genero(history),
-    genero(horror),
-    pais(italy,france),
+    pais(italy),
     ano(1973),
     duracao(1.55),
     classificacao_imdb(5.7),
@@ -4873,8 +3915,6 @@ filme('Bawdy Tales') :-
 
 filme('Massage Parlor Murders!') :-
     genero(crime),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(1973),
     duracao(1.33),
@@ -4897,8 +3937,7 @@ filme('Vengeance of the Zombies') :-
 
 filme('The Serpent') :-
     genero(drama),
-    genero(thriller),
-    pais(france,italy,west_germany),
+    pais(france),
     ano(1973),
     duracao(1.88),
     classificacao_imdb(6.2),
@@ -4908,7 +3947,6 @@ filme('The Serpent') :-
 
 filme('Psyched by the 4D Witch') :-
     genero(supernatural_horror),
-    genero(horror),
     pais(united_states),
     ano(1973),
     duracao(1.35),
@@ -4919,8 +3957,7 @@ filme('Psyched by the 4D Witch') :-
 
 filme('The House That Vanished') :-
     genero(crime),
-    genero(horror),
-    pais(united_kingdom,spain),
+    pais(united_kingdom),
     ano(1973),
     duracao(1.60),
     classificacao_imdb(5.0),
@@ -4930,8 +3967,7 @@ filme('The House That Vanished') :-
 
 filme('Mean Frank and Crazy Tony') :-
     genero(comedy),
-    genero(crime),
-    pais(italy,france),
+    pais(italy),
     ano(1973),
     duracao(1.42),
     classificacao_imdb(5.9),
@@ -4941,8 +3977,6 @@ filme('Mean Frank and Crazy Tony') :-
 
 filme('Swingers'' Paradise') :-
     genero(music),
-    genero(musical),
-    genero(romance),
     pais(united_kingdom),
     ano(1964),
     duracao(1.88),
@@ -4953,10 +3987,6 @@ filme('Swingers'' Paradise') :-
 
 filme('The Americanization of Emily') :-
     genero(dark_comedy),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    genero(war),
     pais(united_states),
     ano(1964),
     duracao(1.92),
@@ -4967,7 +3997,6 @@ filme('The Americanization of Emily') :-
 
 filme('Muscle Beach Party') :-
     genero(comedy),
-    genero(musical),
     pais(united_states),
     ano(1964),
     duracao(1.58),
@@ -4988,9 +4017,7 @@ filme('Apache Rifles') :-
 
 filme('The 7th Dawn') :-
     genero(adventure),
-    genero(drama),
-    genero(war),
-    pais(united_kingdom,united_states),
+    pais(united_kingdom),
     ano(1964),
     duracao(2.05),
     classificacao_imdb(6.4),
@@ -5023,9 +4050,6 @@ filme('The Cincinnati Kid') :-
 
 filme('I Saw What You Did') :-
     genero(slasher_horror),
-    genero(crime),
-    genero(horror),
-    genero(thriller),
     pais(united_states),
     ano(1965),
     duracao(1.37),
@@ -5039,9 +4063,6 @@ filme('I Saw What You Did') :-
 
 filme('What''s Up, Doc?') :-
     genero(screwball_comedy),
-    genero(slapstick),
-    genero(comedy),
-    genero(romance),
     pais(united_states),
     ano(1972),
     duracao(1.57),
@@ -5062,10 +4083,6 @@ filme('Sixteen') :-
 
 filme('Journey Back to Oz') :-
     genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(fantasy),
-    genero(musical),
     pais(united_states),
     ano(1972),
     duracao(1.47),
@@ -5076,9 +4093,7 @@ filme('Journey Back to Oz') :-
 
 filme('Pink Floyd: Live at Pompeii') :-
     genero(concert),
-    genero(documentary),
-    genero(music),
-    pais(belgium,west_germany,france,united_kingdom),
+    pais(belgium),
     ano(1972),
     duracao(1.53),
     classificacao_imdb(8.6),
@@ -5091,10 +4106,7 @@ filme('Pink Floyd: Live at Pompeii') :-
 
 filme('One-Armed Boxer') :-
     genero(kung_fu),
-    genero(action),
-    genero(drama),
-    genero(fantasy),
-    pais(taiwan,hong_kong),
+    pais(taiwan),
     ano(1972),
     duracao(1.55),
     classificacao_imdb(6.8),
@@ -5104,7 +4116,6 @@ filme('One-Armed Boxer') :-
 
 filme('The War Between Men and Women') :-
     genero(comedy),
-    genero(drama),
     pais(united_states),
     ano(1972),
     duracao(1.83),
@@ -5115,7 +4126,6 @@ filme('The War Between Men and Women') :-
 
 filme('For the Love of Ada') :-
     genero(comedy),
-    genero(romance),
     pais(united_kingdom),
     ano(1972),
     duracao(1.47),
@@ -5127,8 +4137,6 @@ filme('For the Love of Ada') :-
 
 filme('You Don''t Mess with the Zohan') :-
     genero(slapstick),
-    genero(action),
-    genero(comedy),
     pais(united_states),
     ano(2008),
     duracao(1.88),
@@ -5139,8 +4147,6 @@ filme('You Don''t Mess with the Zohan') :-
 
 filme('Smart People') :-
     genero(comedy),
-    genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2008),
     duracao(1.58),
@@ -5161,10 +4167,6 @@ filme('Departures') :-
 
 filme('More Than a Game') :-
     genero(basketball),
-    genero(sports_documentary),
-    genero(biography),
-    genero(documentary),
-    genero(sport),
     pais(united_states),
     ano(2008),
     duracao(1.75),
@@ -5176,12 +4178,7 @@ filme('More Than a Game') :-
 
 filme('The Red Baron') :-
     genero(action),
-    genero(adventure),
-    genero(biography),
-    genero(drama),
-    genero(romance),
-    genero(war),
-    pais(germany,united_kingdom),
+    pais(germany),
     ano(2008),
     duracao(1.77),
     classificacao_imdb(6.3),
@@ -5191,7 +4188,6 @@ filme('The Red Baron') :-
 
 filme('August') :-
     genero(drama),
-    genero(financial_drama),
     pais(united_states),
     ano(2008),
     duracao(1.47),
@@ -5202,7 +4198,6 @@ filme('August') :-
 
 filme('Extreme Movie') :-
     genero(satire),
-    genero(comedy),
     pais(united_states),
     ano(2008),
     duracao(1.43),
@@ -5213,8 +4208,6 @@ filme('Extreme Movie') :-
 
 filme('Welcome to the Sticks') :-
     genero(parody),
-    genero(comedy),
-    genero(romance),
     pais(france),
     ano(2008),
     duracao(1.77),
@@ -5225,7 +4218,6 @@ filme('Welcome to the Sticks') :-
 
 filme('The Cooler') :-
     genero(drama),
-    genero(romance),
     pais(united_states),
     ano(2003),
     duracao(1.68),
@@ -5236,11 +4228,7 @@ filme('The Cooler') :-
 
 filme('Interstella 5555: The 5tory of the 5ecret 5tar 5ystem') :-
     genero(anime),
-    genero(adventure),
-    genero(animation),
-    genero(music),
-    genero(scifi),
-    pais(japan,france,philippines),
+    pais(japan),
     ano(2003),
     duracao(1.13),
     classificacao_imdb(7.8),
@@ -5250,12 +4238,7 @@ filme('Interstella 5555: The 5tory of the 5ecret 5tar 5ystem') :-
 
 filme('Veronica Guerin') :-
     genero(tragedy),
-    genero(true_crime),
-    genero(biography),
-    genero(crime),
-    genero(drama),
-    genero(thriller),
-    pais(ireland,united_kingdom,united_states),
+    pais(ireland),
     ano(2003),
     duracao(1.63),
     classificacao_imdb(6.8),
@@ -5265,11 +4248,7 @@ filme('Veronica Guerin') :-
 
 filme('Love Me If You Dare') :-
     genero(dark_comedy),
-    genero(tragedy),
-    genero(comedy),
-    genero(drama),
-    genero(romance),
-    pais(france,belgium),
+    pais(france),
     ano(2003),
     duracao(1.55),
     classificacao_imdb(7.5),
@@ -5279,7 +4258,6 @@ filme('Love Me If You Dare') :-
 
 filme('Travelers and Magicians') :-
     genero(adventure),
-    genero(drama),
     pais(bhutan),
     ano(2003),
     duracao(1.80),
@@ -5290,7 +4268,6 @@ filme('Travelers and Magicians') :-
 
 filme('Reconstruction') :-
     genero(drama),
-    genero(romance),
     pais(denmark),
     ano(2003),
     duracao(1.50),
@@ -5302,12 +4279,6 @@ filme('Reconstruction') :-
 
 filme('Cats Don''t Dance') :-
     genero(handdrawn_animation),
-    genero(parody),
-    genero(animation),
-    genero(comedy),
-    genero(family),
-    genero(fantasy),
-    genero(musical),
     pais(united_states),
     ano(1997),
     duracao(1.25),
@@ -5318,7 +4289,6 @@ filme('Cats Don''t Dance') :-
 
 filme('Two Girls and a Guy') :-
     genero(dark_comedy),
-    genero(drama),
     pais(united_states),
     ano(1997),
     duracao(1.40),
@@ -5329,8 +4299,6 @@ filme('Two Girls and a Guy') :-
 
 filme('Kiss or Kill') :-
     genero(crime),
-    genero(drama),
-    genero(thriller),
     pais(australia),
     ano(1997),
     duracao(1.60),
@@ -5341,8 +4309,6 @@ filme('Kiss or Kill') :-
 
 filme('Insomnia') :-
     genero(crime),
-    genero(mystery),
-    genero(thriller),
     pais(norway),
     ano(1997),
     duracao(1.60),
@@ -5354,7 +4320,6 @@ filme('Insomnia') :-
 
 filme('Ill Gotten Gains') :-
     genero(drama),
-    genero(history),
     pais(united_states),
     ano(1997),
     duracao(1.68),
@@ -5365,10 +4330,6 @@ filme('Ill Gotten Gains') :-
 
 filme('Mughal-E-Azam') :-
     genero(period_drama),
-    genero(tragic_romance),
-    genero(drama),
-    genero(romance),
-    genero(war),
     pais(india),
     ano(1960),
     duracao(3.28),
@@ -5382,11 +4343,7 @@ filme('Mughal-E-Azam') :-
 
 filme('The Piano') :-
     genero(period_drama),
-    genero(steamy_romance),
-    genero(drama),
-    genero(music),
-    genero(romance),
-    pais(new_zealand,australia,france),
+    pais(new_zealand),
     ano(1993),
     duracao(2.02),
     classificacao_imdb(7.5),
@@ -5396,14 +4353,6 @@ filme('The Piano') :-
 
 filme('We''re Back! A Dinosaur''s Story') :-
     genero(dinosaur_adventure),
-    genero(time_travel),
-    genero(urban_adventure),
-    genero(adventure),
-    genero(animation),
-    genero(comedy),
-    genero(family),
-    genero(fantasy),
-    genero(scifi),
     pais(united_states),
     ano(1993),
     duracao(1.20),
@@ -5414,12 +4363,6 @@ filme('We''re Back! A Dinosaur''s Story') :-
 
 filme('Dragon Ball Z: Broly - The Legendary Super Saiyan') :-
     genero(adult_animation),
-    genero(anime),
-    genero(superhero),
-    genero(action),
-    genero(animation),
-    genero(fantasy),
-    genero(scifi),
     pais(japan),
     ano(1993),
     duracao(1.20),
@@ -5430,7 +4373,7 @@ filme('Dragon Ball Z: Broly - The Legendary Super Saiyan') :-
 
 filme('House of Cards') :-
     genero(drama),
-    pais(italy,united_states),
+    pais(italy),
     ano(1993),
     duracao(1.82),
     classificacao_imdb(6.1),
@@ -5440,9 +4383,6 @@ filme('House of Cards') :-
 
 filme('The Gospel According to Matthew') :-
     genero(adventure),
-    genero(biography),
-    genero(drama),
-    genero(history),
     pais(south_africa),
     ano(1993),
     duracao(4.30),
@@ -5453,8 +4393,6 @@ filme('The Gospel According to Matthew') :-
 
 filme('Shhh!') :-
     genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(india),
     ano(1993),
     duracao(2.25),
@@ -5465,9 +4403,6 @@ filme('Shhh!') :-
 
 filme('Hammers Over the Anvil') :-
     genero(period_drama),
-    genero(biography),
-    genero(drama),
-    genero(romance),
     pais(australia),
     ano(1993),
     duracao(1.62),
@@ -5478,9 +4413,6 @@ filme('Hammers Over the Anvil') :-
 
 filme('Goosebumps 2: Haunted Halloween') :-
     genero(adventure),
-    genero(comedy),
-    genero(fantasy),
-    genero(horror),
     pais(united_states),
     ano(2018),
     duracao(1.50),
@@ -5491,10 +4423,6 @@ filme('Goosebumps 2: Haunted Halloween') :-
 
 filme('Hell Fest') :-
     genero(slasher_horror),
-    genero(teen_horror),
-    genero(horror),
-    genero(mystery),
-    genero(thriller),
     pais(united_states),
     ano(2018),
     duracao(1.48),
@@ -5520,7 +4448,7 @@ genero(X) :-
         holiday_romance, holiday, music_documentary, news, nature_documentary, sports_documentary,
         history_documentary, science__technology_documentary, pop_musical, handdrawn_animation,
         computer_animation, stop_motion_animation, anime, mecha, wuxia, kung_fu, samurai,
-        sword__sorcery, quest, sea_adventure, jungle_adventure, animal_adventure, urban_adventure,
+        sword_sorcery, quest, sea_adventure, jungle_adventure, animal_adventure, urban_adventure,
         globetrotting_adventure, adventure_epic, fantasy_epic, scifi_epic, action_epic, space_scifi,
         dystopian_scifi, artificial_intelligence, cyber_thriller, conspiracy_thriller, suspense_mystery,
         heist, caper, car_action, road_trip, extreme_sport, baseball, basketball, football,
