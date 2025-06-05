@@ -1,118 +1,95 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% perito.pl
-%%
-%% Expert System Shell:
-%% Permite carregar a base de conhecimento desejada.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+iniciar :-
+    write('Sistema Pericial sobre Filmes'), nl,
+    write('Bem-vindo ao especialista em filmes!'), nl, nl,
+    aguardar_comando(123).
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Predicado principal: perito/0
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-perito :-
-    write('Concha simples de Sistema Pericial'), nl,
-    write('Versao de 2024'), nl, nl,
-    esperaOrdens(123).
-
-esperaOrdens(MC) :-
-    mostraComandos(MC),
+aguardar_comando(KC) :-
+    exibir_comandos(KC),
     write('> '),
     read(Comando),
-    executa(MC,Comando).
+    processar_comando(KC,Comando).
 
-mostraComandos(123) :-
-    write('Comandos disponiveis (introduza o numero 1, 2 ou 3):'), nl,
-    write('1 - Consultar uma Base de Conhecimento (BC)'), nl,
-    write('2 - Solucionar'), nl,
+exibir_comandos(123) :-
+    write('Comandos disponíveis (introduza 1, 2 ou 3):'), nl,
+    write('1 - Carregar uma Base de Conhecimento'), nl,
+    write('2 - Resolver'), nl,
     write('3 - Sair'), nl.
 
-mostraComandos(23) :-
-    write('Comandos disponiveis (introduza o numero 2 ou 3):'), nl,
-    write('2 - Solucionar'), nl,
+exibir_comandos(23) :-
+    write('Comandos disponíveis (introduza 2 ou 3):'), nl,
+    write('2 - Resolver'), nl,
     write('3 - Sair'), nl.
 
-executa(_,1) :-
-    write('Nome da BC: '),
+processar_comando(_,1) :-
+    write('Nome do ficheiro da Base de Conhecimento: '),
     read(F),
     consult(F),
-    write('BC consultada com sucesso.'), nl, nl,
-    continua.
+    write('Base de conhecimento carregada com sucesso.'), nl, nl,
+    continuar.
 
-executa(_,2) :-
-    soluciona,
-    esperaOrdens(23).
+processar_comando(_,2) :-
+    resolver,
+    aguardar_comando(23).
 
-executa(_,3) :-
+processar_comando(_,3) :-
     nl,
-    write('Volte Sempre!'), nl,
-    write('Qualquer tecla para sair.'), nl,
+    write('Até a próxima!'), nl,
+    write('Insira qualquer tecla para sair.'), nl,
     get0(_),
     halt.
 
-executa(MC,X) :-
+processar_comando(KC,X) :-
     write(X),
-    write(' nao e um comando valido!'), nl,
-    esperaOrdens(MC).
+    write(' não é válido!'), nl,
+    aguardar_comando(KC).
 
-continua :-
-    esperaOrdens(23).
+continuar :-
+    aguardar_comando(23).
 
-%%%%%%%%%%%%%%%
-% soluciona/0
-%%%%%%%%%%%%%%%
-soluciona :-
-    abolish(conhece,3),
-    asserta(conhece(def,def,def)), % apenas para o predicado
-    objectivo(X), % conhece/3 estar definido...
-    nl, nl, write('Resposta encontrada: '),
-    write(X),
+resolver :-
+    abolish(conhecimento,3),
+    asserta(conhecimento(def,def,def)),
+    objetivo(Y),
+    nl, nl, write('Resultado encontrado: '),
+    write(Y),
     nl, nl.
-soluciona :-
-    nl, nl, write('Nao foi encontrada resposta :-('), nl.
+resolver :-
+    nl, nl, write('Nenhuma resposta encontrada :-('), nl.
 
-%%%%%%%%%%%%%%%
-% questiona/2
-%%%%%%%%%%%%%%%
-questiona(Atributo,Valor) :-
-    conhece(sim,Atributo,Valor).
-questiona(Atributo,Valor) :-
-    conhece(_,Atributo,Valor), !, fail.
-questiona(Atributo,Valor) :-
+questionar(Atributo,Valor) :-
+    conhecimento(sim,Atributo,Valor).
+questionar(Atributo,Valor) :-
+    conhecimento(_,Atributo,Valor), !, fail.
+questionar(Atributo,Valor) :-
     write(Atributo:Valor),
-    write('? (sim/nao) '),
+    write('? (sim/não) '),
     read(R),
-    processa(R,Atributo,Valor).
+    processar_resposta(R,Atributo,Valor).
 
-processa(sim,Atributo,Valor) :-
-    asserta(conhece(sim,Atributo,Valor)).
-processa(R,Atributo,Valor) :-
-    asserta(conhece(R,Atributo,Valor)),!,
+processar_resposta(sim,Atributo,Valor) :-
+    asserta(conhecimento(sim,Atributo,Valor)).
+processar_resposta(R,Atributo,Valor) :-
+    asserta(conhecimento(R,Atributo,Valor)),!,
     fail.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% questiona/3
-%
-% Recurso a Menus:
-% sao apresentados ao utilizador os valores
-% que cada atributo pode assumir.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-questiona(Atr,Val,_) :-
-    conhece(sim,Atr,Val).
-questiona(Atr,_,_) :-
-    conhece(sim,Atr,_), !, fail.
-questiona(Atr,Val,ListaOpcoes) :-
+questionar(Atr,Val,_) :-
+    conhecimento(sim,Atr,Val).
+questionar(Atr,_,_) :-
+    conhecimento(sim,Atr,_), !, fail.
+questionar(Atr,Val,ListaOpcoes) :-
     write('Qual o valor para '),
     write(Atr),
     write('? '), nl,
     write(ListaOpcoes), nl,
     read(X),
-    processa(X,Atr,Val,ListaOpcoes).
+    processar_opcao(X,Atr,Val,ListaOpcoes).
 
-processa(Val,Atr,Val,_) :-
-    asserta(conhece(sim,Atr,Val)).
-processa(X,Atr,_,ListaOpcoes) :-
+processar_opcao(Val,Atr,Val,_) :-
+    asserta(conhecimento(sim,Atr,Val)).
+processar_opcao(X,Atr,_,ListaOpcoes) :-
     member(X,ListaOpcoes),
-    asserta(conhece(sim,Atr,X)), !, fail.
-processa(X,Atr,Val,ListaOpcoes) :-
+    asserta(conhecimento(sim,Atr,X)), !, fail.
+processar_opcao(X,Atr,Val,ListaOpcoes) :-
     write(X),
-    write(' nao e valor aceite!'), nl,
-    questiona(Atr,Val,ListaOpcoes).
+    write(' não é valor aceito!'), nl,
+    questionar(Atr,Val,ListaOpcoes).

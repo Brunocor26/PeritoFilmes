@@ -4298,11 +4298,11 @@ filme('Hell Fest') :-
     realizador(gregory_plotkin),
     atores([cynthea_mercado, stephen_conroy, amy_forsyth]).
 
-objectivo(X) :-
+objetivo(X) :-
     filme(X).
 
 genero(X) :-
-    questiona(genero, X, [
+    questionar(genero, X, [
         action, adventure, animation, biography, comedy, crime, dark_comedy, documentary,
         drama, family, fantasy, horror, mystery, romance, scifi, thriller, war,
         western, musical, history, sport, slapstick, satire, parody, martial_arts,
@@ -4323,16 +4323,16 @@ genero(X) :-
     ]).
 
 pais(X) :-
-    questiona(pais,X).
+    questionar(pais,X).
 ano(X) :-
-    questiona(ano,X).
+    questionar(ano,X).
 duracao(X) :-
-    questiona(duracao,X).
+    questionar(duracao,X).
 classificacao_imdb(X) :-
-    questiona(classificacao_imdb,X).
+    questionar(classificacao_imdb,X).
 classificacao_mpa(X) :-
-    questiona(classificacao_mpa,X).
+    questionar(classificacao_mpa,X).
 realizador(X) :-
-    questiona(realizador,X).
+    questionar(realizador,X).
 atores(X) :-
-    questiona(atores,X).
+    questionar(atores,X).
